@@ -1,0 +1,27 @@
+name: Document Runbooks
+version: 1.0.0
+type: instrumental
+description:
+  capability: Create and maintain operational runbook documentation
+  trigger_conditions: Use when Create and maintain operational runbook documentation
+  scope_boundaries: Focused on Document Runbooks workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - document
+  - runbooks
+  - Document Runbooks
+  - notion
+  - internal-wiki
+tags:
+- document-runbooks
+- notion
+- internal-wiki
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: notion
+    type: can-have
+  - name: internal-wiki
+    type: can-have

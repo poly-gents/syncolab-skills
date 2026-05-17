@@ -1,0 +1,27 @@
+name: Report Defects
+version: 1.0.0
+type: instrumental
+description:
+  capability: File detailed bug reports with reproduction steps
+  trigger_conditions: Use when File detailed bug reports with reproduction steps
+  scope_boundaries: Focused on Report Defects workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - report
+  - defects
+  - Report Defects
+  - jira
+  - bugsnag
+tags:
+- report-defects
+- jira
+- bugsnag
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: jira
+    type: can-have
+  - name: bugsnag
+    type: can-have

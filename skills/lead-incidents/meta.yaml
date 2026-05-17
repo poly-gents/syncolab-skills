@@ -1,0 +1,27 @@
+name: Lead Incidents
+version: 1.0.0
+type: instrumental
+description:
+  capability: Command incident response calls and coordinate resolution
+  trigger_conditions: Use when Command incident response calls and coordinate resolution
+  scope_boundaries: Focused on Lead Incidents workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - lead
+  - incidents
+  - Lead Incidents
+  - pagerduty
+  - slack
+tags:
+- lead-incidents
+- pagerduty
+- slack
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: pagerduty
+    type: can-have
+  - name: slack
+    type: can-have

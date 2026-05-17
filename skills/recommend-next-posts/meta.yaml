@@ -1,0 +1,25 @@
+name: Recommend Next Posts
+version: 1.0.0
+type: instrumental
+description:
+  capability: Suggest content based on engagement trends and audience behavior
+  trigger_conditions: Use when Suggest content based on engagement trends and audience
+    behavior
+  scope_boundaries: Focused on Recommend Next Posts workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - recommend
+  - next
+  - posts
+  - Recommend Next Posts
+  - openai
+tags:
+- recommend-next-posts
+- openai
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: openai
+    type: can-have

@@ -1,0 +1,28 @@
+name: Summarize Client Calls
+version: 1.0.0
+type: instrumental
+description:
+  capability: Capture and summarize key points from client conversations
+  trigger_conditions: Use when Capture and summarize key points from client conversations
+  scope_boundaries: Focused on Summarize Client Calls workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - summarize
+  - client
+  - calls
+  - Summarize Client Calls
+  - email
+  - google-docs
+tags:
+- summarize-client-calls
+- email
+- google-docs
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: email
+    type: can-have
+  - name: google-docs
+    type: can-have

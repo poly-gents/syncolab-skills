@@ -1,0 +1,40 @@
+name: Learnings Keeper
+version: 1.0.0
+type: governance
+description:
+  capability: Capture, tag, and reuse organizational learnings from reviews and incidents
+    — memory discipline without external tooling assumptions.
+  trigger_conditions: Use when capture learnings after reviews, incidents, or launches.
+    starting similar work—search and cite prior learnings in plans.
+  scope_boundaries: Captures and curates organizational memory; does not run incidents
+    or replace formal postmortem ownership.
+  key_domain_words:
+  - learnings
+  - keeper
+  - Learnings Keeper
+  - memory
+  - openai
+  - notion
+  - internal-wiki
+tags:
+- learnings-keeper
+- openai
+- notion
+- internal-wiki
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  - name: shadow-retro-lead
+    type: can-use
+  - name: shadow-investigator
+    type: can-use
+  - name: shadow-review-board
+    type: can-use
+  tool_sets:
+  - name: openai
+    type: can-have
+  - name: notion
+    type: can-have
+  - name: internal-wiki
+    type: can-have

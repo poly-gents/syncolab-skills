@@ -1,0 +1,44 @@
+name: Write Agent Documentation
+version: 1.0.0
+type: operational
+description:
+  capability: Create, maintain, and improve repository documentation that helps coding
+    agents understand the project, follow engineering standards, make safe changes,
+    and work consistently across tools such as Claude Code, Cursor, GitHub Copilot,
+    Codex, and other AI coding agents.
+  trigger_conditions: Use when Create, maintain, and improve repository documentation
+    that helps coding agents understand the project, follow engineering standards,
+    make safe changes, and work consistently across tools such as Claude Code, Cursor,
+    GitHub Copilot, Codex, and other AI coding agents.
+  scope_boundaries: Focused on Write Agent Documentation workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - write
+  - agent
+  - documentation
+  - Write Agent Documentation
+  - github
+  - jira
+  - google-docs
+tags:
+- write-agent-documentation
+- github
+- jira
+- google-docs
+- notion
+- docs-as-code
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: github
+    type: can-have
+  - name: jira
+    type: can-have
+  - name: google-docs
+    type: can-have
+  - name: notion
+    type: can-have
+  - name: docs-as-code
+    type: can-have

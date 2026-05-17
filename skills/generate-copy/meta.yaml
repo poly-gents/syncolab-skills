@@ -1,0 +1,31 @@
+name: Generate Copy
+version: 1.0.0
+type: operational
+description:
+  capability: Produce on-brand copy for campaigns and assets
+  trigger_conditions: Use when Produce on-brand copy for campaigns and assets
+  scope_boundaries: Focused on Generate Copy workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - generate
+  - copy
+  - Generate Copy
+  - google-docs
+  - grammarly
+  - openai
+tags:
+- generate-copy
+- google-docs
+- grammarly
+- openai
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: google-docs
+    type: can-have
+  - name: grammarly
+    type: can-have
+  - name: openai
+    type: can-have

@@ -1,0 +1,24 @@
+name: Make Automation
+version: 1.0.0
+type: instrumental
+description:
+  capability: Trigger and manage Make scenarios via MCP
+  trigger_conditions: Use when Trigger and manage Make scenarios via MCP
+  scope_boundaries: Focused on Make Automation workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - make
+  - Make Automation
+  - custom-apis
+tags:
+- make
+- custom-apis
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: make
+    type: can-have
+  - name: custom-apis
+    type: can-have

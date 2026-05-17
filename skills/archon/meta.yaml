@@ -1,0 +1,24 @@
+name: Archon
+version: 1.0.0
+type: instrumental
+description:
+  capability: Manage Archon tasks and statuses on project workboards.
+  trigger_conditions: Use for listing, creating, or updating Archon tasks; optional Jira sync when requested.
+  scope_boundaries: Archon task APIs only; Jira via jira skill when syncing.
+  key_domain_words:
+  - archon
+  - task
+  - todo
+  - doing
+  - review
+  - done
+tags:
+- archon
+- task-manager
+relationships:
+  skills:
+  - name: jira
+    type: can-use
+  tool_sets:
+  - name: task-manager
+    type: can-have

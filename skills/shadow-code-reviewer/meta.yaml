@@ -1,0 +1,39 @@
+name: Shadow Code Reviewer
+version: 1.0.0
+type: supervisory
+description:
+  capability: Diff- and plan-aware review focused on completeness, risk, and missing
+    edge cases.
+  trigger_conditions: Use when pR/diff review for completeness, risk, and missing
+    edge cases. plan-aware review tied to ticket or stated intent.
+  scope_boundaries: Supervisory review and coaching only; does not implement or ship
+    unless the user explicitly requests execution. Does not replace human approval
+    for production changes.
+  key_domain_words:
+  - code
+  - shadow
+  - reviewer
+  - Shadow Code Reviewer
+  - review
+  - coaching
+  - github
+  - vscode
+tags:
+- shadow-code-reviewer
+- shadow
+- github
+- vscode
+- review
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  - name: shadow-ship-manager
+    type: can-use
+  - name: shadow-security-officer
+    type: can-use
+  tool_sets:
+  - name: github
+    type: can-have
+  - name: vscode
+    type: can-have

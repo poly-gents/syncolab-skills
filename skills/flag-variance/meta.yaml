@@ -1,0 +1,23 @@
+name: Flag Variance
+version: 1.0.0
+type: instrumental
+description:
+  capability: Alert on spend variances and budget anomalies
+  trigger_conditions: Use when Alert on spend variances and budget anomalies
+  scope_boundaries: Focused on Flag Variance workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - flag
+  - variance
+  - Flag Variance
+  - google-sheets
+tags:
+- flag-variance
+- google-sheets
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: google-sheets
+    type: can-have

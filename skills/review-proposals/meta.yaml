@@ -1,0 +1,28 @@
+name: Review Proposals
+version: 1.0.0
+type: analytical
+description:
+  capability: Evaluate technical proposals against standards and patterns
+  trigger_conditions: Use when Evaluate technical proposals against standards and
+    patterns
+  scope_boundaries: Focused on Review Proposals workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - review
+  - proposals
+  - Review Proposals
+  - github
+  - notion
+tags:
+- review-proposals
+- github
+- notion
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: github
+    type: can-have
+  - name: notion
+    type: can-have

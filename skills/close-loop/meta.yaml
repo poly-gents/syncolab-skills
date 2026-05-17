@@ -1,0 +1,27 @@
+name: Close the Loop
+version: 1.0.0
+type: instrumental
+description:
+  capability: Follow up with customers after issue resolution
+  trigger_conditions: Use when Follow up with customers after issue resolution
+  scope_boundaries: Focused on Close the Loop workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - close
+  - loop
+  - Close the Loop
+  - zendesk
+  - email
+tags:
+- close-loop
+- zendesk
+- email
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: zendesk
+    type: can-have
+  - name: email
+    type: can-have

@@ -1,0 +1,28 @@
+name: Discover Prospects
+version: 1.0.0
+type: instrumental
+description:
+  capability: Find and qualify prospects matching ideal customer profile
+  trigger_conditions: Use when Find and qualify prospects matching ideal customer
+    profile
+  scope_boundaries: Focused on Discover Prospects workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - discover
+  - prospects
+  - Discover Prospects
+  - linkedin
+  - market-research-api
+tags:
+- discover-prospects
+- linkedin
+- market-research-api
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: linkedin
+    type: can-have
+  - name: market-research-api
+    type: can-have

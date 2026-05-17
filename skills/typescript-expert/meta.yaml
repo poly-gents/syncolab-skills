@@ -1,0 +1,35 @@
+name: TypeScript Expert
+version: 1.0.0
+type: methodical
+description:
+  capability: TypeScript and JavaScript expert with deep knowledge of type-level programming,
+    performance optimization, monorepo management, migration strategies, and modern
+    tooling. Use PROACTIVELY for any TypeScript/JavaScript issues including complex
+    type gymnastics, build performance, debugging, and architectural decisions. If
+    a specialized expert is a better fit, I will recommend switching and stop.
+  trigger_conditions: Use when TypeScript and JavaScript expert with deep knowledge
+    of type-level programming, performance optimization, monorepo management, migration
+    strategies, and modern tooling. Use PROACTIVELY for any TypeScript/JavaScript
+    issues including complex type gymnastics, build performance, debugging, and architectural
+    decisions. If a specialized expert is a better fit, I will recommend switching
+    and stop.
+  scope_boundaries: Focused on TypeScript Expert workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - typescript
+  - expert
+  - TypeScript Expert
+  - vscode
+tags:
+- typescript-expert
+- typescript
+- vscode
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: typescript
+    type: can-have
+  - name: vscode
+    type: can-have

@@ -1,0 +1,28 @@
+name: Analyze Complex Datasets
+version: 1.0.0
+type: analytical
+description:
+  capability: Perform deep analysis on large and complex datasets
+  trigger_conditions: Use when Perform deep analysis on large and complex datasets
+  scope_boundaries: Focused on Analyze Complex Datasets workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - analyze
+  - complex
+  - datasets
+  - Analyze Complex Datasets
+  - tableau
+  - google-sheets
+tags:
+- analyze-complex-datasets
+- tableau
+- google-sheets
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: tableau
+    type: can-have
+  - name: google-sheets
+    type: can-have

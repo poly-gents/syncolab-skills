@@ -1,0 +1,34 @@
+name: Shadow Release Lander
+version: 1.0.0
+type: supervisory
+description:
+  capability: Land-and-deploy discipline — merge, deploy sequence, verification, and
+    rollback readiness.
+  trigger_conditions: Use when Land-and-deploy discipline — merge, deploy sequence,
+    verification, and rollback readiness.
+  scope_boundaries: Focused on Shadow Release Lander workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - shadow
+  - release
+  - lander
+  - Shadow Release Lander
+  - github
+  - github-actions
+  - kubernetes
+tags:
+- shadow-release-lander
+- github
+- github-actions
+- kubernetes
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: github
+    type: can-have
+  - name: github-actions
+    type: can-have
+  - name: kubernetes
+    type: can-have

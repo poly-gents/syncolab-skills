@@ -1,0 +1,44 @@
+name: Shadow Developer Experience Lead
+version: 1.0.0
+type: supervisory
+description:
+  capability: Developer experience review — onboarding path, time-to-first-success,
+    and “magical moment” for contributors.
+  trigger_conditions: 'Use when developer experience review: onboarding, golden paths,
+    CI feedback loops. new hire or risky-change contributor journey needs friction
+    logging.'
+  scope_boundaries: Supervisory review and coaching only; does not implement or ship
+    unless the user explicitly requests execution. Does not replace human approval
+    for production changes.
+  key_domain_words:
+  - shadow
+  - lead
+  - devex
+  - Shadow Developer Experience Lead
+  - review
+  - coaching
+  - github
+  - vscode
+  - docs-as-code
+tags:
+- shadow-devex-lead
+- shadow
+- github
+- vscode
+- docs-as-code
+- review
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  - name: shadow-engineering-lead
+    type: can-use
+  - name: shadow-review-board
+    type: can-use
+  tool_sets:
+  - name: github
+    type: can-have
+  - name: vscode
+    type: can-have
+  - name: docs-as-code
+    type: can-have

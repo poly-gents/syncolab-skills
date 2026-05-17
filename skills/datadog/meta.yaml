@@ -1,0 +1,24 @@
+name: Datadog
+version: 1.0.0
+type: instrumental
+description:
+  capability: Monitors, metrics, and security signals from connected Datadog
+  trigger_conditions: Use when investigating Datadog monitors, metrics, logs, APM, or
+    security signals.
+  scope_boundaries: Focused on Datadog workflows via available integrations; does
+    not replace human approval for destructive or production changes.
+  key_domain_words:
+  - datadog
+  - custom-apis
+tags:
+- datadog
+- custom-apis
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: datadog
+    type: can-have
+  - name: custom-apis
+    type: can-have

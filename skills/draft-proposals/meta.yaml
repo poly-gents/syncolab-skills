@@ -1,0 +1,23 @@
+name: Draft Proposals
+version: 1.0.0
+type: instrumental
+description:
+  capability: Author partnership and business proposals
+  trigger_conditions: Use when Author partnership and business proposals
+  scope_boundaries: Focused on Draft Proposals workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - draft
+  - proposals
+  - Draft Proposals
+  - google-docs
+tags:
+- draft-proposals
+- google-docs
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: google-docs
+    type: can-have

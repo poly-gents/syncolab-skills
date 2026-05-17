@@ -1,0 +1,30 @@
+name: Error budget management
+version: 1.0.0
+type: instrumental
+description:
+  capability: Reliability trade-offs using SLOs, error budgets, and policy for freezes
+    or refocus.
+  trigger_conditions: Use when Reliability trade-offs using SLOs, error budgets, and
+    policy for freezes or refocus.
+  scope_boundaries: Focused on Error budget management workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - error
+  - budget
+  - management
+  - Error budget management
+  - jira
+  - github
+tags:
+- error-budget-management
+- jira
+- github
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: jira
+    type: can-have
+  - name: github
+    type: can-have

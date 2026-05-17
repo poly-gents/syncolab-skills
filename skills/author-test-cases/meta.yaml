@@ -1,0 +1,28 @@
+name: Author Test Cases
+version: 1.0.0
+type: methodical
+description:
+  capability: Design test plans and write test case specifications
+  trigger_conditions: Use when Design test plans and write test case specifications
+  scope_boundaries: Focused on Author Test Cases workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - author
+  - test
+  - cases
+  - Author Test Cases
+  - testrail
+  - jira
+tags:
+- author-test-cases
+- testrail
+- jira
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: testrail
+    type: can-have
+  - name: jira
+    type: can-have

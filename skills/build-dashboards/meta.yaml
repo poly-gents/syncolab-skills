@@ -1,0 +1,27 @@
+name: Build Dashboards
+version: 1.0.0
+type: methodical
+description:
+  capability: Create dashboards to track KPIs and insights
+  trigger_conditions: Use when Create dashboards to track KPIs and insights
+  scope_boundaries: Focused on Build Dashboards workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - build
+  - dashboards
+  - Build Dashboards
+  - tableau
+  - google-sheets
+tags:
+- build-dashboards
+- tableau
+- google-sheets
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: tableau
+    type: can-have
+  - name: google-sheets
+    type: can-have

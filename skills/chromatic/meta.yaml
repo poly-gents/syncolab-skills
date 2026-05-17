@@ -1,0 +1,23 @@
+name: Chromatic
+version: 1.0.0
+type: instrumental
+description:
+  capability: Visual testing and Storybook component review
+  trigger_conditions: Use when Visual testing and Storybook component review
+  scope_boundaries: Focused on Chromatic workflows via available integrations; does
+    not replace human approval for destructive or production changes.
+  key_domain_words:
+  - chromatic
+  - storybook
+tags:
+- chromatic
+- storybook
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: chromatic
+    type: can-have
+  - name: storybook
+    type: can-have

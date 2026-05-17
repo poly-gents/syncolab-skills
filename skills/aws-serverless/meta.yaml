@@ -1,0 +1,27 @@
+name: AWS Serverless
+version: 1.0.0
+type: instrumental
+description:
+  capability: Specialized skill for building production-ready serverless applications
+    on AWS. Covers Lambda functions, API Gateway, DynamoDB, SQS/SNS event-driven patterns,
+    SAM/CDK deployment, and cold start optimization.
+  trigger_conditions: Use when Specialized skill for building production-ready serverless
+    applications on AWS. Covers Lambda functions, API Gateway, DynamoDB, SQS/SNS event-driven
+    patterns, SAM/CDK deployment, and cold start optimization.
+  scope_boundaries: Focused on AWS Serverless workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - aws
+  - serverless
+  - AWS Serverless
+  - custom-apis
+tags:
+- aws-serverless
+- custom-apis
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: custom-apis
+    type: can-have

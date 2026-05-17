@@ -1,0 +1,27 @@
+name: Monitor DB Health
+version: 1.0.0
+type: analytical
+description:
+  capability: Track replication, connections, and database performance
+  trigger_conditions: Use when Track replication, connections, and database performance
+  scope_boundaries: Focused on Monitor DB Health workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - monitor
+  - health
+  - Monitor DB Health
+  - grafana
+  - postgres
+tags:
+- monitor-db-health
+- grafana
+- postgres
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: grafana
+    type: can-have
+  - name: postgres
+    type: can-have

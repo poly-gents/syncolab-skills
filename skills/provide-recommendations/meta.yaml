@@ -1,0 +1,27 @@
+name: Provide Recommendations
+version: 1.0.0
+type: instrumental
+description:
+  capability: Translate data findings into actionable business recommendations
+  trigger_conditions: Use when Translate data findings into actionable business recommendations
+  scope_boundaries: Focused on Provide Recommendations workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - provide
+  - recommendations
+  - Provide Recommendations
+  - google-slides
+  - google-docs
+tags:
+- provide-recommendations
+- google-slides
+- google-docs
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: google-slides
+    type: can-have
+  - name: google-docs
+    type: can-have

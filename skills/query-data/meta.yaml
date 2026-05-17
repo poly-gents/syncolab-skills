@@ -1,0 +1,23 @@
+name: Query Data
+version: 1.0.0
+type: instrumental
+description:
+  capability: Write and execute SQL queries against data warehouses
+  trigger_conditions: Use when Write and execute SQL queries against data warehouses
+  scope_boundaries: Focused on Query Data workflows via available integrations; does
+    not replace human approval for destructive or production changes.
+  key_domain_words:
+  - query
+  - data
+  - Query Data
+  - postgres
+tags:
+- query-data
+- postgres
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: postgres
+    type: can-have

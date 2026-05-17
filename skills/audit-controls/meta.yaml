@@ -1,0 +1,27 @@
+name: Audit Controls
+version: 1.0.0
+type: analytical
+description:
+  capability: Review security controls against compliance frameworks
+  trigger_conditions: Use when Review security controls against compliance frameworks
+  scope_boundaries: Focused on Audit Controls workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - audit
+  - controls
+  - Audit Controls
+  - compliance-apis
+  - security-scanner
+tags:
+- audit-controls
+- compliance-apis
+- security-scanner
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: compliance-apis
+    type: can-have
+  - name: security-scanner
+    type: can-have

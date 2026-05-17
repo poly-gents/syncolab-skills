@@ -1,0 +1,27 @@
+name: Monitor Performance
+version: 1.0.0
+type: analytical
+description:
+  capability: Track and visualize agent and system performance.
+  trigger_conditions: Use when Track and visualize agent and system performance.
+  scope_boundaries: Focused on Monitor Performance workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - monitor
+  - performance
+  - Monitor Performance
+  - grafana
+  - bi-dashboard
+tags:
+- monitor-performance
+- grafana
+- bi-dashboard
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: grafana
+    type: can-have
+  - name: bi-dashboard
+    type: can-have

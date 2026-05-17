@@ -1,0 +1,27 @@
+name: Create Wireframes
+version: 1.0.0
+type: instrumental
+description:
+  capability: Draft wireframes and user flow diagrams
+  trigger_conditions: Use when Draft wireframes and user flow diagrams
+  scope_boundaries: Focused on Create Wireframes workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - create
+  - wireframes
+  - Create Wireframes
+  - figma
+  - miro
+tags:
+- create-wireframes
+- figma
+- miro
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: figma
+    type: can-have
+  - name: miro
+    type: can-have

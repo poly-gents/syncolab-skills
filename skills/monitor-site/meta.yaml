@@ -1,0 +1,23 @@
+name: Monitor Site
+version: 1.0.0
+type: analytical
+description:
+  capability: Track website uptime, performance, and errors
+  trigger_conditions: Use when Track website uptime, performance, and errors
+  scope_boundaries: Focused on Monitor Site workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - monitor
+  - site
+  - Monitor Site
+  - grafana
+tags:
+- monitor-site
+- grafana
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: grafana
+    type: can-have

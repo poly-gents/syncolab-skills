@@ -1,0 +1,29 @@
+name: Threat modeling
+version: 1.0.0
+type: planning
+description:
+  capability: STRIDE-style identification of threats, mitigations, and priorities
+    for features and systems.
+  trigger_conditions: Use when STRIDE-style identification of threats, mitigations,
+    and priorities for features and systems.
+  scope_boundaries: Focused on Threat modeling workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - threat
+  - modeling
+  - Threat modeling
+  - jira
+  - google-docs
+tags:
+- threat-modeling
+- jira
+- google-docs
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: jira
+    type: can-have
+  - name: google-docs
+    type: can-have

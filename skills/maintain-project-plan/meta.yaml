@@ -1,0 +1,29 @@
+name: Maintain Project Plan
+version: 1.0.0
+type: planning
+description:
+  capability: Keep project timelines, milestones, and dependencies current
+  trigger_conditions: Use when Keep project timelines, milestones, and dependencies
+    current
+  scope_boundaries: Focused on Maintain Project Plan workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - maintain
+  - project
+  - plan
+  - Maintain Project Plan
+  - jira
+  - google-sheets
+tags:
+- maintain-project-plan
+- jira
+- google-sheets
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: jira
+    type: can-have
+  - name: google-sheets
+    type: can-have

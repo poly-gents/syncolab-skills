@@ -1,0 +1,31 @@
+name: Shadow Live Design Reviewer
+version: 1.0.0
+type: supervisory
+description:
+  capability: Live or staged UI review — flows, visuals, and responsiveness against
+    intent.
+  trigger_conditions: Use when Live or staged UI review — flows, visuals, and responsiveness
+    against intent.
+  scope_boundaries: Focused on Shadow Live Design Reviewer workflows via available
+    integrations; does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - shadow
+  - live
+  - design
+  - reviewer
+  - Shadow Live Design Reviewer
+  - figma
+  - chrome-devtools
+tags:
+- shadow-live-design-reviewer
+- figma
+- chrome-devtools
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: figma
+    type: can-have
+  - name: chrome-devtools
+    type: can-have

@@ -1,0 +1,19 @@
+name: GitHub
+version: 1.0.0
+type: instrumental
+description:
+  capability: Inspect GitHub PRs, diffs, reviews, comments, and repository file content.
+  trigger_conditions: Use for pull request review, PR metadata, diffs, and reading files at a ref.
+  scope_boundaries: GitHub API workflows via github_* tools; not local-only git unless separately requested.
+  key_domain_words:
+  - github
+  - pull request
+  - review
+  - diff
+tags:
+- github
+relationships:
+  skills: []
+  tool_sets:
+  - name: github
+    type: can-have

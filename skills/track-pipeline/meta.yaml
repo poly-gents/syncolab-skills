@@ -1,0 +1,27 @@
+name: Track Pipeline
+version: 1.0.0
+type: instrumental
+description:
+  capability: Monitor opportunity progress and pipeline health
+  trigger_conditions: Use when Monitor opportunity progress and pipeline health
+  scope_boundaries: Focused on Track Pipeline workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - track
+  - pipeline
+  - Track Pipeline
+  - crm-api
+  - google-sheets
+tags:
+- track-pipeline
+- crm-api
+- google-sheets
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: crm-api
+    type: can-have
+  - name: google-sheets
+    type: can-have

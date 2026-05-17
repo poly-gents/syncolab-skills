@@ -1,0 +1,29 @@
+name: Track Follow-ups
+version: 1.0.0
+type: instrumental
+description:
+  capability: Monitor and coordinate follow-up actions for client accounts
+  trigger_conditions: Use when Monitor and coordinate follow-up actions for client
+    accounts
+  scope_boundaries: Focused on Track Follow-ups workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - track
+  - follow
+  - ups
+  - Track Follow-ups
+  - crm-api
+  - email
+tags:
+- track-follow-ups
+- crm-api
+- email
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: crm-api
+    type: can-have
+  - name: email
+    type: can-have

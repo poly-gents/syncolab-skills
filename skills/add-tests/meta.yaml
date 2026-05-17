@@ -1,0 +1,35 @@
+name: Add Tests
+version: 1.0.0
+type: methodical
+description:
+  capability: Design, implement, and maintain automated unit and integration tests
+    that validate system behavior, prevent regressions, and ensure long-term reliability
+    of the codebase.
+  trigger_conditions: Use when Design, implement, and maintain automated unit and
+    integration tests that validate system behavior, prevent regressions, and ensure
+    long-term reliability of the codebase.
+  scope_boundaries: Focused on Add Tests workflows via available integrations; does
+    not replace human approval for destructive or production changes.
+  key_domain_words:
+  - add
+  - tests
+  - Add Tests
+  - cypress
+  - playwright
+  - selenium
+tags:
+- add-tests
+- cypress
+- playwright
+- selenium
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: cypress
+    type: can-have
+  - name: playwright
+    type: can-have
+  - name: selenium
+    type: can-have

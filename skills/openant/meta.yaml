@@ -1,0 +1,19 @@
+name: OpenAnt
+version: 1.0.0
+type: instrumental
+description:
+  capability: Run OpenAnt CLI for development and analysis tasks
+  trigger_conditions: Use when Run OpenAnt CLI for development and analysis tasks
+  scope_boundaries: Focused on OpenAnt workflows via available integrations; does
+    not replace human approval for destructive or production changes.
+  key_domain_words:
+  - openant
+tags:
+- openant
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: openant
+    type: can-have

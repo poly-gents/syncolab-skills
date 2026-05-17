@@ -1,0 +1,23 @@
+name: Transcribe Live
+version: 1.0.0
+type: instrumental
+description:
+  capability: Real-time speech-to-text transcription of calls
+  trigger_conditions: Use when Real-time speech-to-text transcription of calls
+  scope_boundaries: Focused on Transcribe Live workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - transcribe
+  - live
+  - Transcribe Live
+  - twilio
+tags:
+- transcribe-live
+- twilio
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: twilio
+    type: can-have

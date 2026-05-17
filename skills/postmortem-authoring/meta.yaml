@@ -1,0 +1,33 @@
+name: Postmortem authoring
+version: 1.0.0
+type: planning
+description:
+  capability: Blameless incident and defect write-ups with timeline, impact, root
+    cause, and corrective actions.
+  trigger_conditions: Use when Blameless incident and defect write-ups with timeline,
+    impact, root cause, and corrective actions.
+  scope_boundaries: Focused on Postmortem authoring workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - postmortem
+  - authoring
+  - Postmortem authoring
+  - jira
+  - github
+  - google-docs
+tags:
+- postmortem-authoring
+- jira
+- github
+- google-docs
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: jira
+    type: can-have
+  - name: github
+    type: can-have
+  - name: google-docs
+    type: can-have

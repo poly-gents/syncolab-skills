@@ -1,0 +1,27 @@
+name: Suggest Knowledge
+version: 1.0.0
+type: instrumental
+description:
+  capability: Recommend knowledge base articles to resolve issues
+  trigger_conditions: Use when Recommend knowledge base articles to resolve issues
+  scope_boundaries: Focused on Suggest Knowledge workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - suggest
+  - knowledge
+  - Suggest Knowledge
+  - internal-wiki
+  - chatbot-framework
+tags:
+- suggest-knowledge
+- internal-wiki
+- chatbot-framework
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: internal-wiki
+    type: can-have
+  - name: chatbot-framework
+    type: can-have

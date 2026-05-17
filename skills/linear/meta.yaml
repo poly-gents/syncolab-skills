@@ -1,0 +1,21 @@
+name: Linear
+version: 1.0.0
+type: instrumental
+description:
+  capability: Linear issues, projects, and cycles via Rube MCP (Composio) with schema search first.
+  trigger_conditions: Use for Linear issue/project/cycle automation when Rube and Linear connection are active.
+  scope_boundaries: Linear via Composio only; not Jira or Archon; always RUBE_SEARCH_TOOLS before calls.
+  key_domain_words:
+  - linear
+  - rube
+  - composio
+  - issues
+tags:
+- linear
+relationships:
+  skills:
+  - name: jira
+    type: can-use
+  tool_sets:
+  - name: linear
+    type: can-have

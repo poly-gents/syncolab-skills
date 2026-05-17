@@ -1,0 +1,37 @@
+name: Doc Co-Authoring
+version: 1.0.0
+type: instrumental
+description:
+  capability: Guide users through a structured workflow for co-authoring documentation.
+    Use when user wants to write documentation, proposals, technical specs, decision
+    docs, or similar structured content. This workflow helps users efficiently transfer
+    context, refine content through iteration, and verify the doc works for readers.
+    Trigger when user mentions writing docs, creating proposals, drafting specs, or
+    similar documentation tasks.
+  trigger_conditions: Use when Guide users through a structured workflow for co-authoring
+    documentation. Use when user wants to write documentation, proposals, technical
+    specs, decision docs, or similar structured content. This workflow helps users
+    efficiently transfer context, refine content through iteration, and verify the
+    doc works for readers. Trigger when user mentions writing docs, creating proposals,
+    drafting specs, or similar documentation tasks.
+  scope_boundaries: Focused on Doc Co-Authoring workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - doc
+  - coauthoring
+  - Doc Co-Authoring
+  - google-docs
+  - notion
+tags:
+- doc-coauthoring
+- google-docs
+- notion
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: google-docs
+    type: can-have
+  - name: notion
+    type: can-have

@@ -1,0 +1,39 @@
+name: Prompt Engineer
+version: 1.0.0
+type: instrumental
+description:
+  capability: Transforms user prompts into optimized prompts using frameworks (RTF,
+    RISEN, Chain of Thought, RODES, Chain of Density, RACE, RISE, STAR, SOAP, CLEAR,
+    GROW)
+  trigger_conditions: Use when Transforms user prompts into optimized prompts using
+    frameworks (RTF, RISEN, Chain of Thought, RODES, Chain of Density, RACE, RISE,
+    STAR, SOAP, CLEAR, GROW)
+  scope_boundaries: Focused on Prompt Engineer workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - prompt
+  - engineer
+  - Prompt Engineer
+  - prompt-engineering
+  - optimization
+  - frameworks
+  - ai-enhancement
+  - openai
+  - anthropic
+tags:
+- prompt-engineer
+- prompt-engineering
+- optimization
+- frameworks
+- ai-enhancement
+- openai
+- anthropic
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: openai
+    type: can-have
+  - name: anthropic
+    type: can-have

@@ -1,0 +1,23 @@
+name: Analyze PRs
+version: 1.0.0
+type: analytical
+description:
+  capability: Summarize diffs and review pull requests for quality
+  trigger_conditions: Use when Summarize diffs and review pull requests for quality
+  scope_boundaries: Focused on Analyze PRs workflows via available integrations; does
+    not replace human approval for destructive or production changes.
+  key_domain_words:
+  - analyze
+  - prs
+  - Analyze PRs
+  - github
+tags:
+- analyze-prs
+- github
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: github
+    type: can-have

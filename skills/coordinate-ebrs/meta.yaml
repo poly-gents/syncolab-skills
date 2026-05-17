@@ -1,0 +1,27 @@
+name: Coordinate EBRs
+version: 1.0.0
+type: instrumental
+description:
+  capability: Prepare and coordinate executive business reviews
+  trigger_conditions: Use when Prepare and coordinate executive business reviews
+  scope_boundaries: Focused on Coordinate EBRs workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - coordinate
+  - ebrs
+  - Coordinate EBRs
+  - google-slides
+  - google-sheets
+tags:
+- coordinate-ebrs
+- google-slides
+- google-sheets
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: google-slides
+    type: can-have
+  - name: google-sheets
+    type: can-have

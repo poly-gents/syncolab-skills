@@ -1,0 +1,21 @@
+name: Notion
+version: 1.0.0
+type: instrumental
+description:
+  capability: Notion pages, databases, and blocks via Rube MCP (Composio) with schema search first.
+  trigger_conditions: Use for Notion automation when Rube and Notion connection are active.
+  scope_boundaries: Notion via Composio only; platform docs via syncolab-living-docs when authoritative.
+  key_domain_words:
+  - notion
+  - rube
+  - composio
+  - database
+tags:
+- notion
+relationships:
+  skills:
+  - name: syncolab-living-docs
+    type: can-use
+  tool_sets:
+  - name: notion
+    type: can-have

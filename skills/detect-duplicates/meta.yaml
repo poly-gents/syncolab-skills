@@ -1,0 +1,23 @@
+name: Detect Duplicates
+version: 1.0.0
+type: instrumental
+description:
+  capability: Surface duplicate or overlapping content for consolidation
+  trigger_conditions: Use when Surface duplicate or overlapping content for consolidation
+  scope_boundaries: Focused on Detect Duplicates workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - detect
+  - duplicates
+  - Detect Duplicates
+  - internal-wiki
+tags:
+- detect-duplicates
+- internal-wiki
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: internal-wiki
+    type: can-have

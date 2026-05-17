@@ -1,0 +1,28 @@
+name: Tell Data Stories
+version: 1.0.0
+type: instrumental
+description:
+  capability: Transform data findings into narrative insights
+  trigger_conditions: Use when Transform data findings into narrative insights
+  scope_boundaries: Focused on Tell Data Stories workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - tell
+  - data
+  - stories
+  - Tell Data Stories
+  - google-slides
+  - google-sheets
+tags:
+- tell-data-stories
+- google-slides
+- google-sheets
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: google-slides
+    type: can-have
+  - name: google-sheets
+    type: can-have

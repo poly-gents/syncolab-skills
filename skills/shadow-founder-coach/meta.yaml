@@ -1,0 +1,39 @@
+name: Shadow Founder Coach
+version: 1.0.0
+type: supervisory
+description:
+  capability: Structured founder coaching before big bets — forcing questions, premise
+    checks, and reframes before implementation.
+  trigger_conditions: Use when before major build decisions when problem, user, or
+    scope is still fuzzy. user wants forcing questions, premise checks, or reframes—not
+    implementation yet.
+  scope_boundaries: Supervisory review and coaching only; does not implement or ship
+    unless the user explicitly requests execution. Does not replace human approval
+    for production changes.
+  key_domain_words:
+  - coach
+  - shadow
+  - founder
+  - Shadow Founder Coach
+  - review
+  - coaching
+  - openai
+  - notion
+tags:
+- shadow-founder-coach
+- shadow
+- openai
+- notion
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  - name: shadow-ceo
+    type: can-use
+  - name: learnings-keeper
+    type: can-use
+  tool_sets:
+  - name: openai
+    type: can-have
+  - name: notion
+    type: can-have

@@ -1,0 +1,27 @@
+name: Coordinate Releases
+version: 1.0.0
+type: instrumental
+description:
+  capability: Plan and execute deployment rollouts
+  trigger_conditions: Use when Plan and execute deployment rollouts
+  scope_boundaries: Focused on Coordinate Releases workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - coordinate
+  - releases
+  - Coordinate Releases
+  - github
+  - kubernetes
+tags:
+- coordinate-releases
+- github
+- kubernetes
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: github
+    type: can-have
+  - name: kubernetes
+    type: can-have

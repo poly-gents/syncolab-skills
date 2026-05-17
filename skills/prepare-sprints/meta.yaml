@@ -1,0 +1,27 @@
+name: Prepare Sprints
+version: 1.0.0
+type: planning
+description:
+  capability: Plan sprints with capacity, goals, and backlog selection
+  trigger_conditions: Use when Plan sprints with capacity, goals, and backlog selection
+  scope_boundaries: Focused on Prepare Sprints workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - prepare
+  - sprints
+  - Prepare Sprints
+  - jira
+  - managents-planning
+tags:
+- prepare-sprints
+- jira
+- managents-planning
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: jira
+    type: can-have
+  - name: managents-planning
+    type: can-have

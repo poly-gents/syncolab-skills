@@ -1,0 +1,28 @@
+name: A-B experimentation
+version: 1.0.0
+type: instrumental
+description:
+  capability: Hypothesis, metrics, sample size, and interpretation for controlled
+    experiments.
+  trigger_conditions: Use when designing, analyzing, or deciding outcomes for A/B or
+    controlled experiments.
+  scope_boundaries: Focused on A-B experimentation workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - experimentation
+  - A-B experimentation
+  - google-sheets
+  - jira
+tags:
+- ab-experimentation
+- google-sheets
+- jira
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: google-sheets
+    type: can-have
+  - name: jira
+    type: can-have

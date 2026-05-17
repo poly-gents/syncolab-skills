@@ -1,0 +1,27 @@
+name: Suggest Updates
+version: 1.0.0
+type: instrumental
+description:
+  capability: Flag stale content and suggest improvements
+  trigger_conditions: Use when Flag stale content and suggest improvements
+  scope_boundaries: Focused on Suggest Updates workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - suggest
+  - updates
+  - Suggest Updates
+  - openai
+  - internal-wiki
+tags:
+- suggest-updates
+- openai
+- internal-wiki
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: openai
+    type: can-have
+  - name: internal-wiki
+    type: can-have

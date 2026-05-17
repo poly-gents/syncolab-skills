@@ -1,0 +1,23 @@
+name: Add Observability
+version: 1.0.0
+type: instrumental
+description:
+  capability: Add logging, metrics, and monitoring dashboards
+  trigger_conditions: Use when Add logging, metrics, and monitoring dashboards
+  scope_boundaries: Focused on Add Observability workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - add
+  - observability
+  - Add Observability
+  - grafana
+tags:
+- add-observability
+- grafana
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: grafana
+    type: can-have

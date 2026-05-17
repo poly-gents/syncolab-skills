@@ -1,0 +1,30 @@
+name: Pulumi CDK to Pulumi
+version: 1.0.0
+type: instrumental
+description:
+  capability: Migrate AWS CDK applications to Pulumi.
+  trigger_conditions: Use when Migrate AWS CDK applications to Pulumi.
+  scope_boundaries: Focused on Pulumi CDK to Pulumi workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - pulumi
+  - cdk
+  - Pulumi CDK to Pulumi
+  - kubernetes
+  - docker
+tags:
+- pulumi-cdk-to-pulumi
+- kubernetes
+- docker
+- pulumi
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: kubernetes
+    type: can-have
+  - name: docker
+    type: can-have
+  - name: pulumi
+    type: can-have

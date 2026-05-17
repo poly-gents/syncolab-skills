@@ -1,0 +1,24 @@
+name: Optimize for SEO
+version: 1.0.0
+type: instrumental
+description:
+  capability: Improve content for search engine visibility
+  trigger_conditions: Use when Improve content for search engine visibility
+  scope_boundaries: Focused on Optimize for SEO workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - optimize
+  - for
+  - seo
+  - Optimize for SEO
+  - surfer-seo
+tags:
+- optimize-for-seo
+- surfer-seo
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: surfer-seo
+    type: can-have

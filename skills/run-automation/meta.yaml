@@ -1,0 +1,31 @@
+name: Run Automation
+version: 1.0.0
+type: operational
+description:
+  capability: Execute automated test suites and report results
+  trigger_conditions: Use when Execute automated test suites and report results
+  scope_boundaries: Focused on Run Automation workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - run
+  - automation
+  - Run Automation
+  - cypress
+  - playwright
+  - selenium
+tags:
+- run-automation
+- cypress
+- playwright
+- selenium
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: cypress
+    type: can-have
+  - name: playwright
+    type: can-have
+  - name: selenium
+    type: can-have

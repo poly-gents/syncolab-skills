@@ -1,0 +1,27 @@
+name: Draft Outreach
+version: 1.0.0
+type: instrumental
+description:
+  capability: Compose personalized outbound emails and sequences
+  trigger_conditions: Use when Compose personalized outbound emails and sequences
+  scope_boundaries: Focused on Draft Outreach workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - draft
+  - outreach
+  - Draft Outreach
+  - email
+  - crm-api
+tags:
+- draft-outreach
+- email
+- crm-api
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: email
+    type: can-have
+  - name: crm-api
+    type: can-have

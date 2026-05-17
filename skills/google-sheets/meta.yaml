@@ -1,0 +1,21 @@
+name: Google Sheets
+version: 1.0.0
+type: instrumental
+description:
+  capability: Read and write Google Sheets using A1 ranges and row append.
+  trigger_conditions: Use for spreadsheet data, append rows, or range updates when spreadsheetId is available.
+  scope_boundaries: Sheets cell/range operations only; resolve IDs via google-drive when needed.
+  key_domain_words:
+  - sheets
+  - spreadsheet
+  - a1
+  - range
+tags:
+- google-sheets
+relationships:
+  skills:
+  - name: google-drive
+    type: must-use
+  tool_sets:
+  - name: google-sheets
+    type: can-have

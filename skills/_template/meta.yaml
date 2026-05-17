@@ -1,0 +1,26 @@
+name: Skill Template
+version: "0.1.0"
+type: methodical
+
+description:
+  capability: Provides the canonical directory layout, SKILL.md structure, and meta.yaml fields for authoring new Syncolab skills.
+  trigger_conditions: Use when bootstrapping a new skill package, copying this template, or validating skill structure before publishing.
+  scope_boundaries: Scaffold only; replace all placeholder content before publishing. Does not implement a real operational capability.
+  key_domain_words:
+    - skill
+    - template
+    - meta.yaml
+    - SKILL.md
+    - Syncolab
+    - validation
+    - routing
+
+tags:
+  - skill-template
+  - scaffold
+  - governance
+  - meta-yaml
+
+relationships:
+  skills: []
+  tool_sets: []

@@ -1,0 +1,32 @@
+name: React Patterns
+version: 1.0.0
+type: methodical
+description:
+  capability: Modern React patterns and principles. Hooks, composition, performance,
+    TypeScript best practices.
+  trigger_conditions: Use when Modern React patterns and principles. Hooks, composition,
+    performance, TypeScript best practices.
+  scope_boundaries: Focused on React Patterns workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - react
+  - patterns
+  - React Patterns
+  - typescript
+  - storybook
+tags:
+- react-patterns
+- react
+- typescript
+- storybook
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: react
+    type: can-have
+  - name: typescript
+    type: can-have
+  - name: storybook
+    type: can-have

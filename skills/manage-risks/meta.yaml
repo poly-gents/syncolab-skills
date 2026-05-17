@@ -1,0 +1,23 @@
+name: Manage Risks
+version: 1.0.0
+type: instrumental
+description:
+  capability: Identify, track, and mitigate project risks
+  trigger_conditions: Use when Identify, track, and mitigate project risks
+  scope_boundaries: Focused on Manage Risks workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - manage
+  - risks
+  - Manage Risks
+  - jira
+tags:
+- manage-risks
+- jira
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: jira
+    type: can-have

@@ -1,0 +1,27 @@
+name: Optimize Pipelines
+version: 1.0.0
+type: instrumental
+description:
+  capability: Improve CI/CD pipeline speed and reliability
+  trigger_conditions: Use when Improve CI/CD pipeline speed and reliability
+  scope_boundaries: Focused on Optimize Pipelines workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - optimize
+  - pipelines
+  - Optimize Pipelines
+  - github-actions
+  - gitlab-ci
+tags:
+- optimize-pipelines
+- github-actions
+- gitlab-ci
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: github-actions
+    type: can-have
+  - name: gitlab-ci
+    type: can-have

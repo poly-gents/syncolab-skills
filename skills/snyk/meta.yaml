@@ -1,0 +1,24 @@
+name: Snyk
+version: 1.0.0
+type: instrumental
+description:
+  capability: Run Snyk vulnerability and code security scans
+  trigger_conditions: Use when scanning dependencies or code for vulnerabilities with
+    Snyk or prioritizing CVE remediation.
+  scope_boundaries: Focused on Snyk workflows via available integrations; does not
+    replace human approval for destructive or production changes.
+  key_domain_words:
+  - snyk
+  - security-scanner
+tags:
+- snyk
+- security-scanner
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: snyk
+    type: can-have
+  - name: security-scanner
+    type: can-have

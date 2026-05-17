@@ -1,0 +1,30 @@
+name: Brainstorming
+version: 1.0.0
+type: planning
+description:
+  capability: Use this skill before any creative or constructive work (features, components,
+    architecture, behavior changes, or functionality). This skill transforms vague
+    ideas into validated designs through disciplined, incremental reasoning and collaboration.
+  trigger_conditions: Use when Use this skill before any creative or constructive
+    work (features, components, architecture, behavior changes, or functionality).
+    This skill transforms vague ideas into validated designs through disciplined,
+    incremental reasoning and collaboration.
+  scope_boundaries: Focused on Brainstorming workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - brainstorming
+  - ai-brainstorm
+  - openai
+tags:
+- brainstorming
+- ai-brainstorm
+- openai
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: ai-brainstorm
+    type: can-have
+  - name: openai
+    type: can-have

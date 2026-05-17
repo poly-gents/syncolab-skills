@@ -1,0 +1,27 @@
+name: Define Standards
+version: 1.0.0
+type: instrumental
+description:
+  capability: Establish and maintain engineering standards and guidelines
+  trigger_conditions: Use when Establish and maintain engineering standards and guidelines
+  scope_boundaries: Focused on Define Standards workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - define
+  - standards
+  - Define Standards
+  - notion
+  - github
+tags:
+- define-standards
+- notion
+- github
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: notion
+    type: can-have
+  - name: github
+    type: can-have

@@ -1,0 +1,27 @@
+name: Log Activities
+version: 1.0.0
+type: instrumental
+description:
+  capability: Record call notes and touchpoints in CRM
+  trigger_conditions: Use when Record call notes and touchpoints in CRM
+  scope_boundaries: Focused on Log Activities workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - log
+  - activities
+  - Log Activities
+  - salesforce
+  - hubspot
+tags:
+- log-activities
+- salesforce
+- hubspot
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: salesforce
+    type: can-have
+  - name: hubspot
+    type: can-have

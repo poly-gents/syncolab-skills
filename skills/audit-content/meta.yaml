@@ -1,0 +1,27 @@
+name: Audit Content
+version: 1.0.0
+type: analytical
+description:
+  capability: Review content performance and suggest improvements
+  trigger_conditions: Use when Review content performance and suggest improvements
+  scope_boundaries: Focused on Audit Content workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - audit
+  - content
+  - Audit Content
+  - ga4
+  - google-docs
+tags:
+- audit-content
+- ga4
+- google-docs
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: ga4
+    type: can-have
+  - name: google-docs
+    type: can-have

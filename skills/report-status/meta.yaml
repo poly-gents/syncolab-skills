@@ -1,0 +1,27 @@
+name: Report Status
+version: 1.0.0
+type: instrumental
+description:
+  capability: Summarize project status and delivery metrics
+  trigger_conditions: Use when Summarize project status and delivery metrics
+  scope_boundaries: Focused on Report Status workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - report
+  - status
+  - Report Status
+  - google-sheets
+  - jira
+tags:
+- report-status
+- google-sheets
+- jira
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: google-sheets
+    type: can-have
+  - name: jira
+    type: can-have

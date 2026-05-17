@@ -1,0 +1,22 @@
+name: Lighthouse
+version: 1.0.0
+type: instrumental
+description:
+  capability: Run Lighthouse audits for performance, accessibility, and SEO
+  trigger_conditions: Use when Run Lighthouse audits for performance, accessibility,
+    and SEO
+  scope_boundaries: Focused on Lighthouse workflows via available integrations; does
+    not replace human approval for destructive or production changes.
+  key_domain_words:
+  - lighthouse
+  - chrome-devtools
+tags:
+- lighthouse
+- chrome-devtools
+relationships:
+  skills: []
+  tool_sets:
+  - name: lighthouse
+    type: can-have
+  - name: chrome-devtools
+    type: can-have

@@ -1,0 +1,32 @@
+name: Create Skill
+version: "1.0.0"
+type: methodical
+
+description:
+  capability: Guides agents through authoring a new Syncolab skill in a cloned skills repository, from requirements through validated SKILL.md and meta.yaml.
+  trigger_conditions: Use when the user asks to add, author, scaffold, or improve a Syncolab skill, or when bootstrapping skills/<skill-label>/ in this repository.
+  scope_boundaries: Covers local authoring and validation in the skills repo only; does not open pull requests or merge to main (use publish-skill for that).
+  key_domain_words:
+    - skill
+    - SKILL.md
+    - meta.yaml
+    - Syncolab
+    - kebab-case
+    - validation
+    - template
+    - routing
+    - progressive disclosure
+
+tags:
+  - create-skill
+  - skill-authoring
+  - syncolab
+  - meta-yaml
+  - validation
+  - scaffold
+
+relationships:
+  skills:
+    - name: publish-skill
+      type: can-use
+  tool_sets: []

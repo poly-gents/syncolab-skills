@@ -1,0 +1,21 @@
+name: Produce Mockups
+version: 1.0.0
+type: instrumental
+description:
+  capability: Create high-fidelity UI mockups and design comps
+  trigger_conditions: Use when Create high-fidelity UI mockups and design comps
+  scope_boundaries: Focused on Produce Mockups workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - produce
+  - mockups
+  - Produce Mockups
+  - figma
+tags:
+- produce-mockups
+- figma
+relationships:
+  skills: []
+  tool_sets:
+  - name: figma
+    type: can-have

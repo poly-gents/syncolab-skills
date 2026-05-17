@@ -1,0 +1,26 @@
+name: Feature flagging
+version: 1.0.0
+type: instrumental
+description:
+  capability: Safe rollout patterns with flags, targeting, and kill switches.
+  trigger_conditions: Use when Safe rollout patterns with flags, targeting, and kill
+    switches.
+  scope_boundaries: Focused on Feature flagging workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - feature
+  - flagging
+  - Feature flagging
+  - github
+  - jira
+tags:
+- feature-flagging
+- github
+- jira
+relationships:
+  skills: []
+  tool_sets:
+  - name: github
+    type: can-have
+  - name: jira
+    type: can-have

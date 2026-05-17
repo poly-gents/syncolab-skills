@@ -1,0 +1,21 @@
+name: Score Leads
+version: 1.0.0
+type: instrumental
+description:
+  capability: Score prospects by likelihood to convert
+  trigger_conditions: Use when Score prospects by likelihood to convert
+  scope_boundaries: Focused on Score Leads workflows via available integrations; does
+    not replace human approval for destructive or production changes.
+  key_domain_words:
+  - score
+  - leads
+  - Score Leads
+  - crm-api
+tags:
+- score-leads
+- crm-api
+relationships:
+  skills: []
+  tool_sets:
+  - name: crm-api
+    type: can-have

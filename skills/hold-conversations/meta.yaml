@@ -1,0 +1,32 @@
+name: Hold Conversations
+version: 1.0.0
+type: operational
+description:
+  capability: Natural, real-time voice conversations with callers
+  trigger_conditions: Use when Natural, real-time voice conversations with callers
+  scope_boundaries: Focused on Hold Conversations workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - hold
+  - conversations
+  - Hold Conversations
+  - twilio
+  - zoom
+  - teams
+tags:
+- hold-conversations
+- twilio
+- zoom
+- teams
+- phone-systems
+relationships:
+  skills: []
+  tool_sets:
+  - name: twilio
+    type: can-have
+  - name: zoom
+    type: can-have
+  - name: teams
+    type: can-have
+  - name: phone-systems
+    type: can-have

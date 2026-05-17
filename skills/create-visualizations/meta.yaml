@@ -1,0 +1,25 @@
+name: Create Visualizations
+version: 1.0.0
+type: instrumental
+description:
+  capability: Design clear data visualizations and interactive charts
+  trigger_conditions: Use when Design clear data visualizations and interactive charts
+  scope_boundaries: Focused on Create Visualizations workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - create
+  - visualizations
+  - Create Visualizations
+  - tableau
+  - google-sheets
+tags:
+- create-visualizations
+- tableau
+- google-sheets
+relationships:
+  skills: []
+  tool_sets:
+  - name: tableau
+    type: can-have
+  - name: google-sheets
+    type: can-have

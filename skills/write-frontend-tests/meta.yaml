@@ -1,0 +1,26 @@
+name: Write Frontend Tests
+version: 1.0.0
+type: methodical
+description:
+  capability: Create end-to-end and visual regression tests
+  trigger_conditions: Use when Create end-to-end and visual regression tests
+  scope_boundaries: Focused on Write Frontend Tests workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - write
+  - frontend
+  - tests
+  - Write Frontend Tests
+  - cypress
+  - playwright
+tags:
+- write-frontend-tests
+- cypress
+- playwright
+relationships:
+  skills: []
+  tool_sets:
+  - name: cypress
+    type: can-have
+  - name: playwright
+    type: can-have

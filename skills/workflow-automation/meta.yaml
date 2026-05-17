@@ -1,0 +1,37 @@
+name: Workflow Automation
+version: 1.0.0
+type: instrumental
+description:
+  capability: 'Workflow automation is the infrastructure that makes AI agents reliable.
+    Without durable execution, a network hiccup during a 10-step payment flow means
+    lost money and angry customers. With it, workflows resume exactly where they left
+    off.  This skill covers the platforms (n8n, Temporal, Inngest) and patterns (sequential,
+    parallel, orchestrator-worker) that turn brittle scripts into production-grade
+    automation.  Key insight: The platforms make different tradeoffs. n8n optimizes
+    for accessibility'
+  trigger_conditions: 'Use when Workflow automation is the infrastructure that makes
+    AI agents reliable. Without durable execution, a network hiccup during a 10-step
+    payment flow means lost money and angry customers. With it, workflows resume exactly
+    where they left off.  This skill covers the platforms (n8n, Temporal, Inngest)
+    and patterns (sequential, parallel, orchestrator-worker) that turn brittle scripts
+    into production-grade automation.  Key insight: The platforms make different tradeoffs.
+    n8n optimizes for acce'
+  scope_boundaries: Focused on Workflow Automation workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - workflow
+  - automation
+  - Workflow Automation
+  - langchain
+  - custom-apis
+tags:
+- workflow-automation
+- langchain
+- custom-apis
+relationships:
+  skills: []
+  tool_sets:
+  - name: langchain
+    type: can-have
+  - name: custom-apis
+    type: can-have

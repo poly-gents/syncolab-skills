@@ -1,0 +1,21 @@
+name: Address GitHub Comments
+version: 1.0.0
+type: instrumental
+description:
+  capability: Respond to and resolve PR review comments
+  trigger_conditions: Use when Respond to and resolve PR review comments
+  scope_boundaries: Focused on Address GitHub Comments workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - address
+  - github
+  - comments
+  - Address GitHub Comments
+tags:
+- address-github-comments
+- github
+relationships:
+  skills: []
+  tool_sets:
+  - name: github
+    type: can-have

@@ -1,0 +1,25 @@
+name: Escalate with Context
+version: 1.0.0
+type: instrumental
+description:
+  capability: Route issues to the right team with full context
+  trigger_conditions: Use when Route issues to the right team with full context
+  scope_boundaries: Focused on Escalate with Context workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - escalate
+  - context
+  - Escalate with Context
+  - zendesk
+  - ticket-routing
+tags:
+- escalate-context
+- zendesk
+- ticket-routing
+relationships:
+  skills: []
+  tool_sets:
+  - name: zendesk
+    type: can-have
+  - name: ticket-routing
+    type: can-have

@@ -1,0 +1,35 @@
+name: Design Endpoints
+version: 1.0.0
+type: operational
+description:
+  capability: Design, document, and test API endpoints
+  trigger_conditions: Use when Design, document, and test API endpoints
+  scope_boundaries: Focused on Design Endpoints workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - design
+  - endpoints
+  - Design Endpoints
+  - postman
+  - node
+  - express
+tags:
+- design-endpoints
+- postman
+- node
+- express
+- nestjs
+- api-gateway
+relationships:
+  skills: []
+  tool_sets:
+  - name: postman
+    type: can-have
+  - name: node
+    type: can-have
+  - name: express
+    type: can-have
+  - name: nestjs
+    type: can-have
+  - name: api-gateway
+    type: can-have

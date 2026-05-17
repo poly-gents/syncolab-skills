@@ -1,0 +1,29 @@
+name: Test Fixing
+version: 1.0.0
+type: methodical
+description:
+  capability: Run tests and systematically fix all failing tests using smart error
+    grouping. Use when user asks to fix failing tests, mentions test failures, runs
+    test suite and failures occur, or requests to make tests pass.
+  trigger_conditions: Use when Run tests and systematically fix all failing tests
+    using smart error grouping. Use when user asks to fix failing tests, mentions
+    test failures, runs test suite and failures occur, or requests to make tests pass.
+  scope_boundaries: Focused on Test Fixing workflows via available integrations; does
+    not replace human approval for destructive or production changes.
+  key_domain_words:
+  - test
+  - fixing
+  - Test Fixing
+  - github
+  - vscode
+tags:
+- test-fixing
+- github
+- vscode
+relationships:
+  skills: []
+  tool_sets:
+  - name: github
+    type: can-have
+  - name: vscode
+    type: can-have

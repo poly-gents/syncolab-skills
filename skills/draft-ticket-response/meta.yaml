@@ -1,0 +1,26 @@
+name: Draft Ticket Response
+version: 1.0.0
+type: instrumental
+description:
+  capability: Write empathetic, accurate replies to support tickets
+  trigger_conditions: Use when Write empathetic, accurate replies to support tickets
+  scope_boundaries: Focused on Draft Ticket Response workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - draft
+  - ticket
+  - response
+  - Draft Ticket Response
+  - zendesk
+  - help-scout
+tags:
+- draft-ticket-response
+- zendesk
+- help-scout
+relationships:
+  skills: []
+  tool_sets:
+  - name: zendesk
+    type: can-have
+  - name: help-scout
+    type: can-have

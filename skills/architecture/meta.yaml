@@ -1,0 +1,23 @@
+name: Architecture
+version: 1.0.0
+type: planning
+description:
+  capability: Architectural decision-making framework. Requirements analysis, trade-off
+    evaluation, ADR documentation. Use when making architecture decisions or analyzing
+    system design.
+  trigger_conditions: Use when Architectural decision-making framework. Requirements
+    analysis, trade-off evaluation, ADR documentation. Use when making architecture
+    decisions or analyzing system design.
+  scope_boundaries: Focused on Architecture workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - architecture
+  - openai
+tags:
+- architecture
+- openai
+relationships:
+  skills: []
+  tool_sets:
+  - name: openai
+    type: can-have

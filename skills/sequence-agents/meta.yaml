@@ -1,0 +1,25 @@
+name: Sequence Agents
+version: 1.0.0
+type: instrumental
+description:
+  capability: Design and execute multi-agent task sequences
+  trigger_conditions: Use when Design and execute multi-agent task sequences
+  scope_boundaries: Focused on Sequence Agents workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - sequence
+  - agents
+  - Sequence Agents
+  - langchain
+  - custom-apis
+tags:
+- sequence-agents
+- langchain
+- custom-apis
+relationships:
+  skills: []
+  tool_sets:
+  - name: langchain
+    type: can-have
+  - name: custom-apis
+    type: can-have

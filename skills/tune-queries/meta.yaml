@@ -1,0 +1,21 @@
+name: Tune Queries
+version: 1.0.0
+type: instrumental
+description:
+  capability: Optimize slow database queries for performance
+  trigger_conditions: Use when Optimize slow database queries for performance
+  scope_boundaries: Focused on Tune Queries workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - tune
+  - queries
+  - Tune Queries
+  - postgres
+tags:
+- tune-queries
+- postgres
+relationships:
+  skills: []
+  tool_sets:
+  - name: postgres
+    type: can-have

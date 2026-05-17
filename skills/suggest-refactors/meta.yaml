@@ -1,0 +1,25 @@
+name: Suggest Refactors
+version: 1.0.0
+type: methodical
+description:
+  capability: Identify code smells and propose improvements
+  trigger_conditions: Use when Identify code smells and propose improvements
+  scope_boundaries: Focused on Suggest Refactors workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - suggest
+  - refactors
+  - Suggest Refactors
+  - github
+  - vscode
+tags:
+- suggest-refactors
+- github
+- vscode
+relationships:
+  skills: []
+  tool_sets:
+  - name: github
+    type: can-have
+  - name: vscode
+    type: can-have

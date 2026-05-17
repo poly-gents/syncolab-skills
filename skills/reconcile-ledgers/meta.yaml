@@ -1,0 +1,25 @@
+name: Reconcile Ledgers
+version: 1.0.0
+type: instrumental
+description:
+  capability: Reconcile transactions and flag discrepancies
+  trigger_conditions: Use when Reconcile transactions and flag discrepancies
+  scope_boundaries: Focused on Reconcile Ledgers workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - reconcile
+  - ledgers
+  - Reconcile Ledgers
+  - google-sheets
+  - excel
+tags:
+- reconcile-ledgers
+- google-sheets
+- excel
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-sheets
+    type: can-have
+  - name: excel
+    type: can-have

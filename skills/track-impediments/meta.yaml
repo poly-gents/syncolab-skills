@@ -1,0 +1,29 @@
+name: Track Impediments
+version: 1.0.0
+type: operational
+description:
+  capability: Identify, escalate, and resolve delivery blockers
+  trigger_conditions: Use when Identify, escalate, and resolve delivery blockers
+  scope_boundaries: Focused on Track Impediments workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - track
+  - impediments
+  - Track Impediments
+  - jira
+  - slack
+  - managents-planning
+tags:
+- track-impediments
+- jira
+- slack
+- managents-planning
+relationships:
+  skills: []
+  tool_sets:
+  - name: jira
+    type: can-have
+  - name: slack
+    type: can-have
+  - name: managents-planning
+    type: can-have

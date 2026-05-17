@@ -1,0 +1,29 @@
+name: Schedule Content
+version: 1.0.0
+type: operational
+description:
+  capability: Plan and schedule social posts across platforms
+  trigger_conditions: Use when Plan and schedule social posts across platforms
+  scope_boundaries: Focused on Schedule Content workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - schedule
+  - content
+  - Schedule Content
+  - buffer
+  - hootsuite
+  - meta-business-suite
+tags:
+- schedule-content
+- buffer
+- hootsuite
+- meta-business-suite
+relationships:
+  skills: []
+  tool_sets:
+  - name: buffer
+    type: can-have
+  - name: hootsuite
+    type: can-have
+  - name: meta-business-suite
+    type: can-have

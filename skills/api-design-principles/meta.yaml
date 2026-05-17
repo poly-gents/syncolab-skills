@@ -1,0 +1,30 @@
+name: API Design Principles
+version: 1.0.0
+type: methodical
+description:
+  capability: Master REST and GraphQL API design principles to build intuitive, scalable,
+    and maintainable APIs that delight developers. Use when designing new APIs, reviewing
+    API specifications, or establishing API design standards.
+  trigger_conditions: Use when Master REST and GraphQL API design principles to build
+    intuitive, scalable, and maintainable APIs that delight developers. Use when designing
+    new APIs, reviewing API specifications, or establishing API design standards.
+  scope_boundaries: Focused on API Design Principles workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - api
+  - design
+  - principles
+  - API Design Principles
+  - postman
+  - openai
+tags:
+- api-design-principles
+- postman
+- openai
+relationships:
+  skills: []
+  tool_sets:
+  - name: postman
+    type: can-have
+  - name: openai
+    type: can-have

@@ -1,0 +1,32 @@
+name: Shadow Release Scribe
+version: 1.0.0
+type: supervisory
+description:
+  capability: Release documentation — user-facing notes, internal runbooks, and version
+    narrative.
+  trigger_conditions: Use when Release documentation — user-facing notes, internal
+    runbooks, and version narrative.
+  scope_boundaries: Focused on Shadow Release Scribe workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - shadow
+  - release
+  - scribe
+  - Shadow Release Scribe
+  - github
+  - google-docs
+  - notion
+tags:
+- shadow-release-scribe
+- github
+- google-docs
+- notion
+relationships:
+  skills: []
+  tool_sets:
+  - name: github
+    type: can-have
+  - name: google-docs
+    type: can-have
+  - name: notion
+    type: can-have

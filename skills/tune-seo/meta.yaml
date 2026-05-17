@@ -1,0 +1,21 @@
+name: Tune SEO
+version: 1.0.0
+type: instrumental
+description:
+  capability: Optimize website metadata and structure for search
+  trigger_conditions: Use when Optimize website metadata and structure for search
+  scope_boundaries: Focused on Tune SEO workflows via available integrations; does
+    not replace human approval for destructive or production changes.
+  key_domain_words:
+  - tune
+  - seo
+  - Tune SEO
+  - surfer-seo
+tags:
+- tune-seo
+- surfer-seo
+relationships:
+  skills: []
+  tool_sets:
+  - name: surfer-seo
+    type: can-have

@@ -1,0 +1,28 @@
+name: Syncolab Living Docs
+version: 1.0.0
+type: instrumental
+description:
+  capability: Search SKS Living Docs, fetch by id, and propose human-reviewed patches.
+  trigger_conditions: Use for Syncolab platform documentation, internal/external facets, and doc drift fixes.
+  scope_boundaries: SKS tools only; not CML memory or generic vector RAG.
+  key_domain_words:
+  - sks
+  - living docs
+  - platform docs
+  - patch
+tags:
+- syncolab-living-docs
+- sks
+- docs
+- syncolab
+relationships:
+  skills:
+  - name: syncolab-cognitive-memory
+    type: can-use
+  tool_sets:
+  - name: internal-wiki
+    type: can-have
+  - name: docs-as-code
+    type: can-have
+  - name: notion
+    type: can-have

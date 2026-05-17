@@ -1,0 +1,19 @@
+name: Slack
+version: 1.0.0
+type: instrumental
+description:
+  capability: Slack messaging, search, channels, reactions, and threads via Rube MCP (Composio).
+  trigger_conditions: Use for Slack workspace automation when Rube and Slack connection are active.
+  scope_boundaries: Slack via Composio only; not email or other chat systems.
+  key_domain_words:
+  - slack
+  - rube
+  - composio
+  - channel
+tags:
+- slack
+relationships:
+  skills: []
+  tool_sets:
+  - name: slack
+    type: can-have

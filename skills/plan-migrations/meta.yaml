@@ -1,0 +1,21 @@
+name: Plan Migrations
+version: 1.0.0
+type: planning
+description:
+  capability: Design and coordinate database schema migrations
+  trigger_conditions: Use when Design and coordinate database schema migrations
+  scope_boundaries: Focused on Plan Migrations workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - plan
+  - migrations
+  - Plan Migrations
+  - postgres
+tags:
+- plan-migrations
+- postgres
+relationships:
+  skills: []
+  tool_sets:
+  - name: postgres
+    type: can-have

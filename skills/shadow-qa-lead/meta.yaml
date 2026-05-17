@@ -1,0 +1,42 @@
+name: Shadow QA Lead
+version: 1.0.0
+type: supervisory
+description:
+  capability: Test strategy and exploratory charter — risk-based coverage and edge-case
+    hunting.
+  trigger_conditions: Use when test strategy, risk heat map, or exploratory test charters.
+    go / no-go recommendation with evidence.
+  scope_boundaries: Supervisory review and coaching only; does not implement or ship
+    unless the user explicitly requests execution. Does not replace human approval
+    for production changes.
+  key_domain_words:
+  - shadow
+  - lead
+  - Shadow QA Lead
+  - review
+  - coaching
+  - playwright
+  - cypress
+  - github
+tags:
+- shadow-qa-lead
+- shadow
+- playwright
+- cypress
+- github
+- review
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  - name: shadow-qa-reporter
+    type: can-use
+  - name: shadow-ship-manager
+    type: can-use
+  tool_sets:
+  - name: playwright
+    type: can-have
+  - name: cypress
+    type: can-have
+  - name: github
+    type: can-have

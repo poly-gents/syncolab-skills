@@ -1,0 +1,30 @@
+name: Shadow Second Opinion
+version: 1.0.0
+type: supervisory
+description:
+  capability: Independent challenge of a plan or review — assumptions, blind spots,
+    and devil’s advocate arguments.
+  trigger_conditions: Use when Independent challenge of a plan or review — assumptions,
+    blind spots, and devil’s advocate arguments.
+  scope_boundaries: Focused on Shadow Second Opinion workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - shadow
+  - second
+  - opinion
+  - Shadow Second Opinion
+  - openai
+  - anthropic
+tags:
+- shadow-second-opinion
+- openai
+- anthropic
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: openai
+    type: can-have
+  - name: anthropic
+    type: can-have

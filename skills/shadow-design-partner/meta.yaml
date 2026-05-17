@@ -1,0 +1,43 @@
+name: Shadow Design Partner
+version: 1.0.0
+type: supervisory
+description:
+  capability: Collaborative design exploration — constraints, options, and critique
+    loops for product and brand fit.
+  trigger_conditions: Use when collaborative design exploration with constraints,
+    options, and critique loops. product/brand fit decisions need a decision log.
+  scope_boundaries: Supervisory review and coaching only; does not implement or ship
+    unless the user explicitly requests execution. Does not replace human approval
+    for production changes.
+  key_domain_words:
+  - partner
+  - shadow
+  - design
+  - Shadow Design Partner
+  - review
+  - coaching
+  - figma
+  - miro
+  - openai
+tags:
+- shadow-design-partner
+- shadow
+- figma
+- miro
+- openai
+- review
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  - name: shadow-design-explorer
+    type: can-use
+  - name: shadow-design-critic
+    type: can-use
+  tool_sets:
+  - name: figma
+    type: can-have
+  - name: miro
+    type: can-have
+  - name: openai
+    type: can-have

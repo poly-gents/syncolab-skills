@@ -1,0 +1,27 @@
+name: Ensure Accessibility
+version: 1.0.0
+type: instrumental
+description:
+  capability: Audit and improve UI accessibility compliance
+  trigger_conditions: Use when Audit and improve UI accessibility compliance
+  scope_boundaries: Focused on Ensure Accessibility workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - ensure
+  - accessibility
+  - Ensure Accessibility
+  - chrome-devtools
+  - vscode
+tags:
+- ensure-accessibility
+- chrome-devtools
+- vscode
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: chrome-devtools
+    type: can-have
+  - name: vscode
+    type: can-have

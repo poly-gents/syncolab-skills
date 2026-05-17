@@ -1,0 +1,28 @@
+name: Build Success Plan
+version: 1.0.0
+type: planning
+description:
+  capability: Create onboarding and adoption plans for customer accounts
+  trigger_conditions: Use when Create onboarding and adoption plans for customer accounts
+  scope_boundaries: Focused on Build Success Plan workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - build
+  - success
+  - plan
+  - Build Success Plan
+  - google-docs
+  - crm-api
+tags:
+- build-success-plan
+- google-docs
+- crm-api
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: google-docs
+    type: can-have
+  - name: crm-api
+    type: can-have

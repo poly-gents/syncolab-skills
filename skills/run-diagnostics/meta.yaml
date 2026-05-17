@@ -1,0 +1,23 @@
+name: Run Diagnostics
+version: 1.0.0
+type: analytical
+description:
+  capability: Execute diagnostic scripts and gather system telemetry
+  trigger_conditions: Use when Execute diagnostic scripts and gather system telemetry
+  scope_boundaries: Focused on Run Diagnostics workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - run
+  - diagnostics
+  - Run Diagnostics
+  - custom-apis
+tags:
+- run-diagnostics
+- custom-apis
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: custom-apis
+    type: can-have

@@ -1,0 +1,31 @@
+name: Shadow Live DevEx Tester
+version: 1.0.0
+type: supervisory
+description:
+  capability: Hands-on contributor journey test — clone, install, test, and first
+    PR path.
+  trigger_conditions: Use when Hands-on contributor journey test — clone, install,
+    test, and first PR path.
+  scope_boundaries: Focused on Shadow Live DevEx Tester workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - shadow
+  - live
+  - devex
+  - tester
+  - Shadow Live DevEx Tester
+  - vscode
+  - github
+tags:
+- shadow-live-devex-tester
+- vscode
+- github
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: vscode
+    type: can-have
+  - name: github
+    type: can-have

@@ -1,0 +1,24 @@
+name: Provision Access
+version: 1.0.0
+type: instrumental
+description:
+  capability: Create accounts and manage permissions across SaaS tools
+  trigger_conditions: Use when Create accounts and manage permissions across SaaS
+    tools
+  scope_boundaries: Focused on Provision Access workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - provision
+  - access
+  - Provision Access
+  - access-control
+tags:
+- provision-access
+- access-control
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: access-control
+    type: can-have

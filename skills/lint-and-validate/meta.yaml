@@ -1,0 +1,37 @@
+name: Lint and Validate
+version: 1.0.0
+type: analytical
+description:
+  capability: 'Automatic quality control, linting, and static analysis procedures.
+    Use after every code modification to ensure syntax correctness and project standards.
+    Triggers onKeywords: lint, format, check, validate, types, static analysis.'
+  trigger_conditions: 'Use when Automatic quality control, linting, and static analysis
+    procedures. Use after every code modification to ensure syntax correctness and
+    project standards. Triggers onKeywords: lint, format, check, validate, types,
+    static analysis.'
+  scope_boundaries: Focused on Lint and Validate workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - lint
+  - and
+  - validate
+  - Lint and Validate
+  - github
+  - vscode
+  - github-actions
+tags:
+- lint-and-validate
+- github
+- vscode
+- github-actions
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: github
+    type: can-have
+  - name: vscode
+    type: can-have
+  - name: github-actions
+    type: can-have

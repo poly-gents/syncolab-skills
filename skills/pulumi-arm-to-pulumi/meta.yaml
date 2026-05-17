@@ -1,0 +1,30 @@
+name: Pulumi ARM to Pulumi
+version: 1.0.0
+type: instrumental
+description:
+  capability: Migrate Azure ARM templates and Bicep to Pulumi.
+  trigger_conditions: Use when Migrate Azure ARM templates and Bicep to Pulumi.
+  scope_boundaries: Focused on Pulumi ARM to Pulumi workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - pulumi
+  - arm
+  - Pulumi ARM to Pulumi
+  - kubernetes
+  - docker
+tags:
+- pulumi-arm-to-pulumi
+- kubernetes
+- docker
+- pulumi
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: kubernetes
+    type: can-have
+  - name: docker
+    type: can-have
+  - name: pulumi
+    type: can-have

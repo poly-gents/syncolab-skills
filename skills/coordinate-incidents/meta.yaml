@@ -1,0 +1,27 @@
+name: Coordinate Incidents
+version: 1.0.0
+type: instrumental
+description:
+  capability: Triage and coordinate incident response across teams
+  trigger_conditions: Use when Triage and coordinate incident response across teams
+  scope_boundaries: Focused on Coordinate Incidents workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - coordinate
+  - incidents
+  - Coordinate Incidents
+  - pagerduty
+  - slack
+tags:
+- coordinate-incidents
+- pagerduty
+- slack
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: pagerduty
+    type: can-have
+  - name: slack
+    type: can-have

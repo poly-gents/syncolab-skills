@@ -1,0 +1,30 @@
+name: Shadow Performance Engineer
+version: 1.0.0
+type: supervisory
+description:
+  capability: Performance and benchmarking — budgets, profiling mindset, and regression
+    detection.
+  trigger_conditions: Use when Performance and benchmarking — budgets, profiling mindset,
+    and regression detection.
+  scope_boundaries: Focused on Shadow Performance Engineer workflows via available
+    integrations; does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - shadow
+  - perf
+  - engineer
+  - Shadow Performance Engineer
+  - lighthouse
+  - chrome-devtools
+tags:
+- shadow-perf-engineer
+- lighthouse
+- chrome-devtools
+relationships:
+  skills:
+  - name: create-skill
+    type: references
+  tool_sets:
+  - name: lighthouse
+    type: can-have
+  - name: chrome-devtools
+    type: can-have

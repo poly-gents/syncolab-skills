@@ -1,3 +1,20 @@
+# Syncolab Skills
+
+Installable Syncolab agent skills package.
+
+## Commands
+
+```bash
+npx @syncolab/skills list
+npx @syncolab/skills manifest
+npx @syncolab/skills validate
+npx @syncolab/skills install ./skills --all
+npx @syncolab/skills install ./skills --skill syncolab-living-docs
+```
+
+The package exposes skills as directories under `skills/<skill-id>/` with `SKILL.md`
+and `meta.yaml`. Platform imports should prefer manifest/scanning workflows over
+executing arbitrary skill scripts.
 # syncolab-skills
 
 Structured skills for Syncolab agents: reusable operational capabilities, routing signals, and quality contracts—not one-off prompts.

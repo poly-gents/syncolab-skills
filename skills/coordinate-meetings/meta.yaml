@@ -1,0 +1,30 @@
+name: Coordinate Meetings
+version: 1.0.0
+type: operational
+description:
+  capability: Coordinate meetings across time zones with agendas and context
+  trigger_conditions: Use when Coordinate meetings across time zones with agendas
+    and context
+  scope_boundaries: Focused on Coordinate Meetings workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - coordinate
+  - meetings
+  - Coordinate Meetings
+  - calendar
+  - meeting-scheduler
+  - email
+tags:
+- coordinate-meetings
+- calendar
+- meeting-scheduler
+- email
+relationships:
+  skills: []
+  tool_sets:
+  - name: calendar
+    type: can-have
+  - name: meeting-scheduler
+    type: can-have
+  - name: email
+    type: can-have

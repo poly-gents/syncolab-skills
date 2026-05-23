@@ -1,0 +1,21 @@
+name: Design Cloud
+version: 1.0.0
+type: instrumental
+description:
+  capability: Design cloud topologies and reference architectures
+  trigger_conditions: Use when Design cloud topologies and reference architectures
+  scope_boundaries: Focused on Design Cloud workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - design
+  - cloud
+  - Design Cloud
+  - custom-apis
+tags:
+- design-cloud
+- custom-apis
+relationships:
+  skills: []
+  tool_sets:
+  - name: custom-apis
+    type: can-have

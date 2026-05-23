@@ -1,0 +1,22 @@
+name: Okta
+version: 1.0.0
+type: instrumental
+description:
+  capability: Directory, groups, and app assignments from connected Okta
+  trigger_conditions: Use when Directory, groups, and app assignments from connected
+    Okta
+  scope_boundaries: Focused on Okta workflows via available integrations; does not
+    replace human approval for destructive or production changes.
+  key_domain_words:
+  - okta
+  - custom-apis
+tags:
+- okta
+- custom-apis
+relationships:
+  skills: []
+  tool_sets:
+  - name: okta
+    type: can-have
+  - name: custom-apis
+    type: can-have

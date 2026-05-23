@@ -1,0 +1,28 @@
+name: Implement Features
+version: 1.0.0
+type: methodical
+description:
+  capability: Build new features from specifications and requirements, ensuring production-ready,
+    maintainable, and well-integrated code using GitHub and Jira.
+  trigger_conditions: Use when Build new features from specifications and requirements,
+    ensuring production-ready, maintainable, and well-integrated code using GitHub
+    and Jira.
+  scope_boundaries: Focused on Implement Features workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - implement
+  - features
+  - Implement Features
+  - vscode
+  - github
+tags:
+- implement-features
+- vscode
+- github
+relationships:
+  skills: []
+  tool_sets:
+  - name: vscode
+    type: can-have
+  - name: github
+    type: can-have

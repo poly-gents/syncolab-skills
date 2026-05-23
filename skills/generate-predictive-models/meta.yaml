@@ -1,0 +1,22 @@
+name: Generate Predictive Models
+version: 1.0.0
+type: instrumental
+description:
+  capability: Build predictive models to forecast trends and outcomes
+  trigger_conditions: Use when Build predictive models to forecast trends and outcomes
+  scope_boundaries: Focused on Generate Predictive Models workflows via available
+    integrations; does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - generate
+  - predictive
+  - models
+  - Generate Predictive Models
+  - openai
+tags:
+- generate-predictive-models
+- openai
+relationships:
+  skills: []
+  tool_sets:
+  - name: openai
+    type: can-have

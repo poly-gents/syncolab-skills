@@ -1,0 +1,26 @@
+name: Escalate with Summary
+version: 1.0.0
+type: instrumental
+description:
+  capability: Hand off calls with clean transcripts and summaries
+  trigger_conditions: Use when Hand off calls with clean transcripts and summaries
+  scope_boundaries: Focused on Escalate with Summary workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - escalate
+  - with
+  - summary
+  - Escalate with Summary
+  - twilio
+  - email
+tags:
+- escalate-with-summary
+- twilio
+- email
+relationships:
+  skills: []
+  tool_sets:
+  - name: twilio
+    type: can-have
+  - name: email
+    type: can-have

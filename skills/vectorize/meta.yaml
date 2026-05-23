@@ -1,0 +1,23 @@
+name: Vectorize
+version: 1.0.0
+type: instrumental
+description:
+  capability: Semantic vector search and RAG over indexed knowledge via Vectorize MCP.
+  trigger_conditions: Use for knowledge-base retrieval, memory-like search, and evidence from chunks.
+  scope_boundaries: Vector index queries only; not SKS Living Docs or CML tenant memory APIs.
+  key_domain_words:
+  - vectorize
+  - rag
+  - semantic search
+  - embeddings
+tags:
+- vectorize
+relationships:
+  skills:
+  - name: syncolab-living-docs
+    type: can-use
+  - name: syncolab-cognitive-memory
+    type: can-use
+  tool_sets:
+  - name: openai
+    type: can-have

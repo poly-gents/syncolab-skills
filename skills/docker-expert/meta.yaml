@@ -1,0 +1,31 @@
+name: Docker Expert
+version: 1.0.0
+type: instrumental
+description:
+  capability: Docker containerization expert with deep knowledge of multi-stage builds,
+    image optimization, container security, Docker Compose orchestration, and production
+    deployment patterns. Use PROACTIVELY for Dockerfile optimization, container issues,
+    image size problems, security hardening, networking, and orchestration challenges.
+  trigger_conditions: Use when Docker containerization expert with deep knowledge
+    of multi-stage builds, image optimization, container security, Docker Compose
+    orchestration, and production deployment patterns. Use PROACTIVELY for Dockerfile
+    optimization, container issues, image size problems, security hardening, networking,
+    and orchestration challenges.
+  scope_boundaries: Focused on Docker Expert workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - docker
+  - expert
+  - Docker Expert
+  - kubernetes
+tags:
+- docker-expert
+- docker
+- kubernetes
+relationships:
+  skills: []
+  tool_sets:
+  - name: docker
+    type: can-have
+  - name: kubernetes
+    type: can-have

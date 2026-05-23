@@ -1,0 +1,43 @@
+name: Shadow Security Officer
+version: 1.0.0
+type: supervisory
+description:
+  capability: Security and abuse review using STRIDE-style and OWASP-style lenses
+    on the plan and surfaces.
+  trigger_conditions: Use when security and abuse review on plans, APIs, or new surfaces.
+    stride / owasp-style threat pass before ship.
+  scope_boundaries: Supervisory review and coaching only; does not implement or ship
+    unless the user explicitly requests execution. Does not replace human approval
+    for production changes.
+  key_domain_words:
+  - security
+  - shadow
+  - officer
+  - Shadow Security Officer
+  - review
+  - coaching
+  - github
+  - security-scanner
+  - snyk
+tags:
+- shadow-security-officer
+- shadow
+- github
+- security-scanner
+- snyk
+- review
+relationships:
+  skills:
+  - name: shadow-ceo
+    type: can-use
+  - name: shadow-code-reviewer
+    type: can-use
+  - name: shadow-ship-manager
+    type: can-use
+  tool_sets:
+  - name: github
+    type: can-have
+  - name: security-scanner
+    type: can-have
+  - name: snyk
+    type: can-have

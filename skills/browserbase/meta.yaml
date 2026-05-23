@@ -1,0 +1,19 @@
+name: Browserbase
+version: 1.0.0
+type: instrumental
+description:
+  capability: Browser automation and web interaction via Browserbase MCP sessions.
+  trigger_conditions: Use to open URLs, scrape dynamic pages, click/type elements, or capture page state.
+  scope_boundaries: Cloud browser MCP workflows; not local IDE browser or plain HTTP fetch.
+  key_domain_words:
+  - browserbase
+  - browser automation
+  - scraping
+  - session
+tags:
+- browserbase
+relationships:
+  skills: []
+  tool_sets:
+  - name: chrome-devtools
+    type: can-have

@@ -1,0 +1,25 @@
+name: Monitor Health
+version: 1.0.0
+type: analytical
+description:
+  capability: Track account or system health signals and flag risks
+  trigger_conditions: Use when Track account or system health signals and flag risks
+  scope_boundaries: Focused on Monitor Health workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - monitor
+  - health
+  - Monitor Health
+  - crm-api
+  - bi-dashboard
+tags:
+- monitor-health
+- crm-api
+- bi-dashboard
+relationships:
+  skills: []
+  tool_sets:
+  - name: crm-api
+    type: can-have
+  - name: bi-dashboard
+    type: can-have

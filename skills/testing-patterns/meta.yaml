@@ -1,0 +1,33 @@
+name: Testing Patterns
+version: 1.0.0
+type: methodical
+description:
+  capability: Jest testing patterns, factory functions, mocking strategies, and TDD
+    workflow. Use when writing unit tests, creating test factories, or following TDD
+    red-green-refactor cycle.
+  trigger_conditions: Use when Jest testing patterns, factory functions, mocking strategies,
+    and TDD workflow. Use when writing unit tests, creating test factories, or following
+    TDD red-green-refactor cycle.
+  scope_boundaries: Focused on Testing Patterns workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - testing
+  - patterns
+  - Testing Patterns
+  - cypress
+  - playwright
+  - selenium
+tags:
+- testing-patterns
+- cypress
+- playwright
+- selenium
+relationships:
+  skills: []
+  tool_sets:
+  - name: cypress
+    type: can-have
+  - name: playwright
+    type: can-have
+  - name: selenium
+    type: can-have

@@ -1,0 +1,25 @@
+name: Automate Runbooks
+version: 1.0.0
+type: instrumental
+description:
+  capability: Convert manual runbooks into automated remediation
+  trigger_conditions: Use when Convert manual runbooks into automated remediation
+  scope_boundaries: Focused on Automate Runbooks workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - automate
+  - runbooks
+  - Automate Runbooks
+  - custom-apis
+  - grafana
+tags:
+- automate-runbooks
+- custom-apis
+- grafana
+relationships:
+  skills: []
+  tool_sets:
+  - name: custom-apis
+    type: can-have
+  - name: grafana
+    type: can-have

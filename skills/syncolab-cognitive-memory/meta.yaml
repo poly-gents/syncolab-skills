@@ -1,0 +1,25 @@
+name: Syncolab Cognitive Memory
+version: 1.0.0
+type: instrumental
+description:
+  capability: Long-term memory (CML) with Qdrant, Mem0, tenant scope, and memory_layer hydration.
+  trigger_conditions: Use for agent recall/persist, CML REST query/write, or memory_layer integration questions.
+  scope_boundaries: CML and tenant memory only; not SKS docs or generic Vectorize RAG.
+  key_domain_words:
+  - cml
+  - memory
+  - mem0
+  - qdrant
+  - tenant
+tags:
+- syncolab-cognitive-memory
+- memory
+- cml
+- syncolab
+relationships:
+  skills:
+  - name: syncolab-living-docs
+    type: can-use
+  - name: vectorize
+    type: can-use
+  tool_sets: []

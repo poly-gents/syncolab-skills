@@ -1,0 +1,22 @@
+name: Grafana
+version: 1.0.0
+type: instrumental
+description:
+  capability: Dashboards, alerts, and explore from a connected Grafana instance
+  trigger_conditions: Use when querying Grafana dashboards, alerts, Explore, or metrics/logs
+    during investigation or panel changes.
+  scope_boundaries: Focused on Grafana workflows via available integrations; does
+    not replace human approval for destructive or production changes.
+  key_domain_words:
+  - grafana
+  - custom-apis
+tags:
+- grafana
+- custom-apis
+relationships:
+  skills: []
+  tool_sets:
+  - name: grafana
+    type: can-have
+  - name: custom-apis
+    type: can-have

@@ -1,0 +1,22 @@
+name: Google Calendar
+version: 1.0.0
+type: instrumental
+description:
+  capability: List, create, update, and delete Google Calendar events.
+  trigger_conditions: Use for calendar queries, scheduling, and event changes on primary or named calendars.
+  scope_boundaries: Calendar API workflows only; not Gmail, Drive, Docs, or Sheets.
+  key_domain_words:
+  - calendar
+  - events
+  - meeting
+  - rfc3339
+tags:
+- google-calendar
+- calendar
+relationships:
+  skills: []
+  tool_sets:
+  - name: calendar
+    type: can-have
+  - name: meeting-scheduler
+    type: can-have

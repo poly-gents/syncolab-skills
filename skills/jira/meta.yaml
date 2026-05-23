@@ -1,0 +1,21 @@
+name: Jira
+version: 1.0.0
+type: instrumental
+description:
+  capability: Manage Jira issues via Atlassian MCP with schema-driven tool calls and JQL search.
+  trigger_conditions: Use for issue search, create/update, comments, and status transitions in Jira.
+  scope_boundaries: Jira/Atlassian MCP only; tool names discovered at runtime, not legacy wrappers.
+  key_domain_words:
+  - jira
+  - jql
+  - issue
+  - atlassian
+tags:
+- jira
+relationships:
+  skills:
+  - name: archon
+    type: can-use
+  tool_sets:
+  - name: jira
+    type: can-have

@@ -1,0 +1,26 @@
+name: Flag Security Issues
+version: 1.0.0
+type: instrumental
+description:
+  capability: Highlight security vulnerabilities in code changes
+  trigger_conditions: Use when Highlight security vulnerabilities in code changes
+  scope_boundaries: Focused on Flag Security Issues workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - flag
+  - security
+  - issues
+  - Flag Security Issues
+  - security-scanner
+  - github
+tags:
+- flag-security-issues
+- security-scanner
+- github
+relationships:
+  skills: []
+  tool_sets:
+  - name: security-scanner
+    type: can-have
+  - name: github
+    type: can-have

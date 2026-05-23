@@ -1,0 +1,40 @@
+name: Shadow Design Critic
+version: 1.0.0
+type: supervisory
+description:
+  capability: Plan-level design critique — dimensions, heuristics, and generic-pattern
+    (“slop”) detection, not pixel pushing.
+  trigger_conditions: Use when plan-level design or interaction-intent critique (not
+    pixel pushing). user wants scorecard feedback, state coverage, or generic-ui (“slop”)
+    detection.
+  scope_boundaries: Supervisory review and coaching only; does not implement or ship
+    unless the user explicitly requests execution. Does not replace human approval
+    for production changes.
+  key_domain_words:
+  - shadow
+  - critic
+  - design
+  - Shadow Design Critic
+  - review
+  - coaching
+  - figma
+  - openai
+tags:
+- shadow-design-critic
+- shadow
+- figma
+- openai
+- review
+relationships:
+  skills:
+  - name: shadow-design-partner
+    type: can-use
+  - name: shadow-design-explorer
+    type: can-use
+  - name: shadow-review-board
+    type: can-use
+  tool_sets:
+  - name: figma
+    type: can-have
+  - name: openai
+    type: can-have

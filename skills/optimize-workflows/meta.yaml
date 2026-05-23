@@ -1,0 +1,25 @@
+name: Optimize Workflows
+version: 1.0.0
+type: instrumental
+description:
+  capability: Analyze and improve cross-agent workflow throughput
+  trigger_conditions: Use when Analyze and improve cross-agent workflow throughput
+  scope_boundaries: Focused on Optimize Workflows workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - optimize
+  - workflows
+  - Optimize Workflows
+  - langchain
+  - custom-apis
+tags:
+- optimize-workflows
+- langchain
+- custom-apis
+relationships:
+  skills: []
+  tool_sets:
+  - name: langchain
+    type: can-have
+  - name: custom-apis
+    type: can-have

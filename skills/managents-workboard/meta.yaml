@@ -1,0 +1,23 @@
+name: Managents Planning and Work Boards
+version: 1.0.0
+type: instrumental
+description:
+  capability: Roadmaps, scopes, sprints, and execution work boards inside Managents
+    (no extra OAuth)
+  trigger_conditions: Use when Roadmaps, scopes, sprints, and execution work boards
+    inside Managents (no extra OAuth)
+  scope_boundaries: Focused on Managents Planning and Work Boards workflows via available
+    integrations; does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - managents
+  - workboard
+  - Managents Planning and Work Boards
+  - managents-planning
+tags:
+- managents-workboard
+- managents-planning
+relationships:
+  skills: []
+  tool_sets:
+  - name: managents-planning
+    type: can-have

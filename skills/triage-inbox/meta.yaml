@@ -1,0 +1,21 @@
+name: Triage Inbox
+version: 1.0.0
+type: analytical
+description:
+  capability: Summarize, prioritize, and route incoming email threads
+  trigger_conditions: Use when Summarize, prioritize, and route incoming email threads
+  scope_boundaries: Focused on Triage Inbox workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - triage
+  - inbox
+  - Triage Inbox
+  - email
+tags:
+- triage-inbox
+- email
+relationships:
+  skills: []
+  tool_sets:
+  - name: email
+    type: can-have

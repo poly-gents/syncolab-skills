@@ -1,0 +1,25 @@
+name: File Bugs
+version: 1.0.0
+type: instrumental
+description:
+  capability: Create actionable bug reports with reproduction steps
+  trigger_conditions: Use when Create actionable bug reports with reproduction steps
+  scope_boundaries: Focused on File Bugs workflows via available integrations; does
+    not replace human approval for destructive or production changes.
+  key_domain_words:
+  - file
+  - bugs
+  - File Bugs
+  - jira
+  - github
+tags:
+- file-bugs
+- jira
+- github
+relationships:
+  skills: []
+  tool_sets:
+  - name: jira
+    type: can-have
+  - name: github
+    type: can-have

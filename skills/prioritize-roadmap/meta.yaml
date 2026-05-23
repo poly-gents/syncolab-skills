@@ -1,0 +1,25 @@
+name: Prioritize Roadmap
+version: 1.0.0
+type: planning
+description:
+  capability: Score and prioritize features for the product roadmap
+  trigger_conditions: Use when Score and prioritize features for the product roadmap
+  scope_boundaries: Focused on Prioritize Roadmap workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - prioritize
+  - roadmap
+  - Prioritize Roadmap
+  - productboard
+  - jira
+tags:
+- prioritize-roadmap
+- productboard
+- jira
+relationships:
+  skills: []
+  tool_sets:
+  - name: productboard
+    type: can-have
+  - name: jira
+    type: can-have

@@ -1,0 +1,23 @@
+name: Amazon CloudWatch
+version: 1.0.0
+type: instrumental
+description:
+  capability: AWS metrics, alarms, and logs via connected CloudWatch credentials
+  trigger_conditions: Use when triaging CloudWatch alarms, metrics, Logs Insights, or
+    AWS dashboards.
+  scope_boundaries: Focused on Amazon CloudWatch workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - cloudwatch
+  - Amazon CloudWatch
+  - custom-apis
+tags:
+- cloudwatch
+- custom-apis
+relationships:
+  skills: []
+  tool_sets:
+  - name: cloudwatch
+    type: can-have
+  - name: custom-apis
+    type: can-have

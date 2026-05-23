@@ -1,0 +1,25 @@
+name: Book Meetings
+version: 1.0.0
+type: instrumental
+description:
+  capability: Schedule qualified meetings from outbound pipeline
+  trigger_conditions: Use when Schedule qualified meetings from outbound pipeline
+  scope_boundaries: Focused on Book Meetings workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - book
+  - meetings
+  - Book Meetings
+  - calendar
+  - meeting-scheduler
+tags:
+- book-meetings
+- calendar
+- meeting-scheduler
+relationships:
+  skills: []
+  tool_sets:
+  - name: calendar
+    type: can-have
+  - name: meeting-scheduler
+    type: can-have

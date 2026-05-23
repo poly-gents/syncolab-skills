@@ -1,0 +1,21 @@
+name: Google Docs
+version: 1.0.0
+type: instrumental
+description:
+  capability: Create, read, append, and replace Google Docs content.
+  trigger_conditions: Use for document authoring and edits when documentId is known or found via Drive.
+  scope_boundaries: Google Docs only; not Sheets or raw Drive search (use google-drive first).
+  key_domain_words:
+  - docs
+  - document
+  - prd
+  - append
+tags:
+- google-docs
+relationships:
+  skills:
+  - name: google-drive
+    type: must-use
+  tool_sets:
+  - name: google-docs
+    type: can-have

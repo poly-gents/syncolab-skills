@@ -1,0 +1,21 @@
+name: Organize Drive
+version: 1.0.0
+type: instrumental
+description:
+  capability: Organize and maintain shared drive folders and files
+  trigger_conditions: Use when Organize and maintain shared drive folders and files
+  scope_boundaries: Focused on Organize Drive workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - organize
+  - drive
+  - Organize Drive
+  - google-drive
+tags:
+- organize-drive
+- google-drive
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-drive
+    type: can-have

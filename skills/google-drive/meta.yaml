@@ -1,0 +1,23 @@
+name: Google Drive
+version: 1.0.0
+type: instrumental
+description:
+  capability: Search, list, download, and organize Google Drive files and folders.
+  trigger_conditions: Use to find files, browse folders, download content, or obtain IDs for Docs/Sheets.
+  scope_boundaries: Drive file operations only; not in-document or spreadsheet cell editing.
+  key_domain_words:
+  - drive
+  - folder
+  - file id
+  - search
+tags:
+- google-drive
+relationships:
+  skills:
+  - name: google-docs
+    type: can-use
+  - name: google-sheets
+    type: can-use
+  tool_sets:
+  - name: google-drive
+    type: can-have

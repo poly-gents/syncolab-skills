@@ -1,0 +1,33 @@
+name: Publish Skill
+version: "1.0.0"
+type: operational
+
+description:
+  capability: Opens a GitHub pull request to add or update a Syncolab skill on main after local authoring and validation are complete.
+  trigger_conditions: Use when the user asks to publish, submit, or PR a new or updated skill to the syncolab-skills repository for review.
+  scope_boundaries: Covers branch, commit, push, and PR creation; does not replace skill authoring (use create-skill) or merge without review.
+  key_domain_words:
+    - pull request
+    - GitHub
+    - publish
+    - merge
+    - review
+    - branch
+    - syncolab-skills
+    - main
+
+tags:
+  - publish-skill
+  - pull-request
+  - github
+  - skill-authoring
+  - syncolab
+  - review
+
+relationships:
+  skills:
+    - name: create-skill
+      type: references
+  tool_sets:
+    - name: github
+      type: must-have

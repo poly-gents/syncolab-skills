@@ -1,0 +1,26 @@
+name: Publish Release Notes
+version: 1.0.0
+type: instrumental
+description:
+  capability: Draft and publish release notes for each version
+  trigger_conditions: Use when Draft and publish release notes for each version
+  scope_boundaries: Focused on Publish Release Notes workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - publish
+  - release
+  - notes
+  - Publish Release Notes
+  - github
+  - google-docs
+tags:
+- publish-release-notes
+- github
+- google-docs
+relationships:
+  skills: []
+  tool_sets:
+  - name: github
+    type: can-have
+  - name: google-docs
+    type: can-have

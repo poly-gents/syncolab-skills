@@ -1,0 +1,45 @@
+name: Shadow CEO Review
+version: 1.0.0
+type: supervisory
+description:
+  capability: Founder-grade plan review — scope modes, alternatives, and full product/engineering
+    review sections without implementation.
+  trigger_conditions: Use when strategy, scope, ambition checks, specs, RFCs, or “is
+    this the right thing to build?” pre-build or mid-spec review before engineering
+    investment.
+  scope_boundaries: Supervisory review and coaching only; does not implement or ship
+    unless the user explicitly requests execution. Does not replace human approval
+    for production changes.
+  key_domain_words:
+  - shadow
+  - ceo
+  - Shadow CEO Review
+  - review
+  - coaching
+  - openai
+  - notion
+  - google-docs
+tags:
+- shadow-ceo
+- shadow
+- openai
+- notion
+- google-docs
+- review
+relationships:
+  skills:
+  - name: shadow-review-board
+    type: can-use
+  - name: shadow-engineering-lead
+    type: can-use
+  - name: shadow-design-critic
+    type: can-use
+  - name: learnings-keeper
+    type: can-use
+  tool_sets:
+  - name: openai
+    type: can-have
+  - name: notion
+    type: can-have
+  - name: google-docs
+    type: can-have

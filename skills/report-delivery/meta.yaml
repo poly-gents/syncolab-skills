@@ -1,0 +1,25 @@
+name: Report Delivery
+version: 1.0.0
+type: instrumental
+description:
+  capability: Summarize delivery metrics and stakeholder status updates
+  trigger_conditions: Use when Summarize delivery metrics and stakeholder status updates
+  scope_boundaries: Focused on Report Delivery workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - report
+  - delivery
+  - Report Delivery
+  - google-sheets
+  - jira
+tags:
+- report-delivery
+- google-sheets
+- jira
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-sheets
+    type: can-have
+  - name: jira
+    type: can-have

@@ -1,0 +1,26 @@
+name: Track Invoices
+version: 1.0.0
+type: instrumental
+description:
+  capability: Monitor outstanding invoices and match to purchase orders
+  trigger_conditions: Use when Monitor outstanding invoices and match to purchase
+    orders
+  scope_boundaries: Focused on Track Invoices workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - track
+  - invoices
+  - Track Invoices
+  - google-sheets
+  - excel
+tags:
+- track-invoices
+- google-sheets
+- excel
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-sheets
+    type: can-have
+  - name: excel
+    type: can-have

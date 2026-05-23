@@ -1,0 +1,29 @@
+name: Export to CRM
+version: 1.0.0
+type: operational
+description:
+  capability: Push enriched prospects and notes to CRM systems
+  trigger_conditions: Use when Push enriched prospects and notes to CRM systems
+  scope_boundaries: Focused on Export to CRM workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - export
+  - crm
+  - Export to CRM
+  - salesforce
+  - hubspot
+  - pipedrive
+tags:
+- export-to-crm
+- salesforce
+- hubspot
+- pipedrive
+relationships:
+  skills: []
+  tool_sets:
+  - name: salesforce
+    type: can-have
+  - name: hubspot
+    type: can-have
+  - name: pipedrive
+    type: can-have

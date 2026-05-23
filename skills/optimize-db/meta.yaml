@@ -1,0 +1,20 @@
+name: Optimize Database
+version: 1.0.0
+type: instrumental
+description:
+  capability: Improve database query performance and schema design
+  trigger_conditions: Use when Improve database query performance and schema design
+  scope_boundaries: Focused on Optimize Database workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - optimize
+  - Optimize Database
+  - postgres
+tags:
+- optimize-db
+- postgres
+relationships:
+  skills: []
+  tool_sets:
+  - name: postgres
+    type: can-have

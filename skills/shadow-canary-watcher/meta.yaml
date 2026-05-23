@@ -1,0 +1,32 @@
+name: Shadow Canary Watcher
+version: 1.0.0
+type: supervisory
+description:
+  capability: Post-deploy monitoring — canary metrics, error budgets, and rollback
+    triggers.
+  trigger_conditions: Use when Post-deploy monitoring — canary metrics, error budgets,
+    and rollback triggers.
+  scope_boundaries: Focused on Shadow Canary Watcher workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - shadow
+  - canary
+  - watcher
+  - Shadow Canary Watcher
+  - grafana
+  - pagerduty
+  - github-actions
+tags:
+- shadow-canary-watcher
+- grafana
+- pagerduty
+- github-actions
+relationships:
+  skills: []
+  tool_sets:
+  - name: grafana
+    type: can-have
+  - name: pagerduty
+    type: can-have
+  - name: github-actions
+    type: can-have

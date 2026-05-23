@@ -1,0 +1,24 @@
+name: Update CMS
+version: 1.0.0
+type: instrumental
+description:
+  capability: Publish content updates to CMS-powered websites
+  trigger_conditions: Use when Publish content updates to CMS-powered websites
+  scope_boundaries: Focused on Update CMS workflows via available integrations; does
+    not replace human approval for destructive or production changes.
+  key_domain_words:
+  - update
+  - cms
+  - Update CMS
+  - wordpress
+tags:
+- update-cms
+- wordpress
+- cms
+relationships:
+  skills: []
+  tool_sets:
+  - name: wordpress
+    type: can-have
+  - name: cms
+    type: can-have

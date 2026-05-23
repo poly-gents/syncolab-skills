@@ -1,0 +1,29 @@
+name: Pulumi Upgrade Provider Repo
+version: 1.0.0
+type: instrumental
+description:
+  capability: Automate provider repository upgrade workflows.
+  trigger_conditions: Use when Automate provider repository upgrade workflows.
+  scope_boundaries: Focused on Pulumi Upgrade Provider Repo workflows via available
+    integrations; does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - pulumi
+  - upgrade
+  - provider
+  - Pulumi Upgrade Provider Repo
+  - kubernetes
+  - docker
+tags:
+- pulumi-upgrade-provider
+- kubernetes
+- docker
+- pulumi
+relationships:
+  skills: []
+  tool_sets:
+  - name: kubernetes
+    type: can-have
+  - name: docker
+    type: can-have
+  - name: pulumi
+    type: can-have

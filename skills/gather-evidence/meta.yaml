@@ -1,0 +1,25 @@
+name: Gather Evidence
+version: 1.0.0
+type: instrumental
+description:
+  capability: Collect audit evidence for SOC2, ISO, and other standards
+  trigger_conditions: Use when Collect audit evidence for SOC2, ISO, and other standards
+  scope_boundaries: Focused on Gather Evidence workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - gather
+  - evidence
+  - Gather Evidence
+  - audit-logs
+  - compliance-apis
+tags:
+- gather-evidence
+- audit-logs
+- compliance-apis
+relationships:
+  skills: []
+  tool_sets:
+  - name: audit-logs
+    type: can-have
+  - name: compliance-apis
+    type: can-have

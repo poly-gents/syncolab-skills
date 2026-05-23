@@ -1,0 +1,25 @@
+name: Research Partners
+version: 1.0.0
+type: instrumental
+description:
+  capability: Evaluate potential partners for strategic fit
+  trigger_conditions: Use when Evaluate potential partners for strategic fit
+  scope_boundaries: Focused on Research Partners workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - research
+  - partners
+  - Research Partners
+  - market-research-api
+  - google-docs
+tags:
+- research-partners
+- market-research-api
+- google-docs
+relationships:
+  skills: []
+  tool_sets:
+  - name: market-research-api
+    type: can-have
+  - name: google-docs
+    type: can-have

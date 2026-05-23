@@ -1,0 +1,21 @@
+name: Optimize Costs
+version: 1.0.0
+type: instrumental
+description:
+  capability: Analyze and reduce cloud infrastructure spend
+  trigger_conditions: Use when Analyze and reduce cloud infrastructure spend
+  scope_boundaries: Focused on Optimize Costs workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - optimize
+  - costs
+  - Optimize Costs
+  - custom-apis
+tags:
+- optimize-costs
+- custom-apis
+relationships:
+  skills: []
+  tool_sets:
+  - name: custom-apis
+    type: can-have

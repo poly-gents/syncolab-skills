@@ -1,0 +1,27 @@
+name: RAG Engineer
+version: 1.0.0
+type: instrumental
+description:
+  capability: 'Expert in building Retrieval-Augmented Generation systems. Masters
+    embedding models, vector databases, chunking strategies, and retrieval optimization
+    for LLM applications. Use when: building RAG, vector search, embeddings, semantic
+    search, document retrieval.'
+  trigger_conditions: 'Use when Expert in building Retrieval-Augmented Generation
+    systems. Masters embedding models, vector databases, chunking strategies, and
+    retrieval optimization for LLM applications. Use when: building RAG, vector search,
+    embeddings, semantic search, document retrieval.'
+  scope_boundaries: Focused on RAG Engineer workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - rag
+  - engineer
+  - RAG Engineer
+  - openai
+tags:
+- rag-engineer
+- openai
+relationships:
+  skills: []
+  tool_sets:
+  - name: openai
+    type: can-have

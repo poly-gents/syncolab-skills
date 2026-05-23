@@ -1,0 +1,28 @@
+name: Test-Driven Development
+version: 1.0.0
+type: methodical
+description:
+  capability: Use when implementing any feature or bugfix, before writing implementation
+    code
+  trigger_conditions: Use when implementing any feature or bugfix, before writing
+    implementation code
+  scope_boundaries: Focused on Test-Driven Development workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - test
+  - driven
+  - development
+  - Test-Driven Development
+  - cypress
+  - playwright
+tags:
+- test-driven-development
+- cypress
+- playwright
+relationships:
+  skills: []
+  tool_sets:
+  - name: cypress
+    type: can-have
+  - name: playwright
+    type: can-have

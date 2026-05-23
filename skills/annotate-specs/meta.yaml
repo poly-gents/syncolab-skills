@@ -1,0 +1,26 @@
+name: Annotate Specs
+version: 1.0.0
+type: instrumental
+description:
+  capability: Add implementation notes and measurements to design specs
+  trigger_conditions: Use when Add implementation notes and measurements to design
+    specs
+  scope_boundaries: Focused on Annotate Specs workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - annotate
+  - specs
+  - Annotate Specs
+  - figma
+  - notion
+tags:
+- annotate-specs
+- figma
+- notion
+relationships:
+  skills: []
+  tool_sets:
+  - name: figma
+    type: can-have
+  - name: notion
+    type: can-have

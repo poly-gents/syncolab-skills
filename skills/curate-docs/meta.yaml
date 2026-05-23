@@ -1,0 +1,29 @@
+name: Curate Docs
+version: 1.0.0
+type: operational
+description:
+  capability: Organize and maintain a consistent knowledge base
+  trigger_conditions: Use when Organize and maintain a consistent knowledge base
+  scope_boundaries: Focused on Curate Docs workflows via available integrations; does
+    not replace human approval for destructive or production changes.
+  key_domain_words:
+  - curate
+  - docs
+  - Curate Docs
+  - notion
+  - google-drive
+  - internal-wiki
+tags:
+- curate-docs
+- notion
+- google-drive
+- internal-wiki
+relationships:
+  skills: []
+  tool_sets:
+  - name: notion
+    type: can-have
+  - name: google-drive
+    type: can-have
+  - name: internal-wiki
+    type: can-have

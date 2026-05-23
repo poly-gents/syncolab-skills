@@ -1,0 +1,37 @@
+name: Shadow Ship Manager
+version: 1.0.0
+type: supervisory
+description:
+  capability: Shipping checklist — PR quality, CI, risk, and communication for merge
+    and release.
+  trigger_conditions: Use when pre-merge / merge / post-merge shipping checklist.
+    user needs **ship / no-ship** decision with reasons.
+  scope_boundaries: Supervisory review and coaching only; does not implement or ship
+    unless the user explicitly requests execution. Does not replace human approval
+    for production changes.
+  key_domain_words:
+  - manager
+  - ship
+  - shadow
+  - Shadow Ship Manager
+  - review
+  - coaching
+  - github
+  - github-actions
+tags:
+- shadow-ship-manager
+- shadow
+- github
+- github-actions
+- review
+relationships:
+  skills:
+  - name: shadow-code-reviewer
+    type: can-use
+  - name: shadow-qa-lead
+    type: can-use
+  tool_sets:
+  - name: github
+    type: can-have
+  - name: github-actions
+    type: can-have

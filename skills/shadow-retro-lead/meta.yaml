@@ -1,0 +1,41 @@
+name: Shadow Retrospective Lead
+version: 1.0.0
+type: supervisory
+description:
+  capability: Facilitation pattern for sprint or weekly retros — safety, themes, experiments,
+    and follow-through.
+  trigger_conditions: Use when facilitate sprint or weekly retro (60–90 min structure).
+    user needs safety, themes, experiments, and follow-through.
+  scope_boundaries: Supervisory review and coaching only; does not implement or ship
+    unless the user explicitly requests execution. Does not replace human approval
+    for production changes.
+  key_domain_words:
+  - shadow
+  - retro
+  - lead
+  - Shadow Retrospective Lead
+  - review
+  - coaching
+  - jira
+  - notion
+  - google-docs
+tags:
+- shadow-retro-lead
+- shadow
+- jira
+- notion
+- google-docs
+- review
+relationships:
+  skills:
+  - name: learnings-keeper
+    type: can-use
+  - name: shadow-investigator
+    type: can-use
+  tool_sets:
+  - name: jira
+    type: can-have
+  - name: notion
+    type: can-have
+  - name: google-docs
+    type: can-have

@@ -1,0 +1,21 @@
+name: Pulumi
+version: 1.0.0
+type: instrumental
+description:
+  capability: Inspect and operate Pulumi stacks via native tools and optional Pulumi MCP.
+  trigger_conditions: Use for stack list, preview, up, refresh, destroy, and deployment history.
+  scope_boundaries: Pulumi stack operations; not general IaC authoring or provider upgrades.
+  key_domain_words:
+  - pulumi
+  - stack
+  - preview
+  - infrastructure
+tags:
+- pulumi
+relationships:
+  skills:
+  - name: pulumi-best-practices
+    type: references
+  tool_sets:
+  - name: pulumi
+    type: can-have

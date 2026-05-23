@@ -1,0 +1,184 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://syncolab.ai/schemas/skill-meta.schema.json",
+  "title": "Syncolab Skill Metadata Schema",
+  "description": "Strict validation schema for Syncolab skill meta.yaml files. This file must stay aligned with /skills/meta.instructions.md. If field names, required fields, allowed values, relationship types, validation constraints, or examples change here, agents must review and update /skills/meta.instructions.md when relevant.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "version",
+    "type",
+    "description",
+    "tags",
+    "relationships"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80,
+      "pattern": "^[\\w][\\w\\s\\-'.()]*$",
+      "description": "Human-readable display name for the skill."
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-[0-9A-Za-z.-]+)?(?:\\+[0-9A-Za-z.-]+)?$",
+      "description": "Semantic version of this skill metadata."
+    },
+    "type": {
+      "type": "string",
+      "description": "Primary category describing the nature of the skill. Must match the allowed type taxonomy documented in /skills/meta.instructions.md.",
+      "enum": [
+        "conversational",
+        "operational",
+        "methodical",
+        "environmental",
+        "instrumental",
+        "analytical",
+        "planning",
+        "diagnostic",
+        "creative",
+        "governance",
+        "integrative",
+        "educational",
+        "supervisory"
+      ]
+    },
+    "description": {
+      "type": "object",
+      "description": "Compact router-facing and agent-facing description of the skill.",
+      "additionalProperties": false,
+      "required": [
+        "capability",
+        "trigger_conditions",
+        "scope_boundaries",
+        "key_domain_words"
+      ],
+      "properties": {
+        "capability": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 500,
+          "description": "What the skill enables the agent to do."
+        },
+        "trigger_conditions": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 500,
+          "description": "When the skill should be selected."
+        },
+        "scope_boundaries": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 700,
+          "description": "What the skill does and does not cover."
+        },
+        "key_domain_words": {
+          "type": "array",
+          "description": "Router and search matching terms. These do not need to be kebab-case.",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80
+          }
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "description": "Lowercase kebab-case discovery, filtering, routing, and catalog labels.",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)*$"
+      }
+    },
+    "relationships": {
+      "type": "object",
+      "description": "Outgoing graph edges to related skills and tool sets.",
+      "additionalProperties": false,
+      "required": [
+        "skills",
+        "tool_sets"
+      ],
+      "properties": {
+        "skills": {
+          "type": "array",
+          "description": "Related skill packages.",
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/skill_relationship"
+          }
+        },
+        "tool_sets": {
+          "type": "array",
+          "description": "Related tool families or integration groups.",
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/tool_set_relationship"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "relationship_name": {
+      "type": "string",
+      "description": "Target skill id, tool-set id, or registered alias.",
+      "pattern": "^[a-z][a-z0-9]*([-_][a-z0-9]+)*$"
+    },
+    "skill_relationship": {
+      "type": "object",
+      "description": "Relationship from this skill to another skill.",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "type"
+      ],
+      "properties": {
+        "name": {
+          "$ref": "#/$defs/relationship_name"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "references",
+            "must-use",
+            "can-use",
+            "overrides",
+            "conflicts-with",
+            "extends"
+          ]
+        }
+      }
+    },
+    "tool_set_relationship": {
+      "type": "object",
+      "description": "Relationship from this skill to a tool set.",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "type"
+      ],
+      "properties": {
+        "name": {
+          "$ref": "#/$defs/relationship_name"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "must-have",
+            "can-have",
+            "assume-having",
+            "prefers",
+            "documents"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+name: Sync Docs
+version: 1.0.0
+type: instrumental
+description:
+  capability: Keep documentation aligned with code changes
+  trigger_conditions: Use when Keep documentation aligned with code changes
+  scope_boundaries: Focused on Sync Docs workflows via available integrations; does
+    not replace human approval for destructive or production changes.
+  key_domain_words:
+  - sync
+  - docs
+  - Sync Docs
+  - github
+  - google-drive
+tags:
+- sync-docs
+- github
+- google-drive
+relationships:
+  skills: []
+  tool_sets:
+  - name: github
+    type: can-have
+  - name: google-drive
+    type: can-have

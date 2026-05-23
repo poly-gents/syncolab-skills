@@ -1,0 +1,27 @@
+name: Writing Plans
+version: 1.0.0
+type: planning
+description:
+  capability: Use when you have a spec or requirements for a multi-step task, before
+    touching code
+  trigger_conditions: Use when you have a spec or requirements for a multi-step task,
+    before touching code
+  scope_boundaries: Focused on Writing Plans workflows via available integrations;
+    does not replace human approval for destructive or production changes.
+  key_domain_words:
+  - writing
+  - plans
+  - Writing Plans
+  - notion
+  - google-docs
+tags:
+- writing-plans
+- notion
+- google-docs
+relationships:
+  skills: []
+  tool_sets:
+  - name: notion
+    type: can-have
+  - name: google-docs
+    type: can-have

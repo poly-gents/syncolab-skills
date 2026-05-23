@@ -1,0 +1,20 @@
+name: Auto Code Reviewer
+version: 1.0.0
+type: procedural
+description:
+  capability: Review pull requests or pipeline changes using the initiative's configured reviewer mode.
+  trigger_conditions: Use when the initiative has opted in to Auto Code Reviewer and a review flow is dispatched.
+  scope_boundaries: Read-only review unless the user explicitly approves write actions; findings are recommendations.
+  key_domain_words:
+  - auto-code-reviewer
+  - code review
+  - pull request
+tags:
+  - auto-code-reviewer
+  - github
+  - review
+relationships:
+  skills: []
+  tool_sets:
+    - name: github
+      type: can-have

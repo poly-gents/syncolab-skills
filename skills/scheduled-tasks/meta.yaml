@@ -1,0 +1,17 @@
+name: Scheduled Tasks
+version: 1.0.0
+type: procedural
+description:
+  capability: Run one configured scheduled task manually using its saved context sources and cadence metadata.
+  trigger_conditions: Use when the initiative has opted in to Scheduled Tasks and a manual run is requested from chat.
+  scope_boundaries: Execute only the selected configured task; do not invent new schedules or mutate cron configuration.
+  key_domain_words:
+  - scheduled-tasks
+  - scheduled task
+  - automation
+tags:
+  - scheduled-tasks
+  - workflow-automation
+relationships:
+  skills: []
+  tool_sets: []

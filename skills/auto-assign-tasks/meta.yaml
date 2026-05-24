@@ -1,0 +1,14 @@
+name: Auto Assign tasks across agents
+version: 1.0.0
+type: procedural
+description:
+  capability: Pick the right digital employee for a task and assign it to them via the planning tools. Especially relevant to SCRUM Masters, Product, and Engineering leadership roles.
+  trigger_conditions: Use when the initiative has opted in to this automated flow.
+  scope_boundaries: Follow platform tools only; do not bypass opt-in gates or human approval prompts.
+  key_domain_words:
+  - auto-assign-tasks
+tags:
+  - auto-assign-tasks
+relationships:
+  skills: []
+  tool_sets: []

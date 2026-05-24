@@ -1,0 +1,34 @@
+name: Skill Catalog Vetting
+version: 1.0.0
+type: methodical
+description:
+  capability: Audit imported Agent Studio skills for security patterns and Agent Skills best practices before tier promotion.
+  trigger_conditions: Use when reviewing registry imports, T2 promotion, skill_catalog_vet scans, or catalog enable/disable decisions.
+  scope_boundaries: Catalog vetting and SKS reporting only; does not edit upstream skill repos or auto-promote without operator confirmation.
+  key_domain_words:
+  - skill catalog
+  - vetting
+  - security audit
+  - prompt injection
+  - tier promotion
+  - skill_catalog_vet
+  - agent studio
+  - registry
+tags:
+- skill-catalog-vetting
+- security
+- skills
+- audit
+- syncolab
+- agent-studio
+relationships:
+  skills:
+  - name: syncolab-living-docs
+    type: can-use
+  - name: shadow-security-officer
+    type: can-use
+  tool_sets:
+  - name: internal-wiki
+    type: can-have
+  - name: docs-as-code
+    type: can-have

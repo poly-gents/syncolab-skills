@@ -1,0 +1,14 @@
+name: Auto Issue Triage
+version: 1.0.0
+type: procedural
+description:
+  capability: Drain Dependabot / GitHub / agent_report items from the initiative's planning queue: list, claim, fix, release.
+  trigger_conditions: Use when the initiative has opted in to this automated flow.
+  scope_boundaries: Follow platform tools only; do not bypass opt-in gates or human approval prompts.
+  key_domain_words:
+  - auto-issue-triage
+tags:
+  - auto-issue-triage
+relationships:
+  skills: []
+  tool_sets: []

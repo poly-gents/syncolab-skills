@@ -44,7 +44,7 @@ Scaffold only (not a routed operational skill): [`_template/`](_template/).
 1. Read [`skill.instruction.md`](skill.instruction.md) for `SKILL.md` structure, philosophy, and required files.
 2. Read [`meta.instructions.md`](meta.instructions.md) for `meta.yaml` fields, skill types, tags, and relationships.
 3. Copy [`_template/`](_template/) to `skills/<skill-label>/` and replace placeholders.
-4. From the repository root:
+4. From **syncolab-skills-tooling** (see [tooling README](https://github.com/poly-gents/syncolab-skills-tooling)):
 
    ```bash
    pip install pyyaml jsonschema

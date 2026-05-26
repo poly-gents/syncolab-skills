@@ -30,7 +30,7 @@ For authoring the skill itself, use **create-skill** first.
 - One focused commit (or small logical set) containing the skill changes.
 - Open PR targeting `main` with a clear summary and test plan.
 - PR URL returned to the user.
-- Local validation still passes: `python scripts/validate_skill.py <skill-label>`.
+- Local validation still passes via **syncolab-skills-tooling**: `python scripts/validate_skill.py <skill-label>`, `npm run validate`, `npm run manifest:write` (commit updated `manifest.json` in this repo).
 
 ## Inputs to Gather
 
@@ -57,6 +57,7 @@ test -d skills && command -v git && command -v gh
 ### 2. Validate every skill in the change set
 
 ```bash
+# From syncolab-skills-tooling (set SYNCOLAB_SKILLS_ROOT to this repo if needed)
 python scripts/validate_skill.py "<skill-label>"
 ```
 
@@ -130,7 +131,7 @@ git push -u origin HEAD
 gh pr create --title "Add <skill-label> skill" --body "$(cat <<'EOF'
 ## Summary
 - Adds `skills/<skill-label>/` with SKILL.md and meta.yaml.
-- Validation: `python scripts/validate_skill.py <skill-label>` passes.
+- Validation: `syncolab-skills-tooling` `validate_skill.py <skill-label>` passes.
 
 ## Test plan
 - [ ] Run validate_skill.py locally
@@ -217,5 +218,5 @@ Never fabricate PR URLs, CI status, or review approval.
 
 - **create-skill** — `skills/create-skill/SKILL.md`
 - `skills/skill.instruction.md`
-- `scripts/validate_skill.py`
+- `syncolab-skills-tooling` — `scripts/validate_skill.py`, `npm run manifest:write`
 - GitHub CLI: `gh pr create`, `gh pr view`

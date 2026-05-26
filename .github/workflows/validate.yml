@@ -1,0 +1,72 @@
+# Validates skill content via syncolab-skills-tooling (no scripts/package.json in this repo).
+# Compare: google/skills has no in-repo skill validator; org-level "GitHub Actions Scan" +
+# "Actions Workflow Security Scan" apply when .github/workflows change.
+name: Validate skills (tooling)
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'skills/**'
+      - 'manifest.json'
+      - '.github/workflows/**'
+  push:
+    branches: [main]
+    paths:
+      - 'skills/**'
+      - 'manifest.json'
+      - '.github/workflows/**'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-skills-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout skills library
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v4
+
+      - name: Checkout tooling
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v4
+        with:
+          repository: poly-gents/syncolab-skills-tooling
+          path: syncolab-skills-tooling
+
+      - name: Setup Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: syncolab-skills-tooling/package-lock.json
+
+      - name: Install tooling dependencies
+        working-directory: syncolab-skills-tooling
+        run: npm ci
+
+      - name: Validate skill directories
+        working-directory: syncolab-skills-tooling
+        env:
+          SYNCOLAB_SKILLS_ROOT: ${{ github.workspace }}
+        run: npm run validate
+
+      - name: Check manifest.json is current
+        working-directory: syncolab-skills-tooling
+        env:
+          SYNCOLAB_SKILLS_ROOT: ${{ github.workspace }}
+        run: |
+          npm run manifest:write
+          git diff --exit-code "${{ github.workspace }}/manifest.json"
+
+      - name: Sample Python schema validation
+        working-directory: syncolab-skills-tooling
+        env:
+          SYNCOLAB_SKILLS_ROOT: ${{ github.workspace }}
+        run: |
+          pip install pyyaml jsonschema
+          python scripts/validate_skill.py syncolab-cognitive-memory
+          python scripts/validate_skill.py create-skill

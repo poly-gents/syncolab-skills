@@ -9,7 +9,7 @@ description: Authors new Syncolab skills in a cloned skills repository using she
 
 Guides agents through authoring a new Syncolab skill in a cloned skills repository: a reusable operational capability with clear routing, metadata, and validation—not a one-off prompt.
 
-Assume the repository is **cloned locally** and the agent has **shell access** (read/write files, run `python scripts/validate_skill.py`).
+Assume **syncolab-skills** is cloned locally and **syncolab-skills-tooling** is available (sibling clone or monorepo). The agent has shell access to edit skills and run tooling validation.
 
 ## When to Use
 
@@ -28,7 +28,7 @@ Assume the repository is **cloned locally** and the agent has **shell access** (
 
 - New or updated `skills/<skill-label>/` with `SKILL.md` and `meta.yaml`.
 - `<skill-label>` is lowercase kebab-case and matches `name` in `SKILL.md` frontmatter.
-- `python scripts/validate_skill.py <skill-label>` exits 0 (errors fixed; warnings reviewed).
+- `syncolab-skills-tooling` `python scripts/validate_skill.py <skill-label>` exits 0 (errors fixed; warnings reviewed).
 - Metadata aligns with the skill body; procedural detail lives in `SKILL.md`, not duplicated in `meta.yaml`.
 
 ## Inputs to Gather
@@ -55,13 +55,13 @@ Read these repo sources (do not guess conventions):
 
 ### 1. Confirm environment
 
-From repo root:
+From **syncolab-skills** root:
 
 ```bash
-test -d skills && test -f scripts/validate_skill.py && echo OK
+test -d skills && echo OK
 ```
 
-If not in the repo, `cd` to the clone or ask the user for the path.
+Validation runs from **syncolab-skills-tooling** (default `SYNCOLAB_SKILLS_ROOT=../syncolab-skills` in the monorepo).
 
 ### 2. Choose and validate the label
 
@@ -145,6 +145,8 @@ No other top-level folders under the skill directory.
 
 ### 7. Validate and fix
 
+From **syncolab-skills-tooling** (with `SYNCOLAB_SKILLS_ROOT` pointing at this repo if needed):
+
 ```bash
 python scripts/validate_skill.py "${SKILL_LABEL}"
 ```
@@ -216,4 +218,4 @@ Report to the user:
 - `skills/meta.instructions.md`
 - `skills/meta.schema.json`
 - `skills/_template/`
-- `scripts/validate_skill.py`
+- **syncolab-skills-tooling** — `scripts/validate_skill.py`, `npm run validate`

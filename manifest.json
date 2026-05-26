@@ -1,7 +1,7 @@
 {
   "name": "syncolab-skills",
   "version": "0.2.0",
-  "generatedAt": "2026-05-26T13:57:46.615Z",
+  "generatedAt": "2026-05-26T15:14:11.467Z",
   "repository": "https://github.com/poly-gents/syncolab-skills",
   "skills": [
     {
@@ -485,7 +485,7 @@
         "scaffold"
       ],
       "path": "skills/create-skill",
-      "checksum": "sha256:4e9adb0a8ad994bb2ff847d97692e70c4009574d2a9b381ee915f7ef254b34ff"
+      "checksum": "sha256:212a03996b0d01824594e513b565136c8cf0b61a883d83e83cc5f96e30c66e93"
     },
     {
       "id": "create-visualizations",
@@ -1529,7 +1529,7 @@
         "review"
       ],
       "path": "skills/publish-skill",
-      "checksum": "sha256:873958f5bc4c053c70f06c716072583f7c70c2e4e6aed83f2b92f35299a57f8a"
+      "checksum": "sha256:08d6ac1f7897d2057aaff925eed7617893fab93dca721f5e2721c3bc3d0a7b5b"
     },
     {
       "id": "pulumi",
@@ -2739,5 +2739,5 @@
       "checksum": "sha256:b162afa9a4eb43230faf0755b8f3e6cce0699b6bddf8442240aa0eba40419ec6"
     }
   ],
-  "integrity": "sha256:a4e48759bb8320b23d8d4f2747e0413950be0498e0f915bac4a4a65494a9d18c"
+  "integrity": "sha256:4f63d987826c1828f0ff059b5b61bc1e951d75dc2abe7a82c83cbef7f0e50aa0"
 }

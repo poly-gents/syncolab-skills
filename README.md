@@ -14,7 +14,7 @@ From the install command, you can select specific skills from this repository to
 npx skills add poly-gents/syncolab-skills --list
 ```
 
-Install options and supported agents are documented on [skills.sh](https://skills.sh).
+Install options and supported agents are documented in the [skills CLI](https://github.com/vercel-labs/skills) repository.
 
 ## Repository layout
 

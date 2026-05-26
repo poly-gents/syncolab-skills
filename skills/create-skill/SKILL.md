@@ -9,7 +9,7 @@ description: Authors new Syncolab skills in a cloned skills repository using she
 
 Guides agents through authoring a new Syncolab skill in a cloned skills repository: a reusable operational capability with clear routing, metadata, and validation—not a one-off prompt.
 
-Assume **syncolab-skills** is cloned locally and **syncolab-skills-tooling** is available (sibling clone or monorepo). The agent has shell access to edit skills and run tooling validation.
+Assume **syncolab-skills** is cloned locally and the agent has shell access to edit files under `skills/`.
 
 ## When to Use
 
@@ -28,7 +28,7 @@ Assume **syncolab-skills** is cloned locally and **syncolab-skills-tooling** is 
 
 - New or updated `skills/<skill-label>/` with `SKILL.md` and `meta.yaml`.
 - `<skill-label>` is lowercase kebab-case and matches `name` in `SKILL.md` frontmatter.
-- `syncolab-skills-tooling` `python scripts/validate_skill.py <skill-label>` exits 0 (errors fixed; warnings reviewed).
+- `SKILL.md` and `meta.yaml` conform to `skills/skill.instruction.md`, `skills/meta.instructions.md`, and `skills/meta.schema.json` (errors fixed; warnings reviewed).
 - Metadata aligns with the skill body; procedural detail lives in `SKILL.md`, not duplicated in `meta.yaml`.
 
 ## Inputs to Gather
@@ -60,8 +60,6 @@ From **syncolab-skills** root:
 ```bash
 test -d skills && echo OK
 ```
-
-Validation runs from **syncolab-skills-tooling** (default `SYNCOLAB_SKILLS_ROOT=../syncolab-skills` in the monorepo).
 
 ### 2. Choose and validate the label
 
@@ -143,17 +141,13 @@ relationships:
 
 No other top-level folders under the skill directory.
 
-### 7. Validate and fix
+### 7. Review and fix
 
-From **syncolab-skills-tooling** (with `SYNCOLAB_SKILLS_ROOT` pointing at this repo if needed):
+Check the skill against `skills/meta.schema.json` and the required sections in `skills/skill.instruction.md` (frontmatter `name` matches `<skill-label>`, kebab-case id, triggers, boundaries, recommended `SKILL.md` headings).
 
-```bash
-python scripts/validate_skill.py "${SKILL_LABEL}"
-```
+Fix all structural and schema **errors** before considering the skill done. Review **warnings** (missing recommended sections, size, metadata alignment).
 
-Fix all **errors** before considering the skill done. Review **warnings** (missing recommended sections, size, metadata alignment).
-
-Repeat edit → validate until clean.
+Repeat edit → review until ready for **publish-skill**.
 
 ### 8. Hand off to publish (if requested)
 
@@ -218,4 +212,4 @@ Report to the user:
 - `skills/meta.instructions.md`
 - `skills/meta.schema.json`
 - `skills/_template/`
-- **syncolab-skills-tooling** — `scripts/validate_skill.py`, `npm run validate`
+- `skills/meta.schema.json` — metadata validation rules

@@ -39,17 +39,12 @@ Scaffold only (not a routed operational skill): [`_template/`](_template/).
 
 `meta.yaml` must follow [`meta.instructions.md`](meta.instructions.md) and validate against [`meta.schema.json`](meta.schema.json).
 
-## Authoring and validation
+## Authoring
 
 1. Read [`skill.instruction.md`](skill.instruction.md) for `SKILL.md` structure, philosophy, and required files.
 2. Read [`meta.instructions.md`](meta.instructions.md) for `meta.yaml` fields, skill types, tags, and relationships.
 3. Copy [`_template/`](_template/) to `skills/<skill-label>/` and replace placeholders.
-4. From **syncolab-skills-tooling** (see [tooling README](https://github.com/poly-gents/syncolab-skills-tooling)):
-
-   ```bash
-   pip install pyyaml jsonschema
-   python scripts/validate_skill.py <skill-label>
-   ```
+4. Open a pull request with your changes. The Syncolab team reviews skill content against the schema and instruction files before merge.
 
 If you change allowed fields, types, or relationship enums, update **both** `meta.instructions.md` and `meta.schema.json`.
 

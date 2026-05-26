@@ -5,7 +5,7 @@ description: Canonical scaffold for new Syncolab skills. Use when bootstrapping 
 
 # Skill Template
 
-Copy this directory to `/skills/<skill-label>/`, rename placeholders, and replace every section below. Read `/skills/skill.instruction.md`, `/skills/meta.instructions.md`, and validate with **syncolab-skills-tooling** `python scripts/validate_skill.py <skill-label>`.
+Copy this directory to `/skills/<skill-label>/`, rename placeholders, and replace every section below. Read `/skills/skill.instruction.md` and `/skills/meta.instructions.md`, then check the result against `/skills/meta.schema.json`.
 
 ## Purpose
 
@@ -31,7 +31,7 @@ This scaffold provides the canonical directory layout, SKILL.md structure, and m
 
 <!-- Replace: observable, verifiable artifacts. -->
 
-After copying and editing, the new skill directory should contain valid `SKILL.md` and `meta.yaml`, pass `validate_skill.py`, and align metadata with the skill body.
+After copying and editing, the new skill directory should contain valid `SKILL.md` and `meta.yaml` that conform to the repository instruction files and schema.
 
 ## Inputs to Gather
 
@@ -50,7 +50,7 @@ After copying and editing, the new skill directory should contain valid `SKILL.m
 3. Replace every section in `SKILL.md` with skill-specific guidance; keep the file high-signal.
 4. Author `meta.yaml` per `/skills/meta.instructions.md`; ensure `type`, `description`, `tags`, and `relationships` validate.
 5. Add optional `references/`, `assets/`, or `scripts/` only when needed; move large detail out of `SKILL.md`.
-6. Run validation from **syncolab-skills-tooling** and fix errors before publishing.
+6. Review against the schema and instruction files, then use **publish-skill** to open a PR.
 
 ## Tool Availability Rules
 

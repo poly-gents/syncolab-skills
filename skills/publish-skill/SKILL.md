@@ -30,14 +30,14 @@ For authoring the skill itself, use **create-skill** first.
 - One focused commit (or small logical set) containing the skill changes.
 - Open PR targeting `main` with a clear summary and test plan.
 - PR URL returned to the user.
-- Local validation still passes via **syncolab-skills-tooling**: `python scripts/validate_skill.py <skill-label>`, `npm run validate`, `npm run manifest:write` (commit updated `manifest.json` in this repo).
+- Skill content meets repository standards (`create-skill` checklist). Syncolab maintainers update catalog artifacts when merging to `main`.
 
 ## Inputs to Gather
 
 1. **Skill label(s)** — directory name(s) under `skills/`, e.g. `create-skill`.
 2. **Remote** — `origin` URL and default branch (usually `main`).
 3. **Git state** — branch, uncommitted files, divergence from `main`.
-4. **Validation status** — recent `validate_skill.py` output for each skill in scope.
+4. **Review status** — skill structure checked against `meta.schema.json` and instruction files.
 5. **User intent** — draft PR vs ready for review; any linked issue/ticket.
 
 Confirm the skill package is complete per **create-skill** before publishing.
@@ -54,14 +54,9 @@ test -d skills && command -v git && command -v gh
 - If `gh` is missing or unauthenticated, stop and ask the user to install/auth (`gh auth login`).
 - Read **create-skill** if `SKILL.md` / `meta.yaml` are missing or invalid.
 
-### 2. Validate every skill in the change set
+### 2. Review every skill in the change set
 
-```bash
-# From syncolab-skills-tooling (set SYNCOLAB_SKILLS_ROOT to this repo if needed)
-python scripts/validate_skill.py "<skill-label>"
-```
-
-Fix errors via **create-skill** workflow; do not open a PR with failing validation.
+Confirm each skill in scope passes the **create-skill** review checklist (structure, frontmatter, `meta.yaml` vs schema). Do not open a PR with known schema or naming errors.
 
 ### 3. Inspect git state (parallel)
 
@@ -131,10 +126,10 @@ git push -u origin HEAD
 gh pr create --title "Add <skill-label> skill" --body "$(cat <<'EOF'
 ## Summary
 - Adds `skills/<skill-label>/` with SKILL.md and meta.yaml.
-- Validation: `syncolab-skills-tooling` `validate_skill.py <skill-label>` passes.
+- Review: skill conforms to `meta.schema.json` and instruction files.
 
 ## Test plan
-- [ ] Run validate_skill.py locally
+- [ ] Skill reviewed against schema and instructions
 - [ ] Review routing metadata (description, tags, triggers)
 - [ ] Confirm skill boundaries and tool rules are appropriate
 
@@ -168,7 +163,7 @@ Never fabricate PR URLs, CI status, or review approval.
 
 **Ready to publish when:**
 
-- `validate_skill.py` passes for each skill in the PR.
+- Each skill in the PR meets authoring standards from **create-skill**.
 - PR contains only intentional skill (and closely related) files.
 - Commit message describes user-visible outcome.
 - PR body includes summary and test plan checklist.
@@ -218,5 +213,5 @@ Never fabricate PR URLs, CI status, or review approval.
 
 - **create-skill** — `skills/create-skill/SKILL.md`
 - `skills/skill.instruction.md`
-- `syncolab-skills-tooling` — `scripts/validate_skill.py`, `npm run manifest:write`
+- `skills/meta.schema.json` — metadata rules
 - GitHub CLI: `gh pr create`, `gh pr view`

@@ -1,0 +1,27 @@
+name: Arbox
+version: 1.0.0
+type: methodical
+description:
+  capability: Arbox public API for gym scheduling, members, and leads
+  trigger_conditions: Use when gym or fitness studio agents need arbox guidance
+  scope_boundaries: Generic gym/fitness playbook; confirm with studio owner before CRM writes or clinical advice
+  key_domain_words:
+  - arbox
+  - fitness
+  - gym
+  - scheduling
+tags:
+- arbox
+- arbox
+- fitness
+- gym
+- scheduling
+relationships:
+  skills:
+  - name: arbox-studio-operations
+    type: complements
+  - name: gym-arbox-status-playbook
+    type: complements
+  tool_sets:
+  - name: arbox
+    type: requires

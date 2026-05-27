@@ -1,0 +1,28 @@
+name: Arbox studio operations
+version: 1.0.0
+type: methodical
+description:
+  capability: Run gym operations against live Arbox data: leads, schedule, memberships
+  trigger_conditions: Use when gym or fitness studio agents need arbox studio operations guidance
+  scope_boundaries: Generic gym/fitness playbook; confirm with studio owner before CRM writes or clinical advice
+  key_domain_words:
+  - arbox
+  - operations
+  - gym
+  - fitness
+tags:
+- arbox-studio-operations
+- arbox
+- operations
+- gym
+relationships:
+  skills:
+  - name: arbox
+    type: requires
+  - name: gym-arbox-status-playbook
+    type: complements
+  - name: gym-sales-daily-prioritization
+    type: complements
+  tool_sets:
+  - name: arbox
+    type: requires

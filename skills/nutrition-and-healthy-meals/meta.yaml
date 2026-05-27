@@ -1,0 +1,26 @@
+name: Nutrition & healthy meals
+version: 1.0.0
+type: methodical
+description:
+  capability: General healthy eating patterns and meal ideas — not medical nutrition therapy
+  trigger_conditions: Use when gym or fitness studio agents need nutrition & healthy meals guidance
+  scope_boundaries: Generic gym/fitness playbook; confirm with studio owner before CRM writes or clinical advice
+  key_domain_words:
+  - nutrition
+  - wellness
+  - food
+  - gym
+  - fitness
+tags:
+- nutrition-and-healthy-meals
+- nutrition
+- wellness
+- food
+relationships:
+  skills:
+  - name: gym-nutrition-menu-delivery
+    type: complements
+  - name: strength-conditioning-programming
+    type: complements
+  tool_sets:
+  []

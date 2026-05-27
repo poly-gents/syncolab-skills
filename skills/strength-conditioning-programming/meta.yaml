@@ -1,0 +1,23 @@
+name: Strength & conditioning programming
+version: 1.0.0
+type: methodical
+description:
+  capability: Program design, periodization, and session structure for general fitness
+  trigger_conditions: Use when gym or fitness studio agents need strength & conditioning programming guidance
+  scope_boundaries: Generic gym/fitness playbook; confirm with studio owner before CRM writes or clinical advice
+  key_domain_words:
+  - fitness
+  - coaching
+  - strength
+  - gym
+tags:
+- strength-conditioning-programming
+- fitness
+- coaching
+- strength
+relationships:
+  skills:
+  - name: nutrition-and-healthy-meals
+    type: complements
+  tool_sets:
+  []

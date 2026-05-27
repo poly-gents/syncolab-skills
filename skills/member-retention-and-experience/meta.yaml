@@ -1,0 +1,29 @@
+name: Member retention & experience
+version: 1.0.0
+type: methodical
+description:
+  capability: Attendance patterns, win-back messaging, and member journey touchpoints
+  trigger_conditions: Use when gym or fitness studio agents need member retention & experience guidance
+  scope_boundaries: Generic gym/fitness playbook; confirm with studio owner before CRM writes or clinical advice
+  key_domain_words:
+  - retention
+  - members
+  - crm
+  - gym
+  - fitness
+tags:
+- member-retention-and-experience
+- retention
+- members
+- crm
+relationships:
+  skills:
+  - name: arbox
+    type: requires
+  - name: arbox-studio-operations
+    type: complements
+  - name: gym-member-onboarding-flow
+    type: complements
+  tool_sets:
+  - name: arbox
+    type: requires

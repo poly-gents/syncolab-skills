@@ -1,0 +1,29 @@
+name: Class & PT scheduling
+version: 1.0.0
+type: methodical
+description:
+  capability: Session plans, reminders, and reschedule comms for trainers and studios
+  trigger_conditions: Use when gym or fitness studio agents need class & pt scheduling guidance
+  scope_boundaries: Generic gym/fitness playbook; confirm with studio owner before CRM writes or clinical advice
+  key_domain_words:
+  - scheduling
+  - calendar
+  - pt
+  - gym
+  - fitness
+tags:
+- class-and-pt-scheduling
+- scheduling
+- calendar
+- pt
+relationships:
+  skills:
+  - name: arbox
+    type: requires
+  - name: gym-member-onboarding-flow
+    type: complements
+  - name: coordinate-meetings
+    type: complements
+  tool_sets:
+  - name: arbox
+    type: requires

@@ -1,0 +1,32 @@
+name: Gym Member Onboarding Flow
+version: 1.0.0
+type: methodical
+description:
+  capability: Run trial booking, body metrics logging, and closing-meeting coordination for new gym members in Arbox
+  trigger_conditions: Use after a trial signup, for weigh-in sessions, closing meetings, or handoff from sales to nutrition delivery
+  scope_boundaries: Studio onboarding through Arbox and Calendar; nutrition menu build belongs to gym-nutrition-menu-delivery
+  key_domain_words:
+  - onboarding
+  - trial
+  - arbox
+  - gym
+  - fitness
+  - measurements
+  - closing
+tags:
+- gym-member-onboarding-flow
+- arbox
+- fitness
+- gym
+- onboarding
+relationships:
+  skills:
+  - name: gym-arbox-status-playbook
+    type: requires
+  - name: member-retention-and-experience
+    type: complements
+  tool_sets:
+  - name: arbox
+    type: requires
+  - name: google-calendar
+    type: can-have

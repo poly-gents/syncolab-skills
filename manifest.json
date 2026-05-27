@@ -1,7 +1,7 @@
 {
   "name": "syncolab-skills",
   "version": "0.2.0",
-  "generatedAt": "2026-05-26T15:14:11.467Z",
+  "generatedAt": "2026-05-27T11:06:03.689Z",
   "repository": "https://github.com/poly-gents/syncolab-skills",
   "skills": [
     {
@@ -359,6 +359,33 @@
       "checksum": "sha256:f34eac40cc2b6753c9f1495078d849cb6a9d965f9034416da0909c359e2bd4ff"
     },
     {
+      "id": "calendly",
+      "name": "Calendly",
+      "description": "Read Calendly user profile, event types, availability, and scheduled events via calendly_* tools for office-hours scheduling.",
+      "version": "1.0.0",
+      "type": "instrumental",
+      "tags": [
+        "calendly",
+        "scheduling"
+      ],
+      "path": "skills/calendly",
+      "checksum": "sha256:dccc4607e3f8a1c57e1ebcf571cc657270c74db9743a9bb8425788cae46d6fcf"
+    },
+    {
+      "id": "calendly-office-hours-scheduling",
+      "name": "Calendly office hours scheduling",
+      "description": "Share Calendly scheduling links and check availability for office hours using calendly_* tools — read-only unless policy allows booking on behalf of students.",
+      "version": "1.0.0",
+      "type": "instrumental",
+      "tags": [
+        "calendly-office-hours-scheduling",
+        "calendly",
+        "education"
+      ],
+      "path": "skills/calendly-office-hours-scheduling",
+      "checksum": "sha256:05915d9eada4ed22ddb7c4cc01afdb48f2c715a76e964ab38ef9162e3b4162c8"
+    },
+    {
       "id": "chromatic",
       "name": "Chromatic",
       "description": "Reviews Chromatic visual tests and Storybook builds for UI regressions. Use when checking build results, accepting or rejecting visual changes, or triaging component snapshot diffs.",
@@ -469,6 +496,48 @@
       ],
       "path": "skills/coordinate-releases",
       "checksum": "sha256:4f74cbd687b8c6a7edb50d56e97bf869c2d8f16cbf0815e004e91b64a44f3a30"
+    },
+    {
+      "id": "course-context-from-classroom",
+      "name": "Course context from Classroom",
+      "description": "Sync Google Classroom course metadata into academic-learning-context and living docs so course TAs stay syllabus-aware.",
+      "version": "1.0.0",
+      "type": "instrumental",
+      "tags": [
+        "course-context-from-classroom",
+        "google-classroom",
+        "education"
+      ],
+      "path": "skills/course-context-from-classroom",
+      "checksum": "sha256:a126ede5242e4b98a71063d853b25e3f54b84ddcd14b9910213efbce0146c95d"
+    },
+    {
+      "id": "course-practice-ta-session-flow",
+      "name": "Course practice TA session flow",
+      "description": "Socratic practice session loop for university course TAs — triage, hint ladder, summarize, and escalate when integrity or safety boundaries apply.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "course-practice-ta-session-flow",
+        "education",
+        "university"
+      ],
+      "path": "skills/course-practice-ta-session-flow",
+      "checksum": "sha256:bd294082ac3f800796a61f9afff41e525a1e7977bd393ac5c449c751695115dc"
+    },
+    {
+      "id": "course-ta-setup-playbook",
+      "name": "Course TA setup playbook",
+      "description": "Lecturer-facing Agent Studio setup — connect integrations, bind Classroom course, seed living docs, and smoke-test a course practice TA in the playground.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "course-ta-setup-playbook",
+        "education",
+        "university"
+      ],
+      "path": "skills/course-ta-setup-playbook",
+      "checksum": "sha256:46f4c46e482bc2bad5abe7db0c0439f6627493df27644888a7acf976e6d1b4a3"
     },
     {
       "id": "create-skill",
@@ -946,6 +1015,19 @@
       "checksum": "sha256:c60cc71177cbe91fd74c85e33992fbcc7004fe7307997c60b5973f0a20315598"
     },
     {
+      "id": "google-classroom",
+      "name": "Google Classroom",
+      "description": "Read Google Classroom courses, coursework, announcements, and topics via classroom_* tools for university teaching workflows.",
+      "version": "1.0.0",
+      "type": "instrumental",
+      "tags": [
+        "google-classroom",
+        "education"
+      ],
+      "path": "skills/google-classroom",
+      "checksum": "sha256:c0e644f4fce25d094814c373bf62805c1c965226efed53d1ba7ad5e5481aa98f"
+    },
+    {
       "id": "google-docs",
       "name": "Google Docs",
       "description": "Creates, reads, appends, and replaces Google Docs content via docs_* tools. Use for PRDs, meeting notes, and document edits when documentId is known or resolved via Drive.",
@@ -993,6 +1075,88 @@
       ],
       "path": "skills/grafana",
       "checksum": "sha256:7571ef184988f61d3033421464cddc7ebe3dc47df8395993b73152c957aee61f"
+    },
+    {
+      "id": "gym-arbox-status-playbook",
+      "name": "Gym Arbox Status Playbook",
+      "description": "Map live Arbox status_id values to gym CRM categories and apply safe lead status transitions",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "gym-arbox-status-playbook",
+        "arbox",
+        "fitness",
+        "gym",
+        "crm"
+      ],
+      "path": "skills/gym-arbox-status-playbook",
+      "checksum": "sha256:77545c54afbcfe923c5381ee97f61e22e4509b950154812b3f7ae7123fbd0244"
+    },
+    {
+      "id": "gym-lead-ingestion-exceptions",
+      "name": "Gym Lead Ingestion Exceptions",
+      "description": "Resolve duplicate or missing marketing leads when automatic Arbox ingestion fails",
+      "version": "1.0.0",
+      "type": "instrumental",
+      "tags": [
+        "gym-lead-ingestion-exceptions",
+        "arbox",
+        "fitness",
+        "gym",
+        "leads"
+      ],
+      "path": "skills/gym-lead-ingestion-exceptions",
+      "checksum": "sha256:7a82d60e4bd0c17d55643909ec3a615fa4492a298c456a79e6009ce083237452"
+    },
+    {
+      "id": "gym-member-onboarding-flow",
+      "name": "Gym Member Onboarding Flow",
+      "description": "Run trial booking, body metrics logging, and closing-meeting coordination for new gym members in Arbox",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "gym-member-onboarding-flow",
+        "arbox",
+        "fitness",
+        "gym",
+        "onboarding"
+      ],
+      "path": "skills/gym-member-onboarding-flow",
+      "checksum": "sha256:400554acfd3f5fc9f9d67ccbbe7ef289bf904f8881a42d91a5477a14af3038ca"
+    },
+    {
+      "id": "gym-nutrition-menu-delivery",
+      "name": "Gym Nutrition Menu Delivery",
+      "description": "Deliver personalized nutrition menus from a Sheets template into per-client Google Drive folders using Arbox client metrics",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "gym-nutrition-menu-delivery",
+        "arbox",
+        "fitness",
+        "gym",
+        "nutrition",
+        "google-drive",
+        "google-sheets"
+      ],
+      "path": "skills/gym-nutrition-menu-delivery",
+      "checksum": "sha256:9fed9ace7eefca9a15c60ecb0742b4eddddc68a152baa0b205a158c5fd787233"
+    },
+    {
+      "id": "gym-sales-daily-prioritization",
+      "name": "Gym Sales Daily Prioritization",
+      "description": "Triage open Arbox tasks and leads into a prioritized daily call list for gym sales reps",
+      "version": "1.0.0",
+      "type": "instrumental",
+      "tags": [
+        "gym-sales-daily-prioritization",
+        "arbox",
+        "fitness",
+        "gym",
+        "sales"
+      ],
+      "path": "skills/gym-sales-daily-prioritization",
+      "checksum": "sha256:f6e3e34778405fae7783db9b3368b3dcd52a3804a62d316cbf38c737ecd19327"
     },
     {
       "id": "hold-conversations",
@@ -2739,5 +2903,5 @@
       "checksum": "sha256:b162afa9a4eb43230faf0755b8f3e6cce0699b6bddf8442240aa0eba40419ec6"
     }
   ],
-  "integrity": "sha256:4f63d987826c1828f0ff059b5b61bc1e951d75dc2abe7a82c83cbef7f0e50aa0"
+  "integrity": "sha256:1cd772145e8582f677f5d6731ab49367271fbc8fdfc79432b5be7b2bb3bf24f0"
 }

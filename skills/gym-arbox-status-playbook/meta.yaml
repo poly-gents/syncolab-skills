@@ -1,0 +1,30 @@
+name: Gym Arbox Status Playbook
+version: 1.0.0
+type: methodical
+description:
+  capability: Map live Arbox status_id values to gym CRM categories and apply safe lead status transitions
+  trigger_conditions: Use when updating lead statuses, interpreting pipeline stages, or bootstrapping Arbox CRM semantics for a gym studio
+  scope_boundaries: Covers Arbox public API status reads and updateStatus writes; does not replace owner approval for status changes or invent status IDs
+  key_domain_words:
+  - arbox
+  - gym
+  - fitness
+  - status
+  - lead
+  - crm
+  - pipeline
+tags:
+- gym-arbox-status-playbook
+- arbox
+- fitness
+- gym
+- crm
+relationships:
+  skills:
+  - name: arbox
+    type: requires
+  - name: arbox-studio-operations
+    type: complements
+  tool_sets:
+  - name: arbox
+    type: requires

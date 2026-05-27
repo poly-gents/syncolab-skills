@@ -1,0 +1,20 @@
+name: Google Classroom
+version: 1.0.0
+type: instrumental
+description:
+  capability: Read Google Classroom courses, coursework, announcements, and topics
+  trigger_conditions: Use for course metadata, syllabus sync, and Classroom connectivity checks
+  scope_boundaries: Read-only Classroom API workflows in MVP; not Gmail or Drive file operations
+  key_domain_words:
+  - classroom
+  - course
+  - coursework
+  - announcements
+tags:
+- google-classroom
+- education
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-classroom
+    type: can-have

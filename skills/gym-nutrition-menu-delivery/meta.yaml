@@ -1,0 +1,34 @@
+name: Gym Nutrition Menu Delivery
+version: 1.0.0
+type: methodical
+description:
+  capability: Deliver personalized nutrition menus from a Sheets template into per-client Google Drive folders using Arbox client metrics
+  trigger_conditions: Use after a nutrition consultation when the owner needs a menu spreadsheet filed for the client
+  scope_boundaries: General healthy eating delivery only; not medical nutrition therapy; requires tenant folder and template conventions in SKS
+  key_domain_words:
+  - nutrition
+  - menu
+  - drive
+  - sheets
+  - arbox
+  - gym
+  - fitness
+tags:
+- gym-nutrition-menu-delivery
+- arbox
+- fitness
+- gym
+- nutrition
+- google-drive
+- google-sheets
+relationships:
+  skills:
+  - name: nutrition-and-healthy-meals
+    type: complements
+  tool_sets:
+  - name: arbox
+    type: can-have
+  - name: google-drive
+    type: requires
+  - name: google-sheets
+    type: requires

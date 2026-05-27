@@ -1,0 +1,20 @@
+name: Calendly
+version: 1.0.0
+type: instrumental
+description:
+  capability: Read Calendly profiles, event types, availability, and scheduled events
+  trigger_conditions: Use for office-hours scheduling links and availability checks via Calendly OAuth
+  scope_boundaries: Calendly API read workflows; not Google Calendar or Classroom
+  key_domain_words:
+  - calendly
+  - scheduling
+  - event-type
+  - availability
+tags:
+- calendly
+- scheduling
+relationships:
+  skills: []
+  tool_sets:
+  - name: calendly
+    type: can-have

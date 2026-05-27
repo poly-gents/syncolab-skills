@@ -1,0 +1,24 @@
+name: Course practice TA session flow
+version: 1.0.0
+type: methodical
+description:
+  capability: Run Socratic practice sessions for course TAs with hint ladders and session summaries
+  trigger_conditions: Use when tutoring students on practice problems, recitations, or exam prep in a course-scoped TA agent
+  scope_boundaries: Student-facing tutoring flow only; not lecturer setup or Calendly scheduling
+  key_domain_words:
+  - course
+  - ta
+  - tutoring
+  - socratic
+  - practice
+tags:
+- course-practice-ta-session-flow
+- education
+- university
+relationships:
+  skills:
+  - name: academic-learning-context
+    type: requires
+  - name: socratic-tutoring-and-scaffolding
+    type: requires
+  tool_sets: []

@@ -1,0 +1,21 @@
+name: Academic integrity and AI use framing
+version: 1.0.0
+type: methodical
+description:
+  capability: Help learners and TAs navigate collaboration rules, citation, and AI policies without overriding the instructor.
+  trigger_conditions: Use when a university TA or tutoring agent needs academic integrity and ai use framing guidance
+  scope_boundaries: Academic playbook skill for education agents; follow syllabus and instructor policy
+  key_domain_words:
+  - education
+  - integrity
+  - ai-policy
+tags:
+- academic-integrity-and-ai-use-framing
+- education
+- integrity
+- ai-policy
+relationships:
+  skills:
+  - name: academic-learning-context
+    type: requires
+  tool_sets: []

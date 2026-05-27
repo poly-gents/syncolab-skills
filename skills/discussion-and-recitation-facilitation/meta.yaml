@@ -1,0 +1,23 @@
+name: Discussion and recitation facilitation
+version: 1.0.0
+type: methodical
+description:
+  capability: Run inclusive discussions: wait time, cold calling ethics, think–pair–share, and keeping the room tied to learning goals.
+  trigger_conditions: Use when a university TA or tutoring agent needs discussion and recitation facilitation guidance
+  scope_boundaries: Academic playbook skill for education agents; follow syllabus and instructor policy
+  key_domain_words:
+  - education
+  - ta
+  - discussion
+tags:
+- discussion-and-recitation-facilitation
+- education
+- ta
+- discussion
+relationships:
+  skills:
+  - name: academic-learning-context
+    type: requires
+  - name: learning-objectives-and-bloom-alignment
+    type: requires
+  tool_sets: []

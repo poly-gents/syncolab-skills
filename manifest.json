@@ -1,7 +1,7 @@
 {
   "name": "syncolab-skills",
   "version": "0.2.0",
-  "generatedAt": "2026-05-27T12:07:33.407Z",
+  "generatedAt": "2026-05-27T12:41:45.060Z",
   "repository": "https://github.com/poly-gents/syncolab-skills",
   "skills": [
     {
@@ -17,6 +17,36 @@
       ],
       "path": "skills/ab-experimentation",
       "checksum": "sha256:d43f6310c5e416859e2e7ebdde4c16f569af2a32206b22bb677ee8af7343f5de"
+    },
+    {
+      "id": "academic-integrity-and-ai-use-framing",
+      "name": "Academic integrity and AI use framing",
+      "description": "Help learners and TAs navigate collaboration rules, citation, and AI policies without overriding the instructor.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "academic-integrity-and-ai-use-framing",
+        "education",
+        "integrity",
+        "ai-policy"
+      ],
+      "path": "skills/academic-integrity-and-ai-use-framing",
+      "checksum": "sha256:edc0a57d9ad0016145d101fb66154d137d213e48c2184eb20f4c3ba6eae0bd35"
+    },
+    {
+      "id": "academic-learning-context",
+      "name": "Academic learning context",
+      "description": "Maintain a single living document for courses, goals, constraints, and accessibility so every tutoring and TA skill stays aligned.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "academic-learning-context",
+        "education",
+        "foundation",
+        "planning"
+      ],
+      "path": "skills/academic-learning-context",
+      "checksum": "sha256:1ada904fdee7503b9eb97827a90aba1a406b6523885fc15094fa1adedb68e9f0"
     },
     {
       "id": "add-observability",
@@ -696,6 +726,16 @@
       "checksum": "sha256:5e8d04dec3079e8fd6e5a1f3b6c97445fde294ef39591343843a6f75bd774d36"
     },
     {
+      "id": "discussion-and-recitation-facilitation",
+      "name": "discussion-and-recitation-facilitation",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
+      "path": "skills/discussion-and-recitation-facilitation",
+      "checksum": "sha256:23e468d5cd3f4dd4d30315de81a9d16b3265de7310719e74e836c10e7d7cc1b4"
+    },
+    {
       "id": "doc-coauthoring",
       "name": "Doc Co-Authoring",
       "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
@@ -848,6 +888,21 @@
       ],
       "path": "skills/escalate-with-summary",
       "checksum": "sha256:ec64bd7061f8d210e170fb362f477b1f3ec74e64605a0302a9a4bb7c2cd69a88"
+    },
+    {
+      "id": "exam-preparation-and-retrieval",
+      "name": "Exam preparation and retrieval",
+      "description": "Design practice exams, self-grading rubrics, and confidence calibration without encouraging academic misconduct.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "exam-preparation-and-retrieval",
+        "education",
+        "exams",
+        "retrieval"
+      ],
+      "path": "skills/exam-preparation-and-retrieval",
+      "checksum": "sha256:e9b0dd10653f83c89bb9018d7af4f1a2e3ad0da76324a77b44bf2885c0db85ce"
     },
     {
       "id": "export-to-crm",
@@ -1189,6 +1244,22 @@
       "checksum": "sha256:3c2bfd61850c4015492a20e115ec7993db0997de5801f9aecd1e7191b9d4b0f5"
     },
     {
+      "id": "inclusive-teaching-basics",
+      "name": "Inclusive teaching basics",
+      "description": "Universal design hooks, respectful language, and accessibility habits suitable for any discipline.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "inclusive-teaching-basics",
+        "education",
+        "inclusion",
+        "accessibility",
+        "ta"
+      ],
+      "path": "skills/inclusive-teaching-basics",
+      "checksum": "sha256:950d8fa868397c8216787ca227847d5148a2fde1692cda8774ceda1bcec968a7"
+    },
+    {
       "id": "jira",
       "name": "Jira",
       "description": "Lists, searches, creates, updates, and transitions Jira issues via Atlassian MCP tools discovered at runtime. Use JQL when supported; always load tool schemas before execution.",
@@ -1213,6 +1284,22 @@
       ],
       "path": "skills/lead-incidents",
       "checksum": "sha256:f4be77255af2e8b1f0693ff8166ed1661d69b34458319df960652fb319827e2b"
+    },
+    {
+      "id": "learning-objectives-and-bloom-alignment",
+      "name": "Learning objectives and Bloom alignment",
+      "description": "Write measurable outcomes and align activities, assessments, and discussion prompts to Bloom levels.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "learning-objectives-and-bloom-alignment",
+        "education",
+        "ta",
+        "pedagogy",
+        "assessment"
+      ],
+      "path": "skills/learning-objectives-and-bloom-alignment",
+      "checksum": "sha256:c87c53b16bef5f745a793a9f5b9e2c0853a06d28312e37cf24b1ddf87fa6c738"
     },
     {
       "id": "learnings-keeper",
@@ -1337,6 +1424,21 @@
       "checksum": "sha256:c36ce3b6dd23596231467d93bdafc41145bf4cc9368d9285358e33dbee0655c5"
     },
     {
+      "id": "misconception-diagnosis",
+      "name": "Misconception diagnosis",
+      "description": "Surface likely misconceptions, ask diagnostic questions, and repair mental models across STEM and qualitative fields.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "misconception-diagnosis",
+        "education",
+        "pedagogy",
+        "diagnostics"
+      ],
+      "path": "skills/misconception-diagnosis",
+      "checksum": "sha256:ee3b7c124d656dae2f506b984d3223ee67c6b6d0b1794b3dc65f11d69a01ec0d"
+    },
+    {
       "id": "monitor-db-health",
       "name": "Monitor DB Health",
       "description": "Track replication, connections, and database performance",
@@ -1429,6 +1531,16 @@
       ],
       "path": "skills/notion",
       "checksum": "sha256:e2eb520bb27cc623510ca13485f60e132abfcb1bcf746b1dfa26a6a794a85aba"
+    },
+    {
+      "id": "office-hours-and-help-queue",
+      "name": "office-hours-and-help-queue",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
+      "path": "skills/office-hours-and-help-queue",
+      "checksum": "sha256:36a5a3852b1e42795a72e0b4de03d8a36d1b3a76ebee065b3a9ce46995a369bf"
     },
     {
       "id": "okta",
@@ -2482,6 +2594,21 @@
       "checksum": "sha256:5a5c6f2a6f30d5a52e7fabd3d0c836c28b43103311bcbc402848da830ba49c4f"
     },
     {
+      "id": "socratic-tutoring-and-scaffolding",
+      "name": "Socratic tutoring and scaffolding",
+      "description": "Guide with questions and partial models without replacing the learner’s thinking or completing graded work.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "socratic-tutoring-and-scaffolding",
+        "education",
+        "pedagogy",
+        "tutoring"
+      ],
+      "path": "skills/socratic-tutoring-and-scaffolding",
+      "checksum": "sha256:0d76fcaf08d54b8fba701269588003c10d8e1e1ca1b8c30d098f75bcce0747fa"
+    },
+    {
       "id": "suggest-knowledge",
       "name": "Suggest Knowledge",
       "description": "Recommend knowledge base articles to resolve issues",
@@ -2580,6 +2707,22 @@
       ],
       "path": "skills/syncolab-living-docs",
       "checksum": "sha256:824ae2d279269ae3999c79e3262789f6fdc166acf3b49bc11f0c5a41beebc657"
+    },
+    {
+      "id": "ta-role-and-professional-boundaries",
+      "name": "TA role and professional boundaries",
+      "description": "Clarify TA duties, FERPA-style privacy habits, escalation paths, and respectful student interactions.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "ta-role-and-professional-boundaries",
+        "education",
+        "ta",
+        "ethics",
+        "boundaries"
+      ],
+      "path": "skills/ta-role-and-professional-boundaries",
+      "checksum": "sha256:fb483b953cccc9ae44e7bdcd34e4184327d04b4760b9e856efea71f6095c90c6"
     },
     {
       "id": "tell-data-stories",
@@ -2903,5 +3046,5 @@
       "checksum": "sha256:b162afa9a4eb43230faf0755b8f3e6cce0699b6bddf8442240aa0eba40419ec6"
     }
   ],
-  "integrity": "sha256:1cd772145e8582f677f5d6731ab49367271fbc8fdfc79432b5be7b2bb3bf24f0"
+  "integrity": "sha256:73d72487cc14e90246770abac366bfb9cd9f979e1215960ac682c0bfe4e3ed56"
 }

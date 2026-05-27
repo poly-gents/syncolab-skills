@@ -1,0 +1,23 @@
+name: Exam preparation and retrieval
+version: 1.0.0
+type: methodical
+description:
+  capability: Design practice exams, self-grading rubrics, and confidence calibration without encouraging academic misconduct.
+  trigger_conditions: Use when a university TA or tutoring agent needs exam preparation and retrieval guidance
+  scope_boundaries: Academic playbook skill for education agents; follow syllabus and instructor policy
+  key_domain_words:
+  - education
+  - exams
+  - retrieval
+tags:
+- exam-preparation-and-retrieval
+- education
+- exams
+- retrieval
+relationships:
+  skills:
+  - name: academic-learning-context
+    type: requires
+  - name: academic-integrity-and-ai-use-framing
+    type: requires
+  tool_sets: []

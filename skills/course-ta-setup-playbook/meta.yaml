@@ -1,0 +1,23 @@
+name: Course TA setup playbook
+version: 1.0.0
+type: methodical
+description:
+  capability: Lecturer checklist for connecting integrations, binding Classroom, and hiring course practice TAs
+  trigger_conditions: Use when a lecturer configures Agent Studio for a university course TA program
+  scope_boundaries: Professor setup only; not student-facing tutoring sessions
+  key_domain_words:
+  - lecturer
+  - setup
+  - agent-studio
+  - classroom
+tags:
+- course-ta-setup-playbook
+- education
+- university
+relationships:
+  skills:
+  - name: course-context-from-classroom
+    type: complements
+  - name: syncolab-living-docs
+    type: requires
+  tool_sets: []

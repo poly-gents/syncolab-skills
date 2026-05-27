@@ -1,0 +1,25 @@
+name: Course context from Classroom
+version: 1.0.0
+type: instrumental
+description:
+  capability: Sync Google Classroom course metadata into academic-learning-context and living docs
+  trigger_conditions: Use when binding a course TA to a Classroom course or refreshing syllabus context
+  scope_boundaries: Read-only Classroom workflows; does not replace lecturer-authored SKS content without approval
+  key_domain_words:
+  - classroom
+  - course
+  - syllabus
+  - coursework
+tags:
+- course-context-from-classroom
+- google-classroom
+- education
+relationships:
+  skills:
+  - name: academic-learning-context
+    type: requires
+  - name: google-classroom
+    type: requires
+  tool_sets:
+  - name: google-classroom
+    type: requires

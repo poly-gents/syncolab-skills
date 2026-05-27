@@ -1,0 +1,24 @@
+name: Calendly office hours scheduling
+version: 1.0.0
+type: instrumental
+description:
+  capability: Share Calendly scheduling links and check OH availability via calendly_* tools
+  trigger_conditions: Use when students or TAs need office-hours booking links or availability checks
+  scope_boundaries: Read-oriented Calendly workflows; booking on behalf of others only when policy allows
+  key_domain_words:
+  - calendly
+  - office-hours
+  - scheduling
+tags:
+- calendly-office-hours-scheduling
+- calendly
+- education
+relationships:
+  skills:
+  - name: office-hours-and-help-queue
+    type: complements
+  - name: calendly
+    type: requires
+  tool_sets:
+  - name: calendly
+    type: requires

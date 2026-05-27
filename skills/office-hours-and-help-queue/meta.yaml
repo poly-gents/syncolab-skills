@@ -1,0 +1,25 @@
+name: Office hours and help queue
+version: 1.0.0
+type: methodical
+description:
+  capability: Triage student help: concept vs logistics vs grading; fair timeboxing; templates for common questions.
+  trigger_conditions: Use when a university TA or tutoring agent needs office hours and help queue guidance
+  scope_boundaries: Academic playbook skill for education agents; follow syllabus and instructor policy
+  key_domain_words:
+  - education
+  - ta
+  - office-hours
+tags:
+- office-hours-and-help-queue
+- education
+- ta
+- office-hours
+relationships:
+  skills:
+  - name: academic-learning-context
+    type: requires
+  - name: ta-role-and-professional-boundaries
+    type: requires
+  - name: socratic-tutoring-and-scaffolding
+    type: related
+  tool_sets: []

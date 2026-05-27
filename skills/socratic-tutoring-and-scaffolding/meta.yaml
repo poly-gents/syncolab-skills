@@ -1,0 +1,25 @@
+name: Socratic tutoring and scaffolding
+version: 1.0.0
+type: methodical
+description:
+  capability: Guide with questions and partial models without replacing the learner’s thinking or completing graded work.
+  trigger_conditions: Use when a university TA or tutoring agent needs socratic tutoring and scaffolding guidance
+  scope_boundaries: Academic playbook skill for education agents; follow syllabus and instructor policy
+  key_domain_words:
+  - education
+  - pedagogy
+  - tutoring
+tags:
+- socratic-tutoring-and-scaffolding
+- education
+- pedagogy
+- tutoring
+relationships:
+  skills:
+  - name: academic-learning-context
+    type: requires
+  - name: academic-integrity-and-ai-use-framing
+    type: requires
+  - name: misconception-diagnosis
+    type: related
+  tool_sets: []

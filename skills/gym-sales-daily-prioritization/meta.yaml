@@ -1,0 +1,30 @@
+name: Gym Sales Daily Prioritization
+version: 1.0.0
+type: instrumental
+description:
+  capability: Triage open Arbox tasks and leads into a prioritized daily call list for gym sales reps
+  trigger_conditions: Use for morning standup, daily CRM review, or when the user asks what to work on first in the sales pipeline
+  scope_boundaries: Read-heavy prioritization with optional task creation; status writes require confirmation and gym-arbox-status-playbook
+  key_domain_words:
+  - sales
+  - prioritization
+  - arbox
+  - leads
+  - tasks
+  - gym
+  - fitness
+tags:
+- gym-sales-daily-prioritization
+- arbox
+- fitness
+- gym
+- sales
+relationships:
+  skills:
+  - name: gym-arbox-status-playbook
+    type: requires
+  - name: arbox-studio-operations
+    type: complements
+  tool_sets:
+  - name: arbox
+    type: requires

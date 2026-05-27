@@ -1,7 +1,7 @@
 {
   "name": "syncolab-skills",
   "version": "0.2.0",
-  "generatedAt": "2026-05-26T15:14:11.467Z",
+  "generatedAt": "2026-05-27T08:37:32.110Z",
   "repository": "https://github.com/poly-gents/syncolab-skills",
   "skills": [
     {
@@ -993,6 +993,88 @@
       ],
       "path": "skills/grafana",
       "checksum": "sha256:7571ef184988f61d3033421464cddc7ebe3dc47df8395993b73152c957aee61f"
+    },
+    {
+      "id": "gym-arbox-status-playbook",
+      "name": "Gym Arbox Status Playbook",
+      "description": "Map live Arbox status_id values to gym CRM categories and apply safe lead status transitions",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "gym-arbox-status-playbook",
+        "arbox",
+        "fitness",
+        "gym",
+        "crm"
+      ],
+      "path": "skills/gym-arbox-status-playbook",
+      "checksum": "sha256:2d5283a72ced7a24824b21416a66889f65c57588f90cbafcfde55ab30c632dd1"
+    },
+    {
+      "id": "gym-lead-ingestion-exceptions",
+      "name": "Gym Lead Ingestion Exceptions",
+      "description": "Resolve duplicate or missing marketing leads when automatic Arbox ingestion fails",
+      "version": "1.0.0",
+      "type": "instrumental",
+      "tags": [
+        "gym-lead-ingestion-exceptions",
+        "arbox",
+        "fitness",
+        "gym",
+        "leads"
+      ],
+      "path": "skills/gym-lead-ingestion-exceptions",
+      "checksum": "sha256:7a82d60e4bd0c17d55643909ec3a615fa4492a298c456a79e6009ce083237452"
+    },
+    {
+      "id": "gym-member-onboarding-flow",
+      "name": "Gym Member Onboarding Flow",
+      "description": "Run trial booking, body metrics logging, and closing-meeting coordination for new gym members in Arbox",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "gym-member-onboarding-flow",
+        "arbox",
+        "fitness",
+        "gym",
+        "onboarding"
+      ],
+      "path": "skills/gym-member-onboarding-flow",
+      "checksum": "sha256:400554acfd3f5fc9f9d67ccbbe7ef289bf904f8881a42d91a5477a14af3038ca"
+    },
+    {
+      "id": "gym-nutrition-menu-delivery",
+      "name": "Gym Nutrition Menu Delivery",
+      "description": "Deliver personalized nutrition menus from a Sheets template into per-client Google Drive folders using Arbox client metrics",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "gym-nutrition-menu-delivery",
+        "arbox",
+        "fitness",
+        "gym",
+        "nutrition",
+        "google-drive",
+        "google-sheets"
+      ],
+      "path": "skills/gym-nutrition-menu-delivery",
+      "checksum": "sha256:df5251f84b7967df6b02cf3a7762b67a21dbdb47be1beeb8137348f8f30e88da"
+    },
+    {
+      "id": "gym-sales-daily-prioritization",
+      "name": "Gym Sales Daily Prioritization",
+      "description": "Triage open Arbox tasks and leads into a prioritized daily call list for gym sales reps",
+      "version": "1.0.0",
+      "type": "instrumental",
+      "tags": [
+        "gym-sales-daily-prioritization",
+        "arbox",
+        "fitness",
+        "gym",
+        "sales"
+      ],
+      "path": "skills/gym-sales-daily-prioritization",
+      "checksum": "sha256:406aa91864a0831ed5a3d91dd5bcfcd41e5b8f5153330b990dd08b8adb3d0cb4"
     },
     {
       "id": "hold-conversations",
@@ -2739,5 +2821,5 @@
       "checksum": "sha256:b162afa9a4eb43230faf0755b8f3e6cce0699b6bddf8442240aa0eba40419ec6"
     }
   ],
-  "integrity": "sha256:4f63d987826c1828f0ff059b5b61bc1e951d75dc2abe7a82c83cbef7f0e50aa0"
+  "integrity": "sha256:8a990a4ab5a75b2ae5e86bcbb4a51166d2ba9b25902ffbd735573530cfc41ac8"
 }

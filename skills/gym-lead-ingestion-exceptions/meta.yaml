@@ -1,0 +1,28 @@
+name: Gym Lead Ingestion Exceptions
+version: 1.0.0
+type: instrumental
+description:
+  capability: Resolve duplicate or missing marketing leads when automatic Arbox ingestion fails
+  trigger_conditions: Use when a campaign lead is missing, duplicated, or has the wrong initial status after form submit
+  scope_boundaries: Exception handling only; assumes campaigns normally auto-ingest into Arbox
+  key_domain_words:
+  - leads
+  - ingestion
+  - arbox
+  - dedupe
+  - gym
+  - fitness
+  - marketing
+tags:
+- gym-lead-ingestion-exceptions
+- arbox
+- fitness
+- gym
+- leads
+relationships:
+  skills:
+  - name: gym-arbox-status-playbook
+    type: requires
+  tool_sets:
+  - name: arbox
+    type: requires

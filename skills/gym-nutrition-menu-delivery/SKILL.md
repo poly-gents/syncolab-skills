@@ -27,7 +27,7 @@ Execute **stage-4 nutrition delivery**: after a nutrition consultation, populate
 
 ## Preconditions
 
-1. Read client context: **`arbox_public_get`** → profile, notes, latest weight/body fat.
+1. Read client context: **`arbox_public_get`** → profile and notes (metrics from notes until scale/PATCH mapping exists in SKS).
 2. Confirm nutrition meeting completed and goals with the owner.
 3. Load tenant conventions from SKS (parent folder, template ID, cell map).
 
@@ -40,8 +40,8 @@ Execute **stage-4 nutrition delivery**: after a nutrition consultation, populate
 ## Menu template (Sheets)
 
 1. Master template spreadsheet ID lives in SKS / living doc.
-2. **`sheets_create_spreadsheet`** or duplicate master manually until **`drive_copy_file`** exists.
-3. Populate documented cells: client name, date, weight (kg), body fat (%), weekly meal blocks.
+2. **`drive_copy_file`** from the master template spreadsheet ID in SKS (preferred over blank **`sheets_create_spreadsheet`**).
+3. Populate documented cells: client name, date, weekly meal blocks. **Defer weight/body-fat cells** until the scale integration and SKS cell map are confirmed.
 4. Place file in client folder; optional owner summary via **`docs_*`**.
 
 ## Delivery checklist

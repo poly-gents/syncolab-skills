@@ -40,7 +40,8 @@ Produce a **ranked daily work list** for gym sales staff from live Arbox tasks a
    5. Catch-all / “other” only when explicitly assigned
 
 6. Output numbered list; draft one-line opener in the owner's preferred language.
-7. Create follow-up tasks via Arbox task APIs when confirmed.
+7. **WhatsApp follow-ups**: draft message text for the rep. Sending uses the agent's **WhatsApp channel** (Workforce → wacli session) — there is no `whatsapp_*` agent MCP tool, same as Telegram.
+8. Create follow-up tasks via Arbox task APIs when confirmed.
 
 ## Tool Availability Rules
 

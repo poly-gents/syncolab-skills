@@ -38,7 +38,8 @@ Bootstrap and apply **Arbox lead status semantics** for any gym studio on the pl
 2. Call **`arbox_public_get`** with path **`v3/statuses`** (short name `statuses` works).
 3. Build a table: **label → `status_id` → meaning → typical next step**. Never guess IDs.
 4. For updates, use **`POST /v3/leads/updateStatus`** via **`arbox_public_post`**: `{ "user_id": <number>, "status_id": <number>, "comment": "..." }`.
-5. Confirm `user_id` and target status with the human; add a short comment explaining the change.
+5. For field-level user updates when the tenant maps them, use **`arbox_public_patch`** on documented paths (confirm payload with the human first).
+6. Confirm `user_id` and target status with the human; add a short comment explaining the change.
 
 ## Example category semantics (Israeli studios — adapt per tenant)
 
@@ -71,4 +72,4 @@ Bootstrap and apply **Arbox lead status semantics** for any gym studio on the pl
 ## References
 
 - Arbox OpenAPI: `https://arboxserver.arboxapp.com/docs/api.json`
-- Platform tools: **`arbox_public_get`**, **`arbox_public_post`**
+- Platform tools: **`arbox_public_get`**, **`arbox_public_post`**, **`arbox_public_patch`**

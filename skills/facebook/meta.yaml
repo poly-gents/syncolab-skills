@@ -1,0 +1,21 @@
+name: Facebook
+version: 1.0.0
+type: instrumental
+description:
+  capability: Manage Facebook Pages, posts, insights, and ad account reads via Graph API.
+  trigger_conditions: Use for Facebook page publishing, feed reads, page insights, and ad performance.
+  scope_boundaries: Connected user and managed Pages only; Instagram ads report via Facebook ad accounts.
+  key_domain_words:
+  - facebook
+  - meta
+  - page
+  - ads
+tags:
+- facebook
+- meta
+- social
+relationships:
+  skills: []
+  tool_sets:
+  - name: facebook
+    type: can-have

@@ -1,0 +1,20 @@
+name: LinkedIn
+version: 1.0.0
+type: instrumental
+description:
+  capability: Manage LinkedIn member and organization posts, ads, and lead forms via Marketing API.
+  trigger_conditions: Use for LinkedIn social publishing, page analytics, ad account reads, and lead sync.
+  scope_boundaries: Connected member and admin org pages only; no arbitrary member lookup or Sales Navigator search.
+  key_domain_words:
+  - linkedin
+  - social
+  - ads
+  - leads
+tags:
+- linkedin
+- social
+relationships:
+  skills: []
+  tool_sets:
+  - name: linkedin
+    type: can-have

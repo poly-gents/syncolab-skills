@@ -1,7 +1,7 @@
 {
   "name": "syncolab-skills",
   "version": "0.2.0",
-  "generatedAt": "2026-06-06T10:59:07.584Z",
+  "generatedAt": "2026-06-07T13:42:36.738Z",
   "repository": "https://github.com/poly-gents/syncolab-skills",
   "skills": [
     {
@@ -695,6 +695,16 @@
       "checksum": "sha256:805863426fc34cb6347e8c5749e6fa0e56a99c566f6b1551be41a2fb94395d62"
     },
     {
+      "id": "facebook",
+      "name": "facebook",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
+      "path": "skills/facebook",
+      "checksum": "sha256:9d29db13f4271abeaf0cb6844627fad6eedaea83434342fa8ad071f89a1482cf"
+    },
+    {
       "id": "facilitate-ceremonies",
       "name": "facilitate-ceremonies",
       "description": "",
@@ -925,6 +935,16 @@
       "checksum": "sha256:f2d8247e0172db6fbdbb5263ea7875ef066e4db658638548c8e0fd410b9c57b9"
     },
     {
+      "id": "hubspot",
+      "name": "hubspot",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
+      "path": "skills/hubspot",
+      "checksum": "sha256:012e2a06924e1d28bf4cde24471c3aa5cfd7b6d870c9e50a1665376b24534153"
+    },
+    {
       "id": "implement-features",
       "name": "implement-features",
       "description": "",
@@ -943,6 +963,16 @@
       "tags": [],
       "path": "skills/inclusive-teaching-basics",
       "checksum": "sha256:5dae95eccacf3d66eab026add67818ebaf7ae61461b44f82613aeae8e24c5641"
+    },
+    {
+      "id": "instagram",
+      "name": "instagram",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
+      "path": "skills/instagram",
+      "checksum": "sha256:87238318a4fd296d619b2b239bbba9078e1c0ff4229d5d35df3aa59f77403429"
     },
     {
       "id": "jira",
@@ -1003,6 +1033,16 @@
       "tags": [],
       "path": "skills/linear",
       "checksum": "sha256:32a25342900864929c78b5b53a9d915c0c77c33b3ae9325ea9ed09c7ceafcb74"
+    },
+    {
+      "id": "linkedin",
+      "name": "linkedin",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
+      "path": "skills/linkedin",
+      "checksum": "sha256:92a3d29f3c842f48145247e4cfef927b9b2afb28f4da5c240864e85a01629afe"
     },
     {
       "id": "lint-and-validate",
@@ -1185,6 +1225,16 @@
       "checksum": "sha256:d85aa183250c2ee19255217c0590b0d2f268deb15e270346b8dbf314d1381f65"
     },
     {
+      "id": "onedrive",
+      "name": "onedrive",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
+      "path": "skills/onedrive",
+      "checksum": "sha256:154d8f5f5a89859ccd62f2fcaa638da24dde66f0d119cefa40ff9a9b34c928ac"
+    },
+    {
       "id": "openant",
       "name": "openant",
       "description": "",
@@ -1253,6 +1303,16 @@
       "tags": [],
       "path": "skills/organize-drive",
       "checksum": "sha256:61e40e630e10e38d62cb62471280ae9fb52bb3b1ad52202d6d00b93177514ec9"
+    },
+    {
+      "id": "outlook",
+      "name": "outlook",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
+      "path": "skills/outlook",
+      "checksum": "sha256:3947482b8bf3ed8dfb333b063748ae503f1a50271fe0456135ba02b7bbe0a722"
     },
     {
       "id": "plan-migrations",
@@ -1595,6 +1655,26 @@
       "checksum": "sha256:c8db365d12231705a9a01defd1c54710675bb8d401947d15813f9eb474fc4808"
     },
     {
+      "id": "sales-enablement",
+      "name": "sales-enablement",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
+      "path": "skills/sales-enablement",
+      "checksum": "sha256:9e742cde38831021900ce11f122a9cb550a0b75270a5f17b2c6acfd3c912f447"
+    },
+    {
+      "id": "salesforce",
+      "name": "salesforce",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
+      "path": "skills/salesforce",
+      "checksum": "sha256:08165a623262c51e7dad887d578d11abaf67599dac34e41cbb76bf2f397c200a"
+    },
+    {
       "id": "schedule-content",
       "name": "schedule-content",
       "description": "",
@@ -1865,6 +1945,16 @@
       "checksum": "sha256:9592ac59524356b03b0016ef0387d5e041ad2ea59e853c032ac1ae22c0c8afda"
     },
     {
+      "id": "sharepoint",
+      "name": "sharepoint",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
+      "path": "skills/sharepoint",
+      "checksum": "sha256:8090e57e2baea54018fd2cde841c05f784e1af93930d559cfbefcf88624e843c"
+    },
+    {
       "id": "skill-catalog-vetting",
       "name": "skill-catalog-vetting",
       "description": "",
@@ -1993,6 +2083,16 @@
       "tags": [],
       "path": "skills/ta-role-and-professional-boundaries",
       "checksum": "sha256:c069c6b980f91ae64be24604af7bf227b5247f8ae1360328b28bbd0a21846839"
+    },
+    {
+      "id": "teams",
+      "name": "teams",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
+      "path": "skills/teams",
+      "checksum": "sha256:1a4f39770d82bbd5a3527507de51e0b50a9658c1b1d5c124c411fed16e33990f"
     },
     {
       "id": "tell-data-stories",
@@ -2223,7 +2323,17 @@
       "tags": [],
       "path": "skills/zapier",
       "checksum": "sha256:99bc5937b223765709d1cf0acd4ddc210dcbd0053feae70d812fd6f53e8de52a"
+    },
+    {
+      "id": "zendesk",
+      "name": "zendesk",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
+      "path": "skills/zendesk",
+      "checksum": "sha256:30434efd75ab8fa46f06a2ef12d533b66b76f25c670804e474973f2e9e7c9467"
     }
   ],
-  "integrity": "sha256:5140d1402badbf78766f1262bbf7c40659b90de6eb2f53992ed4d3ad1a16a758"
+  "integrity": "sha256:967390bdd89b58f1e3f3680ea51c2e198dce6b60667ef974299f4da5ed08cc0a"
 }

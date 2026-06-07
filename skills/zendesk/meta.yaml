@@ -1,0 +1,19 @@
+name: Zendesk
+version: 1.0.0
+type: instrumental
+description:
+  capability: List, search, create, and update Zendesk support tickets via REST API v2.
+  trigger_conditions: Use for support ticket triage, updates, and public or internal comments.
+  scope_boundaries: Zendesk Support tickets only; requires configured subdomain.
+  key_domain_words:
+  - zendesk
+  - support
+  - tickets
+tags:
+- zendesk
+- support
+relationships:
+  skills: []
+  tool_sets:
+  - name: zendesk
+    type: can-have

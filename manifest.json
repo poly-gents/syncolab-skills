@@ -1,179 +1,128 @@
 {
   "name": "syncolab-skills",
   "version": "0.2.0",
-  "generatedAt": "2026-05-27T12:58:16.259Z",
+  "generatedAt": "2026-06-06T10:59:07.584Z",
   "repository": "https://github.com/poly-gents/syncolab-skills",
   "skills": [
     {
       "id": "ab-experimentation",
-      "name": "A-B experimentation",
-      "description": "Plans and interprets A/B tests with clear hypotheses, primary metrics, guardrails, and statistical conclusions. Use when designing, analyzing, or stopping controlled experiments.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "ab-experimentation",
-        "google-sheets",
-        "jira"
-      ],
+      "name": "ab-experimentation",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/ab-experimentation",
-      "checksum": "sha256:d43f6310c5e416859e2e7ebdde4c16f569af2a32206b22bb677ee8af7343f5de"
+      "checksum": "sha256:87f3eb18a9952cb724b7412758da84c022a08d2ad7c0aab5d6dde1b3bef92a92"
     },
     {
       "id": "academic-integrity-and-ai-use-framing",
-      "name": "Academic integrity and AI use framing",
-      "description": "Help learners and TAs navigate collaboration rules, citation, and AI policies without overriding the instructor.",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "academic-integrity-and-ai-use-framing",
-        "education",
-        "integrity",
-        "ai-policy"
-      ],
+      "name": "academic-integrity-and-ai-use-framing",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/academic-integrity-and-ai-use-framing",
-      "checksum": "sha256:edc0a57d9ad0016145d101fb66154d137d213e48c2184eb20f4c3ba6eae0bd35"
+      "checksum": "sha256:17327defb32b142cbe60cafb0dbace3cda128664fa40843934d42cd28ca43b10"
     },
     {
       "id": "academic-learning-context",
-      "name": "Academic learning context",
-      "description": "Maintain a single living document for courses, goals, constraints, and accessibility so every tutoring and TA skill stays aligned.",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "academic-learning-context",
-        "education",
-        "foundation",
-        "planning"
-      ],
+      "name": "academic-learning-context",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/academic-learning-context",
-      "checksum": "sha256:1ada904fdee7503b9eb97827a90aba1a406b6523885fc15094fa1adedb68e9f0"
+      "checksum": "sha256:c73d4768aaa246b6c052ad8933390eeeaf5f0892234f210ffc9ffd0fc1b209ed"
     },
     {
       "id": "add-observability",
-      "name": "Add Observability",
-      "description": "Add logging, metrics, and monitoring dashboards",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "add-observability",
-        "grafana"
-      ],
+      "name": "add-observability",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/add-observability",
-      "checksum": "sha256:91a6d1160d9fde1e23a2e805b3c895442657fe24553a706d3c91998914026292"
+      "checksum": "sha256:9f622e1c17fd1a077280b20047d95d4e1fd51684ce21a46fdb9dd100ef617d97"
     },
     {
       "id": "add-tests",
-      "name": "Add Tests",
-      "description": "Design, implement, and maintain automated unit and integration tests that validate system behavior, prevent regressions, and ensure long-term reliability of the codebase.",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "add-tests",
-        "cypress",
-        "playwright",
-        "selenium"
-      ],
+      "name": "add-tests",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/add-tests",
-      "checksum": "sha256:af6535ba08285bb836882ea81ead28bda24f916da405ba19ddab35746ef0dbae"
+      "checksum": "sha256:b8de346e93ea217cc50c2937349da370c8364cfd92c792fd287a3ab5f9e15bc5"
     },
     {
       "id": "address-github-comments",
-      "name": "Address GitHub Comments",
-      "description": "Respond to and resolve PR review comments",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "address-github-comments",
-        "github"
-      ],
+      "name": "address-github-comments",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/address-github-comments",
-      "checksum": "sha256:11a811496164924740f3c28f1cbe83906339d0389dab7ae72db9063f3eed10fd"
+      "checksum": "sha256:d898fb09e9fd9478372171997f495b30bf57cde0dc9dd6179f542d24dd853c10"
     },
     {
       "id": "analyze-complex-datasets",
-      "name": "Analyze Complex Datasets",
-      "description": "Perform deep analysis on large and complex datasets",
-      "version": "1.0.0",
-      "type": "analytical",
-      "tags": [
-        "analyze-complex-datasets",
-        "tableau",
-        "google-sheets"
-      ],
+      "name": "analyze-complex-datasets",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/analyze-complex-datasets",
-      "checksum": "sha256:e19fe80dccacb848d549780cbf9502e778e9032747b1f36f602bd1bb565fef67"
+      "checksum": "sha256:b2c8e5561afc7e0ab45222101781b5a1351fc7917a2158f5598c37cea5235bb7"
     },
     {
       "id": "analyze-engagement",
-      "name": "Analyze Engagement",
-      "description": "Monitor and analyze social media engagement metrics",
-      "version": "1.0.0",
-      "type": "analytical",
-      "tags": [
-        "analyze-engagement",
-        "ga4",
-        "twitter-api",
-        "instagram-api"
-      ],
+      "name": "analyze-engagement",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/analyze-engagement",
-      "checksum": "sha256:6b8fc06f4cba4b7277059b900c95ce46a15a508faa4db4f48c5a250018ded004"
+      "checksum": "sha256:5216a203e7273dc3813f7c82d3a7fcdbd109b82304ee5f7d0754385f94579b99"
     },
     {
       "id": "analyze-prs",
-      "name": "Analyze PRs",
-      "description": "Summarize diffs and review pull requests for quality",
-      "version": "1.0.0",
-      "type": "analytical",
-      "tags": [
-        "analyze-prs",
-        "github"
-      ],
+      "name": "analyze-prs",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/analyze-prs",
-      "checksum": "sha256:c7793d078d918f8fe44735c75e20073394cdfa93e8b2eb17815f66263b8b4f14"
+      "checksum": "sha256:0b9ff05a2ad4878b3040ef6d35e0f61f7789e7c985884784e04e8ed6069b769f"
     },
     {
       "id": "annotate-specs",
-      "name": "Annotate Specs",
-      "description": "Add implementation notes and measurements to design specs",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "annotate-specs",
-        "figma",
-        "notion"
-      ],
+      "name": "annotate-specs",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/annotate-specs",
-      "checksum": "sha256:b484d77b108600785a0fcf84231ce71490b5131d31be6b0e195feda7811e3a34"
+      "checksum": "sha256:a2f6ae16ee1ab12f08188046a951dd6aff00293e8283241054155b030c36642c"
     },
     {
       "id": "api-design-principles",
-      "name": "API Design Principles",
-      "description": "Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers. Use when designing new APIs, reviewing API specifications, or establishing API design standards.",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "api-design-principles",
-        "postman",
-        "openai"
-      ],
+      "name": "api-design-principles",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/api-design-principles",
-      "checksum": "sha256:0c1fdb919776e63a8b7f6d83c7510d73ad98c1e0d810e99edb3e59d60fcf4f22"
+      "checksum": "sha256:118f36a40263884efe6f7e9cc4507801c4650b3a7b3fac24e3f845f4c50b81d0"
     },
     {
       "id": "arbox",
-      "name": "Arbox",
-      "description": "Arbox public API for gym scheduling, members, and leads",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "arbox",
-        "arbox",
-        "fitness",
-        "gym",
-        "scheduling"
-      ],
+      "name": "arbox",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/arbox",
-      "checksum": "sha256:c6054b80e8d23ca6471643ca0dd50167e8dee57475b35e55f00fa320cff19107"
+      "checksum": "sha256:a6057a331c8de1b194cf8fadfd4e46b88bb346d76fd6f368116e48650f6ea5de"
     },
     {
       "id": "arbox-studio-operations",
@@ -187,116 +136,88 @@
     },
     {
       "id": "architecture",
-      "name": "Architecture",
-      "description": "Architectural decision-making framework. Requirements analysis, trade-off evaluation, ADR documentation. Use when making architecture decisions or analyzing system design.",
-      "version": "1.0.0",
-      "type": "planning",
-      "tags": [
-        "architecture",
-        "openai"
-      ],
+      "name": "architecture",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/architecture",
-      "checksum": "sha256:edbfa75d2c3b2d68a3484623caedf84b71117cb50a02bc4f8b1bb4ba1d45c796"
+      "checksum": "sha256:254b25c09437d47766304d75f33a0c977905af1ad7c999bcc7a3ef31bf95ad11"
     },
     {
       "id": "archon",
-      "name": "Archon",
-      "description": "Lists, creates, and updates Archon tasks with statuses todo, doing, review, and done via archon_* tools. Use for Archon workboards and optional alignment with Jira.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "archon",
-        "task-manager"
-      ],
+      "name": "archon",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/archon",
-      "checksum": "sha256:bc5a6cd0e5f21f94ec7e024460ebe44b0758db3d9d918ff3e26cfdba716d11b1"
+      "checksum": "sha256:8d19d7040957b4ad0fa3df01eea87be342e9981591cf0d6f7aa98e0875c87bfa"
     },
     {
       "id": "audit-content",
-      "name": "Audit Content",
-      "description": "Review content performance and suggest improvements",
-      "version": "1.0.0",
-      "type": "analytical",
-      "tags": [
-        "audit-content",
-        "ga4",
-        "google-docs"
-      ],
+      "name": "audit-content",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/audit-content",
-      "checksum": "sha256:eda861b68abab04c10f64b6f8d4cf0920ec04541558ec71643150aaa3e0d38f4"
+      "checksum": "sha256:5f930121996f58f5e6f2cecd62b933ca811ed5d45aab1bb7fc1bdde68570e5d7"
     },
     {
       "id": "audit-controls",
-      "name": "Audit Controls",
-      "description": "Review security controls against compliance frameworks",
-      "version": "1.0.0",
-      "type": "analytical",
-      "tags": [
-        "audit-controls",
-        "compliance-apis",
-        "security-scanner"
-      ],
+      "name": "audit-controls",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/audit-controls",
-      "checksum": "sha256:c6f4f65d1bd774ee219d6437aa4bb32e473c537b1efbc41e19850c172e21dea8"
+      "checksum": "sha256:4f21ebfbb791d078739a8a965507b9acaa61cf1b25b47071669169e859ca50ff"
     },
     {
       "id": "author-iac",
-      "name": "Author IaC",
-      "description": "Write infrastructure-as-code modules and templates",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "author-iac",
-        "kubernetes",
-        "docker"
-      ],
+      "name": "author-iac",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/author-iac",
-      "checksum": "sha256:546ba6a18cc56ae1e7284a4ea81a1841fe82b589ea50e84bd021413eaccc1983"
+      "checksum": "sha256:482d91f914eee584534282ca66bcea2223b13c39f59c4d33a5e431cc8a579e11"
     },
     {
       "id": "author-test-cases",
-      "name": "Author Test Cases",
-      "description": "Design test plans and write test case specifications",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "author-test-cases",
-        "testrail",
-        "jira"
-      ],
+      "name": "author-test-cases",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/author-test-cases",
-      "checksum": "sha256:858df35faaf5fe80e9ca0851dbe9ba0a98a2ee93f85e069b877868d914b8ea3c"
+      "checksum": "sha256:7b3a04f3f1f0e3eb3d6f29d0c287d28a24d5c7433e8180ace5c72b50d1e0c6f1"
     },
     {
       "id": "auto-assign-tasks",
-      "name": "Auto Assign tasks across agents",
-      "description": "Pick the right digital employee for a task and assign it to them via the planning tools. Especially relevant to SCRUM Masters, Product, and Engineering leadership roles.",
-      "version": "1.0.0",
-      "type": "procedural",
-      "tags": [
-        "auto-assign-tasks"
-      ],
+      "name": "auto-assign-tasks",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/auto-assign-tasks",
-      "checksum": "sha256:399e9032daa43b3a4c8edb8c381b1a6f551eb03107d1b118e0f6aa20bd5e0b12"
+      "checksum": "sha256:9c343db82718baa3d8646d374ebbabf5cb2db1fe35eef22990e0485ebb3f648e"
     },
     {
       "id": "auto-code-reviewer",
-      "name": "Auto Code Reviewer",
-      "description": "Review pull requests or pipeline changes using the initiative's configured reviewer mode.",
-      "version": "1.0.0",
-      "type": "procedural",
-      "tags": [
-        "auto-code-reviewer",
-        "github",
-        "review"
-      ],
+      "name": "auto-code-reviewer",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/auto-code-reviewer",
-      "checksum": "sha256:e1fdbbad35cf228706b6ee009c810f330007e54d6bddf30de9897529470a47b4"
+      "checksum": "sha256:cffd8729c70d566e65325e20b059b221f8051d6c764f985b34c6bcc86cef24a0"
     },
     {
       "id": "auto-issue-triage",
       "name": "auto-issue-triage",
-      "description": "Drain Dependabot / GitHub / agent_report items from the initiative's planning queue: list, claim, fix, release.",
+      "description": "",
       "version": "0.2.0",
       "type": null,
       "tags": [],
@@ -305,466 +226,333 @@
     },
     {
       "id": "automate-runbooks",
-      "name": "Automate Runbooks",
-      "description": "Convert manual runbooks into automated remediation",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "automate-runbooks",
-        "custom-apis",
-        "grafana"
-      ],
+      "name": "automate-runbooks",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/automate-runbooks",
-      "checksum": "sha256:775cd04d6d636a885e887c3a060a772ef567a1dffb135c5cf6760e123453f4a2"
+      "checksum": "sha256:caf2eda12ae1d1aa6b04c768e2fd8382584884daa1e5869d21461b038c11061f"
     },
     {
       "id": "aws-serverless",
-      "name": "AWS Serverless",
-      "description": "Specialized skill for building production-ready serverless applications on AWS. Covers Lambda functions, API Gateway, DynamoDB, SQS/SNS event-driven patterns, SAM/CDK deployment, and cold start optimization.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "aws-serverless",
-        "custom-apis"
-      ],
+      "name": "aws-serverless",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/aws-serverless",
-      "checksum": "sha256:b4912e718304cd10c15a1bd9be0b68f33d9387d2421c215ca6af833a6e7905ff"
+      "checksum": "sha256:662725352c0072862689315e741e6a73b16644c6537975d50a648681a5022b2a"
     },
     {
       "id": "book-meetings",
-      "name": "Book Meetings",
-      "description": "Schedule qualified meetings from outbound pipeline",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "book-meetings",
-        "calendar",
-        "meeting-scheduler"
-      ],
+      "name": "book-meetings",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/book-meetings",
-      "checksum": "sha256:0fdb4f74684fcd1bf6ca20ac9d3c48e062c2dcd23a330f918201a05a66ac01ce"
+      "checksum": "sha256:374b9b5656ba4f473761ea1b3c1beee6ddf0b6a7a64fd6a039d0d4ed62f55644"
     },
     {
       "id": "brainstorming",
-      "name": "Brainstorming",
-      "description": "Use this skill before any creative or constructive work (features, components, architecture, behavior changes, or functionality). This skill transforms vague ideas into validated designs through disciplined, incremental reasoning and collaboration.",
-      "version": "1.0.0",
-      "type": "planning",
-      "tags": [
-        "brainstorming",
-        "ai-brainstorm",
-        "openai"
-      ],
+      "name": "brainstorming",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/brainstorming",
-      "checksum": "sha256:3822a9f5b60dd256c543a117677de32e704cfc92b5c0097356b523bbfc9e5222"
+      "checksum": "sha256:da99be7cc59f926ddfc01bb1673bac0eb0258e030a9b4a8215d4339ac45f7d8a"
     },
     {
       "id": "browserbase",
-      "name": "Browserbase",
-      "description": "Automates browser sessions via Browserbase MCP—navigate URLs, wait for load, interact with selectors, and capture page state. Use for dynamic web pages, scraping, and scripted browser actions.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "browserbase"
-      ],
+      "name": "browserbase",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/browserbase",
-      "checksum": "sha256:fc0eafbc71cc336d341a4b4d8e371e4161b0b13f16a971fd684c759f381624b9"
+      "checksum": "sha256:2b1fd35b8646dbfb9afe81cd50d2d8d6b1d7f02f6c6489ec7724035641651f43"
     },
     {
       "id": "build-components",
-      "name": "Build Components",
-      "description": "Implement reusable UI components with proper testing",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "build-components",
-        "react",
-        "storybook",
-        "typescript",
-        "vscode"
-      ],
+      "name": "build-components",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/build-components",
-      "checksum": "sha256:8da0216fab3051a5beb672d3b8dc1a6b71e04687c4bf655d82262b32c3e49629"
+      "checksum": "sha256:e0a72169714ccba92bd6e6709e07aada0eb41adfbac2347e9dc6c25ef76a6d60"
     },
     {
       "id": "build-dashboards",
-      "name": "Build Dashboards",
-      "description": "Create dashboards to track KPIs and insights",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "build-dashboards",
-        "tableau",
-        "google-sheets"
-      ],
+      "name": "build-dashboards",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/build-dashboards",
-      "checksum": "sha256:de0f0c1a5e5b3a09f5f9ec18c7d35998de83636212371ed76573715ef4ba6c64"
+      "checksum": "sha256:173da8d97224ce9fca563c7bd9b401cff6d92f01b1821c5735b8fbde0cf36869"
     },
     {
       "id": "build-success-plan",
-      "name": "Build Success Plan",
-      "description": "Create onboarding and adoption plans for customer accounts",
-      "version": "1.0.0",
-      "type": "planning",
-      "tags": [
-        "build-success-plan",
-        "google-docs",
-        "crm-api"
-      ],
+      "name": "build-success-plan",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/build-success-plan",
-      "checksum": "sha256:f34eac40cc2b6753c9f1495078d849cb6a9d965f9034416da0909c359e2bd4ff"
+      "checksum": "sha256:650d29c7f882e67a29fe76ffc01d66f681aa8aa187b9ae8a1b1271fd14450344"
     },
     {
       "id": "calendly",
-      "name": "Calendly",
-      "description": "Read Calendly user profile, event types, availability, and scheduled events via calendly_* tools for office-hours scheduling.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "calendly",
-        "scheduling"
-      ],
+      "name": "calendly",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/calendly",
-      "checksum": "sha256:dccc4607e3f8a1c57e1ebcf571cc657270c74db9743a9bb8425788cae46d6fcf"
+      "checksum": "sha256:d0cbd60c8baf3dd0e553fab36d02f19fa8f12b6488ef28ba1f2141e1a78b937b"
     },
     {
       "id": "calendly-office-hours-scheduling",
-      "name": "Calendly office hours scheduling",
-      "description": "Share Calendly scheduling links and check availability for office hours using calendly_* tools — read-only unless policy allows booking on behalf of students.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "calendly-office-hours-scheduling",
-        "calendly",
-        "education"
-      ],
+      "name": "calendly-office-hours-scheduling",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/calendly-office-hours-scheduling",
-      "checksum": "sha256:05915d9eada4ed22ddb7c4cc01afdb48f2c715a76e964ab38ef9162e3b4162c8"
+      "checksum": "sha256:98fa07729475dfa974bade9b636fee0d56594cda645ab513d582bf6b79148e55"
     },
     {
       "id": "chromatic",
-      "name": "Chromatic",
-      "description": "Reviews Chromatic visual tests and Storybook builds for UI regressions. Use when checking build results, accepting or rejecting visual changes, or triaging component snapshot diffs.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "chromatic",
-        "storybook"
-      ],
+      "name": "chromatic",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/chromatic",
-      "checksum": "sha256:8cc9a69f21729d6d00ec3329c3378c22720de0a450acc85e7e29fb220658622c"
+      "checksum": "sha256:2830584f6d5297585d692a61d1142b9f2e305635ddd23587d8b2a1f64bc280ec"
     },
     {
       "id": "class-and-pt-scheduling",
-      "name": "Class & PT scheduling",
-      "description": "Session plans, reminders, and reschedule comms for trainers and studios",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "class-and-pt-scheduling",
-        "scheduling",
-        "calendar",
-        "pt"
-      ],
+      "name": "class-and-pt-scheduling",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/class-and-pt-scheduling",
-      "checksum": "sha256:847a4732afeb3a7c7e108012d7432edfc40c9c3582f4f7a479087cf53da6732b"
+      "checksum": "sha256:6e42a7fae2d5e1fdd67f90ce1aa8de333f3bc61b9b877285824bae7927d1b9d7"
     },
     {
       "id": "close-loop",
-      "name": "Close the Loop",
-      "description": "Follow up with customers after issue resolution",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "close-loop",
-        "zendesk",
-        "email"
-      ],
+      "name": "close-loop",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/close-loop",
-      "checksum": "sha256:528cec34d1613c728afdc43bb55ad81ea0650aca5714568f55d2f85fec7064c7"
+      "checksum": "sha256:98445a51f6c58b81cf7f511c110dd7a01818f8d8a2fe806f1bf96989ad4ae3db"
     },
     {
       "id": "cloudformation-to-pulumi",
-      "name": "CloudFormation to Pulumi",
-      "description": "Migrate AWS CloudFormation stacks/templates to Pulumi.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "cloudformation-to-pulumi",
-        "kubernetes",
-        "docker",
-        "pulumi"
-      ],
+      "name": "cloudformation-to-pulumi",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/cloudformation-to-pulumi",
-      "checksum": "sha256:74b491f9bcb80c546d2d7f8fe28046ae809be7879ec8a35180622278970bae3d"
+      "checksum": "sha256:846083f22a9a01bace3b965e934773694e0e19f8fd3a4df794502b2bdee77568"
     },
     {
       "id": "cloudwatch",
-      "name": "Amazon CloudWatch",
-      "description": "Queries AWS CloudWatch metrics, alarms, logs, and dashboards via connected credentials. Use when investigating AWS alarms, metric graphs, Logs Insights, or CloudWatch dashboards.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "cloudwatch",
-        "custom-apis"
-      ],
+      "name": "cloudwatch",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/cloudwatch",
-      "checksum": "sha256:87ee8b38fff8282cd89dc7a663b4ef5faf8e1106ea3af8e5ff6160b7c504cfb9"
+      "checksum": "sha256:e3e86320c941bf5c8b982f4bc475546bd25862d4884b92c7a3d30d46e19fbad3"
     },
     {
       "id": "coordinate-ebrs",
-      "name": "Coordinate EBRs",
-      "description": "Prepare and coordinate executive business reviews",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "coordinate-ebrs",
-        "google-slides",
-        "google-sheets"
-      ],
+      "name": "coordinate-ebrs",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/coordinate-ebrs",
-      "checksum": "sha256:2645ebb4987dc79eeb5a59e2e877a73771f164ca8ec98e870619b513e62106c3"
+      "checksum": "sha256:fdb13a77ca524f7af619461debf8f170065d89857cb0e2e31ee66f299214067c"
     },
     {
       "id": "coordinate-incidents",
-      "name": "Coordinate Incidents",
-      "description": "Triage and coordinate incident response across teams",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "coordinate-incidents",
-        "pagerduty",
-        "slack"
-      ],
+      "name": "coordinate-incidents",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/coordinate-incidents",
-      "checksum": "sha256:5b34d9ed0fe16f32a2f4d955ab6951b61bfe4d166a404fadecb0f81fe9dc3505"
+      "checksum": "sha256:680695354389dce2c7940e94e7ee1306686ba681f89d9e2f8b851ef941f2f06d"
     },
     {
       "id": "coordinate-meetings",
-      "name": "Coordinate Meetings",
-      "description": "Coordinate meetings across time zones with agendas and context",
-      "version": "1.0.0",
-      "type": "operational",
-      "tags": [
-        "coordinate-meetings",
-        "calendar",
-        "meeting-scheduler",
-        "email"
-      ],
+      "name": "coordinate-meetings",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/coordinate-meetings",
-      "checksum": "sha256:0bd972ed118b5a858f246fe936484800f28d5ca1dc98675b3bc0b0c3e65e15ff"
+      "checksum": "sha256:4781ad5669dae29b215d4f441d67a86b579f9eaca02571db3b54468840f67726"
     },
     {
       "id": "coordinate-releases",
-      "name": "Coordinate Releases",
-      "description": "Plan and execute deployment rollouts",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "coordinate-releases",
-        "github",
-        "kubernetes"
-      ],
+      "name": "coordinate-releases",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/coordinate-releases",
-      "checksum": "sha256:4f74cbd687b8c6a7edb50d56e97bf869c2d8f16cbf0815e004e91b64a44f3a30"
+      "checksum": "sha256:bc26c49a0e5da623763f757b420072a64ff41868c289c4b9b33e86fc08589738"
     },
     {
       "id": "course-context-from-classroom",
-      "name": "Course context from Classroom",
-      "description": "Sync Google Classroom course metadata into academic-learning-context and living docs so course TAs stay syllabus-aware.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "course-context-from-classroom",
-        "google-classroom",
-        "education"
-      ],
+      "name": "course-context-from-classroom",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/course-context-from-classroom",
-      "checksum": "sha256:a126ede5242e4b98a71063d853b25e3f54b84ddcd14b9910213efbce0146c95d"
+      "checksum": "sha256:5051268bd02b27beff25213b180ffbd0688bfd280a34baced4482e434be033ad"
     },
     {
       "id": "course-practice-ta-session-flow",
-      "name": "Course practice TA session flow",
-      "description": "Socratic practice session loop for university course TAs — triage, hint ladder, summarize, and escalate when integrity or safety boundaries apply.",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "course-practice-ta-session-flow",
-        "education",
-        "university"
-      ],
+      "name": "course-practice-ta-session-flow",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/course-practice-ta-session-flow",
-      "checksum": "sha256:bd294082ac3f800796a61f9afff41e525a1e7977bd393ac5c449c751695115dc"
+      "checksum": "sha256:005171a95f2bf224276b858345fd6c1a489c1db84bebcf2dffffc6f464c3f6f1"
     },
     {
       "id": "course-ta-setup-playbook",
-      "name": "Course TA setup playbook",
-      "description": "Lecturer-facing Agent Studio setup — connect integrations, bind Classroom course, seed living docs, and smoke-test a course practice TA in the playground.",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "course-ta-setup-playbook",
-        "education",
-        "university"
-      ],
+      "name": "course-ta-setup-playbook",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/course-ta-setup-playbook",
-      "checksum": "sha256:46f4c46e482bc2bad5abe7db0c0439f6627493df27644888a7acf976e6d1b4a3"
+      "checksum": "sha256:7a3e37b5df0df370deb1f4eb005e97d834adfbb02733b43e7630dc54e475592f"
     },
     {
       "id": "create-skill",
-      "name": "Create Skill",
-      "description": "Authors new Syncolab skills in a cloned skills repository using shell, template, and validation. Use when adding or improving a skill under skills/, writing SKILL.md or meta.yaml, or preparing a skill package before publish.",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "create-skill",
-        "skill-authoring",
-        "syncolab",
-        "meta-yaml",
-        "validation",
-        "scaffold"
-      ],
+      "name": "create-skill",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/create-skill",
-      "checksum": "sha256:212a03996b0d01824594e513b565136c8cf0b61a883d83e83cc5f96e30c66e93"
+      "checksum": "sha256:2954e41230aa5601a4212d01fc4a53ce178355349bda2e5190e653643c3507f6"
     },
     {
       "id": "create-visualizations",
-      "name": "Create Visualizations",
-      "description": "Design clear data visualizations and interactive charts",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "create-visualizations",
-        "tableau",
-        "google-sheets"
-      ],
+      "name": "create-visualizations",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/create-visualizations",
-      "checksum": "sha256:9d337443c3d46f19ade38795ddeeaf8f7e944d33a6be351bb57e07f59c9a9de7"
+      "checksum": "sha256:6f861ba545133a2988976d9a84a98d68659e9d1b308c92c70891a6c7ba413051"
     },
     {
       "id": "create-wireframes",
-      "name": "Create Wireframes",
-      "description": "Draft wireframes and user flow diagrams",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "create-wireframes",
-        "figma",
-        "miro"
-      ],
+      "name": "create-wireframes",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/create-wireframes",
-      "checksum": "sha256:87832252bf78d0850eb96b7c5b5001283a62ccfb56a7398839151745a19d3913"
+      "checksum": "sha256:df88bbd77ec0b6eaaca6ab78468153a3ed91447e2383f0ca012e7b5a2462f228"
     },
     {
       "id": "curate-docs",
-      "name": "Curate Docs",
-      "description": "Organize and maintain a consistent knowledge base",
-      "version": "1.0.0",
-      "type": "operational",
-      "tags": [
-        "curate-docs",
-        "notion",
-        "google-drive",
-        "internal-wiki"
-      ],
+      "name": "curate-docs",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/curate-docs",
-      "checksum": "sha256:2104b1257acab08008ccdb1ac33f658cdf509af6335e43a64f73b59685f0a20e"
+      "checksum": "sha256:1a344271491c65bb3cb39697bde3a99f6aa7029937e435247a0377e5c4dd6992"
     },
     {
       "id": "datadog",
-      "name": "Datadog",
-      "description": "Queries Datadog monitors, metrics, logs, and dashboards via connected integration. Use when investigating alerts, APM traces, log patterns, or security signals in Datadog.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "datadog",
-        "custom-apis"
-      ],
+      "name": "datadog",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/datadog",
-      "checksum": "sha256:7fbaec4f09ff1ab580b05bc8d76437c9caf568ca98152fe39c5f498056554f3f"
+      "checksum": "sha256:8b06412498956907a5529d89071c9e83a7bb84215d5150012c810d3f6c570b41"
     },
     {
       "id": "define-standards",
-      "name": "Define Standards",
-      "description": "Establish and maintain engineering standards and guidelines",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "define-standards",
-        "notion",
-        "github"
-      ],
+      "name": "define-standards",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/define-standards",
-      "checksum": "sha256:568f904ba4da03817de11f19f0540f5147f72f188f4e30143d6d67f823c11c7a"
+      "checksum": "sha256:e6bc65c2d5e77f48e220172b5bbcf08b744e8fba02fe64e6d2551e7b159a4e43"
     },
     {
       "id": "design-cloud",
-      "name": "Design Cloud",
-      "description": "Design cloud topologies and reference architectures",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "design-cloud",
-        "custom-apis"
-      ],
+      "name": "design-cloud",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/design-cloud",
-      "checksum": "sha256:06e1fbb1d46d323f4c5e1b2e87e49d485c3f62bbe9b341d190f2d2693f83966a"
+      "checksum": "sha256:aeec7b9ba33b82f1e10a6788aea74483f1cece1c52a70dbd449c0e3a0d50e064"
     },
     {
       "id": "design-endpoints",
-      "name": "Design Endpoints",
-      "description": "Design, document, and test API endpoints",
-      "version": "1.0.0",
-      "type": "operational",
-      "tags": [
-        "design-endpoints",
-        "postman",
-        "node",
-        "express",
-        "nestjs",
-        "api-gateway"
-      ],
+      "name": "design-endpoints",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/design-endpoints",
-      "checksum": "sha256:09c85fb165197a1fb4e9a9061f50a06a7915162aa0e19b698c62b1b2c7d52245"
+      "checksum": "sha256:39f77b08dff1ead1fcade5f85a34f216e67b460ecd9b38f211cb44fd3e381481"
     },
     {
       "id": "detect-duplicates",
-      "name": "Detect Duplicates",
-      "description": "Surface duplicate or overlapping content for consolidation",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "detect-duplicates",
-        "internal-wiki"
-      ],
+      "name": "detect-duplicates",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/detect-duplicates",
-      "checksum": "sha256:bf8e6ad08d0eee65c95e2c46eb07511841d21528dae76baa4396f9516ba592bb"
+      "checksum": "sha256:5c36f69ffdd959d1b52d04acb76b1c44fbe66552422c4696f382f8d52c5b4ce6"
     },
     {
       "id": "discover-capability-and-request-access",
-      "name": "Discover capability & request access",
-      "description": "Inspect your current tools, browse the PolyGents catalog for a capability you might be missing, and ask a human admin to file a support ticket so PolyGents support can grant the missing tool/skill. The actual ticket-creation step requires explicit human-in-the-loop approval and lands in the internal Help & Support system under the `agent-capability-request` category.",
-      "version": "1.0.0",
-      "type": "procedural",
-      "tags": [
-        "discover-capability-and-request-access"
-      ],
+      "name": "discover-capability-and-request-access",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/discover-capability-and-request-access",
-      "checksum": "sha256:e9494c18266afc89975e672ceb56fdbee106c5fd9e2a0567929ccfa93b18bd2d"
+      "checksum": "sha256:6f41cefb4b7cd3ebe201812a096a408fc4c4dde11a75c35c56eca4f2807d5977"
     },
     {
       "id": "discover-prospects",
-      "name": "Discover Prospects",
-      "description": "Find and qualify prospects matching ideal customer profile",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "discover-prospects",
-        "linkedin",
-        "market-research-api"
-      ],
+      "name": "discover-prospects",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/discover-prospects",
-      "checksum": "sha256:5e8d04dec3079e8fd6e5a1f3b6c97445fde294ef39591343843a6f75bd774d36"
+      "checksum": "sha256:2646b24e1db4240d619d1817ff64b2bc591d3cc5807323fd554c03daaddef236"
     },
     {
       "id": "discussion-and-recitation-facilitation",
@@ -778,820 +566,598 @@
     },
     {
       "id": "doc-coauthoring",
-      "name": "Doc Co-Authoring",
-      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "doc-coauthoring",
-        "google-docs",
-        "notion"
-      ],
+      "name": "doc-coauthoring",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/doc-coauthoring",
-      "checksum": "sha256:e21702564ce329ad65d81d17462c22d6398ca997fea64099e1cbaf64dc05c65f"
+      "checksum": "sha256:9a7477108f7ea6fe9fe66acb3ab505734935f83ece7badd82202cedf473cefc5"
     },
     {
       "id": "docker-expert",
-      "name": "Docker Expert",
-      "description": "Docker containerization expert with deep knowledge of multi-stage builds, image optimization, container security, Docker Compose orchestration, and production deployment patterns. Use PROACTIVELY for Dockerfile optimization, container issues, image size problems, security hardening, networking, and orchestration challenges.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "docker-expert",
-        "docker",
-        "kubernetes"
-      ],
+      "name": "docker-expert",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/docker-expert",
-      "checksum": "sha256:1ace66d0cc9d1d52008d213464c590f8c19e592da6faa45315717bba639c8306"
+      "checksum": "sha256:774db743ccbb6ebc764c9132f589b09b723ae5ce8916c2249a8681d4fc5dccdf"
     },
     {
       "id": "document-runbooks",
-      "name": "Document Runbooks",
-      "description": "Create and maintain operational runbook documentation",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "document-runbooks",
-        "notion",
-        "internal-wiki"
-      ],
+      "name": "document-runbooks",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/document-runbooks",
-      "checksum": "sha256:9d1702e79d9fe8cb8318552b9bd1edd2fc280540453928a48715a4a53ebaa097"
+      "checksum": "sha256:4f34df33138843250ec000c7c0f1e35767b54dc4a219492dba58670628a10b39"
     },
     {
       "id": "draft-outreach",
-      "name": "Draft Outreach",
-      "description": "Compose personalized outbound emails and sequences",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "draft-outreach",
-        "email",
-        "crm-api"
-      ],
+      "name": "draft-outreach",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/draft-outreach",
-      "checksum": "sha256:c77a943c33c31ddf01f7c4a4688045e1f5842e09b45f7f09a606179a02a04a4e"
+      "checksum": "sha256:72a10ca5fd48017bf44eb1997a37b6ead24b8f56ab0bb61ed3ea4745d86ea783"
     },
     {
       "id": "draft-prds",
-      "name": "Draft PRDs",
-      "description": "Author product requirement documents",
-      "version": "1.0.0",
-      "type": "operational",
-      "tags": [
-        "draft-prds",
-        "notion",
-        "productboard",
-        "google-docs"
-      ],
+      "name": "draft-prds",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/draft-prds",
-      "checksum": "sha256:7817b6ae38a2b252211869645f32323f7eeea0d3a84ff3ca4e2522eab07a804f"
+      "checksum": "sha256:54404743a59a29595835e6d741b401cf97e6a63711b533f87a7ff8277fc9222c"
     },
     {
       "id": "draft-proposals",
-      "name": "Draft Proposals",
-      "description": "Author partnership and business proposals",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "draft-proposals",
-        "google-docs"
-      ],
+      "name": "draft-proposals",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/draft-proposals",
-      "checksum": "sha256:399c1f01173b87e9c1b7bce4f0e520af6c59d5d42318a0aa4dd3958b27ead579"
+      "checksum": "sha256:d8d537f3b4cc3b8f9088660032f82f0a1f4290e82583d4a15515260197a2c0ad"
     },
     {
       "id": "draft-ticket-response",
-      "name": "Draft Ticket Response",
-      "description": "Write empathetic, accurate replies to support tickets",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "draft-ticket-response",
-        "zendesk",
-        "help-scout"
-      ],
+      "name": "draft-ticket-response",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/draft-ticket-response",
-      "checksum": "sha256:52bc05017b0d55deae0aadcc4d877c84b497d54b494ea3e282ff768ab412fd66"
+      "checksum": "sha256:133b23c241c1b57fd1fd10dd375da775e213917722feaa3de2463dcd62e338a5"
     },
     {
       "id": "ensure-accessibility",
-      "name": "Ensure Accessibility",
-      "description": "Audit and improve UI accessibility compliance",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "ensure-accessibility",
-        "chrome-devtools",
-        "vscode"
-      ],
+      "name": "ensure-accessibility",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/ensure-accessibility",
-      "checksum": "sha256:92d4deb46f0b3aeb09470276a887fdd4ce55f039f85e63afa1164c36f0f18cbc"
+      "checksum": "sha256:1efd561d1f74f148d077fc3cb0383eed1abb2703ea768d023346af16f0e81140"
     },
     {
       "id": "error-budget-management",
-      "name": "Error budget management",
-      "description": "Advises on SLOs, error budget burn, and release trade-offs such as feature freezes or reliability sprints. Use when balancing velocity against reliability targets.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "error-budget-management",
-        "jira",
-        "github"
-      ],
+      "name": "error-budget-management",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/error-budget-management",
-      "checksum": "sha256:ada58d17c2adb2e8e2d75f2662b3eb74fca2d00a87dd17c0d28a4c2b7cf8abed"
+      "checksum": "sha256:e7c1a7f397abdce22c1d79cc301bf4fda12eea2f5b26e891d3958e22d75ff193"
     },
     {
       "id": "escalate-context",
-      "name": "Escalate with Context",
-      "description": "Route issues to the right team with full context",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "escalate-context",
-        "zendesk",
-        "ticket-routing"
-      ],
+      "name": "escalate-context",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/escalate-context",
-      "checksum": "sha256:a07ce9554a09c823876b3d5b8f8c1c864b8c8b27d92a7dba57cb2b5adc74f203"
+      "checksum": "sha256:0afef06ff320c08d7e316e13a87d045c35f7b0f1ef24ffa53789da4ca94b2468"
     },
     {
       "id": "escalate-with-summary",
-      "name": "Escalate with Summary",
-      "description": "Hand off calls with clean transcripts and summaries",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "escalate-with-summary",
-        "twilio",
-        "email"
-      ],
+      "name": "escalate-with-summary",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/escalate-with-summary",
-      "checksum": "sha256:ec64bd7061f8d210e170fb362f477b1f3ec74e64605a0302a9a4bb7c2cd69a88"
+      "checksum": "sha256:bbd99724394fa1a14b64969361240f0af58586a8e1c2ba4b2da95f60901d2025"
     },
     {
       "id": "exam-preparation-and-retrieval",
-      "name": "Exam preparation and retrieval",
-      "description": "Design practice exams, self-grading rubrics, and confidence calibration without encouraging academic misconduct.",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "exam-preparation-and-retrieval",
-        "education",
-        "exams",
-        "retrieval"
-      ],
+      "name": "exam-preparation-and-retrieval",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/exam-preparation-and-retrieval",
-      "checksum": "sha256:e9b0dd10653f83c89bb9018d7af4f1a2e3ad0da76324a77b44bf2885c0db85ce"
+      "checksum": "sha256:8937fb5c9ee2124ee864eea13874821cac7cf763c57cf27858fb8e29d0e4fe64"
     },
     {
       "id": "export-to-crm",
-      "name": "Export to CRM",
-      "description": "Push enriched prospects and notes to CRM systems",
-      "version": "1.0.0",
-      "type": "operational",
-      "tags": [
-        "export-to-crm",
-        "salesforce",
-        "hubspot",
-        "pipedrive"
-      ],
+      "name": "export-to-crm",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/export-to-crm",
-      "checksum": "sha256:822d91ed70d6e17ca0e96b645ca8c6bffb77e95e28e34bd85e620332e68a23a7"
+      "checksum": "sha256:805863426fc34cb6347e8c5749e6fa0e56a99c566f6b1551be41a2fb94395d62"
     },
     {
       "id": "facilitate-ceremonies",
-      "name": "Facilitate Ceremonies",
-      "description": "Run standups, retros, and planning with summaries",
-      "version": "1.0.0",
-      "type": "planning",
-      "tags": [
-        "facilitate-ceremonies",
-        "jira",
-        "slack",
-        "managents-planning"
-      ],
+      "name": "facilitate-ceremonies",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/facilitate-ceremonies",
-      "checksum": "sha256:7b665eaebc87cb3cfff5b84cd79809605037c9660d4b54cbc12e750f0e3f7c77"
+      "checksum": "sha256:96666efe424d143b9ee8519cdc33df8eef4efd608594ae7f5482065c2e30468c"
     },
     {
       "id": "feature-flagging",
-      "name": "Feature flagging",
-      "description": "Designs safe feature rollouts with flags, cohort targeting, kill switches, and cleanup plans. Use when launching, gating, or retiring feature flags.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "feature-flagging",
-        "github",
-        "jira"
-      ],
+      "name": "feature-flagging",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/feature-flagging",
-      "checksum": "sha256:21c1ab8397e347af567130b8550c8e1d1f659dd8ecee6bb701489b0f26672c52"
+      "checksum": "sha256:19333799b8ca9e03c082a2f49ab883968f73d9603bd27fcafec654dabf072398"
     },
     {
       "id": "file-bugs",
-      "name": "File Bugs",
-      "description": "Create actionable bug reports with reproduction steps",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "file-bugs",
-        "jira",
-        "github"
-      ],
+      "name": "file-bugs",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/file-bugs",
-      "checksum": "sha256:74ff21a215502d7093598821209e24fc1c2d8f62eefac5bc3923201dac10fa5a"
+      "checksum": "sha256:4e77622e46fe04e645266dfa5dd41417b41aa2b3bfd9505937e9808d466fa942"
     },
     {
       "id": "flag-security-issues",
-      "name": "Flag Security Issues",
-      "description": "Highlight security vulnerabilities in code changes",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "flag-security-issues",
-        "security-scanner",
-        "github"
-      ],
+      "name": "flag-security-issues",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/flag-security-issues",
-      "checksum": "sha256:127df83146d7dabf2cdd47e1d34791bbdebc481188e5d738acb378b11f246094"
+      "checksum": "sha256:ebbb4f44540a5042657441954420556d571784ed7c20c94967713c6123c272d4"
     },
     {
       "id": "flag-variance",
-      "name": "Flag Variance",
-      "description": "Alert on spend variances and budget anomalies",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "flag-variance",
-        "google-sheets"
-      ],
+      "name": "flag-variance",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/flag-variance",
-      "checksum": "sha256:e8db60d3e24dd8df217d2c64cbe740f39d1c3aab88484c67b270a1db0a45c0b4"
+      "checksum": "sha256:8dc3a592440e0084faa90f2b3f8e3480f73514edca0c024cd6b0618932392031"
     },
     {
       "id": "gather-evidence",
-      "name": "Gather Evidence",
-      "description": "Collect audit evidence for SOC2, ISO, and other standards",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "gather-evidence",
-        "audit-logs",
-        "compliance-apis"
-      ],
+      "name": "gather-evidence",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/gather-evidence",
-      "checksum": "sha256:c53608526391176df8bd5af81838093dec573eec2af44bc38c38cdb372856f2c"
+      "checksum": "sha256:80fe133830b1b1cfa2e1db70c4f54c184e00b3989d3d972bb504ae010a07dbd0"
     },
     {
       "id": "generate-copy",
-      "name": "Generate Copy",
-      "description": "Produce on-brand copy for campaigns and assets",
-      "version": "1.0.0",
-      "type": "operational",
-      "tags": [
-        "generate-copy",
-        "google-docs",
-        "grammarly",
-        "openai"
-      ],
+      "name": "generate-copy",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/generate-copy",
-      "checksum": "sha256:a3dfae73f865c89908f64c4304acdfb2727bf986abeab959116d2cd132793d0c"
+      "checksum": "sha256:e30555b2eef7db56f6eed633db6d8805d3744a1366a25edcd88a77b027aa0e3b"
     },
     {
       "id": "generate-predictive-models",
-      "name": "Generate Predictive Models",
-      "description": "Build predictive models to forecast trends and outcomes",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "generate-predictive-models",
-        "openai"
-      ],
+      "name": "generate-predictive-models",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/generate-predictive-models",
-      "checksum": "sha256:b2480249c19f3a231dffb30ca4c7142527d7c1ab7640a2f3d0345e48650c6df3"
+      "checksum": "sha256:c97533f511eeec06ac7430f988d559b8aaa430b646e6dacce00cea55868bcc3e"
     },
     {
       "id": "github",
-      "name": "GitHub",
-      "description": "Inspects GitHub pull requests, diffs, files, and reviews via github_* tools. Use for PR details, file lists, comments, reviews, and reading repo file content at a ref.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "github"
-      ],
+      "name": "github",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/github",
-      "checksum": "sha256:1a90491f6aa709fe9235f71cb270b8cc8fd9d190e8c33df68044d046a6d2ee18"
+      "checksum": "sha256:6ad4f733482da7a53d517e1637c087af32c6fdba050b23079b8d63e5717ed636"
     },
     {
       "id": "gmail",
-      "name": "Gmail",
-      "description": "Lists, searches, reads, and sends Gmail messages and labels via native gmail_* tools. Use for inbox triage, unread filters, full message bodies, and outbound email.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "gmail",
-        "email"
-      ],
+      "name": "gmail",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/gmail",
-      "checksum": "sha256:a9be9683fbadf54a9b3367d988943410a0daac114b53b3b014a737f5b35fa9cb"
+      "checksum": "sha256:f52a4e7a03b27b7fd902b1a3562cd3f2edbc2c01567631d86dcb529de815d184"
     },
     {
       "id": "google-calendar",
-      "name": "Google Calendar",
-      "description": "Lists, creates, updates, and deletes Google Calendar events via calendar_* tools. Use for schedules, meetings, and all-day or timed events on primary or named calendars.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "google-calendar",
-        "calendar"
-      ],
+      "name": "google-calendar",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/google-calendar",
-      "checksum": "sha256:c60cc71177cbe91fd74c85e33992fbcc7004fe7307997c60b5973f0a20315598"
+      "checksum": "sha256:f2bdf7287c6d06c40145164d3fe7dffab2cc0bc6480010b70de94510f57dc6e2"
     },
     {
       "id": "google-classroom",
-      "name": "Google Classroom",
-      "description": "Read Google Classroom courses, coursework, announcements, and topics via classroom_* tools for university teaching workflows.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "google-classroom",
-        "education"
-      ],
+      "name": "google-classroom",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/google-classroom",
-      "checksum": "sha256:c0e644f4fce25d094814c373bf62805c1c965226efed53d1ba7ad5e5481aa98f"
+      "checksum": "sha256:841b92a907faa374ffbde3d68b079ba3a077b47f64bd76f7c0f73d24545a66f3"
     },
     {
       "id": "google-docs",
-      "name": "Google Docs",
-      "description": "Creates, reads, appends, and replaces Google Docs content via docs_* tools. Use for PRDs, meeting notes, and document edits when documentId is known or resolved via Drive.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "google-docs"
-      ],
+      "name": "google-docs",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/google-docs",
-      "checksum": "sha256:02d48906c7e413e80a52b81e6ee12d33be35907c05e20b199a3b918359fc4b44"
+      "checksum": "sha256:f211fb3583ff011a71e75e985d9083ed93f4a588aecfd170e8a215b6005d4cab"
     },
     {
       "id": "google-drive",
-      "name": "Google Drive",
-      "description": "Lists, searches, downloads, and organizes Google Drive files via drive_* tools. Use to find file IDs for Docs/Sheets, browse folders, and download content.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "google-drive"
-      ],
+      "name": "google-drive",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/google-drive",
-      "checksum": "sha256:d6e540b436111e7c11910a4c2ddcfa390999fcdc79646a348f8014450fdfaa4a"
+      "checksum": "sha256:6ddbcdfc139b3d370abcbfc829dd078bd4b6da3683375077618d42d3a67cf30b"
     },
     {
       "id": "google-sheets",
-      "name": "Google Sheets",
-      "description": "Reads and writes Google Sheets ranges in A1 notation via sheets_* tools. Use for spreadsheets, append rows, metadata, and clear/write operations when spreadsheetId is known or from Drive.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "google-sheets"
-      ],
+      "name": "google-sheets",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/google-sheets",
-      "checksum": "sha256:8efdf362eb22fea0dce4cbd96b7897717b7f199f5b52850f9f03dffba149d0a0"
+      "checksum": "sha256:2cdc90974dbe82cb06c8b8f0e581236dad069f837f2bbba258e1a460eb4278ac"
+    },
+    {
+      "id": "google-slides",
+      "name": "google-slides",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
+      "path": "skills/google-slides",
+      "checksum": "sha256:07f6fb04d306d2382c38abe24053d745f3c9111f9008a54133b90cbf7bfbd839"
     },
     {
       "id": "grafana",
-      "name": "Grafana",
-      "description": "Queries Grafana dashboards, alerts, and Explore using connected datasources. Use when investigating metrics, firing alerts, building panels, or exploring logs/traces in Grafana.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "grafana",
-        "custom-apis"
-      ],
+      "name": "grafana",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/grafana",
-      "checksum": "sha256:7571ef184988f61d3033421464cddc7ebe3dc47df8395993b73152c957aee61f"
+      "checksum": "sha256:f4b63ac8c137fda8d19885e9ae71b64a2a1306e31d6fc6d860ce90c7bb6fd088"
     },
     {
       "id": "gym-arbox-status-playbook",
-      "name": "Gym Arbox Status Playbook",
-      "description": "Map live Arbox status_id values to gym CRM categories and apply safe lead status transitions",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "gym-arbox-status-playbook",
-        "arbox",
-        "fitness",
-        "gym",
-        "crm"
-      ],
+      "name": "gym-arbox-status-playbook",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/gym-arbox-status-playbook",
-      "checksum": "sha256:77545c54afbcfe923c5381ee97f61e22e4509b950154812b3f7ae7123fbd0244"
+      "checksum": "sha256:3799536bdce18e788b937dc5816d14ab1900a3f723bb7f4eb6778709d83ef54c"
     },
     {
       "id": "gym-lead-ingestion-exceptions",
-      "name": "Gym Lead Ingestion Exceptions",
-      "description": "Resolve duplicate or missing marketing leads when automatic Arbox ingestion fails",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "gym-lead-ingestion-exceptions",
-        "arbox",
-        "fitness",
-        "gym",
-        "leads"
-      ],
+      "name": "gym-lead-ingestion-exceptions",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/gym-lead-ingestion-exceptions",
-      "checksum": "sha256:7a82d60e4bd0c17d55643909ec3a615fa4492a298c456a79e6009ce083237452"
+      "checksum": "sha256:8d95fe39d52c9632453483850269da6abad9c9f3a092719c528101546eec61c1"
     },
     {
       "id": "gym-member-onboarding-flow",
-      "name": "Gym Member Onboarding Flow",
-      "description": "Run trial booking, body metrics logging, and closing-meeting coordination for new gym members in Arbox",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "gym-member-onboarding-flow",
-        "arbox",
-        "fitness",
-        "gym",
-        "onboarding"
-      ],
+      "name": "gym-member-onboarding-flow",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/gym-member-onboarding-flow",
-      "checksum": "sha256:400554acfd3f5fc9f9d67ccbbe7ef289bf904f8881a42d91a5477a14af3038ca"
+      "checksum": "sha256:3c793d0605a8a9ae890886905f86a67c31de0731dc251e91828c2d054130c836"
     },
     {
       "id": "gym-nutrition-menu-delivery",
-      "name": "Gym Nutrition Menu Delivery",
-      "description": "Deliver personalized nutrition menus from a Sheets template into per-client Google Drive folders using Arbox client metrics",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "gym-nutrition-menu-delivery",
-        "arbox",
-        "fitness",
-        "gym",
-        "nutrition",
-        "google-drive",
-        "google-sheets"
-      ],
+      "name": "gym-nutrition-menu-delivery",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/gym-nutrition-menu-delivery",
-      "checksum": "sha256:9fed9ace7eefca9a15c60ecb0742b4eddddc68a152baa0b205a158c5fd787233"
+      "checksum": "sha256:01329a706db90e4620cf7c62aa504846edb7a835d072f704984d80ecdbeba808"
     },
     {
       "id": "gym-sales-daily-prioritization",
-      "name": "Gym Sales Daily Prioritization",
-      "description": "Triage open Arbox tasks and leads into a prioritized daily call list for gym sales reps",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "gym-sales-daily-prioritization",
-        "arbox",
-        "fitness",
-        "gym",
-        "sales"
-      ],
+      "name": "gym-sales-daily-prioritization",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/gym-sales-daily-prioritization",
-      "checksum": "sha256:f6e3e34778405fae7783db9b3368b3dcd52a3804a62d316cbf38c737ecd19327"
+      "checksum": "sha256:61488b67e80c15f30267531b85e31e447b005d22b06d47be509ab2a32d2efb53"
     },
     {
       "id": "hold-conversations",
-      "name": "Hold Conversations",
-      "description": "Natural, real-time voice conversations with callers",
-      "version": "1.0.0",
-      "type": "operational",
-      "tags": [
-        "hold-conversations",
-        "twilio",
-        "zoom",
-        "teams",
-        "phone-systems"
-      ],
+      "name": "hold-conversations",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/hold-conversations",
-      "checksum": "sha256:1c06ca9e9527ba058ef4ca79f1077e068f618e7907f7ac0541bc24d7d4fae6c2"
+      "checksum": "sha256:f2d8247e0172db6fbdbb5263ea7875ef066e4db658638548c8e0fd410b9c57b9"
     },
     {
       "id": "implement-features",
-      "name": "Implement Features",
-      "description": "Build new features from specifications and requirements, ensuring production-ready, maintainable, and well-integrated code using GitHub and Jira.",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "implement-features",
-        "vscode",
-        "github"
-      ],
+      "name": "implement-features",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/implement-features",
-      "checksum": "sha256:3c2bfd61850c4015492a20e115ec7993db0997de5801f9aecd1e7191b9d4b0f5"
+      "checksum": "sha256:fa4394b8a954ded05e032ef6e42df745cd1703ff79a130e43ee45d64e28a7995"
     },
     {
       "id": "inclusive-teaching-basics",
-      "name": "Inclusive teaching basics",
-      "description": "Universal design hooks, respectful language, and accessibility habits suitable for any discipline.",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "inclusive-teaching-basics",
-        "education",
-        "inclusion",
-        "accessibility",
-        "ta"
-      ],
+      "name": "inclusive-teaching-basics",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/inclusive-teaching-basics",
-      "checksum": "sha256:950d8fa868397c8216787ca227847d5148a2fde1692cda8774ceda1bcec968a7"
+      "checksum": "sha256:5dae95eccacf3d66eab026add67818ebaf7ae61461b44f82613aeae8e24c5641"
     },
     {
       "id": "jira",
-      "name": "Jira",
-      "description": "Lists, searches, creates, updates, and transitions Jira issues via Atlassian MCP tools discovered at runtime. Use JQL when supported; always load tool schemas before execution.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "jira"
-      ],
+      "name": "jira",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/jira",
-      "checksum": "sha256:a87a1bd7d8f0e5db577ec39ec7574ce5d0be345b12c8d9a66a8526814784022a"
+      "checksum": "sha256:4bb61a824d3b11a80c6a1b05c4debb9d0924cd2c6a4cf93869f152a8dd1d8b49"
     },
     {
       "id": "lead-incidents",
-      "name": "Lead Incidents",
-      "description": "Command incident response calls and coordinate resolution",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "lead-incidents",
-        "pagerduty",
-        "slack"
-      ],
+      "name": "lead-incidents",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/lead-incidents",
-      "checksum": "sha256:f4be77255af2e8b1f0693ff8166ed1661d69b34458319df960652fb319827e2b"
+      "checksum": "sha256:de9d5f2abf64063282e30f40e8acbc6b25c64288df37911b9eadb49d4af1d335"
     },
     {
       "id": "learning-objectives-and-bloom-alignment",
-      "name": "Learning objectives and Bloom alignment",
-      "description": "Write measurable outcomes and align activities, assessments, and discussion prompts to Bloom levels.",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "learning-objectives-and-bloom-alignment",
-        "education",
-        "ta",
-        "pedagogy",
-        "assessment"
-      ],
+      "name": "learning-objectives-and-bloom-alignment",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/learning-objectives-and-bloom-alignment",
-      "checksum": "sha256:c87c53b16bef5f745a793a9f5b9e2c0853a06d28312e37cf24b1ddf87fa6c738"
+      "checksum": "sha256:ae2a1afe2d0dace5b5c96455bbde8e6903b181a02b4f4b2f59719a22dd639107"
     },
     {
       "id": "learnings-keeper",
-      "name": "Learnings Keeper",
-      "description": "Capture, tag, and reuse organizational learnings from reviews and incidents — memory discipline without external tooling assumptions.",
-      "version": "1.0.0",
-      "type": "governance",
-      "tags": [
-        "learnings-keeper",
-        "openai",
-        "notion",
-        "internal-wiki"
-      ],
+      "name": "learnings-keeper",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/learnings-keeper",
-      "checksum": "sha256:203e7da9775962453b47a4f8e2e488981def21169fe8ac2df4421aba136de8d8"
+      "checksum": "sha256:7b5a47403928fbd46d1ca347f5a64878876d297f0c54d1393e318fe806b70ff2"
     },
     {
       "id": "lighthouse",
-      "name": "Lighthouse",
-      "description": "Runs Lighthouse audits for web performance, accessibility, SEO, and best practices. Use when auditing URLs, interpreting Core Web Vitals, or prioritizing front-end fixes from Lighthouse reports.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "lighthouse",
-        "chrome-devtools"
-      ],
+      "name": "lighthouse",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/lighthouse",
-      "checksum": "sha256:c9cfbc7de7717c8caaf4826a63b2492dedc25eb86a877d0770748e752fe9faea"
+      "checksum": "sha256:a3903c0aab4066a4905d18842dfeb1b4d058373e23934c25e8168e5d31842a2b"
     },
     {
       "id": "linear",
-      "name": "Linear",
-      "description": "Automates Linear issues, projects, cycles, teams, and labels via Rube MCP (Composio). Use after RUBE_SEARCH_TOOLS and an ACTIVE Linear connection; resolve team and state IDs before creates.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "linear"
-      ],
+      "name": "linear",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/linear",
-      "checksum": "sha256:81435ede6c46458b196883d3f69527f8dcd1c8c3efba71b14e97db06ba0bb38d"
+      "checksum": "sha256:32a25342900864929c78b5b53a9d915c0c77c33b3ae9325ea9ed09c7ceafcb74"
     },
     {
       "id": "lint-and-validate",
-      "name": "Lint and Validate",
-      "description": "Automatic quality control, linting, and static analysis procedures. Use after every code modification to ensure syntax correctness and project standards. Triggers onKeywords: lint, format, check, validate, types, static analysis.",
-      "version": "1.0.0",
-      "type": "analytical",
-      "tags": [
-        "lint-and-validate",
-        "github",
-        "vscode",
-        "github-actions"
-      ],
+      "name": "lint-and-validate",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/lint-and-validate",
-      "checksum": "sha256:74552f367fe733e688b0733ac32ede0874c2d47d7cc062398bbd577b7d4a262a"
+      "checksum": "sha256:c797f16745f71c903fd3b20ea6c699641166bd2d69fd7777a1bac3e83d775988"
     },
     {
       "id": "log-activities",
-      "name": "Log Activities",
-      "description": "Record call notes and touchpoints in CRM",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "log-activities",
-        "salesforce",
-        "hubspot"
-      ],
+      "name": "log-activities",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/log-activities",
-      "checksum": "sha256:648b8326b733d237fcccaad308f4ca98247f86428ed6a68a4021703db7133254"
+      "checksum": "sha256:821124063dc9fe3d72cef486e0a4bc4e5220c4fa5464dfd1ad35e8d3f3ff6bf5"
     },
     {
       "id": "maintain-project-plan",
-      "name": "Maintain Project Plan",
-      "description": "Keep project timelines, milestones, and dependencies current",
-      "version": "1.0.0",
-      "type": "planning",
-      "tags": [
-        "maintain-project-plan",
-        "jira",
-        "google-sheets"
-      ],
+      "name": "maintain-project-plan",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/maintain-project-plan",
-      "checksum": "sha256:1e27e764ecf816620db2f659c93edcd8ad4e00c871709288ac9356b02da0a940"
+      "checksum": "sha256:f3211664a1a351a6255c1879f2ec8efc65c3762d1c818ecb94c7d3bbff136c11"
     },
     {
       "id": "make",
-      "name": "Make Automation",
-      "description": "Triggers and manages Make (Integromat) scenarios via MCP integration. Use when running scenarios, inspecting run history, or debugging failed Make automations.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "make",
-        "custom-apis"
-      ],
+      "name": "make",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/make",
-      "checksum": "sha256:acd1aeaaeeaf9c71944bdcfd21232b39a5c8c747a00405b8e1b97720a801e828"
+      "checksum": "sha256:7d5628bad738becd1a98f63395486a5c726f99fdfbb944de06d14793b1b45538"
     },
     {
       "id": "manage-risks",
-      "name": "Manage Risks",
-      "description": "Identify, track, and mitigate project risks",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "manage-risks",
-        "jira"
-      ],
+      "name": "manage-risks",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/manage-risks",
-      "checksum": "sha256:0ef88cabb56ef88b381788f2abe252b1a697931552765abac500f4f14c811d53"
+      "checksum": "sha256:89e6c84ed39e4b06a64100cf577bc86addad475896a62571f53f9692a358e1e0"
     },
     {
       "id": "managents-workboard",
-      "name": "Managents Planning and Work Boards",
-      "description": "Roadmaps, scopes, sprints, and execution work boards inside Managents (no extra OAuth)",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "managents-workboard",
-        "managents-planning"
-      ],
+      "name": "managents-workboard",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/managents-workboard",
-      "checksum": "sha256:c36ce3b6dd23596231467d93bdafc41145bf4cc9368d9285358e33dbee0655c5"
+      "checksum": "sha256:3656ec0928de5883dbfd1a4458b54c361bfd963d652a9628070e8cf9443e8bbf"
     },
     {
       "id": "member-retention-and-experience",
-      "name": "Member retention & experience",
-      "description": "Attendance patterns, win-back messaging, and member journey touchpoints",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "member-retention-and-experience",
-        "retention",
-        "members",
-        "crm"
-      ],
+      "name": "member-retention-and-experience",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/member-retention-and-experience",
-      "checksum": "sha256:d0abf5a30792bdaa3e1320372a5a4f60924f1f150e04ff291f0995b288d091c8"
+      "checksum": "sha256:5f2bbe630ceebf73b529ac238155bb46fe2f321b901ae931f1a9a14856282a43"
     },
     {
       "id": "misconception-diagnosis",
-      "name": "Misconception diagnosis",
-      "description": "Surface likely misconceptions, ask diagnostic questions, and repair mental models across STEM and qualitative fields.",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "misconception-diagnosis",
-        "education",
-        "pedagogy",
-        "diagnostics"
-      ],
+      "name": "misconception-diagnosis",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/misconception-diagnosis",
-      "checksum": "sha256:ee3b7c124d656dae2f506b984d3223ee67c6b6d0b1794b3dc65f11d69a01ec0d"
+      "checksum": "sha256:2fb4dfc43f6cfceec8775d0392559584ade66af5ce7ce602bf0a1400eb08a4b4"
     },
     {
       "id": "monitor-db-health",
-      "name": "Monitor DB Health",
-      "description": "Track replication, connections, and database performance",
-      "version": "1.0.0",
-      "type": "analytical",
-      "tags": [
-        "monitor-db-health",
-        "grafana",
-        "postgres"
-      ],
+      "name": "monitor-db-health",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/monitor-db-health",
-      "checksum": "sha256:1d1832696f45b0570b8fcd2df4c5da57f4bd94941eead5b5f34b9cf26eb2a171"
+      "checksum": "sha256:d7a00a2ca4d3355515186b68c796b4cf75caf7d704ea944c5d84e8531ccae40e"
     },
     {
       "id": "monitor-health",
-      "name": "Monitor Health",
-      "description": "Track account or system health signals and flag risks",
-      "version": "1.0.0",
-      "type": "analytical",
-      "tags": [
-        "monitor-health",
-        "crm-api",
-        "bi-dashboard"
-      ],
+      "name": "monitor-health",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/monitor-health",
-      "checksum": "sha256:c29e9c4d7ce3aca5f0c2639f53b0a92c325248fa334112ed6e52f26824494481"
+      "checksum": "sha256:92d300c2f4e00da3f098b7c5625b4492b2ed80b1f0423f5166053cfd3cf6bc29"
     },
     {
       "id": "monitor-performance",
-      "name": "Monitor Performance",
-      "description": "Track and visualize agent and system performance.",
-      "version": "1.0.0",
-      "type": "analytical",
-      "tags": [
-        "monitor-performance",
-        "grafana",
-        "bi-dashboard"
-      ],
+      "name": "monitor-performance",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/monitor-performance",
-      "checksum": "sha256:e0b76fcde714ab3e40a3fc44769cb6ec474a998b71f866ac0e4c91b8b219d287"
+      "checksum": "sha256:0cf8a3af69b49bf62c27112193203ace9e34fa0999ddf41c8199060cd66033e4"
     },
     {
       "id": "monitor-site",
-      "name": "Monitor Site",
-      "description": "Track website uptime, performance, and errors",
-      "version": "1.0.0",
-      "type": "analytical",
-      "tags": [
-        "monitor-site",
-        "grafana"
-      ],
+      "name": "monitor-site",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/monitor-site",
-      "checksum": "sha256:51a934b70ec3d2cc3a9cf9fdb26db98bb4f98cd13f7a6d0c3596bcfebc53565d"
+      "checksum": "sha256:accc8970f41d69be9dbe797a644c74ab19249c718570c7feccd91f26ec116368"
     },
     {
       "id": "monitor-slos",
-      "name": "Monitor SLOs",
-      "description": "Track SLIs, SLOs, and error budgets for services",
-      "version": "1.0.0",
-      "type": "analytical",
-      "tags": [
-        "monitor-slos",
-        "grafana",
-        "pagerduty"
-      ],
+      "name": "monitor-slos",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/monitor-slos",
-      "checksum": "sha256:1f7282d886078d88c347e1f9756903b011c5298f06f09e76bc55d8ad4c4bea9d"
+      "checksum": "sha256:41aa3280f9272b308611505a8e306c53cfbbd67933164260575b7a66d70d44ca"
     },
     {
       "id": "n8n",
-      "name": "n8n Automation",
-      "description": "Triggers and manages n8n workflows via MCP integration. Use when listing workflows, running executions, inspecting failures, or updating automation definitions in n8n.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "n8n",
-        "task-manager"
-      ],
+      "name": "n8n",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/n8n",
-      "checksum": "sha256:9c28d0e293531517ca05cf3c3f5bc1bd6d769173db0015f514ff454c709254d3"
+      "checksum": "sha256:706b39e0f2ee947d6d5d90c2c581d1278543ce95ca3d795f9744168239d3c7f6"
     },
     {
       "id": "notion",
-      "name": "Notion",
-      "description": "Automates Notion pages, databases, blocks, comments, and users via Rube MCP (Composio). Use after RUBE_SEARCH_TOOLS and an ACTIVE Notion connection with schema-driven tool slugs.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "notion"
-      ],
+      "name": "notion",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/notion",
-      "checksum": "sha256:e2eb520bb27cc623510ca13485f60e132abfcb1bcf746b1dfa26a6a794a85aba"
+      "checksum": "sha256:dd7e27d5bba66e1b8533cec1bade8f7fe8ed7e9328e06eaff5d3a825388943df"
     },
     {
       "id": "nutrition-and-healthy-meals",
       "name": "nutrition-and-healthy-meals",
-      "description": "General healthy eating patterns and meal ideas — not medical nutrition therapy",
+      "description": "",
       "version": "0.2.0",
       "type": null,
       "tags": [],
@@ -1610,1074 +1176,738 @@
     },
     {
       "id": "okta",
-      "name": "Okta",
-      "description": "Manages Okta users, groups, and application assignments via connected directory integration. Use when looking up identity records, group membership, or app access—not generic spreadsheet operations.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "okta",
-        "custom-apis"
-      ],
+      "name": "okta",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/okta",
-      "checksum": "sha256:e76ca7e6742c676d832cbf2510bedf2401a26a56f43fa382dddaf864428dfb52"
+      "checksum": "sha256:d85aa183250c2ee19255217c0590b0d2f268deb15e270346b8dbf314d1381f65"
     },
     {
       "id": "openant",
-      "name": "OpenAnt",
-      "description": "Runs the OpenAnt CLI for development and analysis tasks, captures output, and summarizes actionable findings. Use when the user requests OpenAnt commands or interpretation of OpenAnt results.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "openant"
-      ],
+      "name": "openant",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/openant",
-      "checksum": "sha256:c339f1abc6e32839f983dcaba881c42e045fb571cd93891f5c10d2f86553188f"
+      "checksum": "sha256:235fda64499ee635f46cecfc666b5f24a1c63cc108cbdaa1ff00705cc4ac1c3e"
     },
     {
       "id": "optimize-costs",
-      "name": "Optimize Costs",
-      "description": "Analyze and reduce cloud infrastructure spend",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "optimize-costs",
-        "custom-apis"
-      ],
+      "name": "optimize-costs",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/optimize-costs",
-      "checksum": "sha256:8ced88d06f8a45e9cff716f4553fd8f26ec76ff07a934a6651dd07afba953664"
+      "checksum": "sha256:319fb560db0441b20ae16fe851de9c673f4461938e0be10db99ba81e06913c46"
     },
     {
       "id": "optimize-db",
-      "name": "Optimize Database",
-      "description": "Improve database query performance and schema design",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "optimize-db",
-        "postgres"
-      ],
+      "name": "optimize-db",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/optimize-db",
-      "checksum": "sha256:258d5f35ff8d34034a3224ad0be39e679e75cd58465a52bdc779aef23f68b7c0"
+      "checksum": "sha256:cfdd173e8de3066160a24365146bd6f859d82f0ed8aa0ee3fc79c4e4f8c4666e"
     },
     {
       "id": "optimize-for-seo",
-      "name": "Optimize for SEO",
-      "description": "Improve content for search engine visibility",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "optimize-for-seo",
-        "surfer-seo"
-      ],
+      "name": "optimize-for-seo",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/optimize-for-seo",
-      "checksum": "sha256:5e98fa9dddaf6be8b918115cf6dd399edc184486a0b8eaf3a073d36fb0e13bba"
+      "checksum": "sha256:998eb39ab4316a9a5eae75adf7fc0265ac071d32d0f1a837cf17258e35c5e7e7"
     },
     {
       "id": "optimize-pipelines",
-      "name": "Optimize Pipelines",
-      "description": "Improve CI/CD pipeline speed and reliability",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "optimize-pipelines",
-        "github-actions",
-        "gitlab-ci"
-      ],
+      "name": "optimize-pipelines",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/optimize-pipelines",
-      "checksum": "sha256:38a226a60fbc9955ef176f9839cbd343ed1fd6d745daaed411c775b3c40de7f1"
+      "checksum": "sha256:2f003490d598019c3a3e6ccbff0c72cd8dc8360701254ead9e749897c31c6372"
     },
     {
       "id": "optimize-workflows",
-      "name": "Optimize Workflows",
-      "description": "Analyze and improve cross-agent workflow throughput",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "optimize-workflows",
-        "langchain",
-        "custom-apis"
-      ],
+      "name": "optimize-workflows",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/optimize-workflows",
-      "checksum": "sha256:5cc7bb82c230e6116860427f4a40e578777a4dd78f993f3f72b519ece215920c"
+      "checksum": "sha256:72c938fe4a7055786385ed77b0dbad28aea2da24d4ff5333ad381fcc6fd6533d"
     },
     {
       "id": "organize-drive",
-      "name": "Organize Drive",
-      "description": "Organize and maintain shared drive folders and files",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "organize-drive",
-        "google-drive"
-      ],
+      "name": "organize-drive",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/organize-drive",
-      "checksum": "sha256:e12f3eea7cd36033145a08c9b68c1074efe6e552326be0f81b6b868a8b0aafef"
+      "checksum": "sha256:61e40e630e10e38d62cb62471280ae9fb52bb3b1ad52202d6d00b93177514ec9"
     },
     {
       "id": "plan-migrations",
-      "name": "Plan Migrations",
-      "description": "Design and coordinate database schema migrations",
-      "version": "1.0.0",
-      "type": "planning",
-      "tags": [
-        "plan-migrations",
-        "postgres"
-      ],
+      "name": "plan-migrations",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/plan-migrations",
-      "checksum": "sha256:b3df2f7af96196d0f240d754a4568ec7771c48f57fff44e0b52b8b0e4d1aa082"
+      "checksum": "sha256:6093b0d1259bb7029efe0e500b18cfad1d55586c09a3924e5310403aff301db8"
     },
     {
       "id": "postmortem-authoring",
-      "name": "Postmortem authoring",
-      "description": "Authors blameless incident and defect postmortems with timeline, impact, root cause, and corrective actions. Use after incidents or for formal defect write-ups.",
-      "version": "1.0.0",
-      "type": "planning",
-      "tags": [
-        "postmortem-authoring",
-        "jira",
-        "github",
-        "google-docs"
-      ],
+      "name": "postmortem-authoring",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/postmortem-authoring",
-      "checksum": "sha256:d0da97189fbe015cbcb721a044cc7c58a7de5756d191b8086f5e557506524376"
+      "checksum": "sha256:2a6cbed37f241c5cd8fa208104cb9de639bd7c976a03da3355825741b9d5d72f"
     },
     {
       "id": "prepare-sprints",
-      "name": "Prepare Sprints",
-      "description": "Plan sprints with capacity, goals, and backlog selection",
-      "version": "1.0.0",
-      "type": "planning",
-      "tags": [
-        "prepare-sprints",
-        "jira",
-        "managents-planning"
-      ],
+      "name": "prepare-sprints",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/prepare-sprints",
-      "checksum": "sha256:a30343cc6acd8bc729523c35e3aff8a44b9059f70e17300ff3aab4f4bdca2869"
+      "checksum": "sha256:503d1b264fe17739c7a07a4a8033001d4fd2a9dd17f0327c55d65de1101a2cf2"
     },
     {
       "id": "prioritize-roadmap",
-      "name": "Prioritize Roadmap",
-      "description": "Score and prioritize features for the product roadmap",
-      "version": "1.0.0",
-      "type": "planning",
-      "tags": [
-        "prioritize-roadmap",
-        "productboard",
-        "jira"
-      ],
+      "name": "prioritize-roadmap",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/prioritize-roadmap",
-      "checksum": "sha256:f709a38f46ab76b4524ff0db0ec0d21ae536aeca5775ecf7e5bb7f4899420db1"
+      "checksum": "sha256:1d4adf520ff6226e3f39447ddd052565cc9b07958c1abf23143483728b393933"
     },
     {
       "id": "produce-mockups",
-      "name": "Produce Mockups",
-      "description": "Create high-fidelity UI mockups and design comps",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "produce-mockups",
-        "figma"
-      ],
+      "name": "produce-mockups",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/produce-mockups",
-      "checksum": "sha256:2bba7d98b380a0e7f7be603e9830f8bcb114a4463df31139af080ac1ffa7a5ae"
+      "checksum": "sha256:d024a1b17f9dcea240f955f6d111bd2a5a7164dfc5684444e25a775971e5f0f1"
     },
     {
       "id": "prompt-engineer",
-      "name": "Prompt Engineer",
-      "description": "Transforms user prompts into optimized prompts using frameworks (RTF, RISEN, Chain of Thought, RODES, Chain of Density, RACE, RISE, STAR, SOAP, CLEAR, GROW)",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "prompt-engineer",
-        "prompt-engineering",
-        "optimization",
-        "frameworks",
-        "ai-enhancement",
-        "openai",
-        "anthropic"
-      ],
+      "name": "prompt-engineer",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/prompt-engineer",
-      "checksum": "sha256:99b7bde02c8297cd80746f44881eeb42d9ea536694dbf31f7a94a4d572140e17"
+      "checksum": "sha256:d11ef1fd9d4551e97546cc49e63abe8bf5d49842bc0a0894451d09afda22469a"
     },
     {
       "id": "provide-recommendations",
-      "name": "Provide Recommendations",
-      "description": "Translate data findings into actionable business recommendations",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "provide-recommendations",
-        "google-slides",
-        "google-docs"
-      ],
+      "name": "provide-recommendations",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/provide-recommendations",
-      "checksum": "sha256:30b1e7427e1e65bff79dbdea9e8d6827705aad2480749ec2e7c12e34ac4c14b6"
+      "checksum": "sha256:48b752adf777ca3ed652b83a6b6c82f04055976620ed83c0bdcb1bdc5063183c"
     },
     {
       "id": "provider-upgrade",
-      "name": "Pulumi Provider Upgrade",
-      "description": "Upgrade Pulumi providers safely without unintended infra changes.",
-      "version": "1.0.0",
-      "type": "operational",
-      "tags": [
-        "provider-upgrade",
-        "kubernetes",
-        "docker",
-        "pulumi"
-      ],
+      "name": "provider-upgrade",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/provider-upgrade",
-      "checksum": "sha256:9ec877d368c8b67e0a0ae4236b22040096a7b2da0a569216ebe3c03d8bb6c522"
+      "checksum": "sha256:4342dad947b736e31060ba97ebe9cb25eba22f11f169ce5cda7122f2384aecd6"
     },
     {
       "id": "provision-access",
-      "name": "Provision Access",
-      "description": "Create accounts and manage permissions across SaaS tools",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "provision-access",
-        "access-control"
-      ],
+      "name": "provision-access",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/provision-access",
-      "checksum": "sha256:4c3f0bd9310776d210014957ad08cadf209cffbfd2ca053aa6e56b7f764ae5dd"
+      "checksum": "sha256:c96c05e86838bca2476894accb38a32ef5c501ebe153eb8cd4ce2e3bae06cd38"
     },
     {
       "id": "publish-release-notes",
-      "name": "Publish Release Notes",
-      "description": "Draft and publish release notes for each version",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "publish-release-notes",
-        "github",
-        "google-docs"
-      ],
+      "name": "publish-release-notes",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/publish-release-notes",
-      "checksum": "sha256:4a218c75f47b5f443cbaec99d49245adc92982d30527ba5251f47468a51a6ddd"
+      "checksum": "sha256:d9dc6aa218c0131c7ce9083bf0f0957a6af76735b4f0c157b80cdce36047f828"
     },
     {
       "id": "publish-skill",
-      "name": "Publish Skill",
-      "description": "Publishes a validated Syncolab skill via GitHub pull request for review and merge to main. Use when submitting a new or updated skill under skills/ to the syncolab-skills repository after local authoring is complete.",
-      "version": "1.0.0",
-      "type": "operational",
-      "tags": [
-        "publish-skill",
-        "pull-request",
-        "github",
-        "skill-authoring",
-        "syncolab",
-        "review"
-      ],
+      "name": "publish-skill",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/publish-skill",
-      "checksum": "sha256:08d6ac1f7897d2057aaff925eed7617893fab93dca721f5e2721c3bc3d0a7b5b"
+      "checksum": "sha256:deaf959a185f6150777323765782f89dfa2adce16e8013ffd75a21562f25db28"
     },
     {
       "id": "pulumi",
-      "name": "Pulumi",
-      "description": "Manages Pulumi stacks and deployments via native pulumi_* tools and optional Pulumi MCP. Use for stack inspect, preview, up, refresh, and destroy with confirmed org/project/stack targets.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "pulumi"
-      ],
+      "name": "pulumi",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/pulumi",
-      "checksum": "sha256:6c88f47b0a3e64aab0465a9e92a40eb80c37786bd47e0b532f02fc3933a39e84"
+      "checksum": "sha256:48d9e73b625c94f914f59418192d1d4241ab89fb35ad09abf03cd266ac0368f8"
     },
     {
       "id": "pulumi-arm-to-pulumi",
-      "name": "Pulumi ARM to Pulumi",
-      "description": "Migrate Azure ARM templates and Bicep to Pulumi.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "pulumi-arm-to-pulumi",
-        "kubernetes",
-        "docker",
-        "pulumi"
-      ],
+      "name": "pulumi-arm-to-pulumi",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/pulumi-arm-to-pulumi",
-      "checksum": "sha256:545f253a919f77e9af4702ea0e540b3fdfb9a3eeb253b192ff9a453bedda2bbf"
+      "checksum": "sha256:c520a7611fef9cdd7cf0718cc37e0a2d82f21dc5d195c3edad136aec27a78038"
     },
     {
       "id": "pulumi-automation-api",
-      "name": "Pulumi Automation API",
-      "description": "Build and operate Pulumi workflows using Automation API.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "pulumi-automation-api",
-        "kubernetes",
-        "docker",
-        "pulumi"
-      ],
+      "name": "pulumi-automation-api",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/pulumi-automation-api",
-      "checksum": "sha256:6a7152411177720d22dacbcce78ae5e55260ef0938585f65278b9fbaa28583bc"
+      "checksum": "sha256:05a612f5d062b2758081da7f65428303216234dc1bcd95d03b1deb46210884b0"
     },
     {
       "id": "pulumi-best-practices",
-      "name": "Pulumi Best Practices",
-      "description": "Apply reliable Pulumi authoring patterns and guardrails.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "pulumi-best-practices",
-        "kubernetes",
-        "docker",
-        "pulumi"
-      ],
+      "name": "pulumi-best-practices",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/pulumi-best-practices",
-      "checksum": "sha256:f04b4d0f766e8cc7ce2a5f0560390bd6991fa59dbf91eed7ddf41d8b629a6e5c"
+      "checksum": "sha256:2e8b3334492ccc59d42292acbcbdcd9befe4136a9467fb6e3ad8d336f1b32c61"
     },
     {
       "id": "pulumi-cdk-to-pulumi",
-      "name": "Pulumi CDK to Pulumi",
-      "description": "Migrate AWS CDK applications to Pulumi.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "pulumi-cdk-to-pulumi",
-        "kubernetes",
-        "docker",
-        "pulumi"
-      ],
+      "name": "pulumi-cdk-to-pulumi",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/pulumi-cdk-to-pulumi",
-      "checksum": "sha256:bc74e993edb98858267657eb7fe8ececc2184b3af41827de7021676f96445ecd"
+      "checksum": "sha256:6730a15632d523805d7c54ba702456e57708a7ab16671772ee61427c59aaa60a"
     },
     {
       "id": "pulumi-component",
-      "name": "Pulumi Component",
-      "description": "Author reusable Pulumi ComponentResource classes.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "pulumi-component",
-        "kubernetes",
-        "docker",
-        "pulumi"
-      ],
+      "name": "pulumi-component",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/pulumi-component",
-      "checksum": "sha256:d671aec16fda1c8d4acc4c8b85f63b8fa3880d1634fbfa99022f3a794820dfda"
+      "checksum": "sha256:9bf35311eeacd931eb9122c667e83752dcfce922c21daa694d7a1324407cd90c"
     },
     {
       "id": "pulumi-esc",
-      "name": "Pulumi ESC",
-      "description": "Use Pulumi ESC for environments, secrets, and configuration.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "pulumi-esc",
-        "kubernetes",
-        "docker",
-        "pulumi"
-      ],
+      "name": "pulumi-esc",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/pulumi-esc",
-      "checksum": "sha256:c903f653464b96bfbadd8a00ea19ca2b566fbfc44c12ff7bdaf0801ade418849"
+      "checksum": "sha256:56742b2f34d43b96c913739226bcd42a5f6160376305c8d6521419add9f6d14c"
     },
     {
       "id": "pulumi-terraform-to-pulumi",
-      "name": "Pulumi Terraform to Pulumi",
-      "description": "Migrate Terraform projects to Pulumi.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "pulumi-terraform-to-pulumi",
-        "kubernetes",
-        "docker",
-        "pulumi"
-      ],
+      "name": "pulumi-terraform-to-pulumi",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/pulumi-terraform-to-pulumi",
-      "checksum": "sha256:08b725472e7f9284f79a42ae73117b52d94e95e5fb4e1dc4301465a1c562759b"
+      "checksum": "sha256:4709d466c0997b19762539e785e678f87b95d92c5615f4937ac44c9e365e1ff3"
     },
     {
       "id": "pulumi-upgrade-provider",
-      "name": "Pulumi Upgrade Provider Repo",
-      "description": "Automate provider repository upgrade workflows.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "pulumi-upgrade-provider",
-        "kubernetes",
-        "docker",
-        "pulumi"
-      ],
+      "name": "pulumi-upgrade-provider",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/pulumi-upgrade-provider",
-      "checksum": "sha256:9d3312d4e132c200185a1bdbbf09dec1bd0ccf65170e74d6dfb2571cec0a2fd4"
+      "checksum": "sha256:b2870e9cf5475717ba68ce3cefcd508c0c89a53f5ce2ad6d9c129a97d9f14889"
     },
     {
       "id": "query-data",
-      "name": "Query Data",
-      "description": "Write and execute SQL queries against data warehouses",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "query-data",
-        "postgres"
-      ],
+      "name": "query-data",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/query-data",
-      "checksum": "sha256:3ed9ad2f9a08cb0b59da77c9a90f7f6b300d9bede9cb6e1975c390fa14d4fc58"
+      "checksum": "sha256:e24ae42a00579b5cf37532a0878a3f900fe3782e27ea4fec7832a42a6e0fb4f6"
     },
     {
       "id": "rag-engineer",
-      "name": "RAG Engineer",
-      "description": "Expert in building Retrieval-Augmented Generation systems. Masters embedding models, vector databases, chunking strategies, and retrieval optimization for LLM applications. Use when: building RAG, vector search, embeddings, semantic search, document retrieval.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "rag-engineer",
-        "openai"
-      ],
+      "name": "rag-engineer",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/rag-engineer",
-      "checksum": "sha256:5265b35d0e911eedd69506421108ea704fdd6793130d561f9ee85bb70933e086"
+      "checksum": "sha256:73800cfb58e8ea2ce429c51ab12386fab742cd68d757043c0a3772fde4d7baed"
     },
     {
       "id": "react-patterns",
-      "name": "React Patterns",
-      "description": "Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices.",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "react-patterns",
-        "react",
-        "typescript",
-        "storybook"
-      ],
+      "name": "react-patterns",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/react-patterns",
-      "checksum": "sha256:963cd1abbfa3eb1c54c09bc4014bb638dfb1400df50a607f4de851f58b2d8f50"
+      "checksum": "sha256:4bfaff32e93857e53500e897da701cbb5c84b690eac9b152f63568b785524289"
     },
     {
       "id": "recommend-next-posts",
-      "name": "Recommend Next Posts",
-      "description": "Suggest content based on engagement trends and audience behavior",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "recommend-next-posts",
-        "openai"
-      ],
+      "name": "recommend-next-posts",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/recommend-next-posts",
-      "checksum": "sha256:3d4056c38a6e46fd08a60c54e33a4af18086515aa07457674959c9fa770b310d"
+      "checksum": "sha256:d0f765700e614834ed05dbbb18657da9b9b0921559394b3a48806b4c3e8e4bff"
     },
     {
       "id": "reconcile-ledgers",
-      "name": "Reconcile Ledgers",
-      "description": "Reconcile transactions and flag discrepancies",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "reconcile-ledgers",
-        "google-sheets",
-        "excel"
-      ],
+      "name": "reconcile-ledgers",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/reconcile-ledgers",
-      "checksum": "sha256:f21a4b6722c3f8f5502d8d7e32d46a4b030bdbe42cb6238c324fb9d931986460"
+      "checksum": "sha256:13081752194febb4e90a243e127e51e2cf2b2eb06bfa45e3e146dc0a1f578129"
     },
     {
       "id": "refactor-code",
-      "name": "Refactor Code",
-      "description": "Restructure existing code to improve maintainability, readability, and performance without changing its external behavior, using GitHub and Jira.",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "refactor-code",
-        "vscode",
-        "github"
-      ],
+      "name": "refactor-code",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/refactor-code",
-      "checksum": "sha256:11506a625f622ba50eeb1d3e99ea2eecc034fa46dadbddcf6ee364401d8d6a71"
+      "checksum": "sha256:b80b12d3e9454552852b4bc2373fcf42fd4f1157c1de13ca1951931947f88dd5"
     },
     {
       "id": "report-defects",
-      "name": "Report Defects",
-      "description": "File detailed bug reports with reproduction steps",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "report-defects",
-        "jira",
-        "bugsnag"
-      ],
+      "name": "report-defects",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/report-defects",
-      "checksum": "sha256:ae42e069d0e2f5b348baa753e54e740340e84a91ddea56026a542d5a3a01a349"
+      "checksum": "sha256:cc9794fe0abd04a196e16b7b5f9c705365986be10f28b35a4fadcde380cf7cae"
     },
     {
       "id": "report-delivery",
-      "name": "Report Delivery",
-      "description": "Summarize delivery metrics and stakeholder status updates",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "report-delivery",
-        "google-sheets",
-        "jira"
-      ],
+      "name": "report-delivery",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/report-delivery",
-      "checksum": "sha256:2ac21031b91bfa3df6c1be3605f704db2903703e3128ed68439946c5ec7bf807"
+      "checksum": "sha256:74a5ba4e035a507b0818ccddd3ba3950c3d90b329add1d4db8672490b8326274"
     },
     {
       "id": "report-status",
-      "name": "Report Status",
-      "description": "Summarize project status and delivery metrics",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "report-status",
-        "google-sheets",
-        "jira"
-      ],
+      "name": "report-status",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/report-status",
-      "checksum": "sha256:ae4fa2fcc5259574b6a39c6f694ea30445bc43c3f26f1c4ba2048a25de901d1f"
+      "checksum": "sha256:65a8fbaea9a8351ea2b614f9e0d7183d977692b46aa6ac1f1dd25660918d5d76"
     },
     {
       "id": "research-partners",
-      "name": "Research Partners",
-      "description": "Evaluate potential partners for strategic fit",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "research-partners",
-        "market-research-api",
-        "google-docs"
-      ],
+      "name": "research-partners",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/research-partners",
-      "checksum": "sha256:0e024dc6f1c9bc28b908bcfabdba0fbe9c11f6e9cc452bbc9851893098c0dcd5"
+      "checksum": "sha256:299a36073b9879630245562108d9c09923a5a50dbe35b81613d003a6a7e4dc80"
     },
     {
       "id": "review-content",
-      "name": "Review Content",
-      "description": "Review and edit documentation for accuracy and clarity",
-      "version": "1.0.0",
-      "type": "analytical",
-      "tags": [
-        "review-content",
-        "google-docs",
-        "grammarly"
-      ],
+      "name": "review-content",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/review-content",
-      "checksum": "sha256:abbe6e45293ad0a31f35ef9d5530be1c5f9c364b80eab9525e91cf4e06cfc1ab"
+      "checksum": "sha256:fc05e464be220138d7104f813e8cfda4691127f407f291878fd0c9bb0e15321d"
     },
     {
       "id": "review-proposals",
-      "name": "Review Proposals",
-      "description": "Evaluate technical proposals against standards and patterns",
-      "version": "1.0.0",
-      "type": "analytical",
-      "tags": [
-        "review-proposals",
-        "github",
-        "notion"
-      ],
+      "name": "review-proposals",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/review-proposals",
-      "checksum": "sha256:ac159291603f07d1dc2cd5cde4b2d93f1b384220f859ac79ec08910c1cfe778f"
+      "checksum": "sha256:6860dbd2d12a3c4ea655909628fee9d27a7e4e90bde8949e749a7ee653ebe1ec"
     },
     {
       "id": "run-automation",
-      "name": "Run Automation",
-      "description": "Execute automated test suites and report results",
-      "version": "1.0.0",
-      "type": "operational",
-      "tags": [
-        "run-automation",
-        "cypress",
-        "playwright",
-        "selenium"
-      ],
+      "name": "run-automation",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/run-automation",
-      "checksum": "sha256:b93258f92bcda74796d0838a6ce73b6c7e3d9bbccf17a10ad4975f18cf810a37"
+      "checksum": "sha256:acbc51bf45d00ae30450e399ccaa3192bd058d749755da386bb06beb94f00871"
     },
     {
       "id": "run-diagnostics",
-      "name": "Run Diagnostics",
-      "description": "Execute diagnostic scripts and gather system telemetry",
-      "version": "1.0.0",
-      "type": "analytical",
-      "tags": [
-        "run-diagnostics",
-        "custom-apis"
-      ],
+      "name": "run-diagnostics",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/run-diagnostics",
-      "checksum": "sha256:bfc6880c0f7228567c72745a69a1cebcaf22cd69c8a741dc2ce563b5bd53d226"
+      "checksum": "sha256:c8db365d12231705a9a01defd1c54710675bb8d401947d15813f9eb474fc4808"
     },
     {
       "id": "schedule-content",
-      "name": "Schedule Content",
-      "description": "Plan and schedule social posts across platforms",
-      "version": "1.0.0",
-      "type": "operational",
-      "tags": [
-        "schedule-content",
-        "buffer",
-        "hootsuite",
-        "meta-business-suite"
-      ],
+      "name": "schedule-content",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/schedule-content",
-      "checksum": "sha256:a8eab56585be44b673b7e3b525ad7e2a362432fe6e28b6293c00f37c4aa996fe"
+      "checksum": "sha256:0440da51ce53d58155879bc7b980d79aa0d6547eff3fc95bef1369a05370c73d"
     },
     {
       "id": "scheduled-tasks",
-      "name": "Scheduled Tasks",
-      "description": "Run one of the initiative's configured scheduled tasks manually from chat.",
-      "version": "1.0.0",
-      "type": "procedural",
-      "tags": [
-        "scheduled-tasks",
-        "workflow-automation"
-      ],
+      "name": "scheduled-tasks",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/scheduled-tasks",
-      "checksum": "sha256:9c791f762b667949e06268818eb847ef00d9cb88a746ef775cf03d9bcd4cf1a0"
+      "checksum": "sha256:f2228e93772236c61b648b7c36fba3c6a7e58f1f29c6cd6bcefafa12396dea00"
     },
     {
       "id": "score-leads",
-      "name": "Score Leads",
-      "description": "Score prospects by likelihood to convert",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "score-leads",
-        "crm-api"
-      ],
+      "name": "score-leads",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/score-leads",
-      "checksum": "sha256:27b24f350bbcde33aa8bb0ac870ab6e02ac647330cc162a118a1a4059e1b894d"
+      "checksum": "sha256:f0e31e6ec15ec15ee2ca65474efb1f166c3f338c65ce33a10f3c1a34febb31fd"
     },
     {
       "id": "sequence-agents",
-      "name": "Sequence Agents",
-      "description": "Design and execute multi-agent task sequences",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "sequence-agents",
-        "langchain",
-        "custom-apis"
-      ],
+      "name": "sequence-agents",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/sequence-agents",
-      "checksum": "sha256:316fb1270adb4e20bc5dd75015e61d298890128cadd4a4d3208ee25b0cdccd81"
+      "checksum": "sha256:27568ab7b0186e012eb1d15562bc057ed21406f77b347857e556aa830ad05374"
     },
     {
       "id": "shadow-canary-watcher",
-      "name": "Shadow Canary Watcher",
-      "description": "Post-deploy monitoring — canary metrics, error budgets, and rollback triggers.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-canary-watcher",
-        "grafana",
-        "pagerduty",
-        "github-actions"
-      ],
+      "name": "shadow-canary-watcher",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-canary-watcher",
-      "checksum": "sha256:844c1a5f14a2fc5c47c4ef4aab9550b9453336568c56772d6240d90ada17c8c0"
+      "checksum": "sha256:444cb2e534dbfd2097256b6ec95487ee6ce8893f7fb55175676ff62e736a1ccb"
     },
     {
       "id": "shadow-ceo",
-      "name": "Shadow CEO Review",
-      "description": "Founder-grade plan review — scope modes, alternatives, and full product/engineering review sections without implementation.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-ceo",
-        "shadow",
-        "openai",
-        "notion",
-        "google-docs",
-        "review"
-      ],
+      "name": "shadow-ceo",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-ceo",
-      "checksum": "sha256:e1b5b2e39a98e07a31319cd9e218fb5a62b98f30f66eff470ab191ea60e228c5"
+      "checksum": "sha256:48b6c2156131da2d9466200395b24238854fe17ae474d94f532f35cedf138146"
     },
     {
       "id": "shadow-code-reviewer",
-      "name": "Shadow Code Reviewer",
-      "description": "Diff- and plan-aware review focused on completeness, risk, and missing edge cases.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-code-reviewer",
-        "shadow",
-        "github",
-        "vscode",
-        "review"
-      ],
+      "name": "shadow-code-reviewer",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-code-reviewer",
-      "checksum": "sha256:3a16d1608aa29f9d576432656c2ceb580b53675fbb121c8de968b6707cc08c44"
+      "checksum": "sha256:b696a4b0b8083c07b1d111f012fca75480cdd69513529a4ec93681727e581f12"
     },
     {
       "id": "shadow-design-critic",
-      "name": "Shadow Design Critic",
-      "description": "Plan-level design critique — dimensions, heuristics, and generic-pattern (“slop”) detection, not pixel pushing.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-design-critic",
-        "shadow",
-        "figma",
-        "openai",
-        "review"
-      ],
+      "name": "shadow-design-critic",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-design-critic",
-      "checksum": "sha256:83ad3a623062fe638cd99c2720ed4d9d6249af017844828cf87abe22b06f2f66"
+      "checksum": "sha256:0e8cae780155e4275e5b3f9a72ebbc1cde7d61687dc49b13a6c78d5e16e5aecf"
     },
     {
       "id": "shadow-design-engineer",
-      "name": "Shadow Design Engineer",
-      "description": "Bridge visual intent and implementation — component states, tokens, and handoff quality.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-design-engineer",
-        "figma",
-        "storybook",
-        "react"
-      ],
+      "name": "shadow-design-engineer",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-design-engineer",
-      "checksum": "sha256:347871edfcbf61a63d19a5a0bd8fc0f8270b23d083c9fb4e2fce92bafcd9e37f"
+      "checksum": "sha256:6f89bcc94b088aeb5a5f5de404e7aad06a0fc2999337bbe4fe78b0c7552693e6"
     },
     {
       "id": "shadow-design-explorer",
-      "name": "Shadow Design Explorer",
-      "description": "Breadth-first design exploration — many cheap concepts before commitment.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-design-explorer",
-        "shadow",
-        "figma",
-        "openai",
-        "review"
-      ],
+      "name": "shadow-design-explorer",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-design-explorer",
-      "checksum": "sha256:5b2cc2ff389805970f23f6fe35035ea3df21b83eb38d4dba852c2271e643cb38"
+      "checksum": "sha256:18e128ae15bbecdab4008fff08ff07dce29f422391d5878921daed9d0b997f93"
     },
     {
       "id": "shadow-design-partner",
-      "name": "Shadow Design Partner",
-      "description": "Collaborative design exploration — constraints, options, and critique loops for product and brand fit.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-design-partner",
-        "shadow",
-        "figma",
-        "miro",
-        "openai",
-        "review"
-      ],
+      "name": "shadow-design-partner",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-design-partner",
-      "checksum": "sha256:be6045447fbef3623c8f5d6ee55cd4559d9eb213eaceb72d1a361381411230e4"
+      "checksum": "sha256:217e708f66fe9e68cc99eb1c3209ee17c9d5807c1cbb877b39a37a2a6666a537"
     },
     {
       "id": "shadow-devex-lead",
-      "name": "Shadow Developer Experience Lead",
-      "description": "Developer experience review — onboarding path, time-to-first-success, and “magical moment” for contributors.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-devex-lead",
-        "shadow",
-        "github",
-        "vscode",
-        "docs-as-code",
-        "review"
-      ],
+      "name": "shadow-devex-lead",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-devex-lead",
-      "checksum": "sha256:f583b8e72bc69c24a59f763cf359c969283ec383a144273b606a4c5d4f792de2"
+      "checksum": "sha256:cdd6007ab638910f6cb18713391c8460d2fcc21dedfb8ace3304de9362e1128f"
     },
     {
       "id": "shadow-engineering-lead",
-      "name": "Shadow Engineering Lead",
-      "description": "Technical review of plans and designs — architecture, data flow, failure modes, and test matrix rigor.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-engineering-lead",
-        "shadow",
-        "github",
-        "vscode",
-        "notion",
-        "review"
-      ],
+      "name": "shadow-engineering-lead",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-engineering-lead",
-      "checksum": "sha256:120a0be9a07dc3b1da8ce5a870e803ebfea876b0a3d822cf8233c07f403fd616"
+      "checksum": "sha256:83bb0565d6652e196de35486ff1b2be6a4327e98857bf20028e27c40f6826ca6"
     },
     {
       "id": "shadow-founder-coach",
-      "name": "Shadow Founder Coach",
-      "description": "Structured founder coaching before big bets — forcing questions, premise checks, and reframes before implementation.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-founder-coach",
-        "shadow",
-        "openai",
-        "notion"
-      ],
+      "name": "shadow-founder-coach",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-founder-coach",
-      "checksum": "sha256:2aa7e59f4061aa7c11f98007c5822494eaf68cfce8aac16701414424962e99fd"
+      "checksum": "sha256:91aa7b72eef6f07659d1d671c13444f84d9fe29acdc80988269318f5a16c353b"
     },
     {
       "id": "shadow-investigator",
-      "name": "Shadow Investigator",
-      "description": "Structured incident and defect investigation — evidence, hypotheses, and root cause without blame.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-investigator",
-        "shadow",
-        "github",
-        "jira",
-        "review"
-      ],
+      "name": "shadow-investigator",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-investigator",
-      "checksum": "sha256:9e0b23b5587df78dedc98e338196f5e6197441eb74557e0a2dd672375a0977f3"
+      "checksum": "sha256:68187ba6f792e6c6ef3ece8d46cedafc4688dc9ea6704a61b85156865f586ed8"
     },
     {
       "id": "shadow-live-design-reviewer",
-      "name": "Shadow Live Design Reviewer",
-      "description": "Live or staged UI review — flows, visuals, and responsiveness against intent.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-live-design-reviewer",
-        "figma",
-        "chrome-devtools"
-      ],
+      "name": "shadow-live-design-reviewer",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-live-design-reviewer",
-      "checksum": "sha256:85484d134dc7aa7bcc3b8c34438df26193db7c9aa6d57d442c8a962130f05cf9"
+      "checksum": "sha256:2b5444aa0ec427584f233c0ca1f8a78bcdddf084d04b37ad1fece774f39c6f8b"
     },
     {
       "id": "shadow-live-devex-tester",
-      "name": "Shadow Live DevEx Tester",
-      "description": "Hands-on contributor journey test — clone, install, test, and first PR path.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-live-devex-tester",
-        "vscode",
-        "github"
-      ],
+      "name": "shadow-live-devex-tester",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-live-devex-tester",
-      "checksum": "sha256:398162718a4e98c9f74cfa8d9e78400f51cf58610b4e94685ffcb944320b45bf"
+      "checksum": "sha256:a79cd27aa3993bef358fcd3ba667b9a67a43a68e242e1883d9b5874f28bb0047"
     },
     {
       "id": "shadow-perf-engineer",
-      "name": "Shadow Performance Engineer",
-      "description": "Performance and benchmarking — budgets, profiling mindset, and regression detection.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-perf-engineer",
-        "lighthouse",
-        "chrome-devtools"
-      ],
+      "name": "shadow-perf-engineer",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-perf-engineer",
-      "checksum": "sha256:bb893c24480ffc38ee7222e9204319797f5a82caee651691c2780532abd99cc2"
+      "checksum": "sha256:c71d7d22485335cf53ec8f28302e789de98bc9eb4175aec582d0bfa416ce4675"
     },
     {
       "id": "shadow-qa-lead",
-      "name": "Shadow QA Lead",
-      "description": "Test strategy and exploratory charter — risk-based coverage and edge-case hunting.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-qa-lead",
-        "shadow",
-        "playwright",
-        "cypress",
-        "github",
-        "review"
-      ],
+      "name": "shadow-qa-lead",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-qa-lead",
-      "checksum": "sha256:b879df436827defb8412ea29a8ad5d5dbd4ed55cc08ff1689c5015bf4d7b5126"
+      "checksum": "sha256:30505f6370282b4dcdfc2a38e5b194e1e4842f62bc6b59d6a167159813ba2cbe"
     },
     {
       "id": "shadow-qa-reporter",
-      "name": "Shadow QA Reporter",
-      "description": "Structured bug reporting and triage — repro, environment, expected vs actual, severity.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-qa-reporter",
-        "shadow",
-        "playwright",
-        "github",
-        "jira",
-        "review"
-      ],
+      "name": "shadow-qa-reporter",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-qa-reporter",
-      "checksum": "sha256:e8acef0b09407786178ff4cfeb9eeb5f4d27791ccca9ecc26c31ee83080b3f0b"
+      "checksum": "sha256:f662b555c0cfc6530bf772db2d1e129ae7f4dc0bca866fb9ba95dfa9b94f91df"
     },
     {
       "id": "shadow-release-lander",
-      "name": "Shadow Release Lander",
-      "description": "Land-and-deploy discipline — merge, deploy sequence, verification, and rollback readiness.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-release-lander",
-        "github",
-        "github-actions",
-        "kubernetes"
-      ],
+      "name": "shadow-release-lander",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-release-lander",
-      "checksum": "sha256:5f7e36cecb3f63d87f0fd9c9319c72f7fea7f0c45381d4779a12d02f38406b5b"
+      "checksum": "sha256:1f7c6c7eb7b1f4cd8905afbb6d97406a35a01dd5a1925195f984ffc6cc2aba4c"
     },
     {
       "id": "shadow-release-scribe",
-      "name": "Shadow Release Scribe",
-      "description": "Release documentation — user-facing notes, internal runbooks, and version narrative.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-release-scribe",
-        "github",
-        "google-docs",
-        "notion"
-      ],
+      "name": "shadow-release-scribe",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-release-scribe",
-      "checksum": "sha256:84c944a43d441012d220d6251d1bef41e9eff8635e5c415c91f35da53073a037"
+      "checksum": "sha256:2eb6b340b84a9c701f072284c7ffbc695c04ca3f34e0ab944b95b2c5fd42d0c9"
     },
     {
       "id": "shadow-retro-lead",
-      "name": "Shadow Retrospective Lead",
-      "description": "Facilitation pattern for sprint or weekly retros — safety, themes, experiments, and follow-through.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-retro-lead",
-        "shadow",
-        "jira",
-        "notion",
-        "google-docs",
-        "review"
-      ],
+      "name": "shadow-retro-lead",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-retro-lead",
-      "checksum": "sha256:0f736cb5fb23f697b7f8d9423638f815db7c6f303daf507705693247fd69f3ab"
+      "checksum": "sha256:69db510285786ee8ed10bfd1baba0285f90e27b9d0f808f402c76ba129ce2b69"
     },
     {
       "id": "shadow-review-board",
-      "name": "Shadow Review Board",
-      "description": "Orchestrates a staged review — strategy, design intent, engineering, and DX — with merged findings.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-review-board",
-        "shadow",
-        "openai",
-        "notion",
-        "review"
-      ],
+      "name": "shadow-review-board",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-review-board",
-      "checksum": "sha256:517869dc6dea5f02d4d3faa17421138e5da46c6fb04e0192d119ff3382dc0e72"
+      "checksum": "sha256:e7885ac01dd7199fc8fd78bbc3e8910c69498bef38dee8580d38d1d7dce0f5f6"
     },
     {
       "id": "shadow-second-opinion",
-      "name": "Shadow Second Opinion",
-      "description": "Independent challenge of a plan or review — assumptions, blind spots, and devil’s advocate arguments.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-second-opinion",
-        "openai",
-        "anthropic"
-      ],
+      "name": "shadow-second-opinion",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-second-opinion",
-      "checksum": "sha256:1a8d775175c7ca917a3c2b9abdc24ab7aaf97d14d56114878bb984286f3ee5e4"
+      "checksum": "sha256:33171ce3906ffcee0097f545bd7eed37483b000e8854aa23e0819278efb3e82e"
     },
     {
       "id": "shadow-security-officer",
-      "name": "Shadow Security Officer",
-      "description": "Security and abuse review using STRIDE-style and OWASP-style lenses on the plan and surfaces.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-security-officer",
-        "shadow",
-        "github",
-        "security-scanner",
-        "snyk",
-        "review"
-      ],
+      "name": "shadow-security-officer",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-security-officer",
-      "checksum": "sha256:e181562bd2d03870dec2574dc828ebd2b42878372fbd68d40d322bc3beb8eb16"
+      "checksum": "sha256:c868496cde51a965eedbca7ba28169d050207fd831b2c0d588d60b1bbeab7ea8"
     },
     {
       "id": "shadow-ship-manager",
-      "name": "Shadow Ship Manager",
-      "description": "Shipping checklist — PR quality, CI, risk, and communication for merge and release.",
-      "version": "1.0.0",
-      "type": "supervisory",
-      "tags": [
-        "shadow-ship-manager",
-        "shadow",
-        "github",
-        "github-actions",
-        "review"
-      ],
+      "name": "shadow-ship-manager",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/shadow-ship-manager",
-      "checksum": "sha256:4d0b58a5220a3c72974b6223e547b2d5b27712a6ae7d90861a78f76140f40569"
+      "checksum": "sha256:9592ac59524356b03b0016ef0387d5e041ad2ea59e853c032ac1ae22c0c8afda"
     },
     {
       "id": "skill-catalog-vetting",
-      "name": "Skill Catalog Vetting",
-      "description": "Audits imported Agent Studio skill catalog rows for security patterns, prompt-injection risk, and Agent Skills best practices before tier promotion. Use with skill_catalog_vet and SKS reporting.",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "skill-catalog-vetting",
-        "security",
-        "skills",
-        "audit",
-        "syncolab",
-        "agent-studio"
-      ],
+      "name": "skill-catalog-vetting",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/skill-catalog-vetting",
-      "checksum": "sha256:069709073739d8e804b36e7c67ccff0ad54686857eded6d9ddaa72615b150da4"
+      "checksum": "sha256:5382379fa985c85f20d407dde33ed7a90e76f340e0888c04fa72b753c76a1cc2"
     },
     {
       "id": "slack",
-      "name": "Slack",
-      "description": "Automates Slack messages, channels, search, reactions, and threads via Rube MCP (Composio). Use after RUBE_SEARCH_TOOLS and an ACTIVE Slack workspace connection.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "slack"
-      ],
+      "name": "slack",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/slack",
-      "checksum": "sha256:b2e7b196f16936bd9aa1a7dbdcef69c695bfde9e1e353ccff7a917754d0f9844"
+      "checksum": "sha256:37245d2ffb4f2f4092ee6760b017db960372cf760468b22326cd8b28b8b880d6"
     },
     {
       "id": "snyk",
-      "name": "Snyk",
-      "description": "Runs Snyk dependency and code security scans, prioritizes findings by severity and exploitability, and proposes minimal-breakage remediations. Use when auditing vulnerabilities or validating fixes.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "snyk",
-        "security-scanner"
-      ],
+      "name": "snyk",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/snyk",
-      "checksum": "sha256:5a5c6f2a6f30d5a52e7fabd3d0c836c28b43103311bcbc402848da830ba49c4f"
+      "checksum": "sha256:f713dbfdda8d9e2540cfa83782748c79796d5b6f4332f1d0f3d38b351cc1be7f"
     },
     {
       "id": "socratic-tutoring-and-scaffolding",
-      "name": "Socratic tutoring and scaffolding",
-      "description": "Guide with questions and partial models without replacing the learner’s thinking or completing graded work.",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "socratic-tutoring-and-scaffolding",
-        "education",
-        "pedagogy",
-        "tutoring"
-      ],
+      "name": "socratic-tutoring-and-scaffolding",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/socratic-tutoring-and-scaffolding",
-      "checksum": "sha256:0d76fcaf08d54b8fba701269588003c10d8e1e1ca1b8c30d098f75bcce0747fa"
+      "checksum": "sha256:7db575932201d2ba92f5ef1bc6880b914897763adf18d29ace12d769235ae0cc"
     },
     {
       "id": "strength-conditioning-programming",
       "name": "strength-conditioning-programming",
-      "description": "Program design, periodization, and session structure for general fitness",
+      "description": "",
       "version": "0.2.0",
       "type": null,
       "tags": [],
@@ -2686,441 +1916,314 @@
     },
     {
       "id": "suggest-knowledge",
-      "name": "Suggest Knowledge",
-      "description": "Recommend knowledge base articles to resolve issues",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "suggest-knowledge",
-        "internal-wiki",
-        "chatbot-framework"
-      ],
+      "name": "suggest-knowledge",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/suggest-knowledge",
-      "checksum": "sha256:be2348f70c19105210a86aa43bd487e33b0b4d33fcb1bd8c49c492dd8b70b451"
+      "checksum": "sha256:5d8b420a56f81a99e610defa49d271865754596f8bdf480f81219d5061960a1b"
     },
     {
       "id": "suggest-refactors",
-      "name": "Suggest Refactors",
-      "description": "Identify code smells and propose improvements",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "suggest-refactors",
-        "github",
-        "vscode"
-      ],
+      "name": "suggest-refactors",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/suggest-refactors",
-      "checksum": "sha256:c1d5216e6628926122b9c104bdde1119a8b8f355fab7c5ce06f0c6aa467300cc"
+      "checksum": "sha256:bc378fa9ba3c78b2f50ecb6e98c0bde4248d459e5b63cecdb4073148a92fb781"
     },
     {
       "id": "suggest-updates",
-      "name": "Suggest Updates",
-      "description": "Flag stale content and suggest improvements",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "suggest-updates",
-        "openai",
-        "internal-wiki"
-      ],
+      "name": "suggest-updates",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/suggest-updates",
-      "checksum": "sha256:edc8c617fb7993bae400246f86511ff5bc05617477840490cce1e5ab2ae3a3bd"
+      "checksum": "sha256:fcf6dc4998bdc431f99f73cdd785fb07eeea901a108d51beb453f65325b777b0"
     },
     {
       "id": "summarize-client-calls",
-      "name": "Summarize Client Calls",
-      "description": "Capture and summarize key points from client conversations",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "summarize-client-calls",
-        "email",
-        "google-docs"
-      ],
+      "name": "summarize-client-calls",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/summarize-client-calls",
-      "checksum": "sha256:fc3d6479f52a6c92e688538591e064dae87a02766323b208a5ced77842e66eda"
+      "checksum": "sha256:374a05358bdc9b5f4c9bf8ed826e30bde266d58234c9586ce14f9daf65e111ac"
     },
     {
       "id": "sync-docs",
-      "name": "Sync Docs",
-      "description": "Keep documentation aligned with code changes",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "sync-docs",
-        "github",
-        "google-drive"
-      ],
+      "name": "sync-docs",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/sync-docs",
-      "checksum": "sha256:6d189871501a2be7da9248e99b541d9662e4c50228e999cf7de7336cc164ce21"
+      "checksum": "sha256:4323b2a9e69348466e5431809db7482c60cde014846157675554be2b9cac04b6"
     },
     {
       "id": "syncolab-cognitive-memory",
-      "name": "Syncolab Cognitive Memory",
-      "description": "Guides Syncolab Cognitive Memory Layer (CML)—Qdrant + Mem0 composite, tenant scope, REST memory endpoints, and TS agent recall/persist. Use for long-term memory hydration and external runtime memory_layer contracts.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "syncolab-cognitive-memory",
-        "memory",
-        "cml",
-        "syncolab"
-      ],
+      "name": "syncolab-cognitive-memory",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/syncolab-cognitive-memory",
-      "checksum": "sha256:52c9aca223cc9c491f1c7888654c7108475f5e4dc24aff071c44aba97b4fb88f"
+      "checksum": "sha256:b2e8f1664f918ecf18549f058fca99e2db85cfbcc3332dea49e1e71580b19b96"
     },
     {
       "id": "syncolab-living-docs",
-      "name": "Syncolab Living Docs",
-      "description": "Searches and reads Syncolab Living Docs (SKS) and proposes human-reviewed patches via sks_docs_* tools. Use for authoritative platform docs, internal/external facets, and minimal doc drift fixes.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "syncolab-living-docs",
-        "sks",
-        "docs",
-        "syncolab"
-      ],
+      "name": "syncolab-living-docs",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/syncolab-living-docs",
-      "checksum": "sha256:824ae2d279269ae3999c79e3262789f6fdc166acf3b49bc11f0c5a41beebc657"
+      "checksum": "sha256:d0d1a5e9684538a1cb8058011e70f48393e504edd4f7f571fd8f493b5497a481"
     },
     {
       "id": "ta-role-and-professional-boundaries",
-      "name": "TA role and professional boundaries",
-      "description": "Clarify TA duties, FERPA-style privacy habits, escalation paths, and respectful student interactions.",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "ta-role-and-professional-boundaries",
-        "education",
-        "ta",
-        "ethics",
-        "boundaries"
-      ],
+      "name": "ta-role-and-professional-boundaries",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/ta-role-and-professional-boundaries",
-      "checksum": "sha256:fb483b953cccc9ae44e7bdcd34e4184327d04b4760b9e856efea71f6095c90c6"
+      "checksum": "sha256:c069c6b980f91ae64be24604af7bf227b5247f8ae1360328b28bbd0a21846839"
     },
     {
       "id": "tell-data-stories",
-      "name": "Tell Data Stories",
-      "description": "Transform data findings into narrative insights",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "tell-data-stories",
-        "google-slides",
-        "google-sheets"
-      ],
+      "name": "tell-data-stories",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/tell-data-stories",
-      "checksum": "sha256:8f2826599d357476e63bb6a04aa174da944d3b143280cc0fe1977e2f861179c1"
+      "checksum": "sha256:34c2fd3e9c2f94ca67c62671080ece8c4153e82b0f277cdd11d630736eedecea"
     },
     {
       "id": "test-driven-development",
-      "name": "Test-Driven Development",
-      "description": "Use when implementing any feature or bugfix, before writing implementation code",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "test-driven-development",
-        "cypress",
-        "playwright"
-      ],
+      "name": "test-driven-development",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/test-driven-development",
-      "checksum": "sha256:021ad6332da391baaeefdd8a2339d655a02f17729908b9fc8cf43ac37c9bc06f"
+      "checksum": "sha256:100d98e0e69b039ec112d9e1b39093a5d691f197f398540a1650662bf894b99d"
     },
     {
       "id": "test-fixing",
-      "name": "Test Fixing",
-      "description": "Run tests and systematically fix all failing tests using smart error grouping. Use when user asks to fix failing tests, mentions test failures, runs test suite and failures occur, or requests to make tests pass.",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "test-fixing",
-        "github",
-        "vscode"
-      ],
+      "name": "test-fixing",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/test-fixing",
-      "checksum": "sha256:4e9ed0ea023b868277a064c9331fd56ebcfd9e79110f8239c15de9315de3facd"
+      "checksum": "sha256:43060c6b13f0a20668d848a12d551185878fd3bd4d6c1034fbdb5a46536c342e"
     },
     {
       "id": "testing-patterns",
-      "name": "Testing Patterns",
-      "description": "Jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle.",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "testing-patterns",
-        "cypress",
-        "playwright",
-        "selenium"
-      ],
+      "name": "testing-patterns",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/testing-patterns",
-      "checksum": "sha256:735f28e461b816425c81f4696534df38a1d539c37afcd7d9202e1d31d31e3912"
+      "checksum": "sha256:bed9a195326dd3cebeab2abf8fd49e97f8a8ae3549133b883c453a9bfb180bba"
     },
     {
       "id": "threat-modeling",
-      "name": "Threat modeling",
-      "description": "Performs STRIDE-style threat modeling on features and systems with ranked mitigations and residual risk. Use before shipping new surfaces, auth flows, or third-party integrations.",
-      "version": "1.0.0",
-      "type": "planning",
-      "tags": [
-        "threat-modeling",
-        "jira",
-        "google-docs"
-      ],
+      "name": "threat-modeling",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/threat-modeling",
-      "checksum": "sha256:c0f283d77a4f6adaf7107a24f433c972495cd9a4f6a5a40f8a56f1fd68c95252"
+      "checksum": "sha256:0980602f4be2ed3f803cf3b354ad0187ebf40a64407a0120a0faac06f7955f65"
     },
     {
       "id": "track-follow-ups",
-      "name": "Track Follow-ups",
-      "description": "Monitor and coordinate follow-up actions for client accounts",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "track-follow-ups",
-        "crm-api",
-        "email"
-      ],
+      "name": "track-follow-ups",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/track-follow-ups",
-      "checksum": "sha256:cf7aa298c46050a5419e3e8b2b5b831ed341715674ffb8dfbe918b5dd12e1982"
+      "checksum": "sha256:9fab98c4990c50448949595c370c0eb0e82b7a83226a44647ea98ebc25485e73"
     },
     {
       "id": "track-impediments",
-      "name": "Track Impediments",
-      "description": "Identify, escalate, and resolve delivery blockers",
-      "version": "1.0.0",
-      "type": "operational",
-      "tags": [
-        "track-impediments",
-        "jira",
-        "slack",
-        "managents-planning"
-      ],
+      "name": "track-impediments",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/track-impediments",
-      "checksum": "sha256:831ffcf453b3078e57ab2e739ae71cd40f3057c4cb03fbe5418f709e66f109a5"
+      "checksum": "sha256:44168a824833e4ae7221d0e020265ddcaffe62b9f2c14813bfa7e6dcc2f99e05"
     },
     {
       "id": "track-invoices",
-      "name": "Track Invoices",
-      "description": "Monitor outstanding invoices and match to purchase orders",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "track-invoices",
-        "google-sheets",
-        "excel"
-      ],
+      "name": "track-invoices",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/track-invoices",
-      "checksum": "sha256:befd6c1e65f156426a6d8c70afc4f5cbf1531ddeeefa51b2ccaf04b832799fcf"
+      "checksum": "sha256:67ea98fa6e1d961f32f5996579b33bf344478ac02fde39c043bb72d5d192c45a"
     },
     {
       "id": "track-pipeline",
-      "name": "Track Pipeline",
-      "description": "Monitor opportunity progress and pipeline health",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "track-pipeline",
-        "crm-api",
-        "google-sheets"
-      ],
+      "name": "track-pipeline",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/track-pipeline",
-      "checksum": "sha256:29e188407364d25b84479b6f3c8d1d6ea65a80559692c31fb8244f91d5626a62"
+      "checksum": "sha256:92b2589abbb63f0963ee9f791e1e805f24490b431841905523281f66ef5d1147"
     },
     {
       "id": "track-risks",
-      "name": "Track Risks",
-      "description": "Maintain and prioritize the security risk register",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "track-risks",
-        "jira",
-        "policy-db"
-      ],
+      "name": "track-risks",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/track-risks",
-      "checksum": "sha256:235b9191d50ebdd8ecd2c609e13bca794bff48af07bc4b82fa133b01110e7866"
+      "checksum": "sha256:fe9a995239241153eba9744516d1604c47d37b7719c7cb61c7079e95b3a5df90"
     },
     {
       "id": "transcribe-live",
-      "name": "Transcribe Live",
-      "description": "Real-time speech-to-text transcription of calls",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "transcribe-live",
-        "twilio"
-      ],
+      "name": "transcribe-live",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/transcribe-live",
-      "checksum": "sha256:cba5e23f699001af8d85accf60d8ae5a2aee500d2ccf3b97638fe24be15feeea"
+      "checksum": "sha256:2acd1a9672b7ba022564dc53d0aacf3bf79e3deb55fcffdec7c8c58723a2b524"
     },
     {
       "id": "triage-inbox",
-      "name": "Triage Inbox",
-      "description": "Summarize, prioritize, and route incoming email threads",
-      "version": "1.0.0",
-      "type": "analytical",
-      "tags": [
-        "triage-inbox",
-        "email"
-      ],
+      "name": "triage-inbox",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/triage-inbox",
-      "checksum": "sha256:9007e607aaaec4f2be427005377e7b07f95e89b24099249c6d3ff181f1c3efd2"
+      "checksum": "sha256:bc417eb2bc517856a0a1dfcfeaaf4b4ff52bf55fc9b89c694536b64112373c0c"
     },
     {
       "id": "tune-queries",
-      "name": "Tune Queries",
-      "description": "Optimize slow database queries for performance",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "tune-queries",
-        "postgres"
-      ],
+      "name": "tune-queries",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/tune-queries",
-      "checksum": "sha256:8429da9985e34a624accbc9a124e9ca09ace78bb67787b070188c870972282d8"
+      "checksum": "sha256:e9c7ea7be2769e365b91e2b36636b351876732399654c832dc39f4152f5fd8f3"
     },
     {
       "id": "tune-seo",
-      "name": "Tune SEO",
-      "description": "Optimize website metadata and structure for search",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "tune-seo",
-        "surfer-seo"
-      ],
+      "name": "tune-seo",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/tune-seo",
-      "checksum": "sha256:a4fbacfc308e956045c04a5c0edc406231102f334e04a341253b2805fe3afe07"
+      "checksum": "sha256:c2684539db045cfa1ee557a65dd0db10c4e8c14d7e91b881a4d91ab3514c50b3"
     },
     {
       "id": "typescript-expert",
-      "name": "TypeScript Expert",
-      "description": "TypeScript and JavaScript expert with deep knowledge of type-level programming, performance optimization, monorepo management, migration strategies, and modern tooling. Use PROACTIVELY for any TypeScript/JavaScript issues including complex type gymnastics, build performance, debugging, and architectural decisions. If a specialized expert is a better fit, I will recommend switching and stop.",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "typescript-expert",
-        "typescript",
-        "vscode"
-      ],
+      "name": "typescript-expert",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/typescript-expert",
-      "checksum": "sha256:82e47bcb5833a2d02353bb8496bf3f969cc6e45dd2e135210a18e965fc2d25ef"
+      "checksum": "sha256:3b2fa5949e16eaf95db76994d9bb8bf7472a2615cf6b00b2913589edbe1f512a"
     },
     {
       "id": "update-cms",
-      "name": "Update CMS",
-      "description": "Publish content updates to CMS-powered websites",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "update-cms",
-        "wordpress",
-        "cms"
-      ],
+      "name": "update-cms",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/update-cms",
-      "checksum": "sha256:2ecf6f82d650aa41287ae307c3cc81ffda46d92105b76b161d332297f78621fb"
+      "checksum": "sha256:f91d07cb9eb36771c122f89297da88f093477b839a7fef163df478bdb6e12e1c"
     },
     {
       "id": "upstream-patches",
-      "name": "Pulumi Upstream Patches",
-      "description": "Manage upstream Terraform patch stacks in provider repos.",
-      "version": "1.0.0",
-      "type": "operational",
-      "tags": [
-        "upstream-patches",
-        "kubernetes",
-        "docker",
-        "pulumi"
-      ],
+      "name": "upstream-patches",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/upstream-patches",
-      "checksum": "sha256:a16413932b41fff97149d060921da02d628bc206bb7577088145cd380d3387d7"
+      "checksum": "sha256:951c1923e5465f416ae364bce013e86965783f726aed23be54d934bfa95da7e1"
     },
     {
       "id": "vectorize",
-      "name": "Vectorize",
-      "description": "Runs semantic RAG and vector search over indexed knowledge via Vectorize MCP tools discovered at runtime. Use for memory retrieval, knowledge-base lookup, and evidence-backed answers from chunks.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "vectorize"
-      ],
+      "name": "vectorize",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/vectorize",
-      "checksum": "sha256:9563d8d0468b0ffb94e9acffb050205122695dcd9e249c13db2a89bf2a184aca"
+      "checksum": "sha256:f6511aeff2ccf0b871645c7eb776442566208e9fca5b1194a8c86834cf47eb82"
     },
     {
       "id": "workflow-automation",
-      "name": "Workflow Automation",
-      "description": "Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost money and angry customers. With it, workflows resume exactly where they left off.  This skill covers the platforms (n8n, Temporal, Inngest) and patterns (sequential, parallel, orchestrator-worker) that turn brittle scripts into production-grade automation.  Key insight: The platforms make different tradeoffs. n8n optimizes for accessibility",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "workflow-automation",
-        "langchain",
-        "custom-apis"
-      ],
+      "name": "workflow-automation",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/workflow-automation",
-      "checksum": "sha256:79d2e8387276c49b14093d10aaf2202fffd34902a69574439ccb5b3184f7d0ee"
+      "checksum": "sha256:43c9499906a99281784bfe93fa7e85c4030dabc415177b872ca62d5ce194f722"
     },
     {
       "id": "write-agent-documentation",
-      "name": "Write Agent Documentation",
-      "description": "Create, maintain, and improve repository documentation that helps coding agents understand the project, follow engineering standards, make safe changes, and work consistently across tools such as Claude Code, Cursor, GitHub Copilot, Codex, and other AI coding agents.",
-      "version": "1.0.0",
-      "type": "operational",
-      "tags": [
-        "write-agent-documentation",
-        "github",
-        "jira",
-        "google-docs",
-        "notion",
-        "docs-as-code"
-      ],
+      "name": "write-agent-documentation",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/write-agent-documentation",
-      "checksum": "sha256:e79c821a8a2c5a229e04e391e9e5245c7e3bd2f79132dbd7972e7483903f5821"
+      "checksum": "sha256:71e32b0c9dbdf0cbd825c02d85cf7988901c39dfe2b047e7e307292fed4f37b0"
     },
     {
       "id": "write-frontend-tests",
-      "name": "Write Frontend Tests",
-      "description": "Create end-to-end and visual regression tests",
-      "version": "1.0.0",
-      "type": "methodical",
-      "tags": [
-        "write-frontend-tests",
-        "cypress",
-        "playwright"
-      ],
+      "name": "write-frontend-tests",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/write-frontend-tests",
-      "checksum": "sha256:d9017fa12c7e735bf86a9230189e51dcfd37288454f1abcd3ed669e678a667b1"
+      "checksum": "sha256:c77a4918ab396920d53d8c212884499a52781b8082a5b8d7f898c363c3dd57b2"
     },
     {
       "id": "writing-plans",
-      "name": "Writing Plans",
-      "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
-      "version": "1.0.0",
-      "type": "planning",
-      "tags": [
-        "writing-plans",
-        "notion",
-        "google-docs"
-      ],
+      "name": "writing-plans",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/writing-plans",
-      "checksum": "sha256:c7877f4b8ca80a95d1af67803f9389545ecc2309365c5540d2e7e496f6d9fab4"
+      "checksum": "sha256:b565e2b595a31d771cfec7ba26af3ae13e5446bb1b31cb3488645cabfefd91fd"
     },
     {
       "id": "zapier",
-      "name": "Zapier Automation",
-      "description": "Triggers and manages Zapier Zaps via MCP integration. Use when turning Zaps on/off, running tests, or debugging Zap task history and field mappings.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "zapier",
-        "custom-apis"
-      ],
+      "name": "zapier",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
       "path": "skills/zapier",
-      "checksum": "sha256:b162afa9a4eb43230faf0755b8f3e6cce0699b6bddf8442240aa0eba40419ec6"
+      "checksum": "sha256:99bc5937b223765709d1cf0acd4ddc210dcbd0053feae70d812fd6f53e8de52a"
     }
   ],
-  "integrity": "sha256:2382434b99fa46ef60d336b615522c2293eccfefeff1f6321c877bb6487e82f4"
+  "integrity": "sha256:5140d1402badbf78766f1262bbf7c40659b90de6eb2f53992ed4d3ad1a16a758"
 }

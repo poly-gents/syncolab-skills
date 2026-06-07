@@ -1,0 +1,20 @@
+name: Microsoft Teams
+version: 1.0.0
+type: instrumental
+description:
+  capability: Read and post Microsoft Teams channel and chat messages via Graph API.
+  trigger_conditions: Use for Teams messaging, channel history, and 1:1 or group chat workflows.
+  scope_boundaries: Teams messaging only; shares Microsoft 365 OAuth with Outlook; not mail or calendar.
+  key_domain_words:
+  - teams
+  - microsoft
+  - channel
+  - chat
+tags:
+- teams
+- microsoft
+relationships:
+  skills: []
+  tool_sets:
+  - name: teams
+    type: can-have

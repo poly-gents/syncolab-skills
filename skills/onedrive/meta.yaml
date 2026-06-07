@@ -1,0 +1,20 @@
+name: Microsoft OneDrive
+version: 1.0.0
+type: instrumental
+description:
+  capability: Browse, search, and manage OneDrive files and folders via Graph API.
+  trigger_conditions: Use for personal OneDrive file discovery, folder creation, and cleanup.
+  scope_boundaries: OneDrive personal drive only; for SharePoint sites use sharepoint skill.
+  key_domain_words:
+  - onedrive
+  - microsoft
+  - drive
+  - files
+tags:
+- onedrive
+- microsoft
+relationships:
+  skills: []
+  tool_sets:
+  - name: onedrive
+    type: can-have

@@ -1,0 +1,23 @@
+name: Google Slides
+version: 1.0.0
+type: instrumental
+description:
+  capability: Create, read, and edit Google Slides presentation decks.
+  trigger_conditions: Use for pitch decks, EBR slides, data-story presentations, and sales enablement collateral.
+  scope_boundaries: Google Slides only; find shared deck ids via google-drive when needed.
+  key_domain_words:
+  - slides
+  - presentation
+  - deck
+  - pitch
+  - ebr
+tags:
+- google-slides
+- presentations
+relationships:
+  skills:
+  - name: google-drive
+    type: must-use
+  tool_sets:
+  - name: google-slides
+    type: can-have

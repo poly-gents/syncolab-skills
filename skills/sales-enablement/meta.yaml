@@ -1,0 +1,27 @@
+name: Sales Enablement
+version: 1.0.0
+type: operational
+description:
+  capability: Build sales collateral — decks, one-pagers, battlecards, objection docs, demo scripts.
+  trigger_conditions: Use when producing or refreshing sales enablement assets from product and call context.
+  scope_boundaries: Asset production workflows; uses connected deck, doc, call, and CRM tools; not raw CRM admin.
+  key_domain_words:
+  - sales
+  - enablement
+  - collateral
+  - battlecards
+tags:
+- sales
+- enablement
+- collateral
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-slides
+    type: can-have
+  - name: notion
+    type: can-have
+  - name: gong
+    type: can-have
+  - name: hubspot
+    type: can-have

@@ -1,0 +1,21 @@
+name: Microsoft Outlook
+version: 1.0.0
+type: instrumental
+description:
+  capability: Read and send Outlook mail and manage calendar events via Graph API.
+  trigger_conditions: Use for email triage, sending mail, and Outlook calendar scheduling.
+  scope_boundaries: Outlook mail and calendar only; shares Microsoft 365 OAuth with Teams; not OneDrive files.
+  key_domain_words:
+  - outlook
+  - microsoft
+  - email
+  - calendar
+tags:
+- outlook
+- microsoft
+- email
+relationships:
+  skills: []
+  tool_sets:
+  - name: outlook
+    type: can-have

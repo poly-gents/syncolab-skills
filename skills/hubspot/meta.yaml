@@ -1,0 +1,20 @@
+name: HubSpot
+version: 1.0.0
+type: instrumental
+description:
+  capability: Search and update HubSpot CRM contacts, companies, deals, and notes via CRM API v3.
+  trigger_conditions: Use for HubSpot contact/deal lookup, CRM updates, and activity logging.
+  scope_boundaries: HubSpot CRM objects only; not Salesforce or marketing automation beyond CRM notes.
+  key_domain_words:
+  - hubspot
+  - crm
+  - contacts
+  - deals
+tags:
+- hubspot
+- crm
+relationships:
+  skills: []
+  tool_sets:
+  - name: hubspot
+    type: can-have

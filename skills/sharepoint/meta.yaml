@@ -1,0 +1,20 @@
+name: Microsoft SharePoint
+version: 1.0.0
+type: instrumental
+description:
+  capability: Search SharePoint sites and browse document library files via Graph API.
+  trigger_conditions: Use for team site discovery and SharePoint library file lookup.
+  scope_boundaries: SharePoint sites and libraries only; personal OneDrive uses onedrive skill.
+  key_domain_words:
+  - sharepoint
+  - microsoft
+  - site
+  - document-library
+tags:
+- sharepoint
+- microsoft
+relationships:
+  skills: []
+  tool_sets:
+  - name: sharepoint
+    type: can-have

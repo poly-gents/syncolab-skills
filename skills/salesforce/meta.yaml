@@ -1,0 +1,19 @@
+name: Salesforce
+version: 1.0.0
+type: instrumental
+description:
+  capability: Query and update Salesforce CRM records and log tasks via REST Data API.
+  trigger_conditions: Use for SOQL reads, record CRUD, and Task activity logging in Salesforce.
+  scope_boundaries: Salesforce REST Data API only; HubSpot uses hubspot skill.
+  key_domain_words:
+  - salesforce
+  - crm
+  - soql
+tags:
+- salesforce
+- crm
+relationships:
+  skills: []
+  tool_sets:
+  - name: salesforce
+    type: can-have

@@ -1,0 +1,21 @@
+name: Instagram
+version: 1.0.0
+type: instrumental
+description:
+  capability: Manage Instagram Business media, comments, and insights via Graph API.
+  trigger_conditions: Use for Instagram post publishing, comment moderation, and account/media analytics.
+  scope_boundaries: Connected Business/Creator account only; no arbitrary user search or DM automation.
+  key_domain_words:
+  - instagram
+  - meta
+  - media
+  - social
+tags:
+- instagram
+- meta
+- social
+relationships:
+  skills: []
+  tool_sets:
+  - name: instagram
+    type: can-have

@@ -1,0 +1,28 @@
+name: Reading academic texts
+version: 1.0.0
+type: methodical
+description:
+  capability: "Strategies for papers and monographs outside math: claim–evidence–limits, skimming, and critique without drowning in jargon."
+  trigger_conditions: "Use when strategies for papers and monographs outside math: claim–evidence–limits, skimming, and critique without drowning in jargon."
+  scope_boundaries: "Focused on Reading academic texts workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - reading-academic-texts
+  - education
+  - reading
+  - literacy
+tags:
+  - reading-academic-texts
+  - education
+  - reading
+  - literacy
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-docs
+    type: can-have
+  - name: arxiv
+    type: can-have
+  - name: semantic-scholar
+    type: can-have
+  - name: openalex
+    type: can-have

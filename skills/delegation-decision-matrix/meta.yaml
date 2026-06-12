@@ -1,0 +1,22 @@
+name: Delegation decision matrix
+version: 1.0.0
+type: supervisory
+description:
+  capability: "Decide whether to do work yourself, delegate to another digital employee, or escalate to a human, using a small fixed matrix instead of ad hoc judgment."
+  trigger_conditions: "Use when decide whether to do work yourself, delegate to another digital employee, or escalate to a human, using a small fixed matrix instead of ad hoc judgment."
+  scope_boundaries: "Focused on Delegation decision matrix workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - delegation-decision-matrix
+  - provenance:ruflo
+tags:
+  - delegation-decision-matrix
+  - provenance:ruflo
+relationships:
+  skills: []
+  tool_sets:
+  - name: managents-planning
+    type: can-have
+  - name: task-manager
+    type: can-have
+  - name: slack
+    type: can-have

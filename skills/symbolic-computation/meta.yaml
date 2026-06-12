@@ -1,0 +1,26 @@
+name: Symbolic computation
+version: 1.0.0
+type: methodical
+description:
+  capability: "When to reach for SymPy vs Wolfram|Alpha; standard patterns for simplify/solve/integrate/ODE; sanity-checking results."
+  trigger_conditions: "Use when when to reach for SymPy vs Wolfram|Alpha; standard patterns for simplify/solve/integrate/ODE; sanity-checking results."
+  scope_boundaries: "Focused on Symbolic computation workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - symbolic-computation
+  - math
+  - symbolic
+  - sympy
+tags:
+  - symbolic-computation
+  - math
+  - symbolic
+  - sympy
+relationships:
+  skills: []
+  tool_sets:
+  - name: sympy
+    type: can-have
+  - name: wolfram-alpha
+    type: can-have
+  - name: python-scientific
+    type: can-have

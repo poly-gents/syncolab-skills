@@ -1,0 +1,28 @@
+name: Production validation
+version: 1.0.0
+type: operational
+description:
+  capability: "Before declaring engineering work done, validate that what you built matches the production reality — not just the local or test environment — using the real signals (CI, observability, smoke tests)."
+  trigger_conditions: "Use when before declaring engineering work done, validate that what you built matches the production reality — not just the local or test environment — using the real signals (CI, observability, smoke tests)."
+  scope_boundaries: "Focused on Production validation workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - production-validation
+  - provenance:ruflo+inhouse
+tags:
+  - production-validation
+  - provenance:ruflo+inhouse
+relationships:
+  skills: []
+  tool_sets:
+  - name: github
+    type: can-have
+  - name: github-actions
+    type: can-have
+  - name: datadog
+    type: can-have
+  - name: grafana
+    type: can-have
+  - name: playwright
+    type: can-have
+  - name: cypress
+    type: can-have

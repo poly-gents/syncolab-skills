@@ -1,0 +1,30 @@
+name: Customer Research
+version: 1.0.0
+type: analytical
+description:
+  capability: "Run and synthesize customer research — interviews, surveys, review mining, JTBD framing."
+  trigger_conditions: "Use when run and synthesize customer research — interviews, surveys, review mining, JTBD framing."
+  scope_boundaries: "Focused on Customer Research workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - customer-research
+  - marketing
+  - research
+  - jtbd
+  - foundation
+tags:
+  - customer-research
+  - marketing
+  - research
+  - jtbd
+  - foundation
+relationships:
+  skills: []
+  tool_sets:
+  - name: notion
+    type: can-have
+  - name: google-docs
+    type: can-have
+  - name: typeform
+    type: can-have
+  - name: gong
+    type: can-have

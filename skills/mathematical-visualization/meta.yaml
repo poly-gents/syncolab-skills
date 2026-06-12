@@ -1,0 +1,28 @@
+name: Mathematical visualization
+version: 1.0.0
+type: methodical
+description:
+  capability: "Desmos / GeoGebra / Matplotlib for intuition before formalization."
+  trigger_conditions: "Use when desmos / GeoGebra / Matplotlib for intuition before formalization."
+  scope_boundaries: "Focused on Mathematical visualization workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - mathematical-visualization
+  - math
+  - visualization
+  - matplotlib
+tags:
+  - mathematical-visualization
+  - math
+  - visualization
+  - matplotlib
+relationships:
+  skills: []
+  tool_sets:
+  - name: desmos
+    type: can-have
+  - name: geogebra
+    type: can-have
+  - name: jupyter
+    type: can-have
+  - name: python-scientific
+    type: can-have

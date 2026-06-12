@@ -1,0 +1,26 @@
+name: Schema Markup
+version: 1.0.0
+type: analytical
+description:
+  capability: "Add, fix, and validate structured data (Schema.org) on a site."
+  trigger_conditions: "Use when add, fix, and validate structured data (Schema.org) on a site."
+  scope_boundaries: "Focused on Schema Markup workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - schema-markup
+  - seo
+  - schema
+  - structured-data
+tags:
+  - schema-markup
+  - seo
+  - schema
+  - structured-data
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-rich-results-test
+    type: can-have
+  - name: schema-org-validator
+    type: can-have
+  - name: google-search-console
+    type: can-have

@@ -1,0 +1,22 @@
+name: Agent ops: CI/CD on GitHub
+version: 1.0.0
+type: operational
+description:
+  capability: "Read, react to, and operate GitHub Actions workflow runs and status checks like a careful operator — never blindly rerun, never blindly approve."
+  trigger_conditions: "Use when read, react to, and operate GitHub Actions workflow runs and status checks like a careful operator — never blindly rerun, never blindly approve."
+  scope_boundaries: "Focused on Agent ops: CI/CD on GitHub workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - agent-ops-cicd-github
+  - provenance:ruflo+inhouse
+tags:
+  - agent-ops-cicd-github
+  - provenance:ruflo+inhouse
+relationships:
+  skills: []
+  tool_sets:
+  - name: github
+    type: can-have
+  - name: github-actions
+    type: can-have
+  - name: gitlab-ci
+    type: can-have

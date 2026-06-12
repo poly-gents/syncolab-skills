@@ -1,0 +1,22 @@
+name: Applied ↔ pure math bridge
+version: 1.0.0
+type: methodical
+description:
+  capability: "Translate an applied problem into a clean mathematical object and back."
+  trigger_conditions: "Use when translate an applied problem into a clean mathematical object and back."
+  scope_boundaries: "Focused on Applied ↔ pure math bridge workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - applied-vs-pure-math-bridge
+  - math
+  - modeling
+  - applied
+tags:
+  - applied-vs-pure-math-bridge
+  - math
+  - modeling
+  - applied
+relationships:
+  skills: []
+  tool_sets:
+  - name: python-scientific
+    type: can-have

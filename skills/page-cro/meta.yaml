@@ -1,0 +1,28 @@
+name: Page CRO
+version: 1.0.0
+type: analytical
+description:
+  capability: "Diagnose and optimize any marketing page (homepage, landing, pricing, feature) for conversion."
+  trigger_conditions: "Use when diagnose and optimize any marketing page (homepage, landing, pricing, feature) for conversion."
+  scope_boundaries: "Focused on Page CRO workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - page-cro
+  - marketing
+  - cro
+  - landing-pages
+tags:
+  - page-cro
+  - marketing
+  - cro
+  - landing-pages
+relationships:
+  skills: []
+  tool_sets:
+  - name: ga4
+    type: can-have
+  - name: hotjar
+    type: can-have
+  - name: microsoft-clarity
+    type: can-have
+  - name: google-docs
+    type: can-have

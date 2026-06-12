@@ -1,0 +1,28 @@
+name: Content Strategy
+version: 1.0.0
+type: analytical
+description:
+  capability: "Plan content priorities — themes, formats, channels, cadence — grounded in ICP and search/social demand."
+  trigger_conditions: "Use when plan content priorities — themes, formats, channels, cadence — grounded in ICP and search/social demand."
+  scope_boundaries: "Focused on Content Strategy workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - content-strategy
+  - marketing
+  - content
+  - strategy
+tags:
+  - content-strategy
+  - marketing
+  - content
+  - strategy
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-docs
+    type: can-have
+  - name: notion
+    type: can-have
+  - name: ahrefs
+    type: can-have
+  - name: google-search-console
+    type: can-have

@@ -1,0 +1,18 @@
+name: Self-report agent issue
+version: 1.0.0
+type: diagnostic
+description:
+  capability: "When your own tools fail (sandbox, MCP, integration, timeouts), diagnose, attach evidence, and file a structured Jira incident instead of retrying silently or pretending the task succeeded."
+  trigger_conditions: "Use when when your own tools fail (sandbox, MCP, integration, timeouts), diagnose, attach evidence, and file a structured Jira incident instead of retrying silently or pretending the task succeeded."
+  scope_boundaries: "Focused on Self-report agent issue workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - self-report-agent-issue
+tags:
+  - self-report-agent-issue
+relationships:
+  skills: []
+  tool_sets:
+  - name: jira
+    type: can-have
+  - name: github
+    type: can-have

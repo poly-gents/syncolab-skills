@@ -1,0 +1,22 @@
+name: Task decomposition tree
+version: 1.0.0
+type: operational
+description:
+  capability: "Decompose a large user request into a tree of smaller, independently verifiable tasks so the work can be planned, parallelized, delegated, and reviewed leaf-by-leaf."
+  trigger_conditions: "Use when decompose a large user request into a tree of smaller, independently verifiable tasks so the work can be planned, parallelized, delegated, and reviewed leaf-by-leaf."
+  scope_boundaries: "Focused on Task decomposition tree workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - task-decomposition-tree
+  - provenance:ruflo
+tags:
+  - task-decomposition-tree
+  - provenance:ruflo
+relationships:
+  skills: []
+  tool_sets:
+  - name: managents-planning
+    type: can-have
+  - name: task-manager
+    type: can-have
+  - name: jira
+    type: can-have

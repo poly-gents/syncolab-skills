@@ -1,0 +1,28 @@
+name: Community Marketing
+version: 1.0.0
+type: analytical
+description:
+  capability: "Build and leverage online communities to drive product growth, loyalty, and word-of-mouth."
+  trigger_conditions: "Use when build and leverage online communities to drive product growth, loyalty, and word-of-mouth."
+  scope_boundaries: "Focused on Community Marketing workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - community-marketing
+  - marketing
+  - community
+  - growth
+  - retention
+tags:
+  - community-marketing
+  - marketing
+  - community
+  - growth
+  - retention
+relationships:
+  skills: []
+  tool_sets:
+  - name: discord
+    type: can-have
+  - name: slack
+    type: can-have
+  - name: circle
+    type: can-have

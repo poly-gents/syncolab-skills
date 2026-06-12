@@ -1,0 +1,28 @@
+name: Programmatic SEO
+version: 1.0.0
+type: analytical
+description:
+  capability: "Plan and produce SEO-driven pages at scale using templates and structured data."
+  trigger_conditions: "Use when plan and produce SEO-driven pages at scale using templates and structured data."
+  scope_boundaries: "Focused on Programmatic SEO workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - programmatic-seo
+  - seo
+  - programmatic
+  - scale
+tags:
+  - programmatic-seo
+  - seo
+  - programmatic
+  - scale
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-sheets
+    type: can-have
+  - name: webflow
+    type: can-have
+  - name: next-js
+    type: can-have
+  - name: google-search-console
+    type: can-have

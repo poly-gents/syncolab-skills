@@ -1,0 +1,16 @@
+name: Diagnose tool failure
+version: 1.0.0
+type: diagnostic
+description:
+  capability: "Pre-classify an agent-tool failure (env, auth, quota, code, data, unknown) before retrying or filing a bug, so the resulting report has a useful hypothesis and the right next step."
+  trigger_conditions: "Use when pre-classify an agent-tool failure (env, auth, quota, code, data, unknown) before retrying or filing a bug, so the resulting report has a useful hypothesis and the right next step."
+  scope_boundaries: "Focused on Diagnose tool failure workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - diagnose-tool-failure
+tags:
+  - diagnose-tool-failure
+relationships:
+  skills: []
+  tool_sets:
+  - name: github
+    type: can-have

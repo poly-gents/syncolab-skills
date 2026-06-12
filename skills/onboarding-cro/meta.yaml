@@ -1,0 +1,32 @@
+name: Onboarding CRO
+version: 1.0.0
+type: analytical
+description:
+  capability: "Design first-run experiences and post-signup onboarding for activation and time-to-value."
+  trigger_conditions: "Use when design first-run experiences and post-signup onboarding for activation and time-to-value."
+  scope_boundaries: "Focused on Onboarding CRO workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - onboarding-cro
+  - marketing
+  - cro
+  - onboarding
+  - activation
+  - retention
+tags:
+  - onboarding-cro
+  - marketing
+  - cro
+  - onboarding
+  - activation
+  - retention
+relationships:
+  skills: []
+  tool_sets:
+  - name: intercom
+    type: can-have
+  - name: pendo
+    type: can-have
+  - name: appcues
+    type: can-have
+  - name: mixpanel
+    type: can-have

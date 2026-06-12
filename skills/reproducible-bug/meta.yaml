@@ -1,0 +1,16 @@
+name: Reproducible bug (minimization)
+version: 1.0.0
+type: diagnostic
+description:
+  capability: "Shrink a failing input to the smallest reliable repro before filing or escalating. Improves signal-to-noise for whoever fixes the bug."
+  trigger_conditions: "Use when shrink a failing input to the smallest reliable repro before filing or escalating. Improves signal-to-noise for whoever fixes the bug."
+  scope_boundaries: "Focused on Reproducible bug (minimization) workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - reproducible-bug
+tags:
+  - reproducible-bug
+relationships:
+  skills: []
+  tool_sets:
+  - name: github
+    type: can-have

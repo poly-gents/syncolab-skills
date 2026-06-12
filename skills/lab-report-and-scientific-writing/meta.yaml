@@ -1,0 +1,28 @@
+name: Lab report and scientific writing
+version: 1.0.0
+type: methodical
+description:
+  capability: "IMRaD-style structure, methods clarity, figures and uncertainty, and honest limitations for STEM reports."
+  trigger_conditions: "Use when iMRaD-style structure, methods clarity, figures and uncertainty, and honest limitations for STEM reports."
+  scope_boundaries: "Focused on Lab report and scientific writing workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - lab-report-and-scientific-writing
+  - education
+  - stem
+  - writing
+  - labs
+tags:
+  - lab-report-and-scientific-writing
+  - education
+  - stem
+  - writing
+  - labs
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-docs
+    type: can-have
+  - name: jupyter
+    type: can-have
+  - name: latex
+    type: can-have

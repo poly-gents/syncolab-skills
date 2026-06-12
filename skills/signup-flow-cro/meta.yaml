@@ -1,0 +1,30 @@
+name: Signup Flow CRO
+version: 1.0.0
+type: analytical
+description:
+  capability: "Optimize registration, trial, or account-creation flows to improve activation and completion."
+  trigger_conditions: "Use when optimize registration, trial, or account-creation flows to improve activation and completion."
+  scope_boundaries: "Focused on Signup Flow CRO workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - signup-flow-cro
+  - marketing
+  - cro
+  - signup
+  - activation
+tags:
+  - signup-flow-cro
+  - marketing
+  - cro
+  - signup
+  - activation
+relationships:
+  skills: []
+  tool_sets:
+  - name: ga4
+    type: can-have
+  - name: mixpanel
+    type: can-have
+  - name: amplitude
+    type: can-have
+  - name: hotjar
+    type: can-have

@@ -1,0 +1,26 @@
+name: Clinical evidence search
+version: 1.0.0
+type: operational
+description:
+  capability: "Use OpenEvidence for clinical questions: queries, citations, drug interactions, and guideline lookups. Always cite sources and flag the educational-only caveat."
+  trigger_conditions: "Use when use OpenEvidence for clinical questions: queries, citations, drug interactions, and guideline lookups. Always cite sources and flag the educational-only caveat."
+  scope_boundaries: "Focused on Clinical evidence search workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - clinical-evidence-search
+  - research
+  - clinical
+  - medical
+  - literature
+tags:
+  - clinical-evidence-search
+  - research
+  - clinical
+  - medical
+  - literature
+relationships:
+  skills: []
+  tool_sets:
+  - name: open-evidence
+    type: can-have
+  - name: pubmed
+    type: can-have

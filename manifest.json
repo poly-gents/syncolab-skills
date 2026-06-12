@@ -1,7 +1,7 @@
 {
   "name": "syncolab-skills",
   "version": "0.2.0",
-  "generatedAt": "2026-06-07T19:55:03.423Z",
+  "generatedAt": "2026-06-12T11:41:58.103Z",
   "repository": "https://github.com/poly-gents/syncolab-skills",
   "skills": [
     {
@@ -17,6 +17,21 @@
       ],
       "path": "skills/ab-experimentation",
       "checksum": "sha256:d43f6310c5e416859e2e7ebdde4c16f569af2a32206b22bb677ee8af7343f5de"
+    },
+    {
+      "id": "ab-test-setup",
+      "name": "A/B Test Setup",
+      "description": "Design rigorous A/B tests with clear hypotheses, sample size, and readout plans.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "ab-test-setup",
+        "cro",
+        "experimentation",
+        "testing"
+      ],
+      "path": "skills/ab-test-setup",
+      "checksum": "sha256:8fd0a73c37c8c2db82036fa8188b1dbc79774e65f1d891b94d270991a8bff86a"
     },
     {
       "id": "academic-integrity-and-ai-use-framing",
@@ -47,6 +62,52 @@
       ],
       "path": "skills/academic-learning-context",
       "checksum": "sha256:1ada904fdee7503b9eb97827a90aba1a406b6523885fc15094fa1adedb68e9f0"
+    },
+    {
+      "id": "academic-literature-search",
+      "name": "Academic literature search",
+      "description": "Query design across arXiv / Semantic Scholar / OpenAlex / CrossRef / PubMed / Unpaywall via the unified academic_search tool.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "academic-literature-search",
+        "research",
+        "literature",
+        "academic"
+      ],
+      "path": "skills/academic-literature-search",
+      "checksum": "sha256:01b3e9570bec339c51680f551823e50e23f8d962b31e0d98bd67a60531415680"
+    },
+    {
+      "id": "active-learning-prompt-bank",
+      "name": "Active learning prompt bank",
+      "description": "Reusable prompts for labs and sections: predict, justify, compare, teach-back, and peer instruction.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "active-learning-prompt-bank",
+        "education",
+        "ta",
+        "active-learning"
+      ],
+      "path": "skills/active-learning-prompt-bank",
+      "checksum": "sha256:0314d2d5db7a00f1c347f7442e612d9b5b83cce9206283b2c3050dbe912d3f6e"
+    },
+    {
+      "id": "ad-creative",
+      "name": "Ad Creative",
+      "description": "Generate and iterate ad creative — headlines, primary text, descriptions, scripts, and image briefs.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "ad-creative",
+        "marketing",
+        "paid",
+        "creative",
+        "ads"
+      ],
+      "path": "skills/ad-creative",
+      "checksum": "sha256:abf79d67dd4fa73895f4bdad478bcab23a4364dbfd07bc42fc5ceffd2358d407"
     },
     {
       "id": "add-observability",
@@ -88,6 +149,85 @@
       ],
       "path": "skills/address-github-comments",
       "checksum": "sha256:11a811496164924740f3c28f1cbe83906339d0389dab7ae72db9063f3eed10fd"
+    },
+    {
+      "id": "agent-handoff-protocol",
+      "name": "Agent handoff protocol",
+      "description": "Hand a long-running task from one agent to another (or back to a human) with a single, complete handoff packet so the receiver never has to reverse-engineer prior state.",
+      "version": "1.0.0",
+      "type": "integrative",
+      "tags": [
+        "agent-handoff-protocol",
+        "provenance:ruflo"
+      ],
+      "path": "skills/agent-handoff-protocol",
+      "checksum": "sha256:4203c998e1fd24548deb7dde44c2520c17ea040467ee0997e2976abdaf37449e"
+    },
+    {
+      "id": "agent-ops-cicd-github",
+      "name": "agent-ops-cicd-github",
+      "description": "Read, react to, and operate GitHub Actions workflow runs and status checks like a careful operator — never blindly rerun, never blindly approve.",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
+      "path": "skills/agent-ops-cicd-github",
+      "checksum": "sha256:0d8ef93924b98c68d9372e37de0f03a67cb2834ef2bf0b041bcc3821493b2f65"
+    },
+    {
+      "id": "agent-self-check",
+      "name": "Agent self-check",
+      "description": "Before declaring work complete, run a structured self-assessment that catches the most common 'shipped half a thing' failures (missing tests, missing docs, missing observability, missing handoff).",
+      "version": "1.0.0",
+      "type": "operational",
+      "tags": [
+        "agent-self-check",
+        "provenance:ruflo"
+      ],
+      "path": "skills/agent-self-check",
+      "checksum": "sha256:ee826da4e4ffcea57d6a97896b68c70b187a6b9490b798dfe2501ff823e37000"
+    },
+    {
+      "id": "agent-status-pings",
+      "name": "Agent status pings",
+      "description": "Emit standardized progress pings during long-running work so the coordinator and the user know whether you are alive, stuck, or done — never go dark.",
+      "version": "1.0.0",
+      "type": "integrative",
+      "tags": [
+        "agent-status-pings",
+        "provenance:ruflo"
+      ],
+      "path": "skills/agent-status-pings",
+      "checksum": "sha256:e2e67cb704da49a5d715e3d92306be5909a0629085e830b4fab413106091d6ae"
+    },
+    {
+      "id": "ai-seo",
+      "name": "AI SEO (AEO / GEO / LLMO)",
+      "description": "Optimize content to be cited and recommended by AI search engines (ChatGPT, Perplexity, Google AI Overviews, Claude).",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "ai-seo",
+        "seo",
+        "aeo",
+        "geo"
+      ],
+      "path": "skills/ai-seo",
+      "checksum": "sha256:9988a791fa96165c8045013c840e0fdd87e1f7e35222ac5af239291281b4c3bc"
+    },
+    {
+      "id": "analytics-tracking",
+      "name": "Analytics Tracking",
+      "description": "Plan, instrument, and audit marketing analytics events (GA4, Mixpanel, Amplitude, server-side).",
+      "version": "1.0.0",
+      "type": "operational",
+      "tags": [
+        "analytics-tracking",
+        "analytics",
+        "tracking",
+        "measurement"
+      ],
+      "path": "skills/analytics-tracking",
+      "checksum": "sha256:e726d35c18c1891c310aff8475d7df6379a5d42c3a161ed44b4b3579eed14dfb"
     },
     {
       "id": "analyze-complex-datasets",
@@ -158,6 +298,21 @@
       ],
       "path": "skills/api-design-principles",
       "checksum": "sha256:0c1fdb919776e63a8b7f6d83c7510d73ad98c1e0d810e99edb3e59d60fcf4f22"
+    },
+    {
+      "id": "applied-vs-pure-math-bridge",
+      "name": "Applied ↔ pure math bridge",
+      "description": "Translate an applied problem into a clean mathematical object and back.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "applied-vs-pure-math-bridge",
+        "math",
+        "modeling",
+        "applied"
+      ],
+      "path": "skills/applied-vs-pure-math-bridge",
+      "checksum": "sha256:9b4c45b9ab09bd1f9098cce5bd93af195c508bc6038a8553a048ceb595154846"
     },
     {
       "id": "arbox",
@@ -455,6 +610,49 @@
       "checksum": "sha256:8cc9a69f21729d6d00ec3329c3378c22720de0a450acc85e7e29fb220658622c"
     },
     {
+      "id": "churn-prevention",
+      "name": "Churn Prevention",
+      "description": "Design cancel flows, save offers, dunning, and failed-payment recovery to reduce involuntary and voluntary churn.",
+      "version": "1.0.0",
+      "type": "operational",
+      "tags": [
+        "churn-prevention",
+        "retention",
+        "churn",
+        "monetization"
+      ],
+      "path": "skills/churn-prevention",
+      "checksum": "sha256:4797f2151d2f3f23f23174b2609b0b6816389909b9cafcac4f55fc222d6ed2d1"
+    },
+    {
+      "id": "citation-and-bibliography-management",
+      "name": "Citation & bibliography management",
+      "description": "BibTeX hygiene, DOI normalization, Zotero collections, stable citation keys.",
+      "version": "1.0.0",
+      "type": "operational",
+      "tags": [
+        "citation-and-bibliography-management",
+        "research",
+        "bibtex",
+        "citations"
+      ],
+      "path": "skills/citation-and-bibliography-management",
+      "checksum": "sha256:12958bc692ab10152ba558589303c96014342590919a7b5f71c8629d77dcff5c"
+    },
+    {
+      "id": "clarification-checkpoints",
+      "name": "Clarification checkpoints",
+      "description": "Pause and ask the human for clarification at well-defined checkpoints rather than guessing — but only at points where the cost of guessing wrong is higher than the cost of the pause.",
+      "version": "1.0.0",
+      "type": "operational",
+      "tags": [
+        "clarification-checkpoints",
+        "provenance:ruflo"
+      ],
+      "path": "skills/clarification-checkpoints",
+      "checksum": "sha256:dbeb2795fff7f2b71aea596295cbb9d2bb8a09bafbfef78479d720882d2467d9"
+    },
+    {
       "id": "class-and-pt-scheduling",
       "name": "Class & PT scheduling",
       "description": "Session plans, reminders, and reschedule comms for trainers and studios",
@@ -468,6 +666,22 @@
       ],
       "path": "skills/class-and-pt-scheduling",
       "checksum": "sha256:847a4732afeb3a7c7e108012d7432edfc40c9c3582f4f7a479087cf53da6732b"
+    },
+    {
+      "id": "clinical-evidence-search",
+      "name": "Clinical evidence search",
+      "description": "Use OpenEvidence for clinical questions: queries, citations, drug interactions, and guideline lookups. Always cite sources and flag the educational-only caveat.",
+      "version": "1.0.0",
+      "type": "operational",
+      "tags": [
+        "clinical-evidence-search",
+        "research",
+        "clinical",
+        "medical",
+        "literature"
+      ],
+      "path": "skills/clinical-evidence-search",
+      "checksum": "sha256:88332c7773af9c83b18eab3528253b29498d40756199d64f1eae0b67b79e75e2"
     },
     {
       "id": "close-loop",
@@ -510,6 +724,95 @@
       ],
       "path": "skills/cloudwatch",
       "checksum": "sha256:87ee8b38fff8282cd89dc7a663b4ef5faf8e1106ea3af8e5ff6160b7c504cfb9"
+    },
+    {
+      "id": "cold-email",
+      "name": "Cold Email",
+      "description": "Write B2B cold outbound emails and follow-up sequences that get replies.",
+      "version": "1.0.0",
+      "type": "operational",
+      "tags": [
+        "cold-email",
+        "sales",
+        "outbound",
+        "email"
+      ],
+      "path": "skills/cold-email",
+      "checksum": "sha256:014c625b67ea2d5598c8c8eb5cdb625cc36adeea4c879081d2c390b03020a1c9"
+    },
+    {
+      "id": "community-marketing",
+      "name": "Community Marketing",
+      "description": "Build and leverage online communities to drive product growth, loyalty, and word-of-mouth.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "community-marketing",
+        "marketing",
+        "community",
+        "growth",
+        "retention"
+      ],
+      "path": "skills/community-marketing",
+      "checksum": "sha256:e93e06f6542af0167b6ffb6de70d95d8bf1a714376b5e2fd7fb7f8bffd76686e"
+    },
+    {
+      "id": "competitor-alternatives",
+      "name": "Competitor / Alternatives Pages",
+      "description": "Plan and write \"X alternatives\" and \"X vs Y\" pages that rank and convert.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "competitor-alternatives",
+        "seo",
+        "sales",
+        "comparison"
+      ],
+      "path": "skills/competitor-alternatives",
+      "checksum": "sha256:e2fd561d47bd1691e304ea410e44779b7bf5acdece6e2947f254281858f9eb67"
+    },
+    {
+      "id": "competitor-profiling",
+      "name": "Competitor Profiling",
+      "description": "Research and profile competitors from public sources into actionable battlecards and positioning inputs.",
+      "version": "1.0.0",
+      "type": "operational",
+      "tags": [
+        "competitor-profiling",
+        "research",
+        "competitive",
+        "positioning"
+      ],
+      "path": "skills/competitor-profiling",
+      "checksum": "sha256:e83f98a6d70382fb95232a3379fcf9f16e39418f7ac7ca920b9f9abbc72fcd55"
+    },
+    {
+      "id": "consensus-arbitration",
+      "name": "Consensus & arbitration",
+      "description": "When two or more agents disagree on a decision they each own a piece of, drive the conflict to a single decision via a fixed arbitration rule — never let the conflict silently linger.",
+      "version": "1.0.0",
+      "type": "supervisory",
+      "tags": [
+        "consensus-arbitration",
+        "provenance:crewai"
+      ],
+      "path": "skills/consensus-arbitration",
+      "checksum": "sha256:34b0c1f4382cb79d05649aa00189f83599d225d7eaae8b560db305e9526204ce"
+    },
+    {
+      "id": "content-strategy",
+      "name": "Content Strategy",
+      "description": "Plan content priorities — themes, formats, channels, cadence — grounded in ICP and search/social demand.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "content-strategy",
+        "marketing",
+        "content",
+        "strategy"
+      ],
+      "path": "skills/content-strategy",
+      "checksum": "sha256:b35c9773c374e84477636afd388ea872023e2ec293905e86159ef38ef3949fcd"
     },
     {
       "id": "coordinate-ebrs",
@@ -567,6 +870,36 @@
       ],
       "path": "skills/coordinate-releases",
       "checksum": "sha256:4f74cbd687b8c6a7edb50d56e97bf869c2d8f16cbf0815e004e91b64a44f3a30"
+    },
+    {
+      "id": "copy-editing",
+      "name": "Copy Editing",
+      "description": "Edit, polish, and refresh existing marketing copy without changing voice.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "copy-editing",
+        "marketing",
+        "copy",
+        "editing"
+      ],
+      "path": "skills/copy-editing",
+      "checksum": "sha256:f0139e2bb03b6f692b895660beec55f46f8030b0ebbfaa4472278114e39a087f"
+    },
+    {
+      "id": "copywriting",
+      "name": "Copywriting",
+      "description": "Write or rewrite marketing copy for any page (homepage, landing, feature, pricing, about) grounded in product context.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "copywriting",
+        "marketing",
+        "copy",
+        "landing-pages"
+      ],
+      "path": "skills/copywriting",
+      "checksum": "sha256:70f229345a3e48bdb5ce4996c11d05da746022bb78edbd27ddd6175160e2bbe0"
     },
     {
       "id": "course-context-from-classroom",
@@ -656,6 +989,46 @@
       "checksum": "sha256:87832252bf78d0850eb96b7c5b5001283a62ccfb56a7398839151745a19d3913"
     },
     {
+      "id": "crew-manager-pattern",
+      "name": "Crew manager pattern",
+      "description": "Use the manager-worker pattern: a single manager agent decomposes, delegates, monitors, and aggregates while worker agents execute leaves — applied via your existing planning, assignment, and dispatch tools.",
+      "version": "1.0.0",
+      "type": "supervisory",
+      "tags": [
+        "crew-manager-pattern",
+        "provenance:crewai"
+      ],
+      "path": "skills/crew-manager-pattern",
+      "checksum": "sha256:5a1114f8eb9e19e03d732a72076c0269328c45a0c213f5e864402cd57667c396"
+    },
+    {
+      "id": "crew-planner-executor",
+      "name": "Planner / executor split",
+      "description": "Split long, exploratory work into a planner phase (produce a concrete plan) and an executor phase (carry out the plan), with an explicit checkpoint between the two so the human can intervene cheaply.",
+      "version": "1.0.0",
+      "type": "supervisory",
+      "tags": [
+        "crew-planner-executor",
+        "provenance:crewai"
+      ],
+      "path": "skills/crew-planner-executor",
+      "checksum": "sha256:4d966ce76a17600c6c80f68416691d1a5bdefaafc7734b5b770719ede1ddc228"
+    },
+    {
+      "id": "cross-disciplinary-literacy",
+      "name": "Cross-disciplinary literacy",
+      "description": "Help learners map how different fields argue, prove, and use evidence so they can enter a new discipline responsibly.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "cross-disciplinary-literacy",
+        "education",
+        "interdisciplinary"
+      ],
+      "path": "skills/cross-disciplinary-literacy",
+      "checksum": "sha256:91209f5b01ef50ed119cd3d5cc121de6c83527a7585e3443260a38378a0b1374"
+    },
+    {
       "id": "curate-docs",
       "name": "Curate Docs",
       "description": "Organize and maintain a consistent knowledge base",
@@ -669,6 +1042,37 @@
       ],
       "path": "skills/curate-docs",
       "checksum": "sha256:2104b1257acab08008ccdb1ac33f658cdf509af6335e43a64f73b59685f0a20e"
+    },
+    {
+      "id": "customer-research",
+      "name": "Customer Research",
+      "description": "Run and synthesize customer research — interviews, surveys, review mining, JTBD framing.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "customer-research",
+        "marketing",
+        "research",
+        "jtbd",
+        "foundation"
+      ],
+      "path": "skills/customer-research",
+      "checksum": "sha256:c37954e1a04922f5802e9035205a97a7980fd4f08fb728765a665122e2873cce"
+    },
+    {
+      "id": "data-literacy-for-non-specialists",
+      "name": "Data literacy for non-specialists",
+      "description": "Read charts, common statistics, and study designs without overclaiming — for essays, labs, and civic numeracy.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "data-literacy-for-non-specialists",
+        "education",
+        "statistics",
+        "literacy"
+      ],
+      "path": "skills/data-literacy-for-non-specialists",
+      "checksum": "sha256:3edda8087201d86c647937c01c8a4e7f968791b3675d4a7c60b1254baa67c95f"
     },
     {
       "id": "datadog",
@@ -696,6 +1100,32 @@
       ],
       "path": "skills/define-standards",
       "checksum": "sha256:568f904ba4da03817de11f19f0540f5147f72f188f4e30143d6d67f823c11c7a"
+    },
+    {
+      "id": "delegation-decision-matrix",
+      "name": "Delegation decision matrix",
+      "description": "Decide whether to do work yourself, delegate to another digital employee, or escalate to a human, using a small fixed matrix instead of ad hoc judgment.",
+      "version": "1.0.0",
+      "type": "supervisory",
+      "tags": [
+        "delegation-decision-matrix",
+        "provenance:ruflo"
+      ],
+      "path": "skills/delegation-decision-matrix",
+      "checksum": "sha256:6ad495f2234353bf72ae554f62919a85132009938609cc6174dea2980cc53524"
+    },
+    {
+      "id": "dependency-vulnerability-triage",
+      "name": "Dependency vulnerability triage",
+      "description": "Triage a stream of Dependabot / Snyk / GitHub advisory alerts: filter by reachability and exploitability, decide upgrade vs mitigate vs accept, and route through the normal PR + approval flow.",
+      "version": "1.0.0",
+      "type": "diagnostic",
+      "tags": [
+        "dependency-vulnerability-triage",
+        "provenance:ruflo+inhouse"
+      ],
+      "path": "skills/dependency-vulnerability-triage",
+      "checksum": "sha256:bb359cfa44eaf32eb503961bcb1882e0057bfc34d16540bf134c87588578fff0"
     },
     {
       "id": "design-cloud",
@@ -739,6 +1169,18 @@
       ],
       "path": "skills/detect-duplicates",
       "checksum": "sha256:bf8e6ad08d0eee65c95e2c46eb07511841d21528dae76baa4396f9516ba592bb"
+    },
+    {
+      "id": "diagnose-tool-failure",
+      "name": "Diagnose tool failure",
+      "description": "Pre-classify an agent-tool failure (env, auth, quota, code, data, unknown) before retrying or filing a bug, so the resulting report has a useful hypothesis and the right next step.",
+      "version": "1.0.0",
+      "type": "diagnostic",
+      "tags": [
+        "diagnose-tool-failure"
+      ],
+      "path": "skills/diagnose-tool-failure",
+      "checksum": "sha256:9a336e88edd77298bd3dfef643f78bd3482269bef98ac48f1aeb0e534f99a2c3"
     },
     {
       "id": "discover-capability-and-request-access",
@@ -873,6 +1315,22 @@
       ],
       "path": "skills/draft-ticket-response",
       "checksum": "sha256:52bc05017b0d55deae0aadcc4d877c84b497d54b494ea3e282ff768ab412fd66"
+    },
+    {
+      "id": "email-sequence",
+      "name": "Email Sequence",
+      "description": "Design welcome, onboarding, drip, nurture, and lifecycle email sequences.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "email-sequence",
+        "marketing",
+        "email",
+        "lifecycle",
+        "retention"
+      ],
+      "path": "skills/email-sequence",
+      "checksum": "sha256:977f5ef470f7f3b234d181177a494a8a6ab7c3f6365973fa6f115cfda5f04eb5"
     },
     {
       "id": "ensure-accessibility",
@@ -1043,6 +1501,38 @@
       ],
       "path": "skills/flag-variance",
       "checksum": "sha256:e8db60d3e24dd8df217d2c64cbe740f39d1c3aab88484c67b270a1db0a45c0b4"
+    },
+    {
+      "id": "form-cro",
+      "name": "Form CRO",
+      "description": "Optimize lead capture, contact, demo, and quote forms (not signup forms) for completion rate.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "form-cro",
+        "marketing",
+        "cro",
+        "forms",
+        "lead-gen"
+      ],
+      "path": "skills/form-cro",
+      "checksum": "sha256:614ee05cf0f0db13ca4c10378c62bbdd22ef31731c096584a018483bbba041ba"
+    },
+    {
+      "id": "free-tool-strategy",
+      "name": "Free Tool Strategy",
+      "description": "Plan and evaluate free tools (calculators, generators, mini-apps) as marketing assets.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "free-tool-strategy",
+        "growth",
+        "free-tools",
+        "lead-gen",
+        "seo"
+      ],
+      "path": "skills/free-tool-strategy",
+      "checksum": "sha256:67ce70d960b9b15e9cfa65f22691766104d5716ad29f44c57a98b7612103fe74"
     },
     {
       "id": "gather-evidence",
@@ -1311,6 +1801,21 @@
       "checksum": "sha256:ee8d244bcc4e9b993b9236d67c7bff35d77c8e6c168d9904c5c7963d7ea870d5"
     },
     {
+      "id": "humanities-essay-and-argumentation",
+      "name": "Humanities essay and argumentation",
+      "description": "Thesis, motive, evidence, counterargument, and close reading — without writing the student’s essay for them.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "humanities-essay-and-argumentation",
+        "education",
+        "humanities",
+        "writing"
+      ],
+      "path": "skills/humanities-essay-and-argumentation",
+      "checksum": "sha256:a42e3ed0aa9e9740c02c9bb0775fe3070e3b64a7301873c01a2c6d306888d368"
+    },
+    {
       "id": "implement-features",
       "name": "Implement Features",
       "description": "Build new features from specifications and requirements, ensuring production-ready, maintainable, and well-integrated code using GitHub and Jira.",
@@ -1323,6 +1828,19 @@
       ],
       "path": "skills/implement-features",
       "checksum": "sha256:3c2bfd61850c4015492a20e115ec7993db0997de5801f9aecd1e7191b9d4b0f5"
+    },
+    {
+      "id": "incident-postmortem-loop",
+      "name": "Incident postmortem loop",
+      "description": "Own the loop from incident-declared through postmortem-document through action-items-closed — without losing follow-through three weeks later.",
+      "version": "1.0.0",
+      "type": "diagnostic",
+      "tags": [
+        "incident-postmortem-loop",
+        "provenance:inhouse"
+      ],
+      "path": "skills/incident-postmortem-loop",
+      "checksum": "sha256:7e6bd7c04893d3c132f97cd697b5c7fd0571f9ebf8ed00a1debfe72c08c90c38"
     },
     {
       "id": "inclusive-teaching-basics",
@@ -1367,6 +1885,52 @@
       "checksum": "sha256:a87a1bd7d8f0e5db577ec39ec7574ce5d0be345b12c8d9a66a8526814784022a"
     },
     {
+      "id": "lab-report-and-scientific-writing",
+      "name": "Lab report and scientific writing",
+      "description": "IMRaD-style structure, methods clarity, figures and uncertainty, and honest limitations for STEM reports.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "lab-report-and-scientific-writing",
+        "education",
+        "stem",
+        "writing",
+        "labs"
+      ],
+      "path": "skills/lab-report-and-scientific-writing",
+      "checksum": "sha256:e6d6401e179379a21142816001e43a21255ee23ef6fc8a4e0fe37d5dec49c51d"
+    },
+    {
+      "id": "latex-paper-authoring",
+      "name": "LaTeX paper authoring",
+      "description": "amsmath / amsthm scaffold, theorem environments, figure & equation cross-refs, journal templates.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "latex-paper-authoring",
+        "latex",
+        "writing",
+        "research"
+      ],
+      "path": "skills/latex-paper-authoring",
+      "checksum": "sha256:458a8f4223a19439ab237dbf4caaf93a68c588b0114cbcffec7400870a9647e6"
+    },
+    {
+      "id": "launch-strategy",
+      "name": "Launch Strategy",
+      "description": "Plan and execute a product launch or feature announcement — pre-launch, launch day, post-launch.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "launch-strategy",
+        "marketing",
+        "launch",
+        "strategy"
+      ],
+      "path": "skills/launch-strategy",
+      "checksum": "sha256:c5f003347f1c77f2e60e4426d646373d99b9e3a9e1ce478f9fb30f2505ad1900"
+    },
+    {
       "id": "lead-incidents",
       "name": "Lead Incidents",
       "description": "Command incident response calls and coordinate resolution",
@@ -1379,6 +1943,21 @@
       ],
       "path": "skills/lead-incidents",
       "checksum": "sha256:f4be77255af2e8b1f0693ff8166ed1661d69b34458319df960652fb319827e2b"
+    },
+    {
+      "id": "lead-magnets",
+      "name": "Lead Magnets",
+      "description": "Plan and produce lead magnets — guides, templates, calculators, mini-courses — that capture qualified emails.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "lead-magnets",
+        "marketing",
+        "lead-gen",
+        "content"
+      ],
+      "path": "skills/lead-magnets",
+      "checksum": "sha256:fe432e0a8dac899299bc93bd86c3980ddc7bdee76df31897c57af8bd733f3584"
     },
     {
       "id": "learning-objectives-and-bloom-alignment",
@@ -1465,6 +2044,21 @@
       "checksum": "sha256:74552f367fe733e688b0733ac32ede0874c2d47d7cc062398bbd577b7d4a262a"
     },
     {
+      "id": "literature-review-synthesis",
+      "name": "Literature review synthesis",
+      "description": "Cluster papers by claim, evaluate evidence quality, surface contrasts and gaps.",
+      "version": "1.0.0",
+      "type": "operational",
+      "tags": [
+        "literature-review-synthesis",
+        "research",
+        "literature",
+        "synthesis"
+      ],
+      "path": "skills/literature-review-synthesis",
+      "checksum": "sha256:3aaaeb5bbb9e89db4e6bf19c91b174ba2200c64a624e657dbc0e24053d11a5ed"
+    },
+    {
       "id": "log-activities",
       "name": "Log Activities",
       "description": "Record call notes and touchpoints in CRM",
@@ -1532,6 +2126,112 @@
       "checksum": "sha256:c36ce3b6dd23596231467d93bdafc41145bf4cc9368d9285358e33dbee0655c5"
     },
     {
+      "id": "manim-animation",
+      "name": "Manim animation",
+      "description": "Community Manim workflow: Scene/Construct pattern, Tex/MathTex, render qualities, export and embed.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "manim-animation",
+        "math",
+        "animation",
+        "manim",
+        "video"
+      ],
+      "path": "skills/manim-animation",
+      "checksum": "sha256:8e361b79541067e2aaf9da2439d441317178b5f446d660c92edc1e443808a3af"
+    },
+    {
+      "id": "marketing-ideas",
+      "name": "Marketing Ideas Library",
+      "description": "Curated library of marketing tactics and growth ideas to brainstorm against.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "marketing-ideas",
+        "marketing",
+        "brainstorming",
+        "reference"
+      ],
+      "path": "skills/marketing-ideas",
+      "checksum": "sha256:8f79d1628eda42b460f71511acb781fd0f74063b62262a6814b96f07d143c458"
+    },
+    {
+      "id": "marketing-psychology",
+      "name": "Marketing Psychology",
+      "description": "Apply behavioral science and persuasion principles to marketing copy, UX, and pricing.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "marketing-psychology",
+        "marketing",
+        "psychology",
+        "strategy"
+      ],
+      "path": "skills/marketing-psychology",
+      "checksum": "sha256:0e6934511f309dc88bd1adf6799d581bb2b3d88fbb609630fe8afd861900d2a6"
+    },
+    {
+      "id": "mathematical-pedagogy",
+      "name": "Mathematical pedagogy",
+      "description": "Explain at multiple levels (intuition → semi-formal → formal), Polya-style problem solving, worked-example design.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "mathematical-pedagogy",
+        "education",
+        "pedagogy",
+        "cal-culus"
+      ],
+      "path": "skills/mathematical-pedagogy",
+      "checksum": "sha256:650bbc9ade55a1c46dd4d964eaa6fa7348c7eca751f7c8a24bbd87f3cda6335e"
+    },
+    {
+      "id": "mathematical-proof-writing",
+      "name": "Mathematical proof writing",
+      "description": "Definition → lemma → theorem → corollary discipline, hypothesis tracking, casework hygiene, gap-spotting.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "mathematical-proof-writing",
+        "math",
+        "proofs",
+        "research"
+      ],
+      "path": "skills/mathematical-proof-writing",
+      "checksum": "sha256:513b2b1b432aeb9822b346292f589bc12a0e45e387753eabc865074447569851"
+    },
+    {
+      "id": "mathematical-research-methodology",
+      "name": "Mathematical research methodology",
+      "description": "Frame and refine a math research question, choose tactics (prove vs compute vs simulate), keep a tight research diary.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "mathematical-research-methodology",
+        "math",
+        "research",
+        "methodology"
+      ],
+      "path": "skills/mathematical-research-methodology",
+      "checksum": "sha256:2440660981ceca28153e0a30ebfb82886e49806732eb92150251c1b6cb3725b2"
+    },
+    {
+      "id": "mathematical-visualization",
+      "name": "Mathematical visualization",
+      "description": "Desmos / GeoGebra / Matplotlib for intuition before formalization.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "mathematical-visualization",
+        "math",
+        "visualization",
+        "matplotlib"
+      ],
+      "path": "skills/mathematical-visualization",
+      "checksum": "sha256:d8f31b57dde2d1cf627dab6af87ac48749f9acf4a9f96eb7d7aa66dbe1b28f11"
+    },
+    {
       "id": "member-retention-and-experience",
       "name": "Member retention & experience",
       "description": "Attendance patterns, win-back messaging, and member journey touchpoints",
@@ -1545,6 +2245,21 @@
       ],
       "path": "skills/member-retention-and-experience",
       "checksum": "sha256:d0abf5a30792bdaa3e1320372a5a4f60924f1f150e04ff291f0995b288d091c8"
+    },
+    {
+      "id": "metacognition-and-study-strategies",
+      "name": "Metacognition and study strategies",
+      "description": "Teach planning, spaced practice, interleaving, self-testing, and time management for durable learning.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "metacognition-and-study-strategies",
+        "education",
+        "study-skills",
+        "metacognition"
+      ],
+      "path": "skills/metacognition-and-study-strategies",
+      "checksum": "sha256:4a828663b90472bd7151affb411e5e68ea1e5aeabe527231c9fb5e0f2373806b"
     },
     {
       "id": "misconception-diagnosis",
@@ -1644,6 +2359,21 @@
       "checksum": "sha256:9c28d0e293531517ca05cf3c3f5bc1bd6d769173db0015f514ff454c709254d3"
     },
     {
+      "id": "note-taking-and-knowledge-building",
+      "name": "Note-taking and knowledge building",
+      "description": "Systems for lecture notes, reading notes, and linking ideas across a term (Cornell, outlines, Zettelkasten-lite).",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "note-taking-and-knowledge-building",
+        "education",
+        "notes",
+        "knowledge"
+      ],
+      "path": "skills/note-taking-and-knowledge-building",
+      "checksum": "sha256:782454891bb7408bc6f0b6ff0deb69260a9ecca3a74f6ae11cf414c3aebf36fb"
+    },
+    {
       "id": "notion",
       "name": "Notion",
       "description": "Automates Notion pages, databases, blocks, comments, and users via Rube MCP (Composio). Use after RUBE_SEARCH_TOOLS and an ACTIVE Notion connection with schema-driven tool slugs.",
@@ -1654,6 +2384,21 @@
       ],
       "path": "skills/notion",
       "checksum": "sha256:e2eb520bb27cc623510ca13485f60e132abfcb1bcf746b1dfa26a6a794a85aba"
+    },
+    {
+      "id": "numerical-analysis-foundations",
+      "name": "Numerical analysis foundations",
+      "description": "Floating point, conditioning, stability, convergence, error budgets, choosing a scheme.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "numerical-analysis-foundations",
+        "math",
+        "numerical",
+        "scipy"
+      ],
+      "path": "skills/numerical-analysis-foundations",
+      "checksum": "sha256:bef49a41afe0c49c19d2f797ac83b23c6de6ffb33b5fe76f180157d981fb7c0a"
     },
     {
       "id": "nutrition-and-healthy-meals",
@@ -1687,6 +2432,23 @@
       ],
       "path": "skills/okta",
       "checksum": "sha256:e76ca7e6742c676d832cbf2510bedf2401a26a56f43fa382dddaf864428dfb52"
+    },
+    {
+      "id": "onboarding-cro",
+      "name": "Onboarding CRO",
+      "description": "Design first-run experiences and post-signup onboarding for activation and time-to-value.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "onboarding-cro",
+        "marketing",
+        "cro",
+        "onboarding",
+        "activation",
+        "retention"
+      ],
+      "path": "skills/onboarding-cro",
+      "checksum": "sha256:8057b903a5af0279876522bfb7c96d517940aa17c0f2aa140837ac689e2386e7"
     },
     {
       "id": "onedrive",
@@ -1808,6 +2570,82 @@
       "checksum": "sha256:2fec485ab4a578a9a2c9f1bab3dbe71dcd0e4e587b8f2f764dcde83ba0634db7"
     },
     {
+      "id": "page-cro",
+      "name": "Page CRO",
+      "description": "Diagnose and optimize any marketing page (homepage, landing, pricing, feature) for conversion.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "page-cro",
+        "marketing",
+        "cro",
+        "landing-pages"
+      ],
+      "path": "skills/page-cro",
+      "checksum": "sha256:97188b606c6347502f77f6b513d237f506cdb9eee4eb0ddac9668ac6d270ab47"
+    },
+    {
+      "id": "paid-ads",
+      "name": "Paid Ads",
+      "description": "Plan, structure, and optimize paid campaigns on Google, Meta, LinkedIn, X, TikTok.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "paid-ads",
+        "marketing",
+        "paid",
+        "ads",
+        "acquisition"
+      ],
+      "path": "skills/paid-ads",
+      "checksum": "sha256:3ea37928d240970bc987552234fc1ab61ae7a92dc284cde904833af7d2b905c9"
+    },
+    {
+      "id": "parallel-agent-coordination",
+      "name": "Parallel agent coordination",
+      "description": "Spin up multiple sub-agents in parallel for independent sub-tasks while keeping a clear coordinator that aggregates results, breaks ties, and surfaces partial failures back to the user.",
+      "version": "1.0.0",
+      "type": "integrative",
+      "tags": [
+        "parallel-agent-coordination",
+        "provenance:ruflo"
+      ],
+      "path": "skills/parallel-agent-coordination",
+      "checksum": "sha256:e8f63cd583356c1d89cf567a8993c65ea6d29ca4ef77bf09f06914e9fb141557"
+    },
+    {
+      "id": "paywall-upgrade-cro",
+      "name": "Paywall and Upgrade CRO",
+      "description": "Design in-app paywalls, upgrade screens, feature gates, and upsell modals that convert without breaking trust.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "paywall-upgrade-cro",
+        "marketing",
+        "cro",
+        "pricing",
+        "upgrade",
+        "monetization"
+      ],
+      "path": "skills/paywall-upgrade-cro",
+      "checksum": "sha256:4bc00d5956ae303575d52af6a733174fbbf247a94c748017f531c02de3799437"
+    },
+    {
+      "id": "peer-review-feedback",
+      "name": "Peer review feedback",
+      "description": "Adversarial reading, soundness / novelty / clarity scoring, blameless feedback.",
+      "version": "1.0.0",
+      "type": "operational",
+      "tags": [
+        "peer-review-feedback",
+        "research",
+        "peer-review",
+        "writing"
+      ],
+      "path": "skills/peer-review-feedback",
+      "checksum": "sha256:9d8abd0939ea46d990438426f27df27dcf9b0b1ae8d90580bca0b08902d26903"
+    },
+    {
       "id": "plan-migrations",
       "name": "Plan Migrations",
       "description": "Design and coordinate database schema migrations",
@@ -1819,6 +2657,22 @@
       ],
       "path": "skills/plan-migrations",
       "checksum": "sha256:b3df2f7af96196d0f240d754a4568ec7771c48f57fff44e0b52b8b0e4d1aa082"
+    },
+    {
+      "id": "popup-cro",
+      "name": "Popup CRO",
+      "description": "Design popups, modals, slide-ins, and banners that convert without annoying users.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "popup-cro",
+        "marketing",
+        "cro",
+        "popups",
+        "lead-magnets"
+      ],
+      "path": "skills/popup-cro",
+      "checksum": "sha256:795c2d0870dbbc83be0493c2b5061861e83c2fc9d6ba513c501059d5025bbe7a"
     },
     {
       "id": "postmortem-authoring",
@@ -1850,6 +2704,36 @@
       "checksum": "sha256:a30343cc6acd8bc729523c35e3aff8a44b9059f70e17300ff3aab4f4bdca2869"
     },
     {
+      "id": "presentation-and-slide-storytelling",
+      "name": "Presentation and slide storytelling",
+      "description": "Structure talks, recitation mini-lectures, and poster narratives with clear story arcs and audience-aware design.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "presentation-and-slide-storytelling",
+        "education",
+        "presentation",
+        "communication"
+      ],
+      "path": "skills/presentation-and-slide-storytelling",
+      "checksum": "sha256:2dbac7be94c5c1663d1676445faf035ff6b58b218df7e4608017855716231115"
+    },
+    {
+      "id": "pricing-strategy",
+      "name": "Pricing Strategy",
+      "description": "Decide pricing, packaging, and monetization model based on value, willingness to pay, and competitive context.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "pricing-strategy",
+        "marketing",
+        "pricing",
+        "monetization"
+      ],
+      "path": "skills/pricing-strategy",
+      "checksum": "sha256:cd490dd899ce43cdd4c9e2542b20f49b1980ba1f569fe04286e8f1f69164bec9"
+    },
+    {
       "id": "prioritize-roadmap",
       "name": "Prioritize Roadmap",
       "description": "Score and prioritize features for the product roadmap",
@@ -1864,6 +2748,21 @@
       "checksum": "sha256:f709a38f46ab76b4524ff0db0ec0d21ae536aeca5775ecf7e5bb7f4899420db1"
     },
     {
+      "id": "probability-and-statistics-reasoning",
+      "name": "Probability & statistics reasoning",
+      "description": "Distributions, estimators, hypothesis-test pitfalls, Bayesian vs frequentist framing.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "probability-and-statistics-reasoning",
+        "math",
+        "probability",
+        "statistics"
+      ],
+      "path": "skills/probability-and-statistics-reasoning",
+      "checksum": "sha256:68edc150d0ff2bd249dba7426dd44d30511de379fe2879387bc1d77f14611b1d"
+    },
+    {
       "id": "produce-mockups",
       "name": "Produce Mockups",
       "description": "Create high-fidelity UI mockups and design comps",
@@ -1875,6 +2774,49 @@
       ],
       "path": "skills/produce-mockups",
       "checksum": "sha256:2bba7d98b380a0e7f7be603e9830f8bcb114a4463df31139af080ac1ffa7a5ae"
+    },
+    {
+      "id": "product-marketing-context",
+      "name": "Product Marketing Context",
+      "description": "Capture and reuse a single source of truth for product, ICP, positioning, and voice that every other marketing skill reads first.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "product-marketing-context",
+        "marketing",
+        "foundation",
+        "positioning"
+      ],
+      "path": "skills/product-marketing-context",
+      "checksum": "sha256:b6c13cb50775476fb656334842af405fadb3b9ef157e3bf056fdc9cf35161777"
+    },
+    {
+      "id": "production-validation",
+      "name": "Production validation",
+      "description": "Before declaring engineering work done, validate that what you built matches the production reality — not just the local or test environment — using the real signals (CI, observability, smoke tests).",
+      "version": "1.0.0",
+      "type": "operational",
+      "tags": [
+        "production-validation",
+        "provenance:ruflo+inhouse"
+      ],
+      "path": "skills/production-validation",
+      "checksum": "sha256:79366952f3914d29cf6759e0e548c7d978990d2cd9b187b0133e75a53ed96232"
+    },
+    {
+      "id": "programmatic-seo",
+      "name": "Programmatic SEO",
+      "description": "Plan and produce SEO-driven pages at scale using templates and structured data.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "programmatic-seo",
+        "seo",
+        "programmatic",
+        "scale"
+      ],
+      "path": "skills/programmatic-seo",
+      "checksum": "sha256:7ad02f854868f9f14c7684101de3173ed0082633bf6c2aeb83c801f2e9e978fc"
     },
     {
       "id": "prompt-engineer",
@@ -2141,6 +3083,21 @@
       "checksum": "sha256:963cd1abbfa3eb1c54c09bc4014bb638dfb1400df50a607f4de851f58b2d8f50"
     },
     {
+      "id": "reading-academic-texts",
+      "name": "Reading academic texts",
+      "description": "Strategies for papers and monographs outside math: claim–evidence–limits, skimming, and critique without drowning in jargon.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "reading-academic-texts",
+        "education",
+        "reading",
+        "literacy"
+      ],
+      "path": "skills/reading-academic-texts",
+      "checksum": "sha256:689c1e7ec7096f30a8cacca7f1f05059d08fd740b307c2dbf8401f1f9a295af5"
+    },
+    {
       "id": "recommend-next-posts",
       "name": "Recommend Next Posts",
       "description": "Suggest content based on engagement trends and audience behavior",
@@ -2180,6 +3137,34 @@
       ],
       "path": "skills/refactor-code",
       "checksum": "sha256:11506a625f622ba50eeb1d3e99ea2eecc034fa46dadbddcf6ee364401d8d6a71"
+    },
+    {
+      "id": "referral-program",
+      "name": "Referral Program",
+      "description": "Design, optimize, and analyze referral and affiliate programs.",
+      "version": "1.0.0",
+      "type": "operational",
+      "tags": [
+        "referral-program",
+        "growth",
+        "referral",
+        "affiliate"
+      ],
+      "path": "skills/referral-program",
+      "checksum": "sha256:87e689c37f07359a59c7bd41a5330124041678d449f83948b482d71e3ac829c8"
+    },
+    {
+      "id": "release-readiness-checklist",
+      "name": "Release readiness checklist",
+      "description": "Run a pre-release checklist before any non-trivial deploy: code, observability, rollback, comms. Block the release if any item is red.",
+      "version": "1.0.0",
+      "type": "operational",
+      "tags": [
+        "release-readiness-checklist",
+        "provenance:inhouse"
+      ],
+      "path": "skills/release-readiness-checklist",
+      "checksum": "sha256:96cafe8bdd659fa4dc9c6fd2a6df5305f56776197b0028d11cafa56ed7742a89"
     },
     {
       "id": "report-defects",
@@ -2224,6 +3209,18 @@
       "checksum": "sha256:ae4fa2fcc5259574b6a39c6f694ea30445bc43c3f26f1c4ba2048a25de901d1f"
     },
     {
+      "id": "reproducible-bug",
+      "name": "Reproducible bug (minimization)",
+      "description": "Shrink a failing input to the smallest reliable repro before filing or escalating. Improves signal-to-noise for whoever fixes the bug.",
+      "version": "1.0.0",
+      "type": "diagnostic",
+      "tags": [
+        "reproducible-bug"
+      ],
+      "path": "skills/reproducible-bug",
+      "checksum": "sha256:084f75cbbaed58799738bbe0a66177d3cb47ea563e928fcfe7995ee27537b03a"
+    },
+    {
       "id": "research-partners",
       "name": "Research Partners",
       "description": "Evaluate potential partners for strategic fit",
@@ -2264,6 +3261,50 @@
       ],
       "path": "skills/review-proposals",
       "checksum": "sha256:ac159291603f07d1dc2cd5cde4b2d93f1b384220f859ac79ec08910c1cfe778f"
+    },
+    {
+      "id": "revops",
+      "name": "RevOps",
+      "description": "Run revenue operations — lead lifecycle, scoring, routing, marketing-to-sales handoff, pipeline hygiene.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "revops",
+        "sales",
+        "crm",
+        "lead-management"
+      ],
+      "path": "skills/revops",
+      "checksum": "sha256:34811978ba85f7242645c9088496ac1979c6528bdd44972d538242c28dd11788"
+    },
+    {
+      "id": "rollback-runbook",
+      "name": "Rollback runbook",
+      "description": "Plan and execute a safe rollback (or roll-forward) when a release misbehaves, with a documented sequence and an explicit decision point on rollback vs fix-forward.",
+      "version": "1.0.0",
+      "type": "diagnostic",
+      "tags": [
+        "rollback-runbook",
+        "provenance:inhouse"
+      ],
+      "path": "skills/rollback-runbook",
+      "checksum": "sha256:61f2aa6f09e27b751589f05067acfa692df100c1a0a517c931adb2ab01e66d29"
+    },
+    {
+      "id": "rubric-design-and-aligned-feedback",
+      "name": "Rubric design and aligned feedback",
+      "description": "Criterion-referenced rubrics, comment banks, and calibration guidance for fair grading.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "rubric-design-and-aligned-feedback",
+        "education",
+        "ta",
+        "grading",
+        "feedback"
+      ],
+      "path": "skills/rubric-design-and-aligned-feedback",
+      "checksum": "sha256:511ce9c7e2279d45fe6afa94ecf8e0fa11f92f8df95b7614f2af0492872ae1c2"
     },
     {
       "id": "run-automation",
@@ -2349,6 +3390,21 @@
       "checksum": "sha256:9c791f762b667949e06268818eb847ef00d9cb88a746ef775cf03d9bcd4cf1a0"
     },
     {
+      "id": "schema-markup",
+      "name": "Schema Markup",
+      "description": "Add, fix, and validate structured data (Schema.org) on a site.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "schema-markup",
+        "seo",
+        "schema",
+        "structured-data"
+      ],
+      "path": "skills/schema-markup",
+      "checksum": "sha256:4a244c2e7a713961f2eff5700001f2be016cd0e83fbf293b56cc34e6ba0b5133"
+    },
+    {
       "id": "score-leads",
       "name": "Score Leads",
       "description": "Score prospects by likelihood to convert",
@@ -2360,6 +3416,46 @@
       ],
       "path": "skills/score-leads",
       "checksum": "sha256:27b24f350bbcde33aa8bb0ac870ab6e02ac647330cc162a118a1a4059e1b894d"
+    },
+    {
+      "id": "secret-scanning-response",
+      "name": "Secret scanning response",
+      "description": "Respond to a detected secret leak (token in source, log, build artefact, or chat) with a fixed rotate-then-purge-then-trace sequence, never the other order.",
+      "version": "1.0.0",
+      "type": "diagnostic",
+      "tags": [
+        "secret-scanning-response",
+        "provenance:inhouse"
+      ],
+      "path": "skills/secret-scanning-response",
+      "checksum": "sha256:1949372ce1298f0cd6f932cb55ff9a1b27a5be36f4904575a3dad74a65847791"
+    },
+    {
+      "id": "self-report-agent-issue",
+      "name": "Self-report agent issue",
+      "description": "When your own tools fail (sandbox, MCP, integration, timeouts), diagnose, attach evidence, and file a structured Jira incident instead of retrying silently or pretending the task succeeded.",
+      "version": "1.0.0",
+      "type": "diagnostic",
+      "tags": [
+        "self-report-agent-issue"
+      ],
+      "path": "skills/self-report-agent-issue",
+      "checksum": "sha256:e51eb56b0bbd6e4bbf7da0c64f507bfeb09b57c206b1b07642db2c75c907503b"
+    },
+    {
+      "id": "seo-audit",
+      "name": "SEO Audit",
+      "description": "Audit a site for technical and on-page SEO issues and prescribe fixes.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "seo-audit",
+        "seo",
+        "audit",
+        "organic"
+      ],
+      "path": "skills/seo-audit",
+      "checksum": "sha256:f37f0d4b29077d1a60309bfb5805d2573da3e1c552837354ae9e761e7ba74876"
     },
     {
       "id": "sequence-agents",
@@ -2752,6 +3848,37 @@
       "checksum": "sha256:6d83325475a4551d458345d3173f7c27b5ad83b57d00bf0c94ac92827396978b"
     },
     {
+      "id": "signup-flow-cro",
+      "name": "Signup Flow CRO",
+      "description": "Optimize registration, trial, or account-creation flows to improve activation and completion.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "signup-flow-cro",
+        "marketing",
+        "cro",
+        "signup",
+        "activation"
+      ],
+      "path": "skills/signup-flow-cro",
+      "checksum": "sha256:0b8512867b661b49c352671de1d693a51f1de1bb26fb4b545ac7ee5b5e6f9e64"
+    },
+    {
+      "id": "site-architecture",
+      "name": "Site Architecture",
+      "description": "Design page hierarchy, navigation, URL structure, and internal linking.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "site-architecture",
+        "seo",
+        "ia",
+        "navigation"
+      ],
+      "path": "skills/site-architecture",
+      "checksum": "sha256:219ff22cc720b2d694b26b407f5f502720327bc26f3bbc0b5afd59d0a74a15fc"
+    },
+    {
       "id": "skill-catalog-vetting",
       "name": "Skill Catalog Vetting",
       "description": "Audits imported Agent Studio skill catalog rows for security patterns, prompt-injection risk, and Agent Skills best practices before tier promotion. Use with skill_catalog_vet and SKS reporting.",
@@ -2792,6 +3919,21 @@
       ],
       "path": "skills/snyk",
       "checksum": "sha256:5a5c6f2a6f30d5a52e7fabd3d0c836c28b43103311bcbc402848da830ba49c4f"
+    },
+    {
+      "id": "social-content",
+      "name": "Social Content",
+      "description": "Create, plan, and schedule social media content for LinkedIn, X/Twitter, Instagram, TikTok.",
+      "version": "1.0.0",
+      "type": "analytical",
+      "tags": [
+        "social-content",
+        "marketing",
+        "social",
+        "content"
+      ],
+      "path": "skills/social-content",
+      "checksum": "sha256:becfc75dcc02eaea3bcaa8b5df45669ef3821f7cc85a281c3c071e4059f431ea"
     },
     {
       "id": "socratic-tutoring-and-scaffolding",
@@ -2875,6 +4017,34 @@
       "checksum": "sha256:fc3d6479f52a6c92e688538591e064dae87a02766323b208a5ced77842e66eda"
     },
     {
+      "id": "swarm-coordination",
+      "name": "Swarm coordination (3+ agents)",
+      "description": "Coordinate three or more agents on the same objective with explicit role assignment, a shared scratchpad, and arbitration — avoid the silent-clash failure mode.",
+      "version": "1.0.0",
+      "type": "supervisory",
+      "tags": [
+        "swarm-coordination",
+        "provenance:ruflo"
+      ],
+      "path": "skills/swarm-coordination",
+      "checksum": "sha256:a96c3bceb9252616b9fc82391fb01a3d287f9de050af85f14c0ffe1fbcf40d66"
+    },
+    {
+      "id": "symbolic-computation",
+      "name": "Symbolic computation",
+      "description": "When to reach for SymPy vs Wolfram|Alpha; standard patterns for simplify/solve/integrate/ODE; sanity-checking results.",
+      "version": "1.0.0",
+      "type": "methodical",
+      "tags": [
+        "symbolic-computation",
+        "math",
+        "symbolic",
+        "sympy"
+      ],
+      "path": "skills/symbolic-computation",
+      "checksum": "sha256:63d418a6c6d10d440fd44943166e9178a56be8e3e6121d0585afcb5203e88afc"
+    },
+    {
       "id": "sync-docs",
       "name": "Sync Docs",
       "description": "Keep documentation aligned with code changes",
@@ -2933,6 +4103,19 @@
       ],
       "path": "skills/ta-role-and-professional-boundaries",
       "checksum": "sha256:fb483b953cccc9ae44e7bdcd34e4184327d04b4760b9e856efea71f6095c90c6"
+    },
+    {
+      "id": "task-decomposition-tree",
+      "name": "Task decomposition tree",
+      "description": "Decompose a large user request into a tree of smaller, independently verifiable tasks so the work can be planned, parallelized, delegated, and reviewed leaf-by-leaf.",
+      "version": "1.0.0",
+      "type": "operational",
+      "tags": [
+        "task-decomposition-tree",
+        "provenance:ruflo"
+      ],
+      "path": "skills/task-decomposition-tree",
+      "checksum": "sha256:394cea73a4900e17bb13bd80a74b568a85255faff8d6dd01dfa058011fe29c3a"
     },
     {
       "id": "teams",
@@ -3282,5 +4465,5 @@
       "checksum": "sha256:cf633ee4a441291264035956afdbdceff89e40e077682a6a94ddefdb1df28051"
     }
   ],
-  "integrity": "sha256:a00f31cc28bec1ba702118fd439af732259a1ca0fdeac09501a8540530b04da0"
+  "integrity": "sha256:e8f2d17e1ffb852fbe76273e265106797eb1c13a3421ff0e8625c0b8cb7b1caa"
 }

@@ -1,0 +1,22 @@
+name: Agent status pings
+version: 1.0.0
+type: integrative
+description:
+  capability: "Emit standardized progress pings during long-running work so the coordinator and the user know whether you are alive, stuck, or done — never go dark."
+  trigger_conditions: "Use when emit standardized progress pings during long-running work so the coordinator and the user know whether you are alive, stuck, or done — never go dark."
+  scope_boundaries: "Focused on Agent status pings workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - agent-status-pings
+  - provenance:ruflo
+tags:
+  - agent-status-pings
+  - provenance:ruflo
+relationships:
+  skills: []
+  tool_sets:
+  - name: slack
+    type: can-have
+  - name: managents-planning
+    type: can-have
+  - name: task-manager
+    type: can-have

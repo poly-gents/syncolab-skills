@@ -1,0 +1,26 @@
+name: AI SEO (AEO / GEO / LLMO)
+version: 1.0.0
+type: analytical
+description:
+  capability: "Optimize content to be cited and recommended by AI search engines (ChatGPT, Perplexity, Google AI Overviews, Claude)."
+  trigger_conditions: "Use when optimize content to be cited and recommended by AI search engines (ChatGPT, Perplexity, Google AI Overviews, Claude)."
+  scope_boundaries: "Focused on AI SEO (AEO / GEO / LLMO) workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - ai-seo
+  - seo
+  - aeo
+  - geo
+tags:
+  - ai-seo
+  - seo
+  - aeo
+  - geo
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-search-console
+    type: can-have
+  - name: openai
+    type: can-have
+  - name: perplexity
+    type: can-have

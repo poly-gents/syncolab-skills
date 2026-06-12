@@ -1,0 +1,26 @@
+name: Copywriting
+version: 1.0.0
+type: analytical
+description:
+  capability: "Write or rewrite marketing copy for any page (homepage, landing, feature, pricing, about) grounded in product context."
+  trigger_conditions: "Use when write or rewrite marketing copy for any page (homepage, landing, feature, pricing, about) grounded in product context."
+  scope_boundaries: "Focused on Copywriting workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - copywriting
+  - marketing
+  - copy
+  - landing-pages
+tags:
+  - copywriting
+  - marketing
+  - copy
+  - landing-pages
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-docs
+    type: can-have
+  - name: notion
+    type: can-have
+  - name: openai
+    type: can-have

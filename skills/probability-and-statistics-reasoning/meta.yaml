@@ -1,0 +1,24 @@
+name: Probability & statistics reasoning
+version: 1.0.0
+type: methodical
+description:
+  capability: "Distributions, estimators, hypothesis-test pitfalls, Bayesian vs frequentist framing."
+  trigger_conditions: "Use when distributions, estimators, hypothesis-test pitfalls, Bayesian vs frequentist framing."
+  scope_boundaries: "Focused on Probability & statistics reasoning workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - probability-and-statistics-reasoning
+  - math
+  - probability
+  - statistics
+tags:
+  - probability-and-statistics-reasoning
+  - math
+  - probability
+  - statistics
+relationships:
+  skills: []
+  tool_sets:
+  - name: python-scientific
+    type: can-have
+  - name: jupyter
+    type: can-have

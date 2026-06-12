@@ -1,0 +1,22 @@
+name: Marketing Ideas Library
+version: 1.0.0
+type: analytical
+description:
+  capability: "Curated library of marketing tactics and growth ideas to brainstorm against."
+  trigger_conditions: "Use when curated library of marketing tactics and growth ideas to brainstorm against."
+  scope_boundaries: "Focused on Marketing Ideas Library workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - marketing-ideas
+  - marketing
+  - brainstorming
+  - reference
+tags:
+  - marketing-ideas
+  - marketing
+  - brainstorming
+  - reference
+relationships:
+  skills: []
+  tool_sets:
+  - name: notion
+    type: can-have

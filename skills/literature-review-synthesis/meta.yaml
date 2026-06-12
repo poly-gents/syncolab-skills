@@ -1,0 +1,26 @@
+name: Literature review synthesis
+version: 1.0.0
+type: operational
+description:
+  capability: "Cluster papers by claim, evaluate evidence quality, surface contrasts and gaps."
+  trigger_conditions: "Use when cluster papers by claim, evaluate evidence quality, surface contrasts and gaps."
+  scope_boundaries: "Focused on Literature review synthesis workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - literature-review-synthesis
+  - research
+  - literature
+  - synthesis
+tags:
+  - literature-review-synthesis
+  - research
+  - literature
+  - synthesis
+relationships:
+  skills: []
+  tool_sets:
+  - name: arxiv
+    type: can-have
+  - name: semantic-scholar
+    type: can-have
+  - name: zotero
+    type: can-have

@@ -1,0 +1,26 @@
+name: Parallel agent coordination
+version: 1.0.0
+type: integrative
+description:
+  capability: "Spin up multiple sub-agents in parallel for independent sub-tasks while keeping a clear coordinator that aggregates results, breaks ties, and surfaces partial failures back to the user."
+  trigger_conditions: "Use when spin up multiple sub-agents in parallel for independent sub-tasks while keeping a clear coordinator that aggregates results, breaks ties, and surfaces partial failures back to the user."
+  scope_boundaries: "Focused on Parallel agent coordination workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - parallel-agent-coordination
+  - provenance:ruflo
+tags:
+  - parallel-agent-coordination
+  - provenance:ruflo
+relationships:
+  skills: []
+  tool_sets:
+  - name: managents-planning
+    type: can-have
+  - name: task-manager
+    type: can-have
+  - name: github
+    type: can-have
+  - name: jira
+    type: can-have
+  - name: slack
+    type: can-have

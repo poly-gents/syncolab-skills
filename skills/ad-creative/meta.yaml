@@ -1,0 +1,30 @@
+name: Ad Creative
+version: 1.0.0
+type: analytical
+description:
+  capability: "Generate and iterate ad creative — headlines, primary text, descriptions, scripts, and image briefs."
+  trigger_conditions: "Use when generate and iterate ad creative — headlines, primary text, descriptions, scripts, and image briefs."
+  scope_boundaries: "Focused on Ad Creative workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - ad-creative
+  - marketing
+  - paid
+  - creative
+  - ads
+tags:
+  - ad-creative
+  - marketing
+  - paid
+  - creative
+  - ads
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-docs
+    type: can-have
+  - name: figma
+    type: can-have
+  - name: meta-business-suite
+    type: can-have
+  - name: google-ads
+    type: can-have

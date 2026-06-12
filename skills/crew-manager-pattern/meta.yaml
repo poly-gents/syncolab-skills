@@ -1,0 +1,24 @@
+name: Crew manager pattern
+version: 1.0.0
+type: supervisory
+description:
+  capability: "Use the manager-worker pattern: a single manager agent decomposes, delegates, monitors, and aggregates while worker agents execute leaves — applied via your existing planning, assignment, and dispatch tools."
+  trigger_conditions: "Use when use the manager-worker pattern: a single manager agent decomposes, delegates, monitors, and aggregates while worker agents execute leaves — applied via your existing planning, assignment, and dispatch tools."
+  scope_boundaries: "Focused on Crew manager pattern workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - crew-manager-pattern
+  - provenance:crewai
+tags:
+  - crew-manager-pattern
+  - provenance:crewai
+relationships:
+  skills: []
+  tool_sets:
+  - name: managents-planning
+    type: can-have
+  - name: task-manager
+    type: can-have
+  - name: slack
+    type: can-have
+  - name: jira
+    type: can-have

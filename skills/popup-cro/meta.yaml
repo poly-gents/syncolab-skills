@@ -1,0 +1,28 @@
+name: Popup CRO
+version: 1.0.0
+type: analytical
+description:
+  capability: "Design popups, modals, slide-ins, and banners that convert without annoying users."
+  trigger_conditions: "Use when design popups, modals, slide-ins, and banners that convert without annoying users."
+  scope_boundaries: "Focused on Popup CRO workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - popup-cro
+  - marketing
+  - cro
+  - popups
+  - lead-magnets
+tags:
+  - popup-cro
+  - marketing
+  - cro
+  - popups
+  - lead-magnets
+relationships:
+  skills: []
+  tool_sets:
+  - name: optinmonster
+    type: can-have
+  - name: klaviyo
+    type: can-have
+  - name: ga4
+    type: can-have

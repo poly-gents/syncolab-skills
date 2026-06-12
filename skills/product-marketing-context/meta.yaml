@@ -1,0 +1,24 @@
+name: Product Marketing Context
+version: 1.0.0
+type: analytical
+description:
+  capability: "Capture and reuse a single source of truth for product, ICP, positioning, and voice that every other marketing skill reads first."
+  trigger_conditions: "Use when capture and reuse a single source of truth for product, ICP, positioning, and voice that every other marketing skill reads first."
+  scope_boundaries: "Focused on Product Marketing Context workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - product-marketing-context
+  - marketing
+  - foundation
+  - positioning
+tags:
+  - product-marketing-context
+  - marketing
+  - foundation
+  - positioning
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-docs
+    type: can-have
+  - name: notion
+    type: can-have

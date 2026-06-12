@@ -1,0 +1,30 @@
+name: Incident postmortem loop
+version: 1.0.0
+type: diagnostic
+description:
+  capability: "Own the loop from incident-declared through postmortem-document through action-items-closed — without losing follow-through three weeks later."
+  trigger_conditions: "Use when own the loop from incident-declared through postmortem-document through action-items-closed — without losing follow-through three weeks later."
+  scope_boundaries: "Focused on Incident postmortem loop workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - incident-postmortem-loop
+  - provenance:inhouse
+tags:
+  - incident-postmortem-loop
+  - provenance:inhouse
+relationships:
+  skills: []
+  tool_sets:
+  - name: github
+    type: can-have
+  - name: jira
+    type: can-have
+  - name: notion
+    type: can-have
+  - name: slack
+    type: can-have
+  - name: pagerduty
+    type: can-have
+  - name: datadog
+    type: can-have
+  - name: internal-wiki
+    type: can-have

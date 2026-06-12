@@ -1,0 +1,26 @@
+name: Planner / executor split
+version: 1.0.0
+type: supervisory
+description:
+  capability: "Split long, exploratory work into a planner phase (produce a concrete plan) and an executor phase (carry out the plan), with an explicit checkpoint between the two so the human can intervene cheaply."
+  trigger_conditions: "Use when split long, exploratory work into a planner phase (produce a concrete plan) and an executor phase (carry out the plan), with an explicit checkpoint between the two so the human can intervene cheaply."
+  scope_boundaries: "Focused on Planner / executor split workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - crew-planner-executor
+  - provenance:crewai
+tags:
+  - crew-planner-executor
+  - provenance:crewai
+relationships:
+  skills: []
+  tool_sets:
+  - name: managents-planning
+    type: can-have
+  - name: task-manager
+    type: can-have
+  - name: github
+    type: can-have
+  - name: jira
+    type: can-have
+  - name: slack
+    type: can-have

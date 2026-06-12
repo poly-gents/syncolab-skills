@@ -1,0 +1,22 @@
+name: Active learning prompt bank
+version: 1.0.0
+type: methodical
+description:
+  capability: "Reusable prompts for labs and sections: predict, justify, compare, teach-back, and peer instruction."
+  trigger_conditions: "Use when reusable prompts for labs and sections: predict, justify, compare, teach-back, and peer instruction."
+  scope_boundaries: "Focused on Active learning prompt bank workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - active-learning-prompt-bank
+  - education
+  - ta
+  - active-learning
+tags:
+  - active-learning-prompt-bank
+  - education
+  - ta
+  - active-learning
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-docs
+    type: can-have

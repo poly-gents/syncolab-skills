@@ -1,0 +1,26 @@
+name: Metacognition and study strategies
+version: 1.0.0
+type: methodical
+description:
+  capability: "Teach planning, spaced practice, interleaving, self-testing, and time management for durable learning."
+  trigger_conditions: "Use when teach planning, spaced practice, interleaving, self-testing, and time management for durable learning."
+  scope_boundaries: "Focused on Metacognition and study strategies workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - metacognition-and-study-strategies
+  - education
+  - study-skills
+  - metacognition
+tags:
+  - metacognition-and-study-strategies
+  - education
+  - study-skills
+  - metacognition
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-docs
+    type: can-have
+  - name: notion
+    type: can-have
+  - name: google-calendar
+    type: can-have

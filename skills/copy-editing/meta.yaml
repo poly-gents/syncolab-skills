@@ -1,0 +1,24 @@
+name: Copy Editing
+version: 1.0.0
+type: analytical
+description:
+  capability: "Edit, polish, and refresh existing marketing copy without changing voice."
+  trigger_conditions: "Use when edit, polish, and refresh existing marketing copy without changing voice."
+  scope_boundaries: "Focused on Copy Editing workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - copy-editing
+  - marketing
+  - copy
+  - editing
+tags:
+  - copy-editing
+  - marketing
+  - copy
+  - editing
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-docs
+    type: can-have
+  - name: grammarly
+    type: can-have

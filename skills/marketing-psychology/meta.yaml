@@ -1,0 +1,24 @@
+name: Marketing Psychology
+version: 1.0.0
+type: analytical
+description:
+  capability: "Apply behavioral science and persuasion principles to marketing copy, UX, and pricing."
+  trigger_conditions: "Use when apply behavioral science and persuasion principles to marketing copy, UX, and pricing."
+  scope_boundaries: "Focused on Marketing Psychology workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - marketing-psychology
+  - marketing
+  - psychology
+  - strategy
+tags:
+  - marketing-psychology
+  - marketing
+  - psychology
+  - strategy
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-docs
+    type: can-have
+  - name: notion
+    type: can-have

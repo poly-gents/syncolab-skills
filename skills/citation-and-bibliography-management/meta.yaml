@@ -1,0 +1,24 @@
+name: Citation & bibliography management
+version: 1.0.0
+type: operational
+description:
+  capability: "BibTeX hygiene, DOI normalization, Zotero collections, stable citation keys."
+  trigger_conditions: "Use when bibTeX hygiene, DOI normalization, Zotero collections, stable citation keys."
+  scope_boundaries: "Focused on Citation & bibliography management workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - citation-and-bibliography-management
+  - research
+  - bibtex
+  - citations
+tags:
+  - citation-and-bibliography-management
+  - research
+  - bibtex
+  - citations
+relationships:
+  skills: []
+  tool_sets:
+  - name: zotero
+    type: can-have
+  - name: latex
+    type: can-have

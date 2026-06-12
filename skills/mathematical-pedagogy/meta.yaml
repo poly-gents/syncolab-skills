@@ -1,0 +1,26 @@
+name: Mathematical pedagogy
+version: 1.0.0
+type: methodical
+description:
+  capability: "Explain at multiple levels (intuition → semi-formal → formal), Polya-style problem solving, worked-example design."
+  trigger_conditions: "Use when explain at multiple levels (intuition → semi-formal → formal), Polya-style problem solving, worked-example design."
+  scope_boundaries: "Focused on Mathematical pedagogy workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - mathematical-pedagogy
+  - education
+  - pedagogy
+  - cal-culus
+tags:
+  - mathematical-pedagogy
+  - education
+  - pedagogy
+  - cal-culus
+relationships:
+  skills: []
+  tool_sets:
+  - name: latex
+    type: can-have
+  - name: mathjax
+    type: can-have
+  - name: manim
+    type: can-have

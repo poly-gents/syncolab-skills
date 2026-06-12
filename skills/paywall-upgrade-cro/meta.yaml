@@ -1,0 +1,30 @@
+name: Paywall and Upgrade CRO
+version: 1.0.0
+type: analytical
+description:
+  capability: "Design in-app paywalls, upgrade screens, feature gates, and upsell modals that convert without breaking trust."
+  trigger_conditions: "Use when design in-app paywalls, upgrade screens, feature gates, and upsell modals that convert without breaking trust."
+  scope_boundaries: "Focused on Paywall and Upgrade CRO workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - paywall-upgrade-cro
+  - marketing
+  - cro
+  - pricing
+  - upgrade
+  - monetization
+tags:
+  - paywall-upgrade-cro
+  - marketing
+  - cro
+  - pricing
+  - upgrade
+  - monetization
+relationships:
+  skills: []
+  tool_sets:
+  - name: stripe
+    type: can-have
+  - name: mixpanel
+    type: can-have
+  - name: amplitude
+    type: can-have

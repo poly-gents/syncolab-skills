@@ -1,0 +1,26 @@
+name: Lead Magnets
+version: 1.0.0
+type: analytical
+description:
+  capability: "Plan and produce lead magnets — guides, templates, calculators, mini-courses — that capture qualified emails."
+  trigger_conditions: "Use when plan and produce lead magnets — guides, templates, calculators, mini-courses — that capture qualified emails."
+  scope_boundaries: "Focused on Lead Magnets workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - lead-magnets
+  - marketing
+  - lead-gen
+  - content
+tags:
+  - lead-magnets
+  - marketing
+  - lead-gen
+  - content
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-docs
+    type: can-have
+  - name: notion
+    type: can-have
+  - name: figma
+    type: can-have

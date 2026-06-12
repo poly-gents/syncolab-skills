@@ -1,0 +1,30 @@
+name: Social Content
+version: 1.0.0
+type: analytical
+description:
+  capability: "Create, plan, and schedule social media content for LinkedIn, X/Twitter, Instagram, TikTok."
+  trigger_conditions: "Use when create, plan, and schedule social media content for LinkedIn, X/Twitter, Instagram, TikTok."
+  scope_boundaries: "Focused on Social Content workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - social-content
+  - marketing
+  - social
+  - content
+tags:
+  - social-content
+  - marketing
+  - social
+  - content
+relationships:
+  skills: []
+  tool_sets:
+  - name: buffer
+    type: can-have
+  - name: hootsuite
+    type: can-have
+  - name: meta-business-suite
+    type: can-have
+  - name: linkedin
+    type: can-have
+  - name: twitter-api
+    type: can-have

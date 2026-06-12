@@ -1,0 +1,20 @@
+name: Clarification checkpoints
+version: 1.0.0
+type: operational
+description:
+  capability: "Pause and ask the human for clarification at well-defined checkpoints rather than guessing — but only at points where the cost of guessing wrong is higher than the cost of the pause."
+  trigger_conditions: "Use when pause and ask the human for clarification at well-defined checkpoints rather than guessing — but only at points where the cost of guessing wrong is higher than the cost of the pause."
+  scope_boundaries: "Focused on Clarification checkpoints workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - clarification-checkpoints
+  - provenance:ruflo
+tags:
+  - clarification-checkpoints
+  - provenance:ruflo
+relationships:
+  skills: []
+  tool_sets:
+  - name: slack
+    type: can-have
+  - name: managents-planning
+    type: can-have

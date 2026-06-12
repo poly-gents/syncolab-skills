@@ -1,0 +1,28 @@
+name: Free Tool Strategy
+version: 1.0.0
+type: analytical
+description:
+  capability: "Plan and evaluate free tools (calculators, generators, mini-apps) as marketing assets."
+  trigger_conditions: "Use when plan and evaluate free tools (calculators, generators, mini-apps) as marketing assets."
+  scope_boundaries: "Focused on Free Tool Strategy workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - free-tool-strategy
+  - growth
+  - free-tools
+  - lead-gen
+  - seo
+tags:
+  - free-tool-strategy
+  - growth
+  - free-tools
+  - lead-gen
+  - seo
+relationships:
+  skills: []
+  tool_sets:
+  - name: figma
+    type: can-have
+  - name: next-js
+    type: can-have
+  - name: webflow
+    type: can-have

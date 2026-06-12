@@ -1,0 +1,26 @@
+name: LaTeX paper authoring
+version: 1.0.0
+type: methodical
+description:
+  capability: "amsmath / amsthm scaffold, theorem environments, figure & equation cross-refs, journal templates."
+  trigger_conditions: "Use when amsmath / amsthm scaffold, theorem environments, figure & equation cross-refs, journal templates."
+  scope_boundaries: "Focused on LaTeX paper authoring workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - latex-paper-authoring
+  - latex
+  - writing
+  - research
+tags:
+  - latex-paper-authoring
+  - latex
+  - writing
+  - research
+relationships:
+  skills: []
+  tool_sets:
+  - name: latex
+    type: can-have
+  - name: overleaf
+    type: can-have
+  - name: mathjax
+    type: can-have

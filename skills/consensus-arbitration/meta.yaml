@@ -1,0 +1,26 @@
+name: Consensus & arbitration
+version: 1.0.0
+type: supervisory
+description:
+  capability: "When two or more agents disagree on a decision they each own a piece of, drive the conflict to a single decision via a fixed arbitration rule — never let the conflict silently linger."
+  trigger_conditions: "Use when when two or more agents disagree on a decision they each own a piece of, drive the conflict to a single decision via a fixed arbitration rule — never let the conflict silently linger."
+  scope_boundaries: "Focused on Consensus & arbitration workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - consensus-arbitration
+  - provenance:crewai
+tags:
+  - consensus-arbitration
+  - provenance:crewai
+relationships:
+  skills: []
+  tool_sets:
+  - name: slack
+    type: can-have
+  - name: managents-planning
+    type: can-have
+  - name: task-manager
+    type: can-have
+  - name: github
+    type: can-have
+  - name: jira
+    type: can-have

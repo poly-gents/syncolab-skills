@@ -1,0 +1,28 @@
+name: Release readiness checklist
+version: 1.0.0
+type: operational
+description:
+  capability: "Run a pre-release checklist before any non-trivial deploy: code, observability, rollback, comms. Block the release if any item is red."
+  trigger_conditions: "Use when run a pre-release checklist before any non-trivial deploy: code, observability, rollback, comms. Block the release if any item is red."
+  scope_boundaries: "Focused on Release readiness checklist workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - release-readiness-checklist
+  - provenance:inhouse
+tags:
+  - release-readiness-checklist
+  - provenance:inhouse
+relationships:
+  skills: []
+  tool_sets:
+  - name: github
+    type: can-have
+  - name: github-actions
+    type: can-have
+  - name: datadog
+    type: can-have
+  - name: pagerduty
+    type: can-have
+  - name: managents-planning
+    type: can-have
+  - name: jira
+    type: can-have

@@ -1,0 +1,24 @@
+name: Cross-disciplinary literacy
+version: 1.0.0
+type: methodical
+description:
+  capability: "Help learners map how different fields argue, prove, and use evidence so they can enter a new discipline responsibly."
+  trigger_conditions: "Use when help learners map how different fields argue, prove, and use evidence so they can enter a new discipline responsibly."
+  scope_boundaries: "Focused on Cross-disciplinary literacy workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - cross-disciplinary-literacy
+  - education
+  - interdisciplinary
+tags:
+  - cross-disciplinary-literacy
+  - education
+  - interdisciplinary
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-docs
+    type: can-have
+  - name: notion
+    type: can-have
+  - name: openai
+    type: can-have

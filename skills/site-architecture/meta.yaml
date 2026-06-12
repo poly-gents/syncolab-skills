@@ -1,0 +1,26 @@
+name: Site Architecture
+version: 1.0.0
+type: analytical
+description:
+  capability: "Design page hierarchy, navigation, URL structure, and internal linking."
+  trigger_conditions: "Use when design page hierarchy, navigation, URL structure, and internal linking."
+  scope_boundaries: "Focused on Site Architecture workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - site-architecture
+  - seo
+  - ia
+  - navigation
+tags:
+  - site-architecture
+  - seo
+  - ia
+  - navigation
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-search-console
+    type: can-have
+  - name: screaming-frog
+    type: can-have
+  - name: figma
+    type: can-have

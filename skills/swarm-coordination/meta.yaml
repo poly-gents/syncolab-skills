@@ -1,0 +1,24 @@
+name: Swarm coordination (3+ agents)
+version: 1.0.0
+type: supervisory
+description:
+  capability: "Coordinate three or more agents on the same objective with explicit role assignment, a shared scratchpad, and arbitration — avoid the silent-clash failure mode."
+  trigger_conditions: "Use when coordinate three or more agents on the same objective with explicit role assignment, a shared scratchpad, and arbitration — avoid the silent-clash failure mode."
+  scope_boundaries: "Focused on Swarm coordination (3+ agents) workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - swarm-coordination
+  - provenance:ruflo
+tags:
+  - swarm-coordination
+  - provenance:ruflo
+relationships:
+  skills: []
+  tool_sets:
+  - name: managents-planning
+    type: can-have
+  - name: task-manager
+    type: can-have
+  - name: slack
+    type: can-have
+  - name: github
+    type: can-have

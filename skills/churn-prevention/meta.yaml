@@ -1,0 +1,28 @@
+name: Churn Prevention
+version: 1.0.0
+type: operational
+description:
+  capability: "Design cancel flows, save offers, dunning, and failed-payment recovery to reduce involuntary and voluntary churn."
+  trigger_conditions: "Use when design cancel flows, save offers, dunning, and failed-payment recovery to reduce involuntary and voluntary churn."
+  scope_boundaries: "Focused on Churn Prevention workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - churn-prevention
+  - retention
+  - churn
+  - monetization
+tags:
+  - churn-prevention
+  - retention
+  - churn
+  - monetization
+relationships:
+  skills: []
+  tool_sets:
+  - name: stripe
+    type: can-have
+  - name: chargebee
+    type: can-have
+  - name: intercom
+    type: can-have
+  - name: customer-io
+    type: can-have

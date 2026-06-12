@@ -1,0 +1,30 @@
+name: Form CRO
+version: 1.0.0
+type: analytical
+description:
+  capability: "Optimize lead capture, contact, demo, and quote forms (not signup forms) for completion rate."
+  trigger_conditions: "Use when optimize lead capture, contact, demo, and quote forms (not signup forms) for completion rate."
+  scope_boundaries: "Focused on Form CRO workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - form-cro
+  - marketing
+  - cro
+  - forms
+  - lead-gen
+tags:
+  - form-cro
+  - marketing
+  - cro
+  - forms
+  - lead-gen
+relationships:
+  skills: []
+  tool_sets:
+  - name: hubspot
+    type: can-have
+  - name: typeform
+    type: can-have
+  - name: ga4
+    type: can-have
+  - name: hotjar
+    type: can-have

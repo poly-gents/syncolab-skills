@@ -1,0 +1,26 @@
+name: Pricing Strategy
+version: 1.0.0
+type: analytical
+description:
+  capability: "Decide pricing, packaging, and monetization model based on value, willingness to pay, and competitive context."
+  trigger_conditions: "Use when decide pricing, packaging, and monetization model based on value, willingness to pay, and competitive context."
+  scope_boundaries: "Focused on Pricing Strategy workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - pricing-strategy
+  - marketing
+  - pricing
+  - monetization
+tags:
+  - pricing-strategy
+  - marketing
+  - pricing
+  - monetization
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-docs
+    type: can-have
+  - name: stripe
+    type: can-have
+  - name: mixpanel
+    type: can-have

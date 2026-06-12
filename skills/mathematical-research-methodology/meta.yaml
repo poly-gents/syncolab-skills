@@ -1,0 +1,26 @@
+name: Mathematical research methodology
+version: 1.0.0
+type: methodical
+description:
+  capability: "Frame and refine a math research question, choose tactics (prove vs compute vs simulate), keep a tight research diary."
+  trigger_conditions: "Use when frame and refine a math research question, choose tactics (prove vs compute vs simulate), keep a tight research diary."
+  scope_boundaries: "Focused on Mathematical research methodology workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - mathematical-research-methodology
+  - math
+  - research
+  - methodology
+tags:
+  - mathematical-research-methodology
+  - math
+  - research
+  - methodology
+relationships:
+  skills: []
+  tool_sets:
+  - name: latex
+    type: can-have
+  - name: overleaf
+    type: can-have
+  - name: jupyter
+    type: can-have

@@ -1,0 +1,22 @@
+name: Humanities essay and argumentation
+version: 1.0.0
+type: methodical
+description:
+  capability: "Thesis, motive, evidence, counterargument, and close reading — without writing the student’s essay for them."
+  trigger_conditions: "Use when thesis, motive, evidence, counterargument, and close reading — without writing the student’s essay for them."
+  scope_boundaries: "Focused on Humanities essay and argumentation workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - humanities-essay-and-argumentation
+  - education
+  - humanities
+  - writing
+tags:
+  - humanities-essay-and-argumentation
+  - education
+  - humanities
+  - writing
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-docs
+    type: can-have

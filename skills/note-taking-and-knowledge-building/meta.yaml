@@ -1,0 +1,24 @@
+name: Note-taking and knowledge building
+version: 1.0.0
+type: methodical
+description:
+  capability: "Systems for lecture notes, reading notes, and linking ideas across a term (Cornell, outlines, Zettelkasten-lite)."
+  trigger_conditions: "Use when systems for lecture notes, reading notes, and linking ideas across a term (Cornell, outlines, Zettelkasten-lite)."
+  scope_boundaries: "Focused on Note-taking and knowledge building workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - note-taking-and-knowledge-building
+  - education
+  - notes
+  - knowledge
+tags:
+  - note-taking-and-knowledge-building
+  - education
+  - notes
+  - knowledge
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-docs
+    type: can-have
+  - name: notion
+    type: can-have

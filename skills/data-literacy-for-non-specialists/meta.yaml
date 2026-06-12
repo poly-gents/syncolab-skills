@@ -1,0 +1,24 @@
+name: Data literacy for non-specialists
+version: 1.0.0
+type: methodical
+description:
+  capability: "Read charts, common statistics, and study designs without overclaiming — for essays, labs, and civic numeracy."
+  trigger_conditions: "Use when read charts, common statistics, and study designs without overclaiming — for essays, labs, and civic numeracy."
+  scope_boundaries: "Focused on Data literacy for non-specialists workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - data-literacy-for-non-specialists
+  - education
+  - statistics
+  - literacy
+tags:
+  - data-literacy-for-non-specialists
+  - education
+  - statistics
+  - literacy
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-docs
+    type: can-have
+  - name: google-sheets
+    type: can-have

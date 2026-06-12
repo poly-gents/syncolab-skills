@@ -1,0 +1,26 @@
+name: Competitor / Alternatives Pages
+version: 1.0.0
+type: analytical
+description:
+  capability: "Plan and write \"X alternatives\" and \"X vs Y\" pages that rank and convert."
+  trigger_conditions: "Use when plan and write \"X alternatives\" and \"X vs Y\" pages that rank and convert."
+  scope_boundaries: "Focused on Competitor / Alternatives Pages workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - competitor-alternatives
+  - seo
+  - sales
+  - comparison
+tags:
+  - competitor-alternatives
+  - seo
+  - sales
+  - comparison
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-search-console
+    type: can-have
+  - name: ahrefs
+    type: can-have
+  - name: google-docs
+    type: can-have

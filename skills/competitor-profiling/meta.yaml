@@ -1,0 +1,28 @@
+name: Competitor Profiling
+version: 1.0.0
+type: operational
+description:
+  capability: "Research and profile competitors from public sources into actionable battlecards and positioning inputs."
+  trigger_conditions: "Use when research and profile competitors from public sources into actionable battlecards and positioning inputs."
+  scope_boundaries: "Focused on Competitor Profiling workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - competitor-profiling
+  - research
+  - competitive
+  - positioning
+tags:
+  - competitor-profiling
+  - research
+  - competitive
+  - positioning
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-docs
+    type: can-have
+  - name: ahrefs
+    type: can-have
+  - name: similar-web
+    type: can-have
+  - name: g2
+    type: can-have

@@ -1,0 +1,30 @@
+name: Email Sequence
+version: 1.0.0
+type: analytical
+description:
+  capability: "Design welcome, onboarding, drip, nurture, and lifecycle email sequences."
+  trigger_conditions: "Use when design welcome, onboarding, drip, nurture, and lifecycle email sequences."
+  scope_boundaries: "Focused on Email Sequence workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - email-sequence
+  - marketing
+  - email
+  - lifecycle
+  - retention
+tags:
+  - email-sequence
+  - marketing
+  - email
+  - lifecycle
+  - retention
+relationships:
+  skills: []
+  tool_sets:
+  - name: gmail
+    type: can-have
+  - name: klaviyo
+    type: can-have
+  - name: customer-io
+    type: can-have
+  - name: hubspot
+    type: can-have

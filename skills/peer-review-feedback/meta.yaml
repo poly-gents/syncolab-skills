@@ -1,0 +1,24 @@
+name: Peer review feedback
+version: 1.0.0
+type: operational
+description:
+  capability: "Adversarial reading, soundness / novelty / clarity scoring, blameless feedback."
+  trigger_conditions: "Use when adversarial reading, soundness / novelty / clarity scoring, blameless feedback."
+  scope_boundaries: "Focused on Peer review feedback workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - peer-review-feedback
+  - research
+  - peer-review
+  - writing
+tags:
+  - peer-review-feedback
+  - research
+  - peer-review
+  - writing
+relationships:
+  skills: []
+  tool_sets:
+  - name: latex
+    type: can-have
+  - name: overleaf
+    type: can-have

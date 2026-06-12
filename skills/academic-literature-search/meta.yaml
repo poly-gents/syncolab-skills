@@ -1,0 +1,34 @@
+name: Academic literature search
+version: 1.0.0
+type: methodical
+description:
+  capability: "Query design across arXiv / Semantic Scholar / OpenAlex / CrossRef / PubMed / Unpaywall via the unified academic_search tool."
+  trigger_conditions: "Use when query design across arXiv / Semantic Scholar / OpenAlex / CrossRef / PubMed / Unpaywall via the unified academic_search tool."
+  scope_boundaries: "Focused on Academic literature search workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - academic-literature-search
+  - research
+  - literature
+  - academic
+tags:
+  - academic-literature-search
+  - research
+  - literature
+  - academic
+relationships:
+  skills: []
+  tool_sets:
+  - name: arxiv
+    type: can-have
+  - name: semantic-scholar
+    type: can-have
+  - name: openalex
+    type: can-have
+  - name: google-scholar
+    type: can-have
+  - name: crossref
+    type: can-have
+  - name: pubmed
+    type: can-have
+  - name: unpaywall
+    type: can-have

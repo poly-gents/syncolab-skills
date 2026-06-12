@@ -1,0 +1,28 @@
+name: Manim animation
+version: 1.0.0
+type: methodical
+description:
+  capability: "Community Manim workflow: Scene/Construct pattern, Tex/MathTex, render qualities, export and embed."
+  trigger_conditions: "Use when community Manim workflow: Scene/Construct pattern, Tex/MathTex, render qualities, export and embed."
+  scope_boundaries: "Focused on Manim animation workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - manim-animation
+  - math
+  - animation
+  - manim
+  - video
+tags:
+  - manim-animation
+  - math
+  - animation
+  - manim
+  - video
+relationships:
+  skills: []
+  tool_sets:
+  - name: manim
+    type: can-have
+  - name: python-scientific
+    type: can-have
+  - name: latex
+    type: can-have

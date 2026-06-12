@@ -1,0 +1,24 @@
+name: Numerical analysis foundations
+version: 1.0.0
+type: methodical
+description:
+  capability: "Floating point, conditioning, stability, convergence, error budgets, choosing a scheme."
+  trigger_conditions: "Use when floating point, conditioning, stability, convergence, error budgets, choosing a scheme."
+  scope_boundaries: "Focused on Numerical analysis foundations workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - numerical-analysis-foundations
+  - math
+  - numerical
+  - scipy
+tags:
+  - numerical-analysis-foundations
+  - math
+  - numerical
+  - scipy
+relationships:
+  skills: []
+  tool_sets:
+  - name: jupyter
+    type: can-have
+  - name: python-scientific
+    type: can-have

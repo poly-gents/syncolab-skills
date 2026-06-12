@@ -1,0 +1,24 @@
+name: Agent handoff protocol
+version: 1.0.0
+type: integrative
+description:
+  capability: "Hand a long-running task from one agent to another (or back to a human) with a single, complete handoff packet so the receiver never has to reverse-engineer prior state."
+  trigger_conditions: "Use when hand a long-running task from one agent to another (or back to a human) with a single, complete handoff packet so the receiver never has to reverse-engineer prior state."
+  scope_boundaries: "Focused on Agent handoff protocol workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - agent-handoff-protocol
+  - provenance:ruflo
+tags:
+  - agent-handoff-protocol
+  - provenance:ruflo
+relationships:
+  skills: []
+  tool_sets:
+  - name: slack
+    type: can-have
+  - name: managents-planning
+    type: can-have
+  - name: task-manager
+    type: can-have
+  - name: jira
+    type: can-have

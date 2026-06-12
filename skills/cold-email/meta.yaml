@@ -1,0 +1,28 @@
+name: Cold Email
+version: 1.0.0
+type: operational
+description:
+  capability: "Write B2B cold outbound emails and follow-up sequences that get replies."
+  trigger_conditions: "Use when write B2B cold outbound emails and follow-up sequences that get replies."
+  scope_boundaries: "Focused on Cold Email workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - cold-email
+  - sales
+  - outbound
+  - email
+tags:
+  - cold-email
+  - sales
+  - outbound
+  - email
+relationships:
+  skills: []
+  tool_sets:
+  - name: gmail
+    type: can-have
+  - name: instantly
+    type: can-have
+  - name: apollo
+    type: can-have
+  - name: hubspot
+    type: can-have

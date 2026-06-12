@@ -1,0 +1,28 @@
+name: RevOps
+version: 1.0.0
+type: analytical
+description:
+  capability: "Run revenue operations — lead lifecycle, scoring, routing, marketing-to-sales handoff, pipeline hygiene."
+  trigger_conditions: "Use when run revenue operations — lead lifecycle, scoring, routing, marketing-to-sales handoff, pipeline hygiene."
+  scope_boundaries: "Focused on RevOps workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - revops
+  - sales
+  - crm
+  - lead-management
+tags:
+  - revops
+  - sales
+  - crm
+  - lead-management
+relationships:
+  skills: []
+  tool_sets:
+  - name: hubspot
+    type: can-have
+  - name: salesforce
+    type: can-have
+  - name: clay
+    type: can-have
+  - name: apollo
+    type: can-have

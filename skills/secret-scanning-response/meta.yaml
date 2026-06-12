@@ -1,0 +1,26 @@
+name: Secret scanning response
+version: 1.0.0
+type: diagnostic
+description:
+  capability: "Respond to a detected secret leak (token in source, log, build artefact, or chat) with a fixed rotate-then-purge-then-trace sequence, never the other order."
+  trigger_conditions: "Use when respond to a detected secret leak (token in source, log, build artefact, or chat) with a fixed rotate-then-purge-then-trace sequence, never the other order."
+  scope_boundaries: "Focused on Secret scanning response workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - secret-scanning-response
+  - provenance:inhouse
+tags:
+  - secret-scanning-response
+  - provenance:inhouse
+relationships:
+  skills: []
+  tool_sets:
+  - name: github
+    type: can-have
+  - name: snyk
+    type: can-have
+  - name: security-scanner
+    type: can-have
+  - name: pagerduty
+    type: can-have
+  - name: jira
+    type: can-have

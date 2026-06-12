@@ -1,0 +1,30 @@
+name: Rollback runbook
+version: 1.0.0
+type: diagnostic
+description:
+  capability: "Plan and execute a safe rollback (or roll-forward) when a release misbehaves, with a documented sequence and an explicit decision point on rollback vs fix-forward."
+  trigger_conditions: "Use when plan and execute a safe rollback (or roll-forward) when a release misbehaves, with a documented sequence and an explicit decision point on rollback vs fix-forward."
+  scope_boundaries: "Focused on Rollback runbook workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - rollback-runbook
+  - provenance:inhouse
+tags:
+  - rollback-runbook
+  - provenance:inhouse
+relationships:
+  skills: []
+  tool_sets:
+  - name: github
+    type: can-have
+  - name: github-actions
+    type: can-have
+  - name: kubernetes
+    type: can-have
+  - name: datadog
+    type: can-have
+  - name: grafana
+    type: can-have
+  - name: pagerduty
+    type: can-have
+  - name: slack
+    type: can-have

@@ -1,0 +1,28 @@
+name: Referral Program
+version: 1.0.0
+type: operational
+description:
+  capability: "Design, optimize, and analyze referral and affiliate programs."
+  trigger_conditions: "Use when design, optimize, and analyze referral and affiliate programs."
+  scope_boundaries: "Focused on Referral Program workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - referral-program
+  - growth
+  - referral
+  - affiliate
+tags:
+  - referral-program
+  - growth
+  - referral
+  - affiliate
+relationships:
+  skills: []
+  tool_sets:
+  - name: rewardful
+    type: can-have
+  - name: partnerstack
+    type: can-have
+  - name: stripe
+    type: can-have
+  - name: segment
+    type: can-have

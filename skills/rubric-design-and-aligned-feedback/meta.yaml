@@ -1,0 +1,26 @@
+name: Rubric design and aligned feedback
+version: 1.0.0
+type: methodical
+description:
+  capability: "Criterion-referenced rubrics, comment banks, and calibration guidance for fair grading."
+  trigger_conditions: "Use when criterion-referenced rubrics, comment banks, and calibration guidance for fair grading."
+  scope_boundaries: "Focused on Rubric design and aligned feedback workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - rubric-design-and-aligned-feedback
+  - education
+  - ta
+  - grading
+  - feedback
+tags:
+  - rubric-design-and-aligned-feedback
+  - education
+  - ta
+  - grading
+  - feedback
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-docs
+    type: can-have
+  - name: google-sheets
+    type: can-have

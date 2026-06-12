@@ -1,0 +1,30 @@
+name: Analytics Tracking
+version: 1.0.0
+type: operational
+description:
+  capability: "Plan, instrument, and audit marketing analytics events (GA4, Mixpanel, Amplitude, server-side)."
+  trigger_conditions: "Use when plan, instrument, and audit marketing analytics events (GA4, Mixpanel, Amplitude, server-side)."
+  scope_boundaries: "Focused on Analytics Tracking workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - analytics-tracking
+  - analytics
+  - tracking
+  - measurement
+tags:
+  - analytics-tracking
+  - analytics
+  - tracking
+  - measurement
+relationships:
+  skills: []
+  tool_sets:
+  - name: ga4
+    type: can-have
+  - name: mixpanel
+    type: can-have
+  - name: amplitude
+    type: can-have
+  - name: segment
+    type: can-have
+  - name: google-tag-manager
+    type: can-have

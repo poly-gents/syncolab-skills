@@ -1,0 +1,30 @@
+name: A/B Test Setup
+version: 1.0.0
+type: analytical
+description:
+  capability: "Design rigorous A/B tests with clear hypotheses, sample size, and readout plans."
+  trigger_conditions: "Use when design rigorous A/B tests with clear hypotheses, sample size, and readout plans."
+  scope_boundaries: "Focused on A/B Test Setup workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - ab-test-setup
+  - cro
+  - experimentation
+  - testing
+tags:
+  - ab-test-setup
+  - cro
+  - experimentation
+  - testing
+relationships:
+  skills: []
+  tool_sets:
+  - name: ga4
+    type: can-have
+  - name: optimizely
+    type: can-have
+  - name: vwo
+    type: can-have
+  - name: posthog
+    type: can-have
+  - name: amplitude
+    type: can-have

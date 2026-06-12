@@ -1,0 +1,24 @@
+name: Mathematical proof writing
+version: 1.0.0
+type: methodical
+description:
+  capability: "Definition → lemma → theorem → corollary discipline, hypothesis tracking, casework hygiene, gap-spotting."
+  trigger_conditions: "Use when definition → lemma → theorem → corollary discipline, hypothesis tracking, casework hygiene, gap-spotting."
+  scope_boundaries: "Focused on Mathematical proof writing workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - mathematical-proof-writing
+  - math
+  - proofs
+  - research
+tags:
+  - mathematical-proof-writing
+  - math
+  - proofs
+  - research
+relationships:
+  skills: []
+  tool_sets:
+  - name: latex
+    type: can-have
+  - name: overleaf
+    type: can-have

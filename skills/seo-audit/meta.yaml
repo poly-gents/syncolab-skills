@@ -1,0 +1,30 @@
+name: SEO Audit
+version: 1.0.0
+type: analytical
+description:
+  capability: "Audit a site for technical and on-page SEO issues and prescribe fixes."
+  trigger_conditions: "Use when audit a site for technical and on-page SEO issues and prescribe fixes."
+  scope_boundaries: "Focused on SEO Audit workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - seo-audit
+  - seo
+  - audit
+  - organic
+tags:
+  - seo-audit
+  - seo
+  - audit
+  - organic
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-search-console
+    type: can-have
+  - name: ga4
+    type: can-have
+  - name: ahrefs
+    type: can-have
+  - name: semrush
+    type: can-have
+  - name: screaming-frog
+    type: can-have

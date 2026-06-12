@@ -1,0 +1,32 @@
+name: Paid Ads
+version: 1.0.0
+type: analytical
+description:
+  capability: "Plan, structure, and optimize paid campaigns on Google, Meta, LinkedIn, X, TikTok."
+  trigger_conditions: "Use when plan, structure, and optimize paid campaigns on Google, Meta, LinkedIn, X, TikTok."
+  scope_boundaries: "Focused on Paid Ads workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - paid-ads
+  - marketing
+  - paid
+  - ads
+  - acquisition
+tags:
+  - paid-ads
+  - marketing
+  - paid
+  - ads
+  - acquisition
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-ads
+    type: can-have
+  - name: meta-business-suite
+    type: can-have
+  - name: linkedin-ads
+    type: can-have
+  - name: google-analytics
+    type: can-have
+  - name: ga4
+    type: can-have

@@ -1,0 +1,28 @@
+name: Launch Strategy
+version: 1.0.0
+type: analytical
+description:
+  capability: "Plan and execute a product launch or feature announcement — pre-launch, launch day, post-launch."
+  trigger_conditions: "Use when plan and execute a product launch or feature announcement — pre-launch, launch day, post-launch."
+  scope_boundaries: "Focused on Launch Strategy workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - launch-strategy
+  - marketing
+  - launch
+  - strategy
+tags:
+  - launch-strategy
+  - marketing
+  - launch
+  - strategy
+relationships:
+  skills: []
+  tool_sets:
+  - name: google-docs
+    type: can-have
+  - name: producthunt
+    type: can-have
+  - name: twitter-api
+    type: can-have
+  - name: linkedin
+    type: can-have

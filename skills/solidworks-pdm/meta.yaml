@@ -1,0 +1,20 @@
+name: SolidWorks PDM
+version: 1.0.0
+type: instrumental
+description:
+  capability: Vault search, folder browse, and controlled checkout/checkin in SolidWorks PDM Pro
+  trigger_conditions: Use when the user needs PDM vault search, folder exploration, variable search, or approved checkout/checkin.
+  scope_boundaries: PDM Web API via native solidworks_pdm_* tools; CAD COM jobs remain customer-specific.
+  key_domain_words:
+  - solidworks
+  - pdm
+tags:
+- solidworks
+- pdm
+- cad
+- engineering
+relationships:
+  skills: []
+  tool_sets:
+  - name: solidworks
+    type: can-have

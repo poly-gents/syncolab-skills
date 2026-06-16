@@ -1,7 +1,7 @@
 {
   "name": "syncolab-skills",
   "version": "0.2.0",
-  "generatedAt": "2026-06-12T11:41:58.103Z",
+  "generatedAt": "2026-06-16T11:19:47.904Z",
   "repository": "https://github.com/poly-gents/syncolab-skills",
   "skills": [
     {
@@ -3951,6 +3951,21 @@
       "checksum": "sha256:0d76fcaf08d54b8fba701269588003c10d8e1e1ca1b8c30d098f75bcce0747fa"
     },
     {
+      "id": "solidworks-pdm",
+      "name": "SolidWorks PDM",
+      "description": "SolidWorks PDM Pro vault workflows — search, browse, variable search, checkout/checkin via native solidworks_pdm_* tools. Use for vault metadata and controlled file operations with user approval.",
+      "version": "1.0.0",
+      "type": "instrumental",
+      "tags": [
+        "solidworks",
+        "pdm",
+        "cad",
+        "engineering"
+      ],
+      "path": "skills/solidworks-pdm",
+      "checksum": "sha256:aca4a13865d6b58811185188f7f3cb204c0c5770ec30db629d4d5400322008d3"
+    },
+    {
       "id": "strength-conditioning-programming",
       "name": "strength-conditioning-programming",
       "description": "Program design, periodization, and session structure for general fitness",
@@ -4116,6 +4131,21 @@
       ],
       "path": "skills/task-decomposition-tree",
       "checksum": "sha256:394cea73a4900e17bb13bd80a74b568a85255faff8d6dd01dfa058011fe29c3a"
+    },
+    {
+      "id": "teamcenter-plm",
+      "name": "Teamcenter PLM",
+      "description": "Siemens Teamcenter PLM read workflows — search items, open BOMs, list datasets, verify SOA connectivity. Use when tracing parts, revisions, BOM impact, or datasets on released revisions.",
+      "version": "1.0.0",
+      "type": "instrumental",
+      "tags": [
+        "teamcenter",
+        "plm",
+        "engineering",
+        "defense"
+      ],
+      "path": "skills/teamcenter-plm",
+      "checksum": "sha256:be1aa6a8ffb83af0ae5efddd1f1d8a6ac769be602388ce4908399cbaf5f8e085"
     },
     {
       "id": "teams",
@@ -4465,5 +4495,5 @@
       "checksum": "sha256:cf633ee4a441291264035956afdbdceff89e40e077682a6a94ddefdb1df28051"
     }
   ],
-  "integrity": "sha256:e8f2d17e1ffb852fbe76273e265106797eb1c13a3421ff0e8625c0b8cb7b1caa"
+  "integrity": "sha256:df3956ed47b966faa0314ec37480176b2789fa60c086af3ee8c75b2d7bbfcd34"
 }

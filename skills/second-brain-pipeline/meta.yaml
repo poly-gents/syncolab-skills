@@ -1,0 +1,31 @@
+name: Second Brain Pipeline
+version: 1.0.0
+type: operational
+description:
+  capability: Classify and organize Second Brain atoms into PARA/CODE structures with confidence and conflict flags.
+  trigger_conditions: Use when processing Second Brain atoms after Sync Work ingest or when classifying organizational knowledge atoms.
+  scope_boundaries: Focused on Capture and Organise pipeline stages; human approval remains the gate for proposals and materialization.
+  key_domain_words:
+  - second brain
+  - PARA
+  - capture
+  - organise
+  - knowledge atoms
+  - planning
+tags:
+- second-brain-pipeline
+- second-brain
+- knowledge
+- planning
+- syncolab
+relationships:
+  skills:
+  - name: syncolab-living-docs
+    type: can-use
+  tool_sets:
+  - name: second-brain
+    type: can-have
+  - name: planning
+    type: can-have
+  - name: internal-wiki
+    type: can-have

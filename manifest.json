@@ -1,7 +1,7 @@
 {
   "name": "syncolab-skills",
   "version": "0.2.0",
-  "generatedAt": "2026-06-16T11:19:47.904Z",
+  "generatedAt": "2026-06-19T09:38:45.061Z",
   "repository": "https://github.com/poly-gents/syncolab-skills",
   "skills": [
     {
@@ -3418,6 +3418,22 @@
       "checksum": "sha256:27b24f350bbcde33aa8bb0ac870ab6e02ac647330cc162a118a1a4059e1b894d"
     },
     {
+      "id": "second-brain-pipeline",
+      "name": "Second Brain Pipeline",
+      "description": "Classify and organize Second Brain atoms into PARA/CODE structures with confidence and conflict flags.",
+      "version": "1.0.0",
+      "type": "operational",
+      "tags": [
+        "second-brain-pipeline",
+        "second-brain",
+        "knowledge",
+        "planning",
+        "syncolab"
+      ],
+      "path": "skills/second-brain-pipeline",
+      "checksum": "sha256:1d9e5af676ed6ca48104115eb0319b7e28f91e6a084c12d5859982ba45fac3e4"
+    },
+    {
       "id": "secret-scanning-response",
       "name": "Secret scanning response",
       "description": "Respond to a detected secret leak (token in source, log, build artefact, or chat) with a fixed rotate-then-purge-then-trace sequence, never the other order.",
@@ -4495,5 +4511,5 @@
       "checksum": "sha256:cf633ee4a441291264035956afdbdceff89e40e077682a6a94ddefdb1df28051"
     }
   ],
-  "integrity": "sha256:df3956ed47b966faa0314ec37480176b2789fa60c086af3ee8c75b2d7bbfcd34"
+  "integrity": "sha256:a648a035dd8fe39c33332225f73365c75b514eac3bc283a72531a7eb694fd7a9"
 }

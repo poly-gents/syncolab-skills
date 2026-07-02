@@ -28,8 +28,8 @@ Produce a **ranked daily work list** for gym sales staff from live Arbox tasks a
 ## Workflow
 
 1. Load status semantics via **gym-arbox-status-playbook** (`GET /v3/statuses`).
-2. **`arbox_public_get`** → **`v3/tasks`** — open tasks due today or overdue.
-3. **`arbox_public_get`** → **`v3/leads`** or **`leadsInProcessReport`** — active pipeline.
+2. **`arbox_list_tasks`** (`from_date`/`to_date` = today) — open tasks due today or overdue.
+3. **`arbox_list_leads`** — active pipeline; `leadsInProcessReport` via **`arbox_public_get`** on `v3/reports/leadsInProcessReport` when needed.
 4. Group by status category using the tenant status table.
 5. Apply default priority (adjust with owner if studio differs):
 

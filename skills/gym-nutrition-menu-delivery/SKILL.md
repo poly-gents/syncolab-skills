@@ -27,7 +27,7 @@ Execute **stage-4 nutrition delivery**: after a nutrition consultation, populate
 
 ## Preconditions
 
-1. Read client context: **`arbox_public_get`** → profile and notes (metrics from notes until scale/PATCH mapping exists in SKS).
+1. Read client context: **`arbox_get_user`** for the profile and **`arbox_list_user_notes`** for metrics (from notes until scale/PATCH mapping exists in SKS).
 2. Confirm nutrition meeting completed and goals with the owner.
 3. Load tenant conventions from SKS (parent folder, template ID, cell map).
 

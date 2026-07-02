@@ -24,20 +24,20 @@ Bootstrap and apply **Arbox lead status semantics** for any gym studio on the pl
 ## Expected Outcome
 
 - Live `status_id` table loaded from Arbox and documented for the tenant.
-- Status updates proposed with human confirmation before **`arbox_public_post`**.
+- Status updates proposed with human confirmation before **`arbox_update_lead_status`**.
 
 ## Inputs to Gather
 
-- Arbox connection status (**`arbox_verify_connection`**).
+- Arbox connection status (a successful Arbox call, or **`arbox_verify_connection`** once if nothing was called yet).
 - Tenant-specific status label mapping (store in SKS / living doc after workshop).
 - Target `user_id` and intended next stage.
 
 ## Workflow
 
-1. Call **`arbox_verify_connection`**.
-2. Call **`arbox_public_get`** with path **`v3/statuses`** (short name `statuses` works).
-3. Build a table: **label → `status_id` → meaning → typical next step**. Never guess IDs.
-4. For updates, use **`POST /v3/leads/updateStatus`** via **`arbox_public_post`**: `{ "user_id": <number>, "status_id": <number>, "comment": "..." }`.
+1. Call **`arbox_list_statuses`** once per session (cached server-side ~30 min). Do not re-verify the connection if a previous Arbox call succeeded.
+2. Build a table: **label → `status_id` → meaning → typical next step**. Never guess IDs.
+3. For updates, use **`arbox_update_lead_status`** with `user_id`, `status_id`, and a short `comment`.
+4. For lost leads, use **`arbox_mark_lead_lost`** with `lost_reason_id` from **`arbox_list_lost_reasons`**.
 5. For field-level user updates when the tenant maps them, use **`arbox_public_patch`** on documented paths (confirm payload with the human first).
 6. Confirm `user_id` and target status with the human; add a short comment explaining the change.
 
@@ -72,4 +72,4 @@ Bootstrap and apply **Arbox lead status semantics** for any gym studio on the pl
 ## References
 
 - Arbox OpenAPI: `https://arboxserver.arboxapp.com/docs/api.json`
-- Platform tools: **`arbox_public_get`**, **`arbox_public_post`**, **`arbox_public_patch`**
+- Platform tools: **`arbox_list_statuses`**, **`arbox_update_lead_status`**, **`arbox_mark_lead_lost`**, **`arbox_list_lost_reasons`** (escape hatches: `arbox_public_get/post/patch`)

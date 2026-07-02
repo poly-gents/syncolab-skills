@@ -1,0 +1,20 @@
+name: Teamcenter PLM
+version: 1.0.0
+type: instrumental
+description:
+  capability: Search PLM items, open BOMs, list datasets, and verify Teamcenter SOA connectivity
+  trigger_conditions: Use when the user needs Teamcenter item search, BOM windows, revision datasets, or PLM traceability.
+  scope_boundaries: Read-focused Teamcenter workflows via native teamcenter_* tools; does not replace human release approval.
+  key_domain_words:
+  - teamcenter
+  - plm
+tags:
+- teamcenter
+- plm
+- engineering
+- defense
+relationships:
+  skills: []
+  tool_sets:
+  - name: teamcenter
+    type: can-have

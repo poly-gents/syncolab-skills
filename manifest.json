@@ -1,7 +1,7 @@
 {
   "name": "syncolab-skills",
   "version": "0.2.0",
-  "generatedAt": "2026-06-12T11:41:58.103Z",
+  "generatedAt": "2026-07-02T09:08:42.651Z",
   "repository": "https://github.com/poly-gents/syncolab-skills",
   "skills": [
     {
@@ -328,7 +328,7 @@
         "scheduling"
       ],
       "path": "skills/arbox",
-      "checksum": "sha256:c6054b80e8d23ca6471643ca0dd50167e8dee57475b35e55f00fa320cff19107"
+      "checksum": "sha256:07ca25265939f05cb539593cd2bdb420e69536b9a40a2615cf6dee37defa66a1"
     },
     {
       "id": "arbox-studio-operations",
@@ -338,7 +338,7 @@
       "type": null,
       "tags": [],
       "path": "skills/arbox-studio-operations",
-      "checksum": "sha256:4e30298f3f5818a85440c101c31629b9eb1778630345ad6f575559d973fcb95d"
+      "checksum": "sha256:113b80b228271fac0dbaa55fabbd48bb0d4c6d1f80adbb9afb692ff242db2843"
     },
     {
       "id": "architecture",
@@ -1703,7 +1703,7 @@
         "crm"
       ],
       "path": "skills/gym-arbox-status-playbook",
-      "checksum": "sha256:77545c54afbcfe923c5381ee97f61e22e4509b950154812b3f7ae7123fbd0244"
+      "checksum": "sha256:07fc7c4a508bed3503ff3ed223772d55d4ac1aea40a2f8c627791e7b22468193"
     },
     {
       "id": "gym-lead-ingestion-exceptions",
@@ -1719,7 +1719,7 @@
         "leads"
       ],
       "path": "skills/gym-lead-ingestion-exceptions",
-      "checksum": "sha256:7a82d60e4bd0c17d55643909ec3a615fa4492a298c456a79e6009ce083237452"
+      "checksum": "sha256:d5fc2d3dc715a3440e337d0ae407d72d29eb16ef1c044902fec07f2ef996720e"
     },
     {
       "id": "gym-member-onboarding-flow",
@@ -1753,7 +1753,7 @@
         "google-sheets"
       ],
       "path": "skills/gym-nutrition-menu-delivery",
-      "checksum": "sha256:9fed9ace7eefca9a15c60ecb0742b4eddddc68a152baa0b205a158c5fd787233"
+      "checksum": "sha256:f16283dad2713b4b6e961dc93b8ed00417638b0a41ca0732ee5accf8275d617d"
     },
     {
       "id": "gym-sales-daily-prioritization",
@@ -1769,7 +1769,7 @@
         "sales"
       ],
       "path": "skills/gym-sales-daily-prioritization",
-      "checksum": "sha256:f6e3e34778405fae7783db9b3368b3dcd52a3804a62d316cbf38c737ecd19327"
+      "checksum": "sha256:acf7bb045da31bdad7a7c23df79db9be4afe57c592bc5b3846b80e1e04986d00"
     },
     {
       "id": "hold-conversations",
@@ -2244,7 +2244,7 @@
         "crm"
       ],
       "path": "skills/member-retention-and-experience",
-      "checksum": "sha256:d0abf5a30792bdaa3e1320372a5a4f60924f1f150e04ff291f0995b288d091c8"
+      "checksum": "sha256:8042331bf25a498a12290153b20f746bbcb1f18e044c93753f2acdc4169eed23"
     },
     {
       "id": "metacognition-and-study-strategies",
@@ -3418,6 +3418,22 @@
       "checksum": "sha256:27b24f350bbcde33aa8bb0ac870ab6e02ac647330cc162a118a1a4059e1b894d"
     },
     {
+      "id": "second-brain-pipeline",
+      "name": "Second Brain Pipeline",
+      "description": "Classify and organize Second Brain atoms into PARA/CODE structures with confidence and conflict flags.",
+      "version": "1.0.0",
+      "type": "operational",
+      "tags": [
+        "second-brain-pipeline",
+        "second-brain",
+        "knowledge",
+        "planning",
+        "syncolab"
+      ],
+      "path": "skills/second-brain-pipeline",
+      "checksum": "sha256:1d9e5af676ed6ca48104115eb0319b7e28f91e6a084c12d5859982ba45fac3e4"
+    },
+    {
       "id": "secret-scanning-response",
       "name": "Secret scanning response",
       "description": "Respond to a detected secret leak (token in source, log, build artefact, or chat) with a fixed rotate-then-purge-then-trace sequence, never the other order.",
@@ -3951,6 +3967,21 @@
       "checksum": "sha256:0d76fcaf08d54b8fba701269588003c10d8e1e1ca1b8c30d098f75bcce0747fa"
     },
     {
+      "id": "solidworks-pdm",
+      "name": "SolidWorks PDM",
+      "description": "SolidWorks PDM Pro vault workflows — search, browse, variable search, checkout/checkin via native solidworks_pdm_* tools. Use for vault metadata and controlled file operations with user approval.",
+      "version": "1.0.0",
+      "type": "instrumental",
+      "tags": [
+        "solidworks",
+        "pdm",
+        "cad",
+        "engineering"
+      ],
+      "path": "skills/solidworks-pdm",
+      "checksum": "sha256:aca4a13865d6b58811185188f7f3cb204c0c5770ec30db629d4d5400322008d3"
+    },
+    {
       "id": "strength-conditioning-programming",
       "name": "strength-conditioning-programming",
       "description": "Program design, periodization, and session structure for general fitness",
@@ -4116,6 +4147,21 @@
       ],
       "path": "skills/task-decomposition-tree",
       "checksum": "sha256:394cea73a4900e17bb13bd80a74b568a85255faff8d6dd01dfa058011fe29c3a"
+    },
+    {
+      "id": "teamcenter-plm",
+      "name": "Teamcenter PLM",
+      "description": "Siemens Teamcenter PLM read workflows — search items, open BOMs, list datasets, verify SOA connectivity. Use when tracing parts, revisions, BOM impact, or datasets on released revisions.",
+      "version": "1.0.0",
+      "type": "instrumental",
+      "tags": [
+        "teamcenter",
+        "plm",
+        "engineering",
+        "defense"
+      ],
+      "path": "skills/teamcenter-plm",
+      "checksum": "sha256:be1aa6a8ffb83af0ae5efddd1f1d8a6ac769be602388ce4908399cbaf5f8e085"
     },
     {
       "id": "teams",
@@ -4465,5 +4511,5 @@
       "checksum": "sha256:cf633ee4a441291264035956afdbdceff89e40e077682a6a94ddefdb1df28051"
     }
   ],
-  "integrity": "sha256:e8f2d17e1ffb852fbe76273e265106797eb1c13a3421ff0e8625c0b8cb7b1caa"
+  "integrity": "sha256:781fcc88290a9953789b1dd954f89088af120a769066cb29aa2fc9a68b7e5581"
 }

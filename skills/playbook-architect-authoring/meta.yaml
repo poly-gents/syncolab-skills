@@ -1,0 +1,23 @@
+name: Playbook Architect Authoring
+version: 1.0.0
+type: operational
+description:
+  capability: "Startup authoring skill for the Project System Assistant. Teaches Playbook Architect how to clarify intent, use filtered tool discovery, and preserve artifacts and validations while drafting playbooks."
+  trigger_conditions: "Use when startup authoring skill for the Project System Assistant. Teaches Playbook Architect how to clarify intent, use filtered tool discovery, and preserve artifacts and validations while drafting playbooks."
+  scope_boundaries: "Focused on Playbook Architect Authoring workflows via available platform tools; follow instructor, security, and human-approval policies where applicable."
+  key_domain_words:
+  - playbook-architect-authoring
+  - playbooks
+  - authoring
+  - syncolab
+  - system-agent
+tags:
+  - playbook-architect-authoring
+  - playbooks
+  - authoring
+  - syncolab
+  - system-agent
+relationships:
+  skills: []
+  tool_sets:
+  []

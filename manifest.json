@@ -1,7 +1,7 @@
 {
   "name": "syncolab-skills",
   "version": "0.2.0",
-  "generatedAt": "2026-07-02T09:08:42.651Z",
+  "generatedAt": "2026-07-08T12:23:52.050Z",
   "repository": "https://github.com/poly-gents/syncolab-skills",
   "skills": [
     {
@@ -2659,6 +2659,16 @@
       "checksum": "sha256:b3df2f7af96196d0f240d754a4568ec7771c48f57fff44e0b52b8b0e4d1aa082"
     },
     {
+      "id": "playbook-architect-authoring",
+      "name": "playbook-architect-authoring",
+      "description": "Startup authoring skill for the Project System Assistant. Teaches Playbook Architect how to clarify intent, use filtered tool discovery, and preserve artifacts and validations while drafting playbooks.",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
+      "path": "skills/playbook-architect-authoring",
+      "checksum": "sha256:0123e935d87d43b96a2fc5016e0f3c73c39f562481d808239886d7acdedb6e66"
+    },
+    {
       "id": "popup-cro",
       "name": "Popup CRO",
       "description": "Design popups, modals, slide-ins, and banners that convert without annoying users.",
@@ -4511,5 +4521,5 @@
       "checksum": "sha256:cf633ee4a441291264035956afdbdceff89e40e077682a6a94ddefdb1df28051"
     }
   ],
-  "integrity": "sha256:781fcc88290a9953789b1dd954f89088af120a769066cb29aa2fc9a68b7e5581"
+  "integrity": "sha256:820baa105ea728901cbbd0271c597f44f68903d8095bd9e5a765c5b99d3df6a9"
 }

@@ -1,0 +1,30 @@
+name: Managents Timelines
+version: 1.0.0
+type: instrumental
+description:
+  capability: Stakeholder-facing project timelines and milestones inside
+    Managents (no extra OAuth)
+  trigger_conditions: Use when browsing, creating, updating, or resequencing
+    a Managents project timeline or its milestone entries
+  scope_boundaries: Focused on Managents Timelines workflows via
+    timelines_* tools; does not replace human approval for destructive
+    changes, and does not cover sprint/backlog execution (see
+    managents-workboard).
+  key_domain_words:
+  - timeline
+  - timelines
+  - milestone
+  - roadmap
+  - managents-timelines
+tags:
+- managents-timelines
+- managents-planning
+relationships:
+  skills:
+  - name: managents-workboard
+    type: references
+  - name: managents-knowledge-base
+    type: references
+  tool_sets:
+  - name: managents-timelines
+    type: can-have

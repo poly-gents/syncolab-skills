@@ -1,0 +1,32 @@
+name: Managents Knowledge Base
+version: 1.0.0
+type: instrumental
+description:
+  capability: Project Knowledge Base concept tree — decisions, risks, notes,
+    and custom taxonomy inside Managents (no extra OAuth)
+  trigger_conditions: Use when browsing, creating, updating, or importing
+    Knowledge Base concepts or taxonomy for a Managents project
+  scope_boundaries: Focused on Managents Knowledge Base workflows via
+    kb_* tools; does not replace human approval for destructive or bulk
+    changes, and does not cover external doc systems (Notion, Google Docs).
+  key_domain_words:
+  - knowledge base
+  - kb
+  - concept
+  - taxonomy
+  - decision
+  - risk
+  - managents-knowledge-base
+tags:
+- managents-knowledge-base
+- knowledge-base
+- managents-planning
+relationships:
+  skills:
+  - name: curate-docs
+    type: references
+  - name: managents-workboard
+    type: references
+  tool_sets:
+  - name: managents-knowledge-base
+    type: can-have

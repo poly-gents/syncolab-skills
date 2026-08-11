@@ -1,0 +1,22 @@
+name: Browser Use
+version: 1.0.0
+type: instrumental
+description:
+  capability: Interactive browser automation for exploration and scripted UI flows.
+  trigger_conditions: Use for browser automation prototypes: navigate, click candidates, observe page state.
+  scope_boundaries: Not product-demo recording (demo_*); not Browserbase-specific flows.
+  key_domain_words:
+  - browser-use
+  - browser
+  - automation
+  - dom
+tags:
+- browser-use
+- browser
+- automation
+- prototype
+relationships:
+  skills: []
+  tool_sets:
+  - name: chrome-devtools
+    type: can-have

@@ -1,0 +1,22 @@
+name: Carouself
+version: 1.0.0
+type: instrumental
+description:
+  capability: Generate social posts, carousels, images, and hero banners via Carouself tools.
+  trigger_conditions: Use when creating LinkedIn/brand/X/blog posts, carousels, images, or hero banners with Carouself.
+  scope_boundaries: Carouself generation only; does not publish to social networks.
+  key_domain_words:
+  - carouself
+  - carousel
+  - social
+  - content
+  - banner
+tags:
+- carouself
+- social
+- content
+relationships:
+  skills: []
+  tool_sets:
+  - name: carouself
+    type: can-have

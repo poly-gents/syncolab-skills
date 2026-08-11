@@ -1,7 +1,7 @@
 {
   "name": "syncolab-skills",
   "version": "0.2.0",
-  "generatedAt": "2026-07-21T20:24:05.142Z",
+  "generatedAt": "2026-08-11T12:08:35.561Z",
   "repository": "https://github.com/poly-gents/syncolab-skills",
   "skills": [
     {
@@ -514,6 +514,16 @@
       "checksum": "sha256:3822a9f5b60dd256c543a117677de32e704cfc92b5c0097356b523bbfc9e5222"
     },
     {
+      "id": "browser-use",
+      "name": "browser-use",
+      "description": "Automate interactive browser sessions for exploration and scripted UI flows. Use when an agent must navigate pages, click candidates, and observe DOM state via browser automation tools.",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
+      "path": "skills/browser-use",
+      "checksum": "sha256:1c4029afe8e4996e619d00b533175841af0ca48ce3ad471b7245a580e46e03d0"
+    },
+    {
       "id": "browserbase",
       "name": "Browserbase",
       "description": "Automates browser sessions via Browserbase MCP—navigate URLs, wait for load, interact with selectors, and capture page state. Use for dynamic web pages, scraping, and scripted browser actions.",
@@ -595,6 +605,20 @@
       ],
       "path": "skills/calendly-office-hours-scheduling",
       "checksum": "sha256:05915d9eada4ed22ddb7c4cc01afdb48f2c715a76e964ab38ef9162e3b4162c8"
+    },
+    {
+      "id": "carouself",
+      "name": "Carouself",
+      "description": "Generate posts, carousels, images, and hero banners via carouself_* tools. Use after connecting a Carouself API key under Integrations.",
+      "version": "1.0.0",
+      "type": "instrumental",
+      "tags": [
+        "carouself",
+        "social",
+        "content"
+      ],
+      "path": "skills/carouself",
+      "checksum": "sha256:7b540b8e25939aa2ace8a0f94afa2bff068699783c5241a4dbfab9bb2260c0f2"
     },
     {
       "id": "chromatic",
@@ -3204,6 +3228,21 @@
       "checksum": "sha256:96cafe8bdd659fa4dc9c6fd2a6df5305f56776197b0028d11cafa56ed7742a89"
     },
     {
+      "id": "remote-browser",
+      "name": "Remote Browser",
+      "description": "Operate a remote/hosted browser session for agent automation when local browser tools are unavailable. Use for remote navigation, interaction, and observation.",
+      "version": "1.0.0",
+      "type": "instrumental",
+      "tags": [
+        "remote-browser",
+        "browser",
+        "automation",
+        "prototype"
+      ],
+      "path": "skills/remote-browser",
+      "checksum": "sha256:8942d38570ae72779b8fbf5c4fd89f687c5a1bf7b2990cd0c99a82b1b2e20c4a"
+    },
+    {
       "id": "report-defects",
       "name": "Report Defects",
       "description": "File detailed bug reports with reproduction steps",
@@ -4004,6 +4043,21 @@
       "checksum": "sha256:0d76fcaf08d54b8fba701269588003c10d8e1e1ca1b8c30d098f75bcce0747fa"
     },
     {
+      "id": "solidworks",
+      "name": "SolidWorks",
+      "description": "SolidWorks PDM vault search, browse, and controlled checkout/checkin via solidworks_pdm_* tools. Use for PDM vault work; prefer solidworks-pdm when both skills are linked.",
+      "version": "1.0.0",
+      "type": "instrumental",
+      "tags": [
+        "solidworks",
+        "pdm",
+        "cad",
+        "engineering"
+      ],
+      "path": "skills/solidworks",
+      "checksum": "sha256:a31a1cf376108e4d7a076ea5cdd70dcd362fa4802e2ae9c71413908ac1ef7d39"
+    },
+    {
       "id": "solidworks-pdm",
       "name": "SolidWorks PDM",
       "description": "SolidWorks PDM Pro vault workflows — search, browse, variable search, checkout/checkin via native solidworks_pdm_* tools. Use for vault metadata and controlled file operations with user approval.",
@@ -4184,6 +4238,21 @@
       ],
       "path": "skills/task-decomposition-tree",
       "checksum": "sha256:394cea73a4900e17bb13bd80a74b568a85255faff8d6dd01dfa058011fe29c3a"
+    },
+    {
+      "id": "teamcenter",
+      "name": "Teamcenter",
+      "description": "Siemens Teamcenter PLM search, item/BOM reads, and connection verify via teamcenter_* tools. Prefer teamcenter-plm when both skills are linked.",
+      "version": "1.0.0",
+      "type": "instrumental",
+      "tags": [
+        "teamcenter",
+        "plm",
+        "engineering",
+        "defense"
+      ],
+      "path": "skills/teamcenter",
+      "checksum": "sha256:b3fc160d93486e64cbe7a510c78dc2e8437405ba9bc1ac3f025702bac1e9012e"
     },
     {
       "id": "teamcenter-plm",
@@ -4548,5 +4617,5 @@
       "checksum": "sha256:cf633ee4a441291264035956afdbdceff89e40e077682a6a94ddefdb1df28051"
     }
   ],
-  "integrity": "sha256:77f48672704915088f415b6eb0626a5537f437738f2862f27f4f0656b928ca78"
+  "integrity": "sha256:252f4e5c35045f84298b6d416ef4b1342e73593695e880ff803821b29b879a19"
 }

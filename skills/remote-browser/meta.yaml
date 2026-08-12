@@ -1,0 +1,22 @@
+name: Remote Browser
+version: 1.0.0
+type: instrumental
+description:
+  capability: Remote/hosted browser sessions for agent automation.
+  trigger_conditions: Use when remote-browser tools are equipped for hosted browser automation.
+  scope_boundaries: Not Browserbase-specific; not product-demo demo_* recording.
+  key_domain_words:
+  - remote-browser
+  - browser
+  - hosted
+  - automation
+tags:
+- remote-browser
+- browser
+- automation
+- prototype
+relationships:
+  skills: []
+  tool_sets:
+  - name: chrome-devtools
+    type: can-have

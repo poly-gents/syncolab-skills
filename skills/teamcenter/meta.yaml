@@ -1,0 +1,22 @@
+name: Teamcenter
+version: 1.0.0
+type: instrumental
+description:
+  capability: Search PLM items, open BOMs, list datasets, and verify Teamcenter connectivity.
+  trigger_conditions: Use when searching Teamcenter items, opening BOMs, listing datasets, or verifying SOA connectivity.
+  scope_boundaries: Teamcenter read workflows via teamcenter_* tools; not SolidWorks PDM.
+  key_domain_words:
+  - teamcenter
+  - plm
+  - bom
+  - soa
+tags:
+- teamcenter
+- plm
+- engineering
+- defense
+relationships:
+  skills: []
+  tool_sets:
+  - name: teamcenter
+    type: can-have

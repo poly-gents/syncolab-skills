@@ -1,0 +1,22 @@
+name: SolidWorks
+version: 1.0.0
+type: instrumental
+description:
+  capability: Vault search, folder browse, and controlled checkout/checkin in SolidWorks PDM.
+  trigger_conditions: Use when the user needs SolidWorks PDM vault search, browse, or approved checkout/checkin.
+  scope_boundaries: PDM Web API via solidworks_* / solidworks_pdm_* tools; not Teamcenter PLM.
+  key_domain_words:
+  - solidworks
+  - pdm
+  - vault
+  - cad
+tags:
+- solidworks
+- pdm
+- cad
+- engineering
+relationships:
+  skills: []
+  tool_sets:
+  - name: solidworks
+    type: can-have

@@ -1,32 +1,31 @@
 name: Managents Knowledge Base
-version: 1.0.0
+version: 1.0.3
 type: instrumental
 description:
-  capability: Project Knowledge Base concept tree — decisions, risks, notes,
-    and custom taxonomy inside Managents (no extra OAuth)
-  trigger_conditions: Use when browsing, creating, updating, or importing
-    Knowledge Base concepts or taxonomy for a Managents project
-  scope_boundaries: Focused on Managents Knowledge Base workflows via
-    kb_* tools; does not replace human approval for destructive or bulk
-    changes, and does not cover external doc systems (Notion, Google Docs).
+  capability: Curate project knowledge using Storage TipTap documents (initiative_storage_*).
+    Search/browse first; default to coarse HTML nodes that group related material unless the
+    user asks to split finely. All kb_* tools are retired for this skill.
+  trigger_conditions: Use when searching, browsing, creating, or updating project curated docs
+    in Storage; especially when capturing long designs/epics into TipTap without over-splitting.
+  scope_boundaries: Project Storage documents only; not SKS Living Docs, CML memory, Office-only
+    bulk hierarchy import, or any kb_* Knowledge Base tools.
   key_domain_words:
-  - knowledge base
-  - kb
-  - concept
-  - taxonomy
-  - decision
-  - risk
-  - managents-knowledge-base
+  - knowledge-base
+  - storage
+  - tiptap
+  - documents
+  - classification
 tags:
 - managents-knowledge-base
 - knowledge-base
-- managents-planning
+- syncolab
+- tiptap
 relationships:
   skills:
-  - name: curate-docs
-    type: references
-  - name: managents-workboard
-    type: references
+  - name: syncolab-living-docs
+    type: related-to
+  - name: syncolab-cognitive-memory
+    type: related-to
   tool_sets:
-  - name: managents-knowledge-base
+  - name: initiative-storage
     type: can-have

@@ -36,10 +36,11 @@ Read and write spreadsheet data: resolve `spreadsheetId`, use A1 ranges, append 
 
 1. Resolve `spreadsheetId` via user input or **google-drive** if missing.
 2. **Metadata** (optional): `sheets_get_spreadsheet`.
-3. **Read**: `sheets_read_range` (`spreadsheetId`, `range`).
-4. **Write**: `sheets_write_range` to overwrite; `sheets_append_rows` to add rows.
-5. **Clear/create** when requested: `sheets_clear_range`, `sheets_create_spreadsheet`.
-6. Present results as readable tables.
+3. **New tab** (when needed): `sheets_add_sheet` — write/append never create tabs.
+4. **Read**: `sheets_read_range` (`spreadsheetId`, `range`).
+5. **Write**: `sheets_write_range` to overwrite; `sheets_append_rows` to add rows.
+6. **Clear/create workbook** when requested: `sheets_clear_range`, `sheets_create_spreadsheet`.
+7. Present results as readable tables.
 
 ### Domain rules
 
@@ -47,14 +48,17 @@ Read and write spreadsheet data: resolve `spreadsheetId`, use A1 ranges, append 
 2. **A1 notation** with sheet prefix when multiple sheets exist.
 3. **Append vs write**: Append adds rows; write overwrites the range.
 4. **2D values**: Each row is an array of cell values.
+5. **New tabs**: Use `sheets_add_sheet` before writing to a missing tab. Do not try to provision a tab by writing `SheetName!A1`.
 
 ### Main tools
 
-- `sheets_get_spreadsheet`, `sheets_read_range`, `sheets_write_range`, `sheets_append_rows`, `sheets_create_spreadsheet`, `sheets_clear_range`
+- `sheets_get_spreadsheet`, `sheets_read_range`, `sheets_write_range`, `sheets_append_rows`, `sheets_add_sheet`, `sheets_create_spreadsheet`, `sheets_clear_range`
 
 ### Examples
 
 **Read first 10 rows:** `sheets_read_range` with `Sheet1!A1:Z10`.
+
+**Add a tab then write:** `sheets_add_sheet` with title `Test Contacts`, then `sheets_write_range` with `'Test Contacts'!A1` and values.
 
 **Append total row:** `sheets_append_rows` with range and `[["Total", "100"]]`.
 

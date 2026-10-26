@@ -1,20 +1,18 @@
-name: Syncolab Cognitive Memory
-version: 1.0.0
+name: Syncolab Organizational Memory
+version: 2.0.0
 type: instrumental
 description:
-  capability: Long-term memory (CML) with Qdrant, Mem0, tenant scope, and memory_layer hydration.
-  trigger_conditions: Use for agent recall/persist, CML REST query/write, or memory_layer integration questions.
-  scope_boundaries: CML and tenant memory only; not SKS docs or generic Vectorize RAG.
+  capability: Scoped organizational memory through host-bound Syncomem tools.
+  trigger_conditions: Use for recalling prior work, asking memory questions, remembering evidence, choosing scopes or checking submissions.
+  scope_boundaries: Syncomem memory only; advanced administration and review remain in Syncomem Console.
   key_domain_words:
-  - cml
+  - syncomem
   - memory
-  - mem0
-  - qdrant
   - tenant
 tags:
 - syncolab-cognitive-memory
 - memory
-- cml
+- syncomem
 - syncolab
 relationships:
   skills:

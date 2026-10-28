@@ -2,16 +2,20 @@ name: Syncolab Organizational Memory
 version: 2.0.0
 type: instrumental
 description:
-  capability: Scoped organizational memory through host-bound Syncomem tools.
+  capability: Organizational memory through the deployment-selected legacy memory layer or host-bound Syncomem tools.
   trigger_conditions: Use for recalling prior work, asking memory questions, remembering evidence, choosing scopes or checking submissions.
-  scope_boundaries: Syncomem memory only; advanced administration and review remain in Syncomem Console.
+  scope_boundaries: Use only the tools and memory layer exposed by the host; Syncomem administration and review remain in Syncomem Console.
   key_domain_words:
   - syncomem
+  - cml
+  - mem0
+  - qdrant
   - memory
   - tenant
 tags:
 - syncolab-cognitive-memory
 - memory
+- cml
 - syncomem
 - syncolab
 relationships:

@@ -1,5 +1,5 @@
 name: Prepare Sprints
-version: 1.0.0
+version: 1.0.1
 type: planning
 description:
   capability: Plan sprints with capacity, goals, and backlog selection

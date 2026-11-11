@@ -1,9 +1,9 @@
 ---
 name: managents-knowledge-base
-description: Browse and curate Managents project Knowledge Base concepts, write formatted bodies, and add taxonomy types or statuses using available kb_* tools. Bulk import and taxonomy rename/archive belong in Office UI.
+description: Browse and curate Syncolab project Knowledge Base concepts, write formatted bodies, and add taxonomy types or statuses using available kb_* tools. Bulk import and taxonomy rename/archive belong in Office UI.
 ---
 
-# Managents Knowledge Base
+# Syncolab Knowledge Base
 
 ## Purpose
 

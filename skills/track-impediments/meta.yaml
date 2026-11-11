@@ -1,5 +1,5 @@
 name: Track Impediments
-version: 1.0.0
+version: 1.0.1
 type: operational
 description:
   capability: Identify, escalate, and resolve delivery blockers

@@ -1,7 +1,7 @@
 {
   "name": "syncolab-skills",
   "version": "0.2.0",
-  "generatedAt": "2026-11-11T23:44:28.796Z",
+  "generatedAt": "2026-11-11T23:52:39.525Z",
   "repository": "https://github.com/poly-gents/syncolab-skills",
   "skills": [
     {
@@ -1460,7 +1460,7 @@
       "id": "facilitate-ceremonies",
       "name": "Facilitate Ceremonies",
       "description": "Run standups, retros, and planning with summaries",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "type": "planning",
       "tags": [
         "facilitate-ceremonies",
@@ -1469,7 +1469,7 @@
         "managents-planning"
       ],
       "path": "skills/facilitate-ceremonies",
-      "checksum": "sha256:7b665eaebc87cb3cfff5b84cd79809605037c9660d4b54cbc12e750f0e3f7c77"
+      "checksum": "sha256:2d33a31c7c3f5529800577fb607d0b8c83b29afa385d74154521e29e09bb0255"
     },
     {
       "id": "feature-flagging",
@@ -2138,9 +2138,9 @@
     },
     {
       "id": "managents-knowledge-base",
-      "name": "Managents Knowledge Base",
-      "description": "Browse and curate Managents project Knowledge Base concepts, write formatted bodies, and add taxonomy types or statuses using available kb_* tools. Bulk import and taxonomy rename/archive belong in Office UI.",
-      "version": "1.1.0",
+      "name": "Syncolab Knowledge Base",
+      "description": "Browse and curate Syncolab project Knowledge Base concepts, write formatted bodies, and add taxonomy types or statuses using available kb_* tools. Bulk import and taxonomy rename/archive belong in Office UI.",
+      "version": "1.1.1",
       "type": "instrumental",
       "tags": [
         "managents-knowledge-base",
@@ -2148,33 +2148,33 @@
         "managents-planning"
       ],
       "path": "skills/managents-knowledge-base",
-      "checksum": "sha256:09a8fc7e572bb05a74aca872df1e67a2e3a2d6c5429f023205ee11344fe37417"
+      "checksum": "sha256:f707e24eb6e3b0d3e253101106cf97db4cc3a9edfbb15266db9bd3b48bed8106"
     },
     {
       "id": "managents-timelines",
-      "name": "Managents Timelines",
-      "description": "Stakeholder-facing project timelines and milestones inside Managents (no extra OAuth)",
-      "version": "1.0.0",
+      "name": "Syncolab Timelines",
+      "description": "Stakeholder-facing project timelines and milestones inside Syncolab (no extra OAuth)",
+      "version": "1.0.1",
       "type": "instrumental",
       "tags": [
         "managents-timelines",
         "managents-planning"
       ],
       "path": "skills/managents-timelines",
-      "checksum": "sha256:3852663ce61a9d1054a8a182e579e1dd6b262740855b02c23387d9a17feef1ed"
+      "checksum": "sha256:9dea467c5bdc2cc0ba2833734a08e20f5f395744a665692659e5d3cc612ad810"
     },
     {
       "id": "managents-workboard",
-      "name": "Managents Planning and Work Boards",
-      "description": "Roadmaps, scopes, sprints, and execution work boards inside Managents (no extra OAuth)",
-      "version": "1.0.0",
+      "name": "Syncolab Planning and Work Boards",
+      "description": "Roadmaps, scopes, sprints, and execution work boards inside Syncolab (no extra OAuth)",
+      "version": "1.0.1",
       "type": "instrumental",
       "tags": [
         "managents-workboard",
         "managents-planning"
       ],
       "path": "skills/managents-workboard",
-      "checksum": "sha256:c36ce3b6dd23596231467d93bdafc41145bf4cc9368d9285358e33dbee0655c5"
+      "checksum": "sha256:fcfc5d811dca0369a84999374d582a2ef06a2a69754992c0d8e886a0a5e9024d"
     },
     {
       "id": "manim-animation",
@@ -2754,7 +2754,7 @@
       "id": "prepare-sprints",
       "name": "Prepare Sprints",
       "description": "Plan sprints with capacity, goals, and backlog selection",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "type": "planning",
       "tags": [
         "prepare-sprints",
@@ -2762,7 +2762,7 @@
         "managents-planning"
       ],
       "path": "skills/prepare-sprints",
-      "checksum": "sha256:a30343cc6acd8bc729523c35e3aff8a44b9059f70e17300ff3aab4f4bdca2869"
+      "checksum": "sha256:4f428117418d54ee5094e82908c2ad9c6130ba2a11df37f2fe5349913a423feb"
     },
     {
       "id": "presentation-and-slide-storytelling",
@@ -4184,7 +4184,7 @@
       "id": "syncolab-cognitive-memory",
       "name": "Syncolab Cognitive Memory",
       "description": "Guides Syncolab Cognitive Memory Layer (CML)—Qdrant + Mem0 composite, tenant scope, REST memory endpoints, and TS agent recall/persist. Use for long-term memory hydration and external runtime memory_layer contracts.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "type": "instrumental",
       "tags": [
         "syncolab-cognitive-memory",
@@ -4193,7 +4193,7 @@
         "syncolab"
       ],
       "path": "skills/syncolab-cognitive-memory",
-      "checksum": "sha256:52c9aca223cc9c491f1c7888654c7108475f5e4dc24aff071c44aba97b4fb88f"
+      "checksum": "sha256:d4323dd3aec3ce32f4a667eb3e80ffdb285c8d2626e5150feae080cadfd818cf"
     },
     {
       "id": "syncolab-living-docs",
@@ -4371,7 +4371,7 @@
       "id": "track-impediments",
       "name": "Track Impediments",
       "description": "Identify, escalate, and resolve delivery blockers",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "type": "operational",
       "tags": [
         "track-impediments",
@@ -4380,7 +4380,7 @@
         "managents-planning"
       ],
       "path": "skills/track-impediments",
-      "checksum": "sha256:831ffcf453b3078e57ab2e739ae71cd40f3057c4cb03fbe5418f709e66f109a5"
+      "checksum": "sha256:6308c568ffdda5cd8785cbe17ad3aeda25c1a5a45f32959f852ea77201ef2070"
     },
     {
       "id": "track-invoices",
@@ -4633,5 +4633,5 @@
       "checksum": "sha256:b5abeecc617700de7679bff0de0f39c209c5384b7ac477aec2ccda5f937a04d7"
     }
   ],
-  "integrity": "sha256:1f9aa31a6d48a75e23c8d87588f3b26f36079383de32ca2480dd7de8f938e7f3"
+  "integrity": "sha256:349aea97177768ea90260f716fab95f092870959327eb4bb55993497bfba010e"
 }

@@ -1,19 +1,19 @@
 ---
 name: managents-timelines
-description: "Stakeholder-facing project timelines and milestones inside Managents (no extra OAuth)"
+description: "Stakeholder-facing project timelines and milestones inside Syncolab (no extra OAuth)"
 ---
 
-# Managents Timelines
+# Syncolab Timelines
 
 ## Purpose
 
-Stakeholder-facing project timelines and milestones inside Managents (no extra OAuth)
+Stakeholder-facing project timelines and milestones inside Syncolab (no extra OAuth)
 
-This skill provides operational guidance for Managents Timelines, including tool usage patterns, workflows, and quality expectations aligned with Syncolab skill standards.
+This skill provides operational guidance for Syncolab Timelines, including tool usage patterns, workflows, and quality expectations aligned with Syncolab skill standards.
 
 ## When to Use
 
-- Use when the user needs help with Managents Timelines.
+- Use when the user needs help with Syncolab Timelines.
 - When integrations for this domain are available and the task matches the workflows below.
 
 ## When NOT to Use
@@ -35,7 +35,7 @@ This skill provides operational guidance for Managents Timelines, including tool
 
 ## Workflow
 
-1. Confirm the request maps to Managents Timelines and required tools are available.
+1. Confirm the request maps to Syncolab Timelines and required tools are available.
 2. Gather identifiers and scope (project, timeline, entry).
 3. Follow the domain guidance below; prefer list/get before create/update when applicable.
 4. Execute tool calls using schemas from the integration; never invent tool output.

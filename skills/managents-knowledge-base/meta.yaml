@@ -1,5 +1,5 @@
-name: Managents Knowledge Base
-version: 1.1.0
+name: Syncolab Knowledge Base
+version: 1.1.1
 type: instrumental
 description:
   capability: Maintain project Knowledge Base concepts and their taxonomy using available kb_* tools.

@@ -1,7 +1,7 @@
 {
   "name": "syncolab-skills",
   "version": "0.2.0",
-  "generatedAt": "2026-11-11T23:28:15.247Z",
+  "generatedAt": "2026-11-11T23:44:28.796Z",
   "repository": "https://github.com/poly-gents/syncolab-skills",
   "skills": [
     {
@@ -2139,8 +2139,8 @@
     {
       "id": "managents-knowledge-base",
       "name": "Managents Knowledge Base",
-      "description": "Project Knowledge Base concept tree — decisions, risks, notes, and custom taxonomy inside Managents (no extra OAuth)",
-      "version": "1.0.0",
+      "description": "Browse and curate Managents project Knowledge Base concepts, write formatted bodies, and add taxonomy types or statuses using available kb_* tools. Bulk import and taxonomy rename/archive belong in Office UI.",
+      "version": "1.1.0",
       "type": "instrumental",
       "tags": [
         "managents-knowledge-base",
@@ -2148,7 +2148,7 @@
         "managents-planning"
       ],
       "path": "skills/managents-knowledge-base",
-      "checksum": "sha256:dfa9bcf59b6ed4b7a4b3cc3086106865281da3aab24c8cb2a6e9462949ecf9c6"
+      "checksum": "sha256:09a8fc7e572bb05a74aca872df1e67a2e3a2d6c5429f023205ee11344fe37417"
     },
     {
       "id": "managents-timelines",
@@ -4633,5 +4633,5 @@
       "checksum": "sha256:b5abeecc617700de7679bff0de0f39c209c5384b7ac477aec2ccda5f937a04d7"
     }
   ],
-  "integrity": "sha256:506cf8f0db4f9f5a5b3153247dd4f2f80147ff8e56d0dc657f986065b8827322"
+  "integrity": "sha256:1f9aa31a6d48a75e23c8d87588f3b26f36079383de32ca2480dd7de8f938e7f3"
 }

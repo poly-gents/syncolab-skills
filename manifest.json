@@ -1,7 +1,7 @@
 {
   "name": "syncolab-skills",
   "version": "0.2.0",
-  "generatedAt": "2026-08-11T12:08:35.561Z",
+  "generatedAt": "2026-11-11T23:28:15.247Z",
   "repository": "https://github.com/poly-gents/syncolab-skills",
   "skills": [
     {
@@ -1615,7 +1615,7 @@
     {
       "id": "gmail",
       "name": "Gmail",
-      "description": "Lists, searches, reads, and sends Gmail messages and labels via native gmail_* tools. Use for inbox triage, unread filters, full message bodies, and outbound email.",
+      "description": "Lists, searches, reads, drafts, sends, replies, and forwards Gmail messages, and fetches attachments via native gmail_* tools. Use for inbox triage, unread filters, full message bodies, attachment download, saving drafts, threaded replies, and outbound email.",
       "version": "1.0.0",
       "type": "instrumental",
       "tags": [
@@ -1623,7 +1623,7 @@
         "email"
       ],
       "path": "skills/gmail",
-      "checksum": "sha256:a9be9683fbadf54a9b3367d988943410a0daac114b53b3b014a737f5b35fa9cb"
+      "checksum": "sha256:c61df4f5283e1f4dc8bede097822fe1da820c9ef14b9ce31c5217d928a99bcd6"
     },
     {
       "id": "google-calendar",
@@ -1666,14 +1666,14 @@
     {
       "id": "google-drive",
       "name": "Google Drive",
-      "description": "Lists, searches, downloads, and organizes Google Drive files via drive_* tools. Use to find file IDs for Docs/Sheets, browse folders, and download content.",
+      "description": "Lists, searches, downloads, uploads, and organizes Google Drive files via drive_* tools. Use to find file IDs for Docs/Sheets, browse folders, download content, and upload files from base64.",
       "version": "1.0.0",
       "type": "instrumental",
       "tags": [
         "google-drive"
       ],
       "path": "skills/google-drive",
-      "checksum": "sha256:d6e540b436111e7c11910a4c2ddcfa390999fcdc79646a348f8014450fdfaa4a"
+      "checksum": "sha256:c5ef4ffcc185523ecacc4e7af4e580ba7b6afa6096f3b0777a496f7e8e0a1997"
     },
     {
       "id": "google-sheets",
@@ -1899,14 +1899,14 @@
     {
       "id": "jira",
       "name": "Jira",
-      "description": "Lists, searches, creates, updates, and transitions Jira issues via Atlassian MCP tools discovered at runtime. Use JQL when supported; always load tool schemas before execution.",
-      "version": "1.0.0",
+      "description": "Search and manage Jira issues and workflows, list Jira Software boards, and create project boards with available native tools or schema-discovered Atlassian MCP tools.",
+      "version": "1.1.0",
       "type": "instrumental",
       "tags": [
         "jira"
       ],
       "path": "skills/jira",
-      "checksum": "sha256:a87a1bd7d8f0e5db577ec39ec7574ce5d0be345b12c8d9a66a8526814784022a"
+      "checksum": "sha256:c3ef13aa17e847c786d7ad5ec9eef235f43025ea2cbc2178d61aab8a4fce5bb9"
     },
     {
       "id": "lab-report-and-scientific-writing",
@@ -4615,7 +4615,23 @@
       ],
       "path": "skills/zendesk",
       "checksum": "sha256:cf633ee4a441291264035956afdbdceff89e40e077682a6a94ddefdb1df28051"
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "description": "Manage Zoom meetings and Calendar events, retrieve recordings and transcripts, import meeting content into Syncolab, and inspect attendance and usage with available Zoom tools.",
+      "version": "1.0.0",
+      "type": "instrumental",
+      "tags": [
+        "zoom",
+        "meetings",
+        "calendar",
+        "recordings",
+        "transcripts"
+      ],
+      "path": "skills/zoom",
+      "checksum": "sha256:b5abeecc617700de7679bff0de0f39c209c5384b7ac477aec2ccda5f937a04d7"
     }
   ],
-  "integrity": "sha256:252f4e5c35045f84298b6d416ef4b1342e73593695e880ff803821b29b879a19"
+  "integrity": "sha256:506cf8f0db4f9f5a5b3153247dd4f2f80147ff8e56d0dc657f986065b8827322"
 }

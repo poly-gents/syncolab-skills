@@ -1,0 +1,28 @@
+name: Zoom
+version: "1.0.0"
+type: instrumental
+description:
+  capability: Manage Zoom meetings and Calendar events, retrieve meeting artifacts, and inspect attendance and usage.
+  trigger_conditions: Use for Zoom scheduling, recordings, transcripts, summaries, participants, reports, or importing meeting content into Syncolab.
+  scope_boundaries: Uses granted Zoom tools on demand; no background sync, no assumed Google or Outlook calendar access, and no automatic recording import.
+  key_domain_words:
+    - zoom
+    - meeting
+    - calendar
+    - recording
+    - transcript
+    - attendance
+    - usage report
+tags:
+  - zoom
+  - meetings
+  - calendar
+  - recordings
+  - transcripts
+relationships:
+  skills:
+    - name: google-calendar
+      type: can-use
+  tool_sets:
+    - name: zoom
+      type: can-have

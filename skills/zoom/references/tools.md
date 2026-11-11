@@ -1,0 +1,52 @@
+# Zoom tool reference
+
+Use only tools exposed in the current run. Inspect their live schemas before execution.
+
+- `zoom_verify_connection`: Verify the Zoom connection by resolving the connected Zoom user.
+- `zoom_get_integration_capabilities`: Report Zoom connection status, granted scopes, and capability availability.
+- `zoom_list_users`: List users on the connected Zoom account.
+- `zoom_get_user`: Get a Zoom user by id or email, with optional presence/settings context.
+- `zoom_verify_user_email`: Check whether an email belongs to a user on the connected Zoom account.
+- `zoom_calendar_get`: Get metadata for a known Zoom Calendar id.
+- `zoom_calendar_get_colors`: Get the Zoom Calendar color palette definitions.
+- `zoom_calendar_list_events`: List events on a known Zoom Calendar id within a time range.
+- `zoom_calendar_get_event`: Get a single Zoom Calendar event by id.
+- `zoom_calendar_list_event_instances`: List the concrete instances of a recurring Zoom Calendar event.
+- `zoom_calendar_create_event`: Create a Zoom Calendar event on a known calendar id (requires approval).
+- `zoom_calendar_update_event`: Partially update a Zoom Calendar event (requires approval).
+- `zoom_calendar_delete_event`: Delete a Zoom Calendar event (destructive, requires approval).
+- `zoom_list_meetings`: List a Zoom user's scheduled meetings.
+- `zoom_list_upcoming_meetings`: List a Zoom user's upcoming meetings.
+- `zoom_get_meeting`: Get details for a Zoom meeting by id.
+- `zoom_create_meeting`: Schedule a new Zoom meeting (requires approval).
+- `zoom_update_meeting`: Partially update/reschedule a Zoom meeting (requires approval).
+- `zoom_delete_meeting`: Cancel/delete a Zoom meeting (destructive, requires approval).
+- `zoom_get_meeting_invitation`: Get the structured meeting invitation text for a Zoom meeting.
+- `zoom_list_meeting_templates`: List Zoom meeting templates available to a user.
+- `zoom_get_meeting_registration`: Get Zoom meeting registrants and registration questions.
+- `zoom_get_meeting_polls`: Get poll definitions for a Zoom meeting.
+- `zoom_get_past_meeting_poll_results`: Get submitted poll results for a completed Zoom meeting occurrence.
+- `zoom_get_meeting_survey`: Get the configured post-meeting survey definition for a Zoom meeting.
+- `zoom_get_past_meeting`: Get normalized details for a completed Zoom meeting occurrence.
+- `zoom_list_past_meeting_instances`: List past instances of a recurring Zoom meeting.
+- `zoom_list_past_meeting_participants`: List participants of a completed Zoom meeting occurrence.
+- `zoom_get_past_meeting_qa`: Get Q&A exchanges recorded during a completed Zoom meeting.
+- `zoom_list_meeting_summaries`: List Zoom AI Companion meeting summaries.
+- `zoom_get_meeting_summary`: Get the Zoom AI Companion summary for a meeting.
+- `zoom_dashboard_list_meetings`: List meeting metrics from the Zoom Dashboard for a date range.
+- `zoom_dashboard_get_meeting`: Get Zoom Dashboard metrics/details for one meeting.
+- `zoom_dashboard_list_meeting_participants`: Get Zoom Dashboard participant metrics for a meeting.
+- `zoom_dashboard_get_meeting_sharing`: Get Zoom Dashboard screen-sharing metrics for a meeting.
+- `zoom_list_recordings`: List cloud recordings for the connected Zoom account or a user.
+- `zoom_get_recording_files`: List recording artifacts available for one Zoom meeting.
+- `zoom_get_recording_settings`: Get sharing/access settings for a Zoom meeting recording.
+- `zoom_get_meeting_transcript`: Retrieve and parse the Zoom-generated transcript for a meeting.
+- `zoom_get_recording_analytics`: Get recording view analytics for a Zoom meeting.
+- `zoom_get_recording_registration`: Get recording registrants and registration questions for a Zoom recording.
+- `zoom_ingest_meeting_content`: Explicitly import Zoom meeting content into this Syncolab project (requires approval).
+- `zoom_report_list_history_meetings`: List meetings from the Zoom account usage report for a date range.
+- `zoom_report_get_meeting`: Get the billing-grade meeting detail report row for one Zoom meeting.
+- `zoom_report_list_meeting_participants`: Get the report-grade participant list for one Zoom meeting.
+- `zoom_report_get_meeting_qna`: Get the report-grade Q&A rows for one Zoom meeting.
+- `zoom_report_get_user_usage`: Get a Zoom user's meeting usage report for a date range.
+- `zoom_report_get_meeting_survey`: Get the report-grade post-meeting survey responses for one Zoom meeting.

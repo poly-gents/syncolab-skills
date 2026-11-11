@@ -1,103 +1,64 @@
 ---
 name: jira
-description: Lists, searches, creates, updates, and transitions Jira issues via Atlassian MCP tools discovered at runtime. Use JQL when supported; always load tool schemas before execution.
+description: Search and manage Jira issues and workflows, list Jira Software boards, and create project boards with available native tools or schema-discovered Atlassian MCP tools.
 ---
 
 # Jira
 
 ## Purpose
 
-Work with Jira issues through the Atlassian MCP surface: discover tools, obey live schemas, search with JQL when available, and transition issues only after listing valid transitions.
+Manage Jira issues and Software boards through available native or Atlassian MCP tools.
 
 ## When to Use
 
-- Search or list issues (including JQL filters).
-- Get, create, or update issues and subtasks.
-- Add comments or change status via transitions.
-
-## When NOT to Use
-
-- Archon-native task board → **archon** (may combine with Jira for sync).
-- Linear → **linear**.
-- Assuming local `jira_*` wrapper names—use MCP tool names from `list_tools` / `get_tool_schema`.
-
-## Expected Outcome
-
-- Calls use MCP tool names and parameters from `get_tool_schema`.
-- Transitions applied only after listing allowed transitions.
-- Issue keys and links from tool responses, not invented.
-
-## Inputs to Gather
-
-- Project key, issue key, or JQL query.
-- Fields required by the specific MCP create/update tool schema.
-- Target status name before calling a transition tool.
-
-## Workflow
-
-1. Call `list_tools` (Rovo/Atlassian MCP) to find Jira tools.
-2. For each action, call `get_tool_schema` and use exact parameter names.
-3. **Search**: use the MCP search tool’s JQL parameter when the schema exposes it.
-4. **Transition**: list transitions first, then call the transition tool with a valid id/name.
-5. Summarize issues (key, summary, status, assignee) from responses.
-
-### Domain rules
-
-1. **MCP-first**: No assumed `jira_*` locals; schemas come from the server.
-2. **Schema-exact parameters** on every call.
-3. **JQL** when supported for filtered searches (e.g. `project = KAN AND assignee = currentUser()`).
-4. **Transitions**: list before apply.
-
-### Main tools
-
-- Atlassian MCP tools from `tools/list` (names vary by deployment).
-
-### Examples
-
-**Subtask under KAN-7:** Discover create-issue tool via `list_tools`, read schema, create with parent/summary per required fields.
-
-**Open issues in KAN:** Search tool with JQL `project = KAN AND status != Done` per schema; return issue list from response.
+Use for Jira issue search, creation, updates, comments, transitions, and Software board setup for an existing project. Use the Linear skill for Linear work; use Archon only when the user requests Archon work or cross-system alignment.
 
 ## Tool Availability Rules
 
-| Access | Behavior |
-|--------|----------|
-| Full MCP access | Discover, schema-read, execute. |
-| Read-only | Search/get only; draft mutations. |
-| No Atlassian MCP | State limitation; do not fabricate issues. |
+Inspect the tools granted in the current run. Native `jira_*` tools are supported when exposed; read their actual schemas. For Atlassian/Rovo MCP, use `list_tools` and `get_tool_schema` to discover exact names and parameters. Do not require MCP discovery for an already exposed native tool, or invent native tools when only MCP is available.
 
-### Related tool sets
+With read-only access, inspect and describe proposed changes. If a required tool or connection is unavailable, report what is missing or dispatch through the available task mechanism; do not claim execution.
 
-- `jira`
+## Expected Outcome
 
-## Review / Decision / Execution Criteria
+Identify the intended Jira records and complete only the authorized issue or board changes, with any partial result made explicit.
 
-- JQL and field names must match project configuration.
-- Confirm bulk updates or status changes when impact is broad.
+## Workflow
+
+### Issues and transitions
+
+1. Resolve the project and issue keys from user context or returned records.
+2. Use JQL when the selected search tool supports it. Follow its pagination schema; report incomplete results.
+3. Read the issue before updates and change only requested fields. Create subtasks using the supported parent field.
+4. List valid transitions before applying a status transition; use the returned transition identifier.
+5. Return issue keys, statuses, and links from the tool responses.
+
+## List project boards
+
+Use `jira_list_boards` with optional `projectKey` and `maxResults`. Filter to the intended project when known. It returns `boards` and `total`, and may return `isLast`; the current wrapper does not expose a page cursor or `startAt`. Do not invent pagination arguments or claim that a limited result proves a board does not exist. A project's result count can reflect only the returned boards.
+
+Check the connected Jira site as well as the project key, especially with multiple sites. The list tool can use a Syncolab project's bound Jira site; the creation tool requires a single unambiguous site from the connection and can fail when multiple sites are available. Neither exposes a cloud/site override. If these may differ, resolve the intended site before creating rather than assuming a successful list guarantees the creation destination.
+
+## Create a project board
+
+Use `jira_create_project_board` for an existing Jira Software project. Required fields are `projectKey` and `boardName`; optional fields are `type` (`kanban` or `scrum`, default `kanban`), `jql`, and `filterName`.
+
+1. Establish the existing project, desired board name and type, and authorization to create the board and its backing filter. This tool does not create a Jira project.
+2. List boards for that project and reuse a matching board when that satisfies the request. Clarify ambiguous matches rather than creating duplicates.
+3. Omit custom JQL unless requested or needed. The default is `project = KEY ORDER BY created DESC`; the default filter name is `<boardName> filter`. A custom query can include other projects, so keep its scope aligned with the request.
+4. Call the combined tool once. It creates the saved filter and then the board; separate filter or board creation tools are not prerequisites.
+5. Report the returned board ID/name and filter ID. If the call fails or times out, do not blindly retry: a filter or board may already exist. Inspect available records, report possible partial completion, and resolve it with the user or a Jira administrator. Do not claim rollback or delete anything to compensate without authorization.
+
+Example: for an authorized request to create a Scrum board named “KAN delivery” in existing project KAN, inspect with `jira_list_boards({"projectKey":"KAN"})`, then call `jira_create_project_board({"projectKey":"KAN","boardName":"KAN delivery","type":"scrum"})` if no suitable board exists and the site is established.
 
 ## Output Format
 
-1. Tools used (MCP names).
-2. Issue list or mutation result.
-3. Errors.
-4. Archon sync note if user asked for cross-system alignment.
+Return the issues or boards found, confirmed changes, IDs/links supplied by tools, and any truncation, site ambiguity, or partial failure.
 
 ## Quality Bar
 
-- Never cite wrapper names that are not in the live schema.
-- Paginate large JQL result sets.
-
-## Safety and Boundaries
-
-- Confirm destructive or workflow-changing actions when unclear.
-- No credentials in comments or skill text.
-
-## Escalation / Dispatch Rules
-
-- Archon + Jira alignment → **archon** alongside this skill.
-- Schema missing → report and stop; do not guess parameters.
+Do not fabricate URLs or a successful mutation. Respect existing permissions and the requested scope; ask for clarification when a bulk or workflow change is ambiguous.
 
 ## References
 
-- Legacy: `skills/old_skills.json` (`jira`).
-- `skills/skill.instruction.md`, `skills/meta.instructions.md`
+The live tool schema defines supported parameters. See `skills/skill.instruction.md` and `skills/meta.instructions.md` for package conventions.

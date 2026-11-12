@@ -1,25 +1,25 @@
 name: Syncolab Knowledge Base
-version: 1.0.0
+version: 1.1.0
 type: instrumental
 description:
-  capability: Project Knowledge Base concept tree — decisions, risks, notes,
-    and custom taxonomy inside Syncolab (no extra OAuth)
-  trigger_conditions: Use when browsing, creating, updating, or importing
-    Knowledge Base concepts or taxonomy for a Syncolab project
-  scope_boundaries: Focused on Syncolab Knowledge Base workflows via
-    kb_* tools; does not replace human approval for destructive or bulk
-    changes, and does not cover external doc systems (Notion, Google Docs).
+  capability: Curate project knowledge as Storage TipTap documents
+    (initiative_storage_*) inside Syncolab
+  trigger_conditions: Use when browsing, creating, or updating curated
+    Storage documents for a Syncolab project
+  scope_boundaries: Focused on initiative_storage_* workflows for curated
+    knowledge docs; does not cover external doc systems (Notion, Google Docs).
   key_domain_words:
   - knowledge base
-  - kb
-  - concept
-  - taxonomy
-  - decision
-  - risk
+  - storage
+  - initiative_storage
+  - classification
+  - document
+  - tiptap
   - managents-knowledge-base
 tags:
 - managents-knowledge-base
 - knowledge-base
+- initiative-storage
 - managents-planning
 relationships:
   skills:

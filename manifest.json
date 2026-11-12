@@ -1,7 +1,7 @@
 {
   "name": "syncolab-skills",
   "version": "0.2.0",
-  "generatedAt": "2026-11-12T00:09:28.246Z",
+  "generatedAt": "2026-11-12T21:09:36.659Z",
   "repository": "https://github.com/poly-gents/syncolab-skills",
   "skills": [
     {
@@ -432,7 +432,7 @@
         "auto-assign-tasks"
       ],
       "path": "skills/auto-assign-tasks",
-      "checksum": "sha256:399e9032daa43b3a4c8edb8c381b1a6f551eb03107d1b118e0f6aa20bd5e0b12"
+      "checksum": "sha256:98b0c7fd1ffac445571713aed2cdbb740bd74b67697b1a132e23a6d1eb738fbd"
     },
     {
       "id": "auto-code-reviewer",
@@ -1023,7 +1023,7 @@
         "provenance:crewai"
       ],
       "path": "skills/crew-manager-pattern",
-      "checksum": "sha256:5a1114f8eb9e19e03d732a72076c0269328c45a0c213f5e864402cd57667c396"
+      "checksum": "sha256:df7b9b841325cc408f6d1ee16b4f67942c59c27dfc493399591c212726333ebb"
     },
     {
       "id": "crew-planner-executor",
@@ -1136,7 +1136,7 @@
         "provenance:ruflo"
       ],
       "path": "skills/delegation-decision-matrix",
-      "checksum": "sha256:6ad495f2234353bf72ae554f62919a85132009938609cc6174dea2980cc53524"
+      "checksum": "sha256:375d7ba3c2c5cb71fd84fbd6beaa8d993ec2588e5fe606b4be145b39c3a2a01f"
     },
     {
       "id": "dependency-vulnerability-triage",
@@ -1208,15 +1208,15 @@
     },
     {
       "id": "discover-capability-and-request-access",
-      "name": "Discover capability & request access",
-      "description": "Inspect your current tools, browse the PolyGents catalog for a capability you might be missing, and ask a human admin to file a support ticket so PolyGents support can grant the missing tool/skill. The actual ticket-creation step requires explicit human-in-the-loop approval and lands in the internal Help & Support system under the `agent-capability-request` category.",
+      "name": "Discover capability and request access",
+      "description": "Request a known missing tool or skill through the human-approved support flow.",
       "version": "1.0.0",
-      "type": "procedural",
+      "type": "operational",
       "tags": [
         "discover-capability-and-request-access"
       ],
       "path": "skills/discover-capability-and-request-access",
-      "checksum": "sha256:e9494c18266afc89975e672ceb56fdbee106c5fd9e2a0567929ccfa93b18bd2d"
+      "checksum": "sha256:d43bdfe3e75d92165fe2a421b8e7380051e6091b285902ab9b28de66d255d7b1"
     },
     {
       "id": "discover-prospects",
@@ -2139,16 +2139,17 @@
     {
       "id": "managents-knowledge-base",
       "name": "Syncolab Knowledge Base",
-      "description": "Project Knowledge Base concept tree — decisions, risks, notes, and custom taxonomy inside Syncolab (no extra OAuth)",
-      "version": "1.0.0",
+      "description": "Curate project knowledge via Storage TipTap documents (initiative_storage_*). Prefer few substantive nodes with rich TipTap HTML. Never store Markdown.",
+      "version": "1.1.0",
       "type": "instrumental",
       "tags": [
         "managents-knowledge-base",
         "knowledge-base",
+        "initiative-storage",
         "managents-planning"
       ],
       "path": "skills/managents-knowledge-base",
-      "checksum": "sha256:99c3e3d49eba70afbac96baab09d2255fac36b2484a3f6c887c6251d2756f4a7"
+      "checksum": "sha256:71de4fd9960dfe674c7bee212fc18262a7f9f92056ffb1b1ee3f1b25b3384859"
     },
     {
       "id": "managents-timelines",
@@ -2717,7 +2718,7 @@
       "type": null,
       "tags": [],
       "path": "skills/playbook-architect-authoring",
-      "checksum": "sha256:0123e935d87d43b96a2fc5016e0f3c73c39f562481d808239886d7acdedb6e66"
+      "checksum": "sha256:3c48c0cafd13e1dd5914a0bac6d4a08cf07a4d6a025a033a0ae3d4a603c7ee77"
     },
     {
       "id": "popup-cro",
@@ -4149,7 +4150,7 @@
         "provenance:ruflo"
       ],
       "path": "skills/swarm-coordination",
-      "checksum": "sha256:a96c3bceb9252616b9fc82391fb01a3d287f9de050af85f14c0ffe1fbcf40d66"
+      "checksum": "sha256:cff7100c85839ce9c98d4274dfb7c5066964621a15fbcf44a1199d410f2440f1"
     },
     {
       "id": "symbolic-computation",
@@ -4194,21 +4195,6 @@
       ],
       "path": "skills/syncolab-cognitive-memory",
       "checksum": "sha256:d4323dd3aec3ce32f4a667eb3e80ffdb285c8d2626e5150feae080cadfd818cf"
-    },
-    {
-      "id": "syncolab-living-docs",
-      "name": "Syncolab Living Docs",
-      "description": "Searches and reads Syncolab Living Docs (SKS) and proposes human-reviewed patches via sks_docs_* tools. Use for authoritative platform docs, internal/external facets, and minimal doc drift fixes.",
-      "version": "1.0.0",
-      "type": "instrumental",
-      "tags": [
-        "syncolab-living-docs",
-        "sks",
-        "docs",
-        "syncolab"
-      ],
-      "path": "skills/syncolab-living-docs",
-      "checksum": "sha256:824ae2d279269ae3999c79e3262789f6fdc166acf3b49bc11f0c5a41beebc657"
     },
     {
       "id": "ta-role-and-professional-boundaries",
@@ -4633,5 +4619,5 @@
       "checksum": "sha256:b5abeecc617700de7679bff0de0f39c209c5384b7ac477aec2ccda5f937a04d7"
     }
   ],
-  "integrity": "sha256:10def7af49eafb9abd68ba5a4a6c318cb6717081c11e9715c4676df6654d3596"
+  "integrity": "sha256:ae34711dd515a04a7f432f15eb4b0ef0171455ff5a42f60bdf6fafc1f5e0b575"
 }

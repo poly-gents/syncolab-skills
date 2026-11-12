@@ -1,76 +1,112 @@
 ---
 name: managents-knowledge-base
-description: Browse and curate Syncolab project Knowledge Base concepts, write formatted bodies, and add taxonomy types or statuses using available kb_* tools. Bulk import and taxonomy rename/archive belong in Office UI.
+description: "Project Knowledge Base concept tree — decisions, risks, notes, and custom taxonomy inside Syncolab (no extra OAuth)"
 ---
 
 # Syncolab Knowledge Base
 
 ## Purpose
 
-Maintain project Knowledge Base concepts and their taxonomy using available kb_* tools. Concepts hold decisions, risks, notes, and other typed knowledge with formatted bodies.
+Project Knowledge Base concept tree — decisions, risks, notes, and custom taxonomy inside Syncolab (no extra OAuth)
+
+This skill provides operational guidance for the Syncolab Knowledge Base, including tool usage patterns, workflows, and quality expectations aligned with Syncolab skill standards.
 
 ## When to Use
 
-- Browse concepts, read their bodies, or create and update project knowledge.
-- Discover valid types and statuses before assigning them to concepts.
-- Add a new concept type or status when the requested workflow needs one.
+- Use when the user needs help with the Syncolab Knowledge Base.
+- When integrations for this domain are available and the task matches the workflows below.
 
 ## When NOT to Use
 
-- External document systems such as Notion or Google Docs: use the corresponding skill.
-- Agent memory or platform Living Docs: use the relevant memory or documentation skill.
-- Bulk hierarchy or seed imports, or renaming/archiving taxonomy definitions: direct the user to Office Knowledge Base UI. These operations are not exposed as agent tools. Do not simulate a bulk import with many individual writes unless the user explicitly requests that alternative.
+- When the task is unrelated to the Syncolab Knowledge Base or covered by a more specific skill (e.g. Notion/Google Docs curation via `curate-docs`).
+- When required integrations or credentials are unavailable.
 
 ## Expected Outcome
 
-Use verified concept/type/status IDs, preserve existing content when editing, and return confirmed results with any permission or scope limitations.
+- Correct use of domain tools with verified results (not fabricated).
+- Clear summary of actions taken, data returned, and recommended next steps.
+- Errors and missing permissions reported explicitly.
 
 ## Inputs to Gather
 
-- The requested change and the project bound to the conversation or initiative.
-- Existing concept IDs, intended parent, and valid type/status values from tool results.
-- Whether the run grants the required read or write tools.
+- User goal, constraints, and any identifiers (project id, concept id, type id).
+- Available tool sets and connection status.
+- Relevant context from related systems before destructive writes.
 
 ## Workflow
 
-1. Read `kb_get_taxonomy` or `kb_list_concept_types` to learn valid type/status IDs. Their compact taxonomy response is plain text; do not assume JSON or invent IDs.
-2. Browse with `kb_list_concepts`, using `parent_concept_id`, `type_id`, `status`, or `include_archived` when needed. Omit the parent to browse root concepts. Follow the live schema's pagination; a bounded result is not the whole tree. At depth 2 or 3, the result is capped and cursor pagination is unavailable.
-3. Read the target node with `kb_get_concept` before editing its body. Prefer updating existing knowledge over creating a duplicate.
-4. Plan a shallow structure: keep related material in a few substantial concepts with internal headings. A document section is not automatically a separate concept; split finely only when requested.
-5. Use `kb_create_concept` or `kb_update_concept` with only the requested metadata and body changes. Use `type_id` and `status` on the concept to change its classification; this does not rename the taxonomy definition.
-6. When a new type or status is needed, use `kb_create_concept_type` or `kb_create_concept_status` with the fields required by the live schema. Re-read taxonomy to use returned identifiers. Updating or archiving existing taxonomy definitions remains an Office UI action.
-7. Report confirmed changes and concept IDs. A failed or interrupted call may have partially completed; inspect before retrying a creation.
+1. Confirm the request maps to the Syncolab Knowledge Base and required tools are available.
+2. Gather identifiers and scope (project, concept, type/status).
+3. Follow the domain guidance below; prefer list/search before get/update when applicable.
+4. Execute tool calls using schemas from the integration; never invent tool output.
+5. Summarize results and offer logical follow-ups.
 
-### Formatted bodies
+## When to use platform tools
 
-Store concept bodies as TipTap-compatible HTML, not raw Markdown. Use `<p>`, `<h1>`–`<h3>`, lists, tables, quotes, and code blocks as supported by the editor. Avoid scripts, unsafe URLs, arbitrary styling, and unsupported markup.
+The Knowledge Base is a per-project tree of **concepts** (decisions, risks, notes, and other custom types) organized under a **taxonomy** of types and statuses — distinct from Planning (sprints/roadmaps) and Timelines (dated milestones).
 
-- For a short body, pass HTML in `content`.
-- For a long body, use the available `begin_document_write` workflow with `mimeType: "text/html"`. Follow the runtime's write-session instructions and wait for its sealed `staging://` handle, then pass that handle to the concept create/update tool with the intended metadata. Do not invent a handle or assume an internal commit tool is callable.
-- `summary` is an optional one-line blurb, never a substitute for the body.
-- Preserve unrelated sections when editing. A write-session outline becomes headings within a concept, not separate tree nodes.
+- Call **kb_get_taxonomy** (or **kb_list_concept_types**) first in a new project to learn valid `type_id` / `status` values before creating or filtering concepts — never guess them.
+- Use **kb_list_concepts** (optionally filtered by `parent_concept_id`, `type_id`, `status`, `include_archived`) to browse the tree before creating duplicates; use **kb_get_concept** for a single node's full detail.
+- Use **kb_create_concept** for new nodes and **kb_update_concept** for edits — only send the fields that changed. Set `archived_at` on **kb_update_concept** to archive a node and its descendants instead of deleting it when history should be preserved.
+- Use **kb_create_concept_type** / **kb_update_concept_type** and **kb_create_concept_status** / **kb_update_concept_status** to extend the taxonomy itself (new node kinds or workflow states) — do this before creating concepts of a kind that doesn't exist yet.
+- Use **kb_list_hierarchy_seeds** to discover ready-made concept trees, then **kb_import_hierarchy_from_refs** (by seed id) or **kb_import_hierarchy** (custom JSON tree of title/type_id/children) to bulk-populate a taxonomy.
+- **project_id** is required in chat surfaces; in workspace tasks it is usually injected via `appContext` — you may omit it when the run already carries `projectId` / `project_id`.
 
-Example short body: `<h2>Decision</h2><p>Use the agreed rollout sequence.</p><h2>Rationale</h2><ul><li>Limits the initial operational impact.</li></ul>`
+## Safe order of operations
 
-### Project scope
+1. **Read first:** `kb_get_taxonomy`, `kb_list_concepts`, `kb_list_hierarchy_seeds`.
+2. **Structure:** confirm/extend taxonomy (types, statuses) before creating concepts of a new kind.
+3. **Destructive / approval tools:** `kb_delete_concept` (deletes descendants too), `kb_import_hierarchy`, and `kb_import_hierarchy_from_refs` (bulk-append new roots) require explicit human approval when enabled. Summarize blast radius (how many concepts, which subtree) before calling.
 
-The runtime supplies the project from conversation/initiative context. Current Knowledge Base schemas do not accept `project_id`; do not invent that argument. If no project is bound or the bound project is wrong, ask to open or bind the intended project before proceeding.
+## Coordination with other agents
 
-### Archive and delete
-
-Use `kb_update_concept` with `archived_at` when preserving history is appropriate; archiving affects the subtree. `kb_delete_concept` deletes the node and all descendants and requires approval. Establish the intended subtree and explain its impact before a destructive action. Do not claim an exact affected count from a truncated listing.
+Knowledge Base concepts (decisions, risks) often relate to **Timelines** entries (milestones) and **Planning** goals/scopes. When a milestone or task is driven by a documented decision or risk, cite the `concept_id` so a Project Manager or SCRUM Master agent can link it on a timeline entry or task.
 
 ## Tool Availability Rules
 
-Use only tools exposed in the current run and their live schemas. Read-only access permits inspection and proposed changes, not execution. Missing access does not justify guessing another tool name or bypassing permissions. This platform capability needs project context and tool grants, not an extra OAuth connection.
+| Access | Behavior |
+|--------|----------|
+| Full tool access | Execute workflows, verify outputs, report errors. |
+| Read-only | Inspect and plan; provide exact commands or dispatch request for writes. |
+| No integration | State limitation; do not fabricate API results. |
+
+### Related tool sets
+
+- `managents-knowledge-base`
+
+
+
+## Review / Decision / Execution Criteria
+
+- Prefer smallest safe change; confirm destructive actions with the user.
+- Use evidence from tool responses; cite ids and links when present.
+- Match integration-specific conventions (JQL, RFC3339, A1 notation, etc.) where applicable.
 
 ## Output Format
 
-Return what was found or changed, confirmed concept IDs, and any incomplete results, permission errors, or actions that require Office UI. Link related timeline milestones or delivery work using actual concept IDs when relevant.
+Report:
+
+1. What was requested and what was done.
+2. Key results (tables or bullets).
+3. Errors, blockers, or missing permissions.
+4. Suggested next steps.
 
 ## Quality Bar
 
-Taxonomy IDs come from tool results, concept bodies retain valid formatting, and the hierarchy matches the requested granularity. Never fabricate content, write confirmations, or a successful import. Respect the requested scope and the runtime's approval requirements.
+- Specific, actionable, and grounded in tool output.
+- Concise unless the user asked for detail.
+- Respect rate limits, pagination, and API semantics.
+
+## Safety and Boundaries
+
+- Do not commit secrets, tokens, or PII into skills or user-visible logs.
+- Do not fabricate validation, send, or write confirmations.
+- Confirm destructive operations (delete, archive-cascade, bulk import) when appropriate.
+
+## Escalation / Dispatch Rules
+
+- If the task spans multiple domains, use or suggest related skills via `relationships.skills`.
+- If write access is required but unavailable, dispatch or ask the user to enable tools.
 
 ## References
 

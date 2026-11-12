@@ -1,13 +1,14 @@
 name: Syncolab Knowledge Base
-version: 1.1.1
+version: 1.0.0
 type: instrumental
 description:
-  capability: Maintain project Knowledge Base concepts and their taxonomy using available kb_* tools.
-  trigger_conditions: Use when browsing, creating, or updating project concepts,
-    writing formatted bodies, or adding taxonomy types and statuses.
-  scope_boundaries: Uses granted kb_* tools in a bound project. Bulk hierarchy imports
-    and taxonomy rename/archive belong in Office UI. Excludes external document
-    systems and does not bypass approval for destructive changes.
+  capability: Project Knowledge Base concept tree — decisions, risks, notes,
+    and custom taxonomy inside Syncolab (no extra OAuth)
+  trigger_conditions: Use when browsing, creating, updating, or importing
+    Knowledge Base concepts or taxonomy for a Syncolab project
+  scope_boundaries: Focused on Syncolab Knowledge Base workflows via
+    kb_* tools; does not replace human approval for destructive or bulk
+    changes, and does not cover external doc systems (Notion, Google Docs).
   key_domain_words:
   - knowledge base
   - kb

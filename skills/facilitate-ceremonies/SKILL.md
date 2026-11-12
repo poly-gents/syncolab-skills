@@ -43,7 +43,7 @@ This skill provides operational guidance for Facilitate Ceremonies, including to
 
 ## When to use platform tools
 
-For standups, pull **Managents** task state with `planning_list_tasks` and board placement via `workboard_list` / `workboard_get` before mirroring summaries to **Slack** or **Jira** comments. Use `planning_alerts` and `planning_timeline` for concise health narratives.
+For standups, pull **Syncolab** task state with `planning_list_tasks` and board placement via `workboard_list` / `workboard_get` before mirroring summaries to **Slack** or **Jira** comments. Use `planning_alerts` and `planning_timeline` for concise health narratives.
 
 ## Tool Availability Rules
 

@@ -43,7 +43,7 @@ This skill provides operational guidance for Prepare Sprints, including tool usa
 
 ## When to use platform tools
 
-Use **Jira** backlog health checks with **Managents** planning tools: list sprints and tasks via `planning_sprint_list`, `planning_list_tasks`, and `planning_sprint_tasks_by_scope`; create or adjust sprints with `planning_sprint_create` / `planning_sprint_update` / `planning_sprint_start` after the team agrees. Use `planning_velocity` and `planning_burndown` when reporting capacity trends.
+Use **Jira** backlog health checks with **Syncolab** planning tools: list sprints and tasks via `planning_sprint_list`, `planning_list_tasks`, and `planning_sprint_tasks_by_scope`; create or adjust sprints with `planning_sprint_create` / `planning_sprint_update` / `planning_sprint_start` after the team agrees. Use `planning_velocity` and `planning_burndown` when reporting capacity trends.
 
 ## Tool Availability Rules
 

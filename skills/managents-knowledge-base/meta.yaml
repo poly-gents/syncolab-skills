@@ -1,11 +1,11 @@
-name: Managents Knowledge Base
+name: Syncolab Knowledge Base
 version: 1.1.0
 type: instrumental
 description:
   capability: Curate project knowledge as Storage TipTap documents
-    (initiative_storage_*) inside Managents
+    (initiative_storage_*) inside Syncolab
   trigger_conditions: Use when browsing, creating, or updating curated
-    Storage documents for a Managents project
+    Storage documents for a Syncolab project
   scope_boundaries: Focused on initiative_storage_* workflows for curated
     knowledge docs; does not cover external doc systems (Notion, Google Docs).
   key_domain_words:

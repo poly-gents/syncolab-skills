@@ -1,24 +1,24 @@
 ---
 name: managents-workboard
-description: "Roadmaps, scopes, sprints, and execution work boards inside Managents (no extra OAuth)"
+description: "Roadmaps, scopes, sprints, and execution work boards inside Syncolab (no extra OAuth)"
 ---
 
-# Managents Planning and Work Boards
+# Syncolab Planning and Work Boards
 
 ## Purpose
 
-Roadmaps, scopes, sprints, and execution work boards inside Managents (no extra OAuth)
+Roadmaps, scopes, sprints, and execution work boards inside Syncolab (no extra OAuth)
 
-This skill provides operational guidance for Managents Planning and Work Boards, including tool usage patterns, workflows, and quality expectations aligned with Syncolab skill standards.
+This skill provides operational guidance for Syncolab Planning and Work Boards, including tool usage patterns, workflows, and quality expectations aligned with Syncolab skill standards.
 
 ## When to Use
 
-- Use when the user needs help with Managents Planning and Work Boards.
+- Use when the user needs help with Syncolab Planning and Work Boards.
 - When integrations for this domain are available and the task matches the workflows below.
 
 ## When NOT to Use
 
-- When the task is unrelated to Managents Planning and Work Boards or covered by a more specific skill.
+- When the task is unrelated to Syncolab Planning and Work Boards or covered by a more specific skill.
 - When required integrations or credentials are unavailable.
 
 ## Expected Outcome
@@ -35,7 +35,7 @@ This skill provides operational guidance for Managents Planning and Work Boards,
 
 ## Workflow
 
-1. Confirm the request maps to Managents Planning and Work Boards and required tools are available.
+1. Confirm the request maps to Syncolab Planning and Work Boards and required tools are available.
 2. Gather identifiers and scope (project, channel, repo, date range, etc.).
 3. Follow the domain guidance below; prefer list/search before get/update when applicable.
 4. Execute tool calls using schemas from the integration; never invent tool output.
@@ -46,7 +46,7 @@ This skill provides operational guidance for Managents Planning and Work Boards,
 Use **workboard_*** and **planning_*** tools for **in-product** delivery state: backlog, scopes, sprints, milestones, and physical work boards tied to a **project_id** and **room_name**.
 
 - **project_id** is required in chat surfaces; in **workspace tasks** it is usually injected via `appContext` — you may omit it when the run already carries `projectId` / `project_id`.
-- In **Managents persona** chats (`managents:persona_direct`, `managents:project_room`, room group), the runtime stamps `projectId` and `roomName` onto `appContext` from `scopeKind` / `scopeRef` so tools match workspace behaviour.
+- In **Syncolab persona** chats (`managents:persona_direct`, `managents:project_room`, room group), the runtime stamps `projectId` and `roomName` onto `appContext` from `scopeKind` / `scopeRef` so tools match workspace behaviour.
 - **room_name** defaults from workspace `appContext` when absent from arguments (bulk assign, work board ops, sprint filters, etc.).
 - Resolve a specific board with **workboard_get** (needs `work_board_id` + project) after **workboard_list** when working across multiple boards.
 
@@ -58,7 +58,7 @@ Use **workboard_*** and **planning_*** tools for **in-product** delivery state: 
 
 ## Jira alignment
 
-Prefer **Jira** tools for vendor issue keys and remote workflow; use **planning_*** for Managents workspace tasks and planning graph. If both exist, keep titles/status directionally aligned and cite which system is authoritative for the step you are taking.
+Prefer **Jira** tools for vendor issue keys and remote workflow; use **planning_*** for Syncolab workspace tasks and planning graph. If both exist, keep titles/status directionally aligned and cite which system is authoritative for the step you are taking.
 
 ## Tool Availability Rules
 

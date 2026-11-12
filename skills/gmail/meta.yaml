@@ -2,8 +2,8 @@ name: Gmail
 version: 1.0.0
 type: instrumental
 description:
-  capability: Search, read, and send Gmail via native integration tools.
-  trigger_conditions: Use when listing or searching messages, reading full email, sending mail, or listing labels.
+  capability: Search, read, send Gmail, and fetch attachments via native integration tools.
+  trigger_conditions: Use when listing or searching messages, reading full email, fetching attachments, sending mail, or listing labels.
   scope_boundaries: Gmail only; not Calendar, Drive, Docs, or Sheets.
   key_domain_words:
   - gmail

@@ -1,10 +1,10 @@
-name: Discover capability & request access
+name: Discover capability and request access
 version: 1.0.0
-type: procedural
+type: operational
 description:
-  capability: Inspect your current tools, browse the PolyGents catalog for a capability you might be missing, and ask a human admin to file a support ticket so PolyGents support can grant the missing tool/skill. The actual ticket-creation step requires explicit human-in-the-loop approval and lands in the internal Help & Support system under the `agent-capability-request` category.
-  trigger_conditions: Use when the initiative has opted in to this automated flow.
-  scope_boundaries: Follow platform tools only; do not bypass opt-in gates or human approval prompts.
+  capability: Request a known missing tool or skill through the human-approved support flow.
+  trigger_conditions: Use when a task requires a known tool or skill that the agent cannot access.
+  scope_boundaries: Use only available tools and do not bypass office access or human approval.
   key_domain_words:
   - discover-capability-and-request-access
 tags:

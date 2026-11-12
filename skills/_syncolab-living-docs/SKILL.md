@@ -1,3 +1,5 @@
+<!-- COMMENTED OUT: syncolab-living-docs is disabled. Do not attach to agents.
+
 ---
 name: syncolab-living-docs
 description: Searches and reads Syncolab Living Docs (SKS) and proposes human-reviewed patches via sks_docs_* tools. Use for authoritative platform docs, internal/external facets, and minimal doc drift fixes.
@@ -108,3 +110,5 @@ Use the Syngles Knowledge System (SKS) as the source of truth for Syncolab platf
 
 - Legacy: `skills/old_skills.json` (`syncolab-living-docs`).
 - `skills/skill.instruction.md`, `skills/meta.instructions.md`
+
+-->

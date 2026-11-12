@@ -22,7 +22,7 @@ Two-agent coordination is mostly handoffs. Three-or-more-agent coordination has 
 
 ## The loop
 
-1. **Roster.** Confirm each agent is clocked in via `agent_directory_list`.
+1. **Roster.** Confirm each agent is clocked in via `workforce_list`.
 2. **Lane assignment.** Write each lane's scope to the shared scratchpad. Each worker confirms (`status: starting`) on its lane line.
 3. **Heartbeat.** Every worker runs `agent-status-pings` at 3-minute cadence.
 4. **Conflict checks.** Every 10 minutes, the orchestrator scans the scratchpad for overlaps and either splits/merges lanes or invokes `consensus-arbitration`.

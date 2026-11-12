@@ -5,7 +5,7 @@ description: "Use the manager-worker pattern: a single manager agent decomposes,
 
 # Crew manager pattern
 
-Adapted from CrewAI's manager pattern (`provenance:crewai`). Applies inside PolyGents' existing planning + agent-directory + dispatch tooling — no separate orchestration framework needed.
+Adapted from CrewAI's manager pattern (`provenance:crewai`). Applies inside PolyGents' existing planning + workforce + dispatch tooling — no separate orchestration framework needed.
 
 ## When to use
 
@@ -21,7 +21,7 @@ Adapted from CrewAI's manager pattern (`provenance:crewai`). Applies inside Poly
 ## The loop
 
 1. **Decompose.** `task-decomposition-tree`. Each leaf gets an `owner_template` field naming which agent template should pick it up.
-2. **Assign.** `agent_directory_list` → `planning_tasks_bulk_assign` with the chosen `digital_employee_id` per leaf.
+2. **Assign.** `workforce_list` → `planning_tasks_bulk_assign` with the chosen `digital_employee_id` per leaf.
 3. **Brief.** For each worker, post an `agent-handoff-protocol` packet on the task description.
 4. **Monitor.** Watch the planning overview + the workers' ping cadence. If a worker goes dark for > 1 cadence, ping or reassign.
 5. **Aggregate.** When all leaves are done, the manager synthesizes the final user-facing answer and runs `agent-self-check` over the whole.
@@ -35,4 +35,4 @@ Adapted from CrewAI's manager pattern (`provenance:crewai`). Applies inside Poly
 
 ## Tools
 
-- `agent_directory_list`, `planning_tasks_bulk_assign`, `planning_overview`, `dispatch_task`, `agent-handoff-protocol`, `agent-status-pings`.
+- `workforce_list`, `planning_tasks_bulk_assign`, `planning_overview`, `dispatch_task`, `agent-handoff-protocol`, `agent-status-pings`.

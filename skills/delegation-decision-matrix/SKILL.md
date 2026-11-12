@@ -24,7 +24,7 @@ Leadership-role agents (SCRUM Master, Project Manager, Multi-Agent Orchestrator,
 
 When you decide to delegate:
 
-1. Call `agent_directory_list` to confirm fit and availability.
+1. Call `workforce_list` to confirm fit and availability.
 2. Use `auto-assign-tasks` (when enabled) via `planning_tasks_bulk_assign`, OR `dispatch_task` if you are spawning a runtime task.
 3. Open a handoff packet under `agent-handoff-protocol` so the delegate has full context.
 

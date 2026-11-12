@@ -17,15 +17,15 @@ Assign work when you, as a leadership role, are deliberately distributing scope.
 Do **not** assign when:
 - The task is yours to do — just do it.
 - The user explicitly asked you to do it. Re-assigning would be   unsafe surface drift.
-- The target agent is not currently clocked in to the relevant room   (call `agent_directory_list` first to verify).
+- The target agent is not currently clocked in to the relevant room   (call `workforce_list` first to verify).
 
 ## The loop
 
-### Step 1 — `agent_directory_list`
+### Step 1 — `workforce_list`
 
-Call `agent_directory_list` to see the digital employees on this initiative. You can filter by `room`, `agent_template`, or a free substring `filter`. The response includes each agent's `id`, `name`, `room_name`, and `agent_template_name` so you can pick the right one.
+Call `workforce_list` to see hired agents in this project. Use the returned `id`, `name`, `title`, `room_id`, and `status` to select an agent. This tool has no filters and requires Workforce access.
 
-When the opt-in is off the response includes a `hint` reminding you that downstream `planning_tasks_bulk_assign` calls targeting another digital employee will be rejected. Don't try to circumvent the gate — surface the constraint back to the user.
+Only assign work when an appropriate assignment tool is available and authorized.
 
 ### Step 2 — `planning_tasks_bulk_assign`
 
@@ -41,4 +41,4 @@ When the initiative has `autoAssign.notifyAssignee` enabled (default on), the pl
 
 - ❌ Mass-reassigning everything to the agent that looks like the   best fit on paper. Honour current workload; ask before stacking.
 - ❌ Using `planning_tasks_bulk_assign` to pull tasks AWAY from a   human user without their consent. Only reassign between agents.
-- ❌ Skipping `agent_directory_list` and guessing a   `digital_employee_id`. Always look the directory up first.
+- ❌ Skipping `workforce_list` and guessing a   `digital_employee_id`. Always look the directory up first.

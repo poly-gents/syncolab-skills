@@ -1,5 +1,5 @@
 name: Syncolab Cognitive Memory
-version: 1.0.0
+version: 1.0.1
 type: instrumental
 description:
   capability: Long-term memory (CML) with Qdrant, Mem0, tenant scope, and memory_layer hydration.

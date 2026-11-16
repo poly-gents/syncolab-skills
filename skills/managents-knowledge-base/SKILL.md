@@ -3,7 +3,7 @@ name: managents-knowledge-base
 description: "Curate project knowledge via Storage TipTap documents (initiative_storage_*). Prefer few substantive nodes with rich TipTap HTML. Never store Markdown."
 ---
 
-# Managents Knowledge Base
+# Syncolab Knowledge Base
 
 ## Purpose
 

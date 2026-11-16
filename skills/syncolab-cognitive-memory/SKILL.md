@@ -11,7 +11,7 @@ Apply platform long-term memory rules: composite Qdrant + Mem0 storage, strict t
 
 ## When to Use
 
-- Agent recall or persist of long-term memory in Managents TS phase graph.
+- Agent recall or persist of long-term memory in Syncolab TS phase graph.
 - External runtime memory via hydrated `memory_layer` (POST query/write under `restPathPrefix`).
 - Questions about CML architecture, Mem0 behavior, or tenant-scoped IDs.
 

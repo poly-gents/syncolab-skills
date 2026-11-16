@@ -1,12 +1,12 @@
-name: Managents Timelines
-version: 1.0.0
+name: Syncolab Timelines
+version: 1.0.1
 type: instrumental
 description:
   capability: Stakeholder-facing project timelines and milestones inside
-    Managents (no extra OAuth)
+    Syncolab (no extra OAuth)
   trigger_conditions: Use when browsing, creating, updating, or resequencing
-    a Managents project timeline or its milestone entries
-  scope_boundaries: Focused on Managents Timelines workflows via
+    a Syncolab project timeline or its milestone entries
+  scope_boundaries: Focused on Syncolab Timelines workflows via
     timelines_* tools; does not replace human approval for destructive
     changes, and does not cover sprint/backlog execution (see
     managents-workboard).

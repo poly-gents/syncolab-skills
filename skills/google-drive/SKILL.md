@@ -1,6 +1,6 @@
 ---
 name: google-drive
-description: Lists, searches, downloads, and organizes Google Drive files via drive_* tools. Use to find file IDs for Docs/Sheets, browse folders, and download content.
+description: Lists, searches, downloads, uploads, and organizes Google Drive files via drive_* tools. Use to find file IDs for Docs/Sheets, browse folders, download content, and upload files from base64.
 ---
 
 # Google Drive
@@ -15,6 +15,7 @@ Navigate and search Google Drive: list folders, plain-text search, fetch metadat
 - Browse a folder’s contents.
 - Get metadata or download file bytes.
 - Create a folder.
+- Upload a file from base64 content (e.g. after `gmail_get_attachment`).
 
 ## When NOT to Use
 
@@ -39,8 +40,9 @@ Navigate and search Google Drive: list folders, plain-text search, fetch metadat
 2. **Browse** with `drive_list_files` (`folderId`, optional `q`, `pageSize`) or **search** with `drive_search` (plain text only).
 3. **Metadata**: `drive_get_file` with file ID.
 4. **Download** when requested: `drive_download_file`.
-5. **Create folder** when requested: `drive_create_folder`.
-6. If the user will edit a Doc or Sheet, pass the ID to the appropriate skill.
+5. **Upload** when requested: `drive_upload_file` with `name`, `parentId`, `mimeType`, and `contentBase64` (requires approval).
+6. **Create folder** when requested: `drive_create_folder`.
+7. If the user will edit a Doc or Sheet, pass the ID to the appropriate skill.
 
 ### Domain rules
 
@@ -50,7 +52,7 @@ Navigate and search Google Drive: list folders, plain-text search, fetch metadat
 
 ### Main tools
 
-- `drive_list_files`, `drive_get_file`, `drive_download_file`, `drive_create_folder`, `drive_search`
+- `drive_list_files`, `drive_get_file`, `drive_download_file`, `drive_upload_file`, `drive_create_folder`, `drive_search`
 
 ### Examples
 

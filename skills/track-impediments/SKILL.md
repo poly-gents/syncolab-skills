@@ -43,7 +43,7 @@ This skill provides operational guidance for Track Impediments, including tool u
 
 ## When to use platform tools
 
-Confirm blocking tasks with `planning_list_tasks` (filters: sprint, goal, scope, status). When blockers belong to a scope, use `planning_scope_list_tasks`. Escalate in **Jira** or **Slack** with explicit links to Managents task ids you quote from tool output.
+Confirm blocking tasks with `planning_list_tasks` (filters: sprint, goal, scope, status). When blockers belong to a scope, use `planning_scope_list_tasks`. Escalate in **Jira** or **Slack** with explicit links to Syncolab task ids you quote from tool output.
 
 ## Tool Availability Rules
 

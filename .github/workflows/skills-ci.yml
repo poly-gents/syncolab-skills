@@ -1,0 +1,61 @@
+name: Syncolab Skills CI
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '**'
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: skills-tooling-ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-and-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout skills repository
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: tooling/package-lock.json
+
+      - name: Install tooling dependencies
+        working-directory: tooling
+        run: npm ci
+
+      - name: Validate skill directories
+        env:
+          SYNCOLAB_SKILLS_ROOT: ${{ github.workspace }}
+        working-directory: tooling
+        run: npm run validate
+
+      - name: Regenerate manifest.json
+        env:
+          SYNCOLAB_SKILLS_ROOT: ${{ github.workspace }}
+        working-directory: tooling
+        run: npm run manifest:write
+
+      - name: Ensure manifest.json is committed
+        run: |
+          if ! git diff --exit-code manifest.json; then
+            echo "::error::manifest.json is out of date. Run: npm run manifest:write in syncolab-skills/tooling and commit the generated manifest."
+            exit 1
+          fi
+
+      - name: Validate sample skills (Python schema)
+        env:
+          SYNCOLAB_SKILLS_ROOT: ${{ github.workspace }}
+        run: |
+          pip install pyyaml jsonschema
+          python tooling/scripts/validate_skill.py syncolab-cognitive-memory
+          python tooling/scripts/validate_skill.py create-skill

@@ -1,0 +1,12 @@
+name: Syncomem memory
+version: 1.0.0
+type: instrumental
+description:
+  capability: Native scoped Syncomem recall, grounded query and durable write receipts.
+  trigger_conditions: Use when the host exposes native Syncomem memory tools.
+  scope_boundaries: Authorized host-bound native memory only; legacy CML and other runtimes retain their own contracts.
+  key_domain_words: [syncomem, memory, memorize, recall, receipt]
+tags: [syncolab-syncomem, syncomem, memory, syncolab]
+relationships:
+  skills: []
+  tool_sets: []

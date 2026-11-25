@@ -1,7 +1,7 @@
 {
   "name": "syncolab-skills",
   "version": "0.2.0",
-  "generatedAt": "2026-11-04T22:16:11.315Z",
+  "generatedAt": "2026-11-14T11:56:08.210Z",
   "repository": "https://github.com/poly-gents/syncolab-skills",
   "skills": [
     {
@@ -2955,6 +2955,16 @@
       "checksum": "sha256:b2e8f1664f918ecf18549f058fca99e2db85cfbcc3332dea49e1e71580b19b96"
     },
     {
+      "id": "syncolab-syncomem",
+      "name": "syncolab-syncomem",
+      "description": "",
+      "version": "0.2.0",
+      "type": null,
+      "tags": [],
+      "path": "skills/syncolab-syncomem",
+      "checksum": "sha256:b07d6448178b9497b6e3a3fbf219f9005667428783afbf662687e3448948c110"
+    },
+    {
       "id": "ta-role-and-professional-boundaries",
       "name": "ta-role-and-professional-boundaries",
       "description": "",
@@ -3245,5 +3255,5 @@
       "checksum": "sha256:30434efd75ab8fa46f06a2ef12d533b66b76f25c670804e474973f2e9e7c9467"
     }
   ],
-  "integrity": "sha256:893b091eba3508cbc8201bb95594e2bb0f4b61c35681c315867753164f6140fc"
+  "integrity": "sha256:82fbca6db4b5e0edcdb6e6ca98c2fac9e69df48e6ae706436e094f8ad6ec0642"
 }

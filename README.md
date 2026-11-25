@@ -38,6 +38,15 @@ We welcome contributions to improve these skills. You can help by:
 
 Pull requests should follow the structure in `skills/_template/` and the instruction files above. The Syncolab team reviews and merges skill changes.
 
+Maintainers can validate skills and regenerate the manifest from [`tooling/`](tooling/README.md):
+
+```bash
+cd tooling
+npm install
+npm run validate
+npm run manifest:write
+```
+
 ## License
 
 You are free to copy, modify, and distribute these skills under the terms of the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
